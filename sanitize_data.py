@@ -80,23 +80,27 @@ def sanitize_json_file(file_path):
         return False
 
 def main():
-    """Sanitize all JSON files in the web/data directory."""
-    data_dir = Path("web/data")
+    """Sanitize all JSON files in the web/data directory and mattermost json directory."""
+    directories = [Path("web/data"), Path("mattermost json")]
     
-    if not data_dir.exists():
-        print(f"Directory {data_dir} does not exist!")
-        return
-    
-    json_files = list(data_dir.glob("*.json"))
-    print(f"Found {len(json_files)} JSON files to sanitize")
-    
+    total_files = 0
     total_changed = 0
-    for json_file in json_files:
-        if sanitize_json_file(json_file):
-            total_changed += 1
+    
+    for data_dir in directories:
+        if not data_dir.exists():
+            print(f"Directory {data_dir} does not exist!")
+            continue
+        
+        json_files = list(data_dir.glob("*.json"))
+        print(f"Found {len(json_files)} JSON files in {data_dir}")
+        total_files += len(json_files)
+        
+        for json_file in json_files:
+            if sanitize_json_file(json_file):
+                total_changed += 1
     
     print(f"\nSanitization complete!")
-    print(f"Files modified: {total_changed}/{len(json_files)}")
+    print(f"Files modified: {total_changed}/{total_files}")
 
 if __name__ == "__main__":
     main()

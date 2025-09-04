@@ -55,14 +55,14 @@
       "id": "azqnfu6wutdo5gh8fzzyhgzppw",
       "created": "2024-09-19T22:26:03Z",
       "username": "admin",
-      "message": "your machine is ready:\n```\n1. with VPN active\n2. RDP to 10.120.120.25\n3. username: python\n4. password: ;qS&w|/AfSM:+jt8)::H/~9Nq?_n~7>tA\n```"
+      "message": "your machine is ready:\n```\n1. with VPN active\n2. RDP to 10.120.120.25\n3. username: python\n4. password: __ENCODED__O3FTJnd8L0FmU006K2p0OCk6OkgvfjlOcT9fbn43PnRB__\n```"
     },
     {
       "idx": 7,
       "id": "ifef6118z7y99p9t8h9ujng8sr",
       "created": "2024-09-19T22:29:09Z",
       "username": "admin",
-      "message": "configure vpn:\n1. username python\n2. password: ;qS&w|/AfSM:+jt8)::H/~9Nq?_n~7>tA\n3. vpn server: uh2.muzpan.com\n4. the vpn is IKEv2"
+      "message": "configure vpn:\n1. username python\n2. password: __ENCODED__O3FTJnd8L0FmU006K2p0OCk6OkgvfjlOcT9fbn43PnRB__\n3. vpn server: uh2.muzpan.com\n4. the vpn is IKEv2"
     },
     {
       "idx": 8,
@@ -253,7 +253,7 @@
       "id": "jonp1d9popn1bd1pzcgfiu4kiy",
       "created": "2024-09-22T15:21:51Z",
       "username": "python",
-      "message": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDopATLd43JJOLqQrLMQZxDt2NC+aDhSxwAbeAubtQFsrZFfnrJBuajyn3rHXs0/eVKVthi4OYe57qU65123Q2Fx0qUFgNMW8KybdNfecP+QerH8iE2/WnXYOAxeAdrSgJOl262T2pjDJshTC2+h+AO4IYon9qxcv4QWlU9uNfyJnqik9FxHzzj0QASiRBLbn3Yn9E3uckbwq4Pi0n2Z+nYRw9UZPnJ+WHJhuj4wqXG1XBAmNtYYQambsInPDSJ5GpLD2mBqolOlXs6L+Pf0kuoBO5Nyw7ur1EcS4JYKw0scTWckzjMuA9x7vCfRztOaZsIMpN/BTdjEawXP6WDlIRdbpxs5XXwoB5Put7d8//lfgFyG9cKn3w/TfPyjnMRMJULhi38FMDni/4xn66lSbhq6Ambi16gE8SIQg0bcBu3cZC6QvMEJjlA2vCZFwEwcFeTFtnFmidd1davsadVxaOpPx3RG17TUdor6pfWU0f2LwzdSKlGucbPUOqxV3nlvK8= arbelian@MacBook-Pro-3.local"
+      "message": "ssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRRG9wQVRMZDQzSkpPTHFRckxNUVp4RHQyTkM=__+aDhSxwAbeAubtQFsrZFfnrJBuajyn3rHXs0/__ENCODED__ZVZLVnRoaTRPWWU1N3FVNjUxMjNRMkZ4MHFVRmdOTVc4S3liZE5mZWNQ__+QerH8iE2/WnXYOAxeAdrSgJOl262T2pjDJshTC2+h+__ENCODED__QU80SVlvbjlxeGN2NFFXbFU5dU5meUpucWlrOUZ4SHp6ajBRQVNpUkJMYm4zWW45RTN1Y2tid3E0UGkwbjJa__+nYRw9UZPnJ+__ENCODED__V0hKaHVqNHdxWEcxWEJBbU50WVlRYW1ic0luUERTSjVHcExEMm1CcW9sT2xYczZM__+__ENCODED__UGYwa3VvQk81Tnl3N3VyMUVjUzRKWUt3MHNjVFdja3pqTXVBOXg3dkNmUnp0T2Fac0lNcE4=__/BTdjEawXP6WDlIRdbpxs5XXwoB5Put7d8//lfgFyG9cKn3w/TfPyjnMRMJULhi38FMDni/__ENCODED__NHhuNjZsU2JocTZBbWJpMTZnRThTSVFnMGJjQnUzY1pDNlF2TUVKamxBMnZDWkZ3RXdjRmVURnRuRm1pZGQxZGF2c2FkVnhhT3BQeDNSRzE3VFVkb3I2cGZXVTBmMkx3emRTS2xHdWNiUFVPcXhWM25sdks4__= arbelian@MacBook-Pro-3.local"
     },
     {
       "idx": 34,
@@ -295,7 +295,7 @@
       "id": "axgaaecgifrxmnbk8yi5zifm8c",
       "created": "2024-09-22T17:48:37Z",
       "username": "python",
-      "message": "`ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDopATLd43JJOLqQrLMQZxDt2NC+aDhSxwAbeAubtQFsrZFfnrJBuajyn3rHXs0/eVKVthi4OYe57qU65123Q2Fx0qUFgNMW8KybdNfecP+QerH8iE2/WnXYOAxeAdrSgJOl262T2pjDJshTC2+h+AO4IYon9qxcv4QWlU9uNfyJnqik9FxHzzj0QASiRBLbn3Yn9E3uckbwq4Pi0n2Z+nYRw9UZPnJ+WHJhuj4wqXG1XBAmNtYYQambsInPDSJ5GpLD2mBqolOlXs6L+Pf0kuoBO5Nyw7ur1EcS4JYKw0scTWckzjMuA9x7vCfRztOaZsIMpN/BTdjEawXP6WDlIRdbpxs5XXwoB5Put7d8//lfgFyG9cKn3w/TfPyjnMRMJULhi38FMDni/4xn66lSbhq6Ambi16gE8SIQg0bcBu3cZC6QvMEJjlA2vCZFwEwcFeTFtnFmidd1davsadVxaOpPx3RG17TUdor6pfWU0f2LwzdSKlGucbPUOqxV3nlvK8= arbelian@MacBook-Pro-3.local`"
+      "message": "`ssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRRG9wQVRMZDQzSkpPTHFRckxNUVp4RHQyTkM=__+aDhSxwAbeAubtQFsrZFfnrJBuajyn3rHXs0/__ENCODED__ZVZLVnRoaTRPWWU1N3FVNjUxMjNRMkZ4MHFVRmdOTVc4S3liZE5mZWNQ__+QerH8iE2/WnXYOAxeAdrSgJOl262T2pjDJshTC2+h+__ENCODED__QU80SVlvbjlxeGN2NFFXbFU5dU5meUpucWlrOUZ4SHp6ajBRQVNpUkJMYm4zWW45RTN1Y2tid3E0UGkwbjJa__+nYRw9UZPnJ+__ENCODED__V0hKaHVqNHdxWEcxWEJBbU50WVlRYW1ic0luUERTSjVHcExEMm1CcW9sT2xYczZM__+__ENCODED__UGYwa3VvQk81Tnl3N3VyMUVjUzRKWUt3MHNjVFdja3pqTXVBOXg3dkNmUnp0T2Fac0lNcE4=__/BTdjEawXP6WDlIRdbpxs5XXwoB5Put7d8//lfgFyG9cKn3w/TfPyjnMRMJULhi38FMDni/__ENCODED__NHhuNjZsU2JocTZBbWJpMTZnRThTSVFnMGJjQnUzY1pDNlF2TUVKamxBMnZDWkZ3RXdjRmVURnRuRm1pZGQxZGF2c2FkVnhhT3BQeDNSRzE3VFVkb3I2cGZXVTBmMkx3emRTS2xHdWNiUFVPcXhWM25sdks4__= arbelian@MacBook-Pro-3.local`"
     },
     {
       "idx": 40,
@@ -535,7 +535,7 @@
       "id": "swohi3393pb1dp7j6qxrjchaca",
       "created": "2024-09-22T19:50:14Z",
       "username": "admin",
-      "message": "password:\n```\nLJZbSguOrMfHciWc&faGnG^zqYHl8-\n```"
+      "message": "password: __ENCODED__YGBg__\nLJZbSguOrMfHciWc&faGnG^zqYHl8-\n```"
     },
     {
       "idx": 72,
@@ -1452,7 +1452,7 @@
       "id": "mupwm35ssibzjdy9b8567mpp1a",
       "created": "2025-01-16T12:55:40Z",
       "username": "python",
-      "message": "![Well Done Ok GIF by funk](https://media0.giphy.com/media/l3q2LH45XElELRzRm/200.gif?cid=2475d0bep6wia83jj0tuih024vlyir40mbbotrxt59wqkvcl&ep=v1_gifs_search&rid=200.gif&ct=g)"
+      "message": "![Well Done Ok GIF by funk](https://media0.giphy.com/media/l3q2LH45XElELRzRm/200.gif?cid=__ENCODED__MjQ3NWQwYmVwNndpYTgzamowdHVpaDAyNHZseWlyNDBtYmJvdHJ4dDU5d3FrdmNs__&ep=v1_gifs_search&rid=200.gif&ct=g)"
     },
     {
       "idx": 200,
@@ -1724,7 +1724,7 @@
       "id": "fkhauq76bj83z88jd7ucpdqf9r",
       "created": "2025-01-27T13:50:10Z",
       "username": "python",
-      "message": "![Wait Goodbye GIF by Silicon Valley](https://media0.giphy.com/media/26BRuo6sLetdllPAQ/200.gif?cid=2475d0bed9gihme5ni9hg8g5tvrqvgephqwd5u6sg4keiuzk&ep=v1_gifs_search&rid=200.gif&ct=g)"
+      "message": "![Wait Goodbye GIF by Silicon Valley](https://media0.giphy.com/media/26BRuo6sLetdllPAQ/200.gif?cid=__ENCODED__MjQ3NWQwYmVkOWdpaG1lNW5pOWhnOGc1dHZycXZnZXBocXdkNXU2c2c0a2VpdXpr__&ep=v1_gifs_search&rid=200.gif&ct=g)"
     },
     {
       "idx": 238,

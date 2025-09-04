@@ -55,14 +55,14 @@
       "id": "azqnfu6wutdo5gh8fzzyhgzppw",
       "created": "2024-09-19T22:26:03Z",
       "username": "admin",
-      "message": "your machine is ready:\n```\n1. with VPN active\n2. RDP to 10.120.120.25\n3. username: python\n4. password: __ENCODED__O3FTJnd8L0FmU006K2p0OCk6OkgvfjlOcT9fbn43PnRB__\n```"
+      "message": "your machine is ready:\n```\n1. with VPN active\n2. RDP to 10.120.120.25\n3. username: python\n4. password: __ENCODED__X19FTkNPREVEX19PM0ZUSm5kOEwwRm1VMDA2SzJwME9DazZPa2d2ZmpsT2NUOWZibjQzUG5SQl9f__\n```"
     },
     {
       "idx": 7,
       "id": "ifef6118z7y99p9t8h9ujng8sr",
       "created": "2024-09-19T22:29:09Z",
       "username": "admin",
-      "message": "configure vpn:\n1. username python\n2. password: __ENCODED__O3FTJnd8L0FmU006K2p0OCk6OkgvfjlOcT9fbn43PnRB__\n3. vpn server: uh2.muzpan.com\n4. the vpn is IKEv2"
+      "message": "configure vpn:\n1. username python\n2. password: __ENCODED__X19FTkNPREVEX19PM0ZUSm5kOEwwRm1VMDA2SzJwME9DazZPa2d2ZmpsT2NUOWZibjQzUG5SQl9f__\n3. vpn server: uh2.muzpan.com\n4. the vpn is IKEv2"
     },
     {
       "idx": 8,
@@ -535,7 +535,7 @@
       "id": "swohi3393pb1dp7j6qxrjchaca",
       "created": "2024-09-22T19:50:14Z",
       "username": "admin",
-      "message": "password: __ENCODED__YGBg__\nLJZbSguOrMfHciWc&faGnG^zqYHl8-\n```"
+      "message": "password: __ENCODED__X19FTkNPREVEX19ZR0JnX18=__\nLJZbSguOrMfHciWc&faGnG^zqYHl8-\n```"
     },
     {
       "idx": 72,

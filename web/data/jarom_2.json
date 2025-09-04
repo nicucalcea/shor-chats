@@ -397,7 +397,7 @@
       "id": "g5opeo1mkigem8zoeibbjcweqa",
       "created": "2024-09-06T13:39:54Z",
       "username": "admin",
-      "message": "user: zimbratest\npassword: __ENCODED__MTkwNjE5NzU=__"
+      "message": "user: zimbratest\npassword: __ENCODED__X19FTkNPREVEX19NVGt3TmpFNU56VT1fXw==__"
     },
     {
       "idx": 55,
@@ -3771,7 +3771,7 @@
       "id": "ohmi5pficbnqzcr797obixndky",
       "created": "2024-10-30T12:16:09Z",
       "username": "jarom",
-      "message": "misha ask me to config redmine to send notification, i tried different setting with no luck :\n email_delivery:\n   delivery_method: :smtp\n   smtp_settings:\n     address: \"ml.muzpan.com\"\n     port: 587\n     enable_starttls_auto: true\n     authentication: :plain\n     domain: 'muzpan.com'\n     user_name: 'support'\n     password: __ENCODED__J3dNUkZVYzlLNyhlSXV3TlVjY3B1ZzZqVUQtLW1WRyc=__"
+      "message": "misha ask me to config redmine to send notification, i tried different setting with no luck :\n email_delivery:\n   delivery_method: :smtp\n   smtp_settings:\n     address: \"ml.muzpan.com\"\n     port: 587\n     enable_starttls_auto: true\n     authentication: :plain\n     domain: 'muzpan.com'\n     user_name: 'support'\n     password: __ENCODED__X19FTkNPREVEX19KM2ROVWtaVll6bExOeWhsU1hWM1RsVmpZM0IxWnpacVZVUXRMVzFXUnljPV9f__"
     },
     {
       "idx": 528,
@@ -4457,7 +4457,7 @@
       "id": "aotroh19u7b4xcfe91um639iey",
       "created": "2024-11-18T15:40:17Z",
       "username": "admin",
-      "message": "password: __ENCODED__YGBg__\n1906Intelli\n```"
+      "message": "password: __ENCODED__X19FTkNPREVEX19ZR0JnX18=__\n1906Intelli\n```"
     },
     {
       "idx": 623,
@@ -13838,7 +13838,7 @@
       "id": "3n173c73ofd6zq7uemoyups5jr",
       "created": "2025-03-06T10:22:56Z",
       "username": "admin",
-      "message": "manage the servers:\nhttps://www.hostfirst.com/my/cloud/index\n\nuser:\nadmin@muzpan.com\n\npassword: __ENCODED__YGBg__\n1906Intelli\n```"
+      "message": "manage the servers:\nhttps://www.hostfirst.com/my/cloud/index\n\nuser:\nadmin@muzpan.com\n\npassword: __ENCODED__X19FTkNPREVEX19ZR0JnX18=__\n1906Intelli\n```"
     },
     {
       "idx": 1945,
@@ -18173,7 +18173,7 @@
       "id": "m4p1inneh78rjxnaipb1gzuahc",
       "created": "2025-04-26T17:16:58Z",
       "username": "jarom",
-      "message": "https://vault.muzpan.com:8200\n \"root_token\": \"__ENCODED__X19FTkNPREVEX19hSFp6TG5oUE5GaDFZMUpDTld0SWIyOXRjMmhqVmtVeFZVMXZNUT09X18=__\""
+      "message": "https://vault.muzpan.com:8200\n \"root_token\": \"__ENCODED__X19FTkNPREVEX19YMTlGVGtOUFJFVkVYMTloU0ZwNlRHNW9VRTVHYURGWk1VcERUbGQwU1dJeU9YUmpNbWhxVm10VmVGWlZNWFpOVVQwOVgxOD1fXw==__\""
     },
     {
       "idx": 2557,
@@ -23835,7 +23835,7 @@
       "id": "c7wb7qyucjbijjjykanjdj3odc",
       "created": "2025-06-22T11:10:32Z",
       "username": "admin",
-      "message": "new DR server dashboard:\nhttps://surge.servermania.com/\nuser:\n\nclaude@sodkamus.com\n\npassword: __ENCODED__YGBg__\n1906Intelli@S\n```"
+      "message": "new DR server dashboard:\nhttps://surge.servermania.com/\nuser:\n\nclaude@sodkamus.com\n\npassword: __ENCODED__X19FTkNPREVEX19ZR0JnX18=__\n1906Intelli@S\n```"
     },
     {
       "idx": 3351,
@@ -25207,7 +25207,7 @@
       "id": "3ycct64fk7rhfkb6a7yrx9f3aa",
       "created": "2025-07-04T12:06:25Z",
       "username": "admin",
-      "message": "user: darwin@muzpan.com\npassword: __ENCODED__SW50ZWxsaUAxOTA2__"
+      "message": "user: darwin@muzpan.com\npassword: __ENCODED__X19FTkNPREVEX19TVzUwWld4c2FVQXhPVEEyX18=__"
     },
     {
       "idx": 3544,

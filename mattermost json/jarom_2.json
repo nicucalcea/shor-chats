@@ -397,7 +397,7 @@
       "id": "g5opeo1mkigem8zoeibbjcweqa",
       "created": "2024-09-06T13:39:54Z",
       "username": "admin",
-      "message": "user: zimbratest\npassword: 19061975"
+      "message": "user: zimbratest\npassword: __ENCODED__MTkwNjE5NzU=__"
     },
     {
       "idx": 55,
@@ -3771,7 +3771,7 @@
       "id": "ohmi5pficbnqzcr797obixndky",
       "created": "2024-10-30T12:16:09Z",
       "username": "jarom",
-      "message": "misha ask me to config redmine to send notification, i tried different setting with no luck :\n email_delivery:\n   delivery_method: :smtp\n   smtp_settings:\n     address: \"ml.muzpan.com\"\n     port: 587\n     enable_starttls_auto: true\n     authentication: :plain\n     domain: 'muzpan.com'\n     user_name: 'support'\n     password: 'wMRFUc9K7(eIuwNUccpug6jUD--mVG'"
+      "message": "misha ask me to config redmine to send notification, i tried different setting with no luck :\n email_delivery:\n   delivery_method: :smtp\n   smtp_settings:\n     address: \"ml.muzpan.com\"\n     port: 587\n     enable_starttls_auto: true\n     authentication: :plain\n     domain: 'muzpan.com'\n     user_name: 'support'\n     password: __ENCODED__J3dNUkZVYzlLNyhlSXV3TlVjY3B1ZzZqVUQtLW1WRyc=__"
     },
     {
       "idx": 528,
@@ -3834,7 +3834,7 @@
       "id": "jrpfnth7hjrxzeog9ujfsb75sw",
       "created": "2024-10-30T17:30:32Z",
       "username": "admin",
-      "message": "```\nsh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8q2j/FUZY8CoqmB9FS3zxXavyPvsA8ckPF1vCQV1ZB8xfBv4dC8NA7nZ+3WwXneSaDgpnzhIPxTr5pJReo/1lcOLoj5l7AT/Wj0js/40AT0MsLpdtGe0WAn7Fud0Ehl08kZ7YAnklqvj4F1Dg59SmDbyhsBl/01nDQsqXGv1sqGMY68M8IY1cQOeg2NpzqeVhEo13wUqB5KCCM9sMybDGQPiSzfeXszG7REmHGV/YKtCXexfTYBcXlUm/oD4/kDVPU4JG1y+CmuqtozQW/dlkkJRdL3gSAq4KMdk5Md4MQWottkvfIgQagteb10E/0N9tT1Z8ADdnfu3mAYtS9SYvaBaWF6BorU6Ji2G3SDndJqZXmNKuf9biXMoBUYPHvStZMZlnTBZNZFdWbL3ByvQArr50YUaoTU2CXEyI7VFTm7/4+cXFsX5N8xGFT5+qd/EekvWAx/G08+nmybKELWoHfbv3eEzGqHGVNZv27TMSaFklCqi9cHwQv4u9+/9+3qM= jarom@jaroms\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD3Uj5mNEj39LWH3+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/XRxxVpexll1OFnGG1ahbzQdpQNAfDhs5mwYZpYAWqAboElKULAjvfvRinhfo1EfwutEhhrVQVOoVzfzb/uZ3HlQWTCU3p6dybTzAqQpUnhmN+qeKcV3ZFSWhjVzbpUnQNefWhriS1I9rNfP4oblYo/Lyebb2vAmuID82xnMU2Tr0yicBTsCgj3mtlgGIOvhxxjlkBmls6B/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+M1gwfuf8l2muXxGW3pzSk5OtTxEBD4DUXHvPNxnEH6ZBrs0MKwm9WGBAZpwQtaACiE= q-coresharon.rosha@LT-Sharon-r\n```\n"
+      "message": "```\nsh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8q2j/__ENCODED__RlVaWThDb3FtQjlGUzN6eFhhdnlQdnNBOGNrUEYxdkNRVjFaQjh4ZkJ2NGRDOE5BN25a__+3WwXneSaDgpnzhIPxTr5pJReo/1lcOLoj5l7AT/Wj0js/__ENCODED__NDBBVDBNc0xwZHRHZTBXQW43RnVkMEVobDA4a1o3WUFua2xxdmo0RjFEZzU5U21EYnloc0Js__/__ENCODED__MDFuRFFzcVhHdjFzcUdNWTY4TThJWTFjUU9lZzJOcHpxZVZoRW8xM3dVcUI1S0NDTTlzTXliREdRUGlTemZlWHN6RzdSRW1IR1Y=__/YKtCXexfTYBcXlUm/oD4/kDVPU4JG1y+CmuqtozQW/__ENCODED__ZGxra0pSZEwzZ1NBcTRLTWRrNU1kNE1RV290dGt2ZklnUWFndGViMTBF__/__ENCODED__ME45dFQxWjhBRGRuZnUzbUFZdFM5U1l2YUJhV0Y2Qm9yVTZKaTJHM1NEbmRKcVpYbU5LdWY5YmlYTW9CVVlQSHZTdFpNWmxuVEJaTlpGZFdiTDNCeXZRQXJyNTBZVWFvVFUyQ1hFeUk3VkZUbTc=__/4+cXFsX5N8xGFT5+qd/EekvWAx/G08+__ENCODED__bm15YktFTFdvSGZidjNlRXpHcUhHVk5adjI3VE1TYUZrbENxaTljSHdRdjR1OQ==__+/9+3qM= jarom@jaroms\nssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRRDNVajVtTkVqMzlMV0gz__+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/__ENCODED__WFJ4eFZwZXhsbDFPRm5HRzFhaGJ6UWRwUU5BZkRoczVtd1lacFlBV3FBYm9FbEtVTEFqdmZ2UmluaGZvMUVmd3V0RWhoclZRVk9vVnpmemI=__/uZ3HlQWTCU3p6dybTzAqQpUnhmN+__ENCODED__cWVLY1YzWkZTV2hqVnpicFVuUU5lZldocmlTMUk5ck5mUDRvYmxZbw==__/__ENCODED__THllYmIydkFtdUlEODJ4bk1VMlRyMHlpY0JUc0NnajNtdGxnR0lPdmh4eGpsa0JtbHM2Qg==__/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+__ENCODED__TTFnd2Z1ZjhsMm11WHhHVzNwelNrNU90VHhFQkQ0RFVYSHZQTnhuRUg2WkJyczBNS3dtOVdHQkFacHdRdGFBQ2lF__= q-coresharon.rosha@LT-Sharon-r\n```\n"
     },
     {
       "idx": 537,
@@ -4061,7 +4061,7 @@
       "id": "gqx95j7mz7r48bu4cnihgpxroa",
       "created": "2024-11-01T19:28:05Z",
       "username": "admin",
-      "message": "```\nEvents:\n  Type     Reason                  Age               From               Message\n  ----     ------                  ----              ----               -------\n  Normal   Scheduled               69s               default-scheduler  Successfully assigned webmails/evraziasu-7b67fb4d5c-wv757 to node3.k8s.muzpan.com\n  Warning  FailedCreatePodSandBox  68s               kubelet            Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \"4608748fd338d4d95e70df1ee3e8e63d3a0403b12c661d1342ff920b5e1c070b\": plugin type=\"calico\" failed (add): error getting ClusterInformation: connection is unauthorized: Unauthorized\n  Normal   SandboxChanged          3s (x6 over 67s)  kubelet            Pod sandbox changed, it will be killed and re-created.\n```"
+      "message": "```\nEvents:\n  Type     Reason                  Age               From               Message\n  ----     ------                  ----              ----               -------\n  Normal   Scheduled               69s               default-scheduler  Successfully assigned webmails/evraziasu-7b67fb4d5c-wv757 to node3.k8s.muzpan.com\n  Warning  FailedCreatePodSandBox  68s               kubelet            Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \"__ENCODED__NDYwODc0OGZkMzM4ZDRkOTVlNzBkZjFlZTNlOGU2M2QzYTA0MDNiMTJjNjYxZDEzNDJmZjkyMGI1ZTFjMDcwYg==__\": plugin type=\"calico\" failed (add): error getting ClusterInformation: connection is unauthorized: Unauthorized\n  Normal   SandboxChanged          3s (x6 over 67s)  kubelet            Pod sandbox changed, it will be killed and re-created.\n```"
     },
     {
       "idx": 569,
@@ -4457,7 +4457,7 @@
       "id": "aotroh19u7b4xcfe91um639iey",
       "created": "2024-11-18T15:40:17Z",
       "username": "admin",
-      "message": "password:\n```\n1906Intelli\n```"
+      "message": "password: __ENCODED__YGBg__\n1906Intelli\n```"
     },
     {
       "idx": 623,
@@ -5104,7 +5104,7 @@
       "id": "qbg453fusp8p9pemb7xhxgoyda",
       "created": "2024-12-01T22:38:48Z",
       "username": "admin",
-      "message": "k8s node5:\n```\nDec 01 22:38:09 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:09 Failed to apply configuration file /var/snap/microk8s/common/etc/launcher/install.yaml: failed to apply config part 0: failed to reconcile addons: failed to enable addon \"dns\": command [/snap/microk8s/7434/microk8s-enable.wrapper dns] failed with exit code 1: exit status 1\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:14 Applying /var/snap/microk8s/common/etc/launcher/install.yaml\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179639]: This MicroK8s deployment is acting as a node in a cluster.\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179639]: Please use the master node.\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:14 Failed to apply configuration file /var/snap/microk8s/common/etc/launcher/install.yaml: failed to apply config part 0: failed to reconcile addons: failed to enable addon \"dns\": command [/snap/microk8s/7434/microk8s-enable.wrapper dns] failed with exit code 1: exit status 1\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:19 Applying /var/snap/microk8s/common/etc/launcher/install.yaml\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179670]: This MicroK8s deployment is acting as a node in a cluster.\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179670]: Please use the master node.\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:19 Failed to apply configuration file /var/snap/microk8s/common/etc/launcher/install.yaml: failed to apply config part 0: failed to reconcile addons: failed to enable addon \"dns\": command [/snap/microk8s/7434/microk8s-enable.wrapper dns] failed with exit code 1: exit status 1\nDec 01 22:38:22 node5.k8s.muzpan.com systemd[1]: run-containerd-runc-k8s.io-d54e53b0ad895b27c5095382cb49a86cb29aac49c7925acdeefa95f922287e90-runc.b4h2m5.mount: Deactivated successfully.\nDec 01 22:38:24 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:24 Applying /var/snap/microk8s/common/etc/launcher/install.yaml\nDec 01 22:38:24 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179732]: This MicroK8s deployment is acting as a node in a cluster.\n```"
+      "message": "k8s node5:\n```\nDec 01 22:38:09 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:09 Failed to apply configuration file /var/snap/microk8s/common/etc/launcher/install.yaml: failed to apply config part 0: failed to reconcile addons: failed to enable addon \"dns\": command [/snap/microk8s/7434/microk8s-enable.wrapper dns] failed with exit code 1: exit status 1\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:14 Applying /var/snap/microk8s/common/etc/launcher/install.yaml\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179639]: This MicroK8s deployment is acting as a node in a cluster.\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179639]: Please use the master node.\nDec 01 22:38:14 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:14 Failed to apply configuration file /var/snap/microk8s/common/etc/launcher/install.yaml: failed to apply config part 0: failed to reconcile addons: failed to enable addon \"dns\": command [/snap/microk8s/7434/microk8s-enable.wrapper dns] failed with exit code 1: exit status 1\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:19 Applying /var/snap/microk8s/common/etc/launcher/install.yaml\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179670]: This MicroK8s deployment is acting as a node in a cluster.\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179670]: Please use the master node.\nDec 01 22:38:19 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:19 Failed to apply configuration file /var/snap/microk8s/common/etc/launcher/install.yaml: failed to apply config part 0: failed to reconcile addons: failed to enable addon \"dns\": command [/snap/microk8s/7434/microk8s-enable.wrapper dns] failed with exit code 1: exit status 1\nDec 01 22:38:22 node5.k8s.muzpan.com systemd[1]: run-containerd-runc-k8s.io-__ENCODED__ZDU0ZTUzYjBhZDg5NWIyN2M1MDk1MzgyY2I0OWE4NmNiMjlhYWM0OWM3OTI1YWNkZWVmYTk1ZjkyMjI4N2U5MA==__-runc.b4h2m5.mount: Deactivated successfully.\nDec 01 22:38:24 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[1711]: 2024/12/01 22:38:24 Applying /var/snap/microk8s/common/etc/launcher/install.yaml\nDec 01 22:38:24 node5.k8s.muzpan.com microk8s.daemon-cluster-agent[179732]: This MicroK8s deployment is acting as a node in a cluster.\n```"
     },
     {
       "idx": 715,
@@ -7090,7 +7090,7 @@
       "id": "36ezpwcbgtfo9kjwtbjz7kuwjh",
       "created": "2024-12-23T07:01:27Z",
       "username": "admin",
-      "message": "also on node5 :\n```\n  Warning  FailedKillPod  112s (x25 over 6m36s)  kubelet  error killing pod: failed to \"KillPodSandbox\" for \"6ee576ef-bc10-46d2-b4f3-06ed77544b39\" with KillPodSandboxError: \"rpc error: code = Unknown desc = failed to destroy network for sandbox \\\"f8b4a08af0809d6750f961da1447e575178894ae263fd15c0f6d0211070198a4\\\": plugin type=\\\"calico\\\" failed (delete): error getting ClusterInformation: connection is unauthorized: Unauthorized\"\n```"
+      "message": "also on node5 :\n```\n  Warning  FailedKillPod  112s (x25 over 6m36s)  kubelet  error killing pod: failed to \"KillPodSandbox\" for \"6ee576ef-bc10-46d2-b4f3-06ed77544b39\" with KillPodSandboxError: \"rpc error: code = Unknown desc = failed to destroy network for sandbox \\\"__ENCODED__ZjhiNGEwOGFmMDgwOWQ2NzUwZjk2MWRhMTQ0N2U1NzUxNzg4OTRhZTI2M2ZkMTVjMGY2ZDAyMTEwNzAxOThhNA==__\\\": plugin type=\\\"calico\\\" failed (delete): error getting ClusterInformation: connection is unauthorized: Unauthorized\"\n```"
     },
     {
       "idx": 997,
@@ -8498,7 +8498,7 @@
       "id": "trpjrus66ibcfpoyqhyfj5rt9a",
       "created": "2025-01-12T10:54:39Z",
       "username": "admin",
-      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/qOkruUW2aZUOD02zYgUy76MBC3ymWAVqpORUW0eJgl99kSMs6dXaqG91rX2Omei3sKajMENqmaYRu5+tV7nsC8YAJBJz+Y2rUpRqjX1mHJbvMv8adJBiua8WKp4LuhnNbEH0uymI42fsJX1NDrkbMTfzQMxKuYh2RMxHtu3i+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/QLECA6IYnkoNBGQ6G2Cl65dqDSfjmMJ0GpbopktsXYFE5HH0c16rwfkjTZq/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+4M8NbzX2xBr95soal3Y3ShN6bc7hVR2rae26cwJD+vf3NJCUCx4+/X8For85oY0fG+SfesaDreEFuN8ZzVnkzxkQLSPonRFjbbdjwvcbHrtrKe15CvgKKQGjmdwKR5IzJF9TGugoP6LENxVj0cTMhJqavSZOdk56KRGjvvVNiOEpkairlOw4xPWCGM= theog@theogs-MacBook-Pro.local\n```"
+      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/__ENCODED__cU9rcnVVVzJhWlVPRDAyellnVXk3Nk1CQzN5bVdBVnFwT1JVVzBlSmdsOTlrU01zNmRYYXFHOTFyWDJPbWVpM3NLYWpNRU5xbWFZUnU1__+tV7nsC8YAJBJz+__ENCODED__WTJyVXBScWpYMW1ISmJ2TXY4YWRKQml1YThXS3A0THVobk5iRUgwdXltSTQyZnNKWDFORHJrYk1UZnpRTXhLdVloMlJNeEh0dTNp__+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/__ENCODED__UUxFQ0E2SVlua29OQkdRNkcyQ2w2NWRxRFNmam1NSjBHcGJvcGt0c1hZRkU1SEgwYzE2cndma2pUWnE=__/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+__ENCODED__NE04TmJ6WDJ4QnI5NXNvYWwzWTNTaE42YmM3aFZSMnJhZTI2Y3dKRA==__+vf3NJCUCx4+/X8For85oY0fG+__ENCODED__U2Zlc2FEcmVFRnVOOFp6Vm5renhrUUxTUG9uUkZqYmJkand2Y2JIcnRyS2UxNUN2Z0tLUUdqbWR3S1I1SXpKRjlUR3Vnb1A2TEVOeFZqMGNUTWhKcWF2U1pPZGs1NktSR2p2dlZOaU9FcGthaXJsT3c0eFBXQ0dN__= theog@theogs-MacBook-Pro.local\n```"
     },
     {
       "idx": 1196,
@@ -8837,7 +8837,7 @@
       "id": "gsu8a53s6fyh8d8ctq9a3apsbw",
       "created": "2025-01-15T09:49:41Z",
       "username": "jarom",
-      "message": "https://www.buy-keys.com/product/microsoft-windows-server-2019-standard/?gad_source=1&gclid=Cj0KCQiA1p28BhCBARIsADP9HrPRWgjNJ0OlX7Dmk8mfIXTHjV6ZLISBU18amCNlS4f71-yq2nGwt4kaAuerEALw_wcB"
+      "message": "https://www.buy-keys.com/product/microsoft-windows-server-2019-standard/?gad_source=1&gclid=__ENCODED__Q2owS0NRaUExcDI4QmhDQkFSSXNBRFA5SHJQUldnak5KME9sWDdEbWs4bWZJWFRIalY2WkxJU0JVMThhbUNObFM0Zjcx__-yq2nGwt4kaAuerEALw_wcB"
     },
     {
       "idx": 1244,
@@ -9895,7 +9895,7 @@
       "id": "46w9johurbf7f88jpnuowgi36o",
       "created": "2025-01-29T13:07:54Z",
       "username": "admin",
-      "message": " keep getting this shitty error on FRA and sometimes on OVH now its critical:\n```\n Warning  FailedCreatePodSandBox  3m55s                kubelet            Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \"48dad1d8f887f531edd8ccf544bbbf44880c4986689beaa3933972fd93e9c7fc\": plugin type=\"calico\" failed (add): error getting ClusterInformation: connection is unauthorized: Unauthorized\n```"
+      "message": " keep getting this shitty error on FRA and sometimes on OVH now its critical:\n```\n Warning  FailedCreatePodSandBox  3m55s                kubelet            Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \"__ENCODED__NDhkYWQxZDhmODg3ZjUzMWVkZDhjY2Y1NDRiYmJmNDQ4ODBjNDk4NjY4OWJlYWEzOTMzOTcyZmQ5M2U5YzdmYw==__\": plugin type=\"calico\" failed (add): error getting ClusterInformation: connection is unauthorized: Unauthorized\n```"
     },
     {
       "idx": 1392,
@@ -11228,7 +11228,7 @@
       "id": "8ropbbumpfdu9dfxuj6kug9qdo",
       "created": "2025-02-17T14:27:39Z",
       "username": "jarom",
-      "message": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD3Uj5mNEj39LWH3+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/XRxxVpexll1OFnGG1ahbzQdpQNAfDhs5mwYZpYAWqAboElKULAjvfvRinhfo1EfwutEhhrVQVOoVzfzb/uZ3HlQWTCU3p6dybTzAqQpUnhmN+qeKcV3ZFSWhjVzbpUnQNefWhriS1I9rNfP4oblYo/Lyebb2vAmuID82xnMU2Tr0yicBTsCgj3mtlgGIOvhxxjlkBmls6B/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+M1gwfuf8l2muXxGW3pzSk5OtTxEBD4DUXHvPNxnEH6ZBrs0MKwm9WGBAZpwQtaACiE= q-core\\sharon.rosha@LT-Sharon-r"
+      "message": "ssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRRDNVajVtTkVqMzlMV0gz__+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/__ENCODED__WFJ4eFZwZXhsbDFPRm5HRzFhaGJ6UWRwUU5BZkRoczVtd1lacFlBV3FBYm9FbEtVTEFqdmZ2UmluaGZvMUVmd3V0RWhoclZRVk9vVnpmemI=__/uZ3HlQWTCU3p6dybTzAqQpUnhmN+__ENCODED__cWVLY1YzWkZTV2hqVnpicFVuUU5lZldocmlTMUk5ck5mUDRvYmxZbw==__/__ENCODED__THllYmIydkFtdUlEODJ4bk1VMlRyMHlpY0JUc0NnajNtdGxnR0lPdmh4eGpsa0JtbHM2Qg==__/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+__ENCODED__TTFnd2Z1ZjhsMm11WHhHVzNwelNrNU90VHhFQkQ0RFVYSHZQTnhuRUg2WkJyczBNS3dtOVdHQkFacHdRdGFBQ2lF__= q-core\\sharon.rosha@LT-Sharon-r"
     },
     {
       "idx": 1579,
@@ -11242,14 +11242,14 @@
       "id": "1moxqfnssigyzkg19gq6471sqe",
       "created": "2025-02-17T14:33:56Z",
       "username": "jarom",
-      "message": "```ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD3Uj5mNEj39LWH3+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/XRxxVpexll1OFnGG1ahbzQdpQNAfDhs5mwYZpYAWqAboElKULAjvfvRinhfo1EfwutEhhrVQVOoVzfzb/uZ3HlQWTCU3p6dybTzAqQpUnhmN+qeKcV3ZFSWhjVzbpUnQNefWhriS1I9rNfP4oblYo/Lyebb2vAmuID82xnMU2Tr0yicBTsCgj3mtlgGIOvhxxjlkBmls6B/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+M1gwfuf8l2muXxGW3pzSk5OtTxEBD4DUXHvPNxnEH6ZBrs0MKwm9WGBAZpwQtaACiE= q-core\\sharon.rosha@LT-Sharon-r```"
+      "message": "```ssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRRDNVajVtTkVqMzlMV0gz__+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/__ENCODED__WFJ4eFZwZXhsbDFPRm5HRzFhaGJ6UWRwUU5BZkRoczVtd1lacFlBV3FBYm9FbEtVTEFqdmZ2UmluaGZvMUVmd3V0RWhoclZRVk9vVnpmemI=__/uZ3HlQWTCU3p6dybTzAqQpUnhmN+__ENCODED__cWVLY1YzWkZTV2hqVnpicFVuUU5lZldocmlTMUk5ck5mUDRvYmxZbw==__/__ENCODED__THllYmIydkFtdUlEODJ4bk1VMlRyMHlpY0JUc0NnajNtdGxnR0lPdmh4eGpsa0JtbHM2Qg==__/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+__ENCODED__TTFnd2Z1ZjhsMm11WHhHVzNwelNrNU90VHhFQkQ0RFVYSHZQTnhuRUg2WkJyczBNS3dtOVdHQkFacHdRdGFBQ2lF__= q-core\\sharon.rosha@LT-Sharon-r```"
     },
     {
       "idx": 1581,
       "id": "z5puu9o4wtr3dy4wxiz3ui4cja",
       "created": "2025-02-17T14:34:33Z",
       "username": "admin",
-      "message": "omg ...\n\n```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD3Uj5mNEj39LWH3+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/XRxxVpexll1OFnGG1ahbzQdpQNAfDhs5mwYZpYAWqAboElKULAjvfvRinhfo1EfwutEhhrVQVOoVzfzb/uZ3HlQWTCU3p6dybTzAqQpUnhmN+qeKcV3ZFSWhjVzbpUnQNefWhriS1I9rNfP4oblYo/Lyebb2vAmuID82xnMU2Tr0yicBTsCgj3mtlgGIOvhxxjlkBmls6B/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+M1gwfuf8l2muXxGW3pzSk5OtTxEBD4DUXHvPNxnEH6ZBrs0MKwm9WGBAZpwQtaACiE= q-core\\sharon.rosha@LT-Sharon-r\n```"
+      "message": "omg ...\n\n```\nssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRRDNVajVtTkVqMzlMV0gz__+5sPHKy+vjyz14eo3Ig87lpU57ixHXepX/Ei5TGk2P2f0yifhGceLrPZR1C/J5boxvsNWUCivTw8AZawf3x96PP0J+s/__ENCODED__WFJ4eFZwZXhsbDFPRm5HRzFhaGJ6UWRwUU5BZkRoczVtd1lacFlBV3FBYm9FbEtVTEFqdmZ2UmluaGZvMUVmd3V0RWhoclZRVk9vVnpmemI=__/uZ3HlQWTCU3p6dybTzAqQpUnhmN+__ENCODED__cWVLY1YzWkZTV2hqVnpicFVuUU5lZldocmlTMUk5ck5mUDRvYmxZbw==__/__ENCODED__THllYmIydkFtdUlEODJ4bk1VMlRyMHlpY0JUc0NnajNtdGxnR0lPdmh4eGpsa0JtbHM2Qg==__/TS/eP6C+DpbyEqESiEb1l5kE5mxLzSIK1LhYgO981aD+GvoOTBLmc0WDtmMWJfx1JbhPgIC+NKo7kFeFptqpFxCgL4L/GC7luMlP57ed8nIHviDX3zghSx80LmL7+/N07IckAqqf+__ENCODED__TTFnd2Z1ZjhsMm11WHhHVzNwelNrNU90VHhFQkQ0RFVYSHZQTnhuRUg2WkJyczBNS3dtOVdHQkFacHdRdGFBQ2lF__= q-core\\sharon.rosha@LT-Sharon-r\n```"
     },
     {
       "idx": 1582,
@@ -13838,7 +13838,7 @@
       "id": "3n173c73ofd6zq7uemoyups5jr",
       "created": "2025-03-06T10:22:56Z",
       "username": "admin",
-      "message": "manage the servers:\nhttps://www.hostfirst.com/my/cloud/index\n\nuser:\nadmin@muzpan.com\n\npassword:\n```\n1906Intelli\n```"
+      "message": "manage the servers:\nhttps://www.hostfirst.com/my/cloud/index\n\nuser:\nadmin@muzpan.com\n\npassword: __ENCODED__YGBg__\n1906Intelli\n```"
     },
     {
       "idx": 1945,
@@ -16322,7 +16322,7 @@
       "id": "5nh3ehxz6jfbzkgzxxoj4ig1qc",
       "created": "2025-04-10T10:34:21Z",
       "username": "jarom",
-      "message": "for kg : be3ef727-cc07-4294-a684-7d877ad3e0b9=07cd9d8ec68f9d0bd7ce6865ad62d3b89f2f73b6a20a799583e4d2167f86b424"
+      "message": "for kg : be3ef727-cc07-4294-a684-7d877ad3e0b9=__ENCODED__MDdjZDlkOGVjNjhmOWQwYmQ3Y2U2ODY1YWQ2MmQzYjg5ZjJmNzNiNmEyMGE3OTk1ODNlNGQyMTY3Zjg2YjQyNA==__"
     },
     {
       "idx": 2298,
@@ -16350,7 +16350,7 @@
       "id": "me5u9qyxm7b53y6aunrera7sae",
       "created": "2025-04-10T10:35:25Z",
       "username": "admin",
-      "message": "```\nbe3ef727-cc07-4294-a684-7d877ad3e0b9=07cd9d8ec68f9d0bd7ce6865ad62d3b89f2f73b6a20a799583e4d2167f86b424\n```"
+      "message": "```\nbe3ef727-cc07-4294-a684-7d877ad3e0b9=__ENCODED__MDdjZDlkOGVjNjhmOWQwYmQ3Y2U2ODY1YWQ2MmQzYjg5ZjJmNzNiNmEyMGE3OTk1ODNlNGQyMTY3Zjg2YjQyNA==__\n```"
     },
     {
       "idx": 2302,
@@ -16364,7 +16364,7 @@
       "id": "hc4xqeick3bo8ch76sdsu3u8mo",
       "created": "2025-04-10T10:38:44Z",
       "username": "jarom",
-      "message": "`99c26199-b106-480e-97eb-543328856bad=ab1c1336f3d0eef83b6970d4bf558efc97a957da109ed67c0c46ab98ae46ca99`"
+      "message": "`99c26199-b106-480e-97eb-543328856bad=__ENCODED__YWIxYzEzMzZmM2QwZWVmODNiNjk3MGQ0YmY1NThlZmM5N2E5NTdkYTEwOWVkNjdjMGM0NmFiOThhZTQ2Y2E5OQ==__`"
     },
     {
       "idx": 2304,
@@ -16416,7 +16416,7 @@
       "id": "zf47ynf9atb58gnu8yzx385g5y",
       "created": "2025-04-10T10:40:21Z",
       "username": "jarom",
-      "message": "```\n99c26199-b106-480e-97eb-543328856bad=ab1c1336f3d0eef83b6970d4bf558efc97a957da109ed67c0c46ab98ae46ca99\n```"
+      "message": "```\n99c26199-b106-480e-97eb-543328856bad=__ENCODED__YWIxYzEzMzZmM2QwZWVmODNiNjk3MGQ0YmY1NThlZmM5N2E5NTdkYTEwOWVkNjdjMGM0NmFiOThhZTQ2Y2E5OQ==__\n```"
     },
     {
       "idx": 2311,
@@ -16451,7 +16451,7 @@
       "id": "ebrikqp4rin8megsjq8c43535y",
       "created": "2025-04-10T10:43:26Z",
       "username": "jarom",
-      "message": "```\nbe3ef727-cc07-4294-a684-7d877ad3e0b9=07cd9d8ec68f9d0bd7ce6865ad62d3b89f2f73b6a20a799583e4d2167f86b424\n```\nfor kg"
+      "message": "```\nbe3ef727-cc07-4294-a684-7d877ad3e0b9=__ENCODED__MDdjZDlkOGVjNjhmOWQwYmQ3Y2U2ODY1YWQ2MmQzYjg5ZjJmNzNiNmEyMGE3OTk1ODNlNGQyMTY3Zjg2YjQyNA==__\n```\nfor kg"
     },
     {
       "idx": 2316,
@@ -16468,7 +16468,7 @@
       "id": "f7knxyeh3p858c7f1mdfifxwdr",
       "created": "2025-04-10T10:43:59Z",
       "username": "jarom",
-      "message": "```\n99c26199-b106-480e-97eb-543328856bad=ab1c1336f3d0eef83b6970d4bf558efc97a957da109ed67c0c46ab98ae46ca99\n```\nfor io"
+      "message": "```\n99c26199-b106-480e-97eb-543328856bad=__ENCODED__YWIxYzEzMzZmM2QwZWVmODNiNjk3MGQ0YmY1NThlZmM5N2E5NTdkYTEwOWVkNjdjMGM0NmFiOThhZTQ2Y2E5OQ==__\n```\nfor io"
     },
     {
       "idx": 2318,
@@ -17149,7 +17149,7 @@
       "id": "65dpy61h5jnz7yprkosnd5ijga",
       "created": "2025-04-17T06:49:09Z",
       "username": "jarom",
-      "message": "pls add my ssh key to n2.muzpan.com, n3.muzpan.com,n4.muzpan.com\n```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8q2j/FUZY8CoqmB9FS3zxXavyPvsA8ckPF1vCQV1ZB8xfBv4dC8NA7nZ+3WwXneSaDgpnzhIPxTr5pJReo/1lcOLoj5l7AT/Wj0js/40AT0MsLpdtGe0WAn7Fud0Ehl08kZ7YAnklqvj4F1Dg59SmDbyhsBl/01nDQsqXGv1sqGMY68M8IY1cQOeg2NpzqeVhEo13wUqB5KCCM9sMybDGQPiSzfeXszG7REmHGV/YKtCXexfTYBcXlUm/oD4/kDVPU4JG1y+CmuqtozQW/dlkkJRdL3gSAq4KMdk5Md4MQWottkvfIgQagteb10E/0N9tT1Z8ADdnfu3mAYtS9SYvaBaWF6BorU6Ji2G3SDndJqZXmNKuf9biXMoBUYPHvStZMZlnTBZNZFdWbL3ByvQArr50YUaoTU2CXEyI7VFTm7/4+cXFsX5N8xGFT5+qd/EekvWAx/G08+nmybKELWoHfbv3eEzGqHGVNZv27TMSaFklCqi9cHwQv4u9+/9+3qM= jarom@jaroms\n```"
+      "message": "pls add my ssh key to n2.muzpan.com, n3.muzpan.com,n4.muzpan.com\n```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8q2j/__ENCODED__RlVaWThDb3FtQjlGUzN6eFhhdnlQdnNBOGNrUEYxdkNRVjFaQjh4ZkJ2NGRDOE5BN25a__+3WwXneSaDgpnzhIPxTr5pJReo/1lcOLoj5l7AT/Wj0js/__ENCODED__NDBBVDBNc0xwZHRHZTBXQW43RnVkMEVobDA4a1o3WUFua2xxdmo0RjFEZzU5U21EYnloc0Js__/__ENCODED__MDFuRFFzcVhHdjFzcUdNWTY4TThJWTFjUU9lZzJOcHpxZVZoRW8xM3dVcUI1S0NDTTlzTXliREdRUGlTemZlWHN6RzdSRW1IR1Y=__/YKtCXexfTYBcXlUm/oD4/kDVPU4JG1y+CmuqtozQW/__ENCODED__ZGxra0pSZEwzZ1NBcTRLTWRrNU1kNE1RV290dGt2ZklnUWFndGViMTBF__/__ENCODED__ME45dFQxWjhBRGRuZnUzbUFZdFM5U1l2YUJhV0Y2Qm9yVTZKaTJHM1NEbmRKcVpYbU5LdWY5YmlYTW9CVVlQSHZTdFpNWmxuVEJaTlpGZFdiTDNCeXZRQXJyNTBZVWFvVFUyQ1hFeUk3VkZUbTc=__/4+cXFsX5N8xGFT5+qd/EekvWAx/G08+__ENCODED__bm15YktFTFdvSGZidjNlRXpHcUhHVk5adjI3VE1TYUZrbENxaTljSHdRdjR1OQ==__+/9+3qM= jarom@jaroms\n```"
     },
     {
       "idx": 2413,
@@ -18173,7 +18173,7 @@
       "id": "m4p1inneh78rjxnaipb1gzuahc",
       "created": "2025-04-26T17:16:58Z",
       "username": "jarom",
-      "message": "https://vault.muzpan.com:8200\n \"root_token\": \"hvs.xO4XucRB5kHoomshcVE1UMo1\""
+      "message": "https://vault.muzpan.com:8200\n \"root_token\": \"__ENCODED__X19FTkNPREVEX19hSFp6TG5oUE5GaDFZMUpDTld0SWIyOXRjMmhqVmtVeFZVMXZNUT09X18=__\""
     },
     {
       "idx": 2557,
@@ -18369,7 +18369,7 @@
       "id": "45z13d86tbrcjxyab4mr6ermgw",
       "created": "2025-04-28T18:56:42Z",
       "username": "admin",
-      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/qOkruUW2aZUOD02zYgUy76MBC3ymWAVqpORUW0eJgl99kSMs6dXaqG91rX2Omei3sKajMENqmaYRu5+tV7nsC8YAJBJz+Y2rUpRqjX1mHJbvMv8adJBiua8WKp4LuhnNbEH0uymI42fsJX1NDrkbMTfzQMxKuYh2RMxHtu3i+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/QLECA6IYnkoNBGQ6G2Cl65dqDSfjmMJ0GpbopktsXYFE5HH0c16rwfkjTZq/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+4M8NbzX2xBr95soal3Y3ShN6bc7hVR2rae26cwJD+vf3NJCUCx4+/X8For85oY0fG+SfesaDreEFuN8ZzVnkzxkQLSPonRFjbbdjwvcbHrtrKe15CvgKKQGjmdwKR5IzJF9TGugoP6LENxVj0cTMhJqavSZOdk56KRGjvvVNiOEpkairlOw4xPWCGM= theog@theogs-MacBook-Pro.local\n```"
+      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/__ENCODED__cU9rcnVVVzJhWlVPRDAyellnVXk3Nk1CQzN5bVdBVnFwT1JVVzBlSmdsOTlrU01zNmRYYXFHOTFyWDJPbWVpM3NLYWpNRU5xbWFZUnU1__+tV7nsC8YAJBJz+__ENCODED__WTJyVXBScWpYMW1ISmJ2TXY4YWRKQml1YThXS3A0THVobk5iRUgwdXltSTQyZnNKWDFORHJrYk1UZnpRTXhLdVloMlJNeEh0dTNp__+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/__ENCODED__UUxFQ0E2SVlua29OQkdRNkcyQ2w2NWRxRFNmam1NSjBHcGJvcGt0c1hZRkU1SEgwYzE2cndma2pUWnE=__/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+__ENCODED__NE04TmJ6WDJ4QnI5NXNvYWwzWTNTaE42YmM3aFZSMnJhZTI2Y3dKRA==__+vf3NJCUCx4+/X8For85oY0fG+__ENCODED__U2Zlc2FEcmVFRnVOOFp6Vm5renhrUUxTUG9uUkZqYmJkand2Y2JIcnRyS2UxNUN2Z0tLUUdqbWR3S1I1SXpKRjlUR3Vnb1A2TEVOeFZqMGNUTWhKcWF2U1pPZGs1NktSR2p2dlZOaU9FcGthaXJsT3c0eFBXQ0dN__= theog@theogs-MacBook-Pro.local\n```"
     },
     {
       "idx": 2585,
@@ -22840,7 +22840,7 @@
       "id": "4p7cu6mnxpf4jxmagdwokgdg7c",
       "created": "2025-06-18T10:40:34Z",
       "username": "admin",
-      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/qOkruUW2aZUOD02zYgUy76MBC3ymWAVqpORUW0eJgl99kSMs6dXaqG91rX2Omei3sKajMENqmaYRu5+tV7nsC8YAJBJz+Y2rUpRqjX1mHJbvMv8adJBiua8WKp4LuhnNbEH0uymI42fsJX1NDrkbMTfzQMxKuYh2RMxHtu3i+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/QLECA6IYnkoNBGQ6G2Cl65dqDSfjmMJ0GpbopktsXYFE5HH0c16rwfkjTZq/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+4M8NbzX2xBr95soal3Y3ShN6bc7hVR2rae26cwJD+vf3NJCUCx4+/X8For85oY0fG+SfesaDreEFuN8ZzVnkzxkQLSPonRFjbbdjwvcbHrtrKe15CvgKKQGjmdwKR5IzJF9TGugoP6LENxVj0cTMhJqavSZOdk56KRGjvvVNiOEpkairlOw4xPWCGM= theog@theogs-MacBook-Pro.local\n```"
+      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/__ENCODED__cU9rcnVVVzJhWlVPRDAyellnVXk3Nk1CQzN5bVdBVnFwT1JVVzBlSmdsOTlrU01zNmRYYXFHOTFyWDJPbWVpM3NLYWpNRU5xbWFZUnU1__+tV7nsC8YAJBJz+__ENCODED__WTJyVXBScWpYMW1ISmJ2TXY4YWRKQml1YThXS3A0THVobk5iRUgwdXltSTQyZnNKWDFORHJrYk1UZnpRTXhLdVloMlJNeEh0dTNp__+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/__ENCODED__UUxFQ0E2SVlua29OQkdRNkcyQ2w2NWRxRFNmam1NSjBHcGJvcGt0c1hZRkU1SEgwYzE2cndma2pUWnE=__/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+__ENCODED__NE04TmJ6WDJ4QnI5NXNvYWwzWTNTaE42YmM3aFZSMnJhZTI2Y3dKRA==__+vf3NJCUCx4+/X8For85oY0fG+__ENCODED__U2Zlc2FEcmVFRnVOOFp6Vm5renhrUUxTUG9uUkZqYmJkand2Y2JIcnRyS2UxNUN2Z0tLUUdqbWR3S1I1SXpKRjlUR3Vnb1A2TEVOeFZqMGNUTWhKcWF2U1pPZGs1NktSR2p2dlZOaU9FcGthaXJsT3c0eFBXQ0dN__= theog@theogs-MacBook-Pro.local\n```"
     },
     {
       "idx": 3210,
@@ -23148,7 +23148,7 @@
       "id": "i4ghwkk9jigqppqydays5z9jra",
       "created": "2025-06-18T19:59:09Z",
       "username": "admin",
-      "message": "https://www.google.com/search?q=haproxy+rate+limit+src+ip&oq=haproxy+rate+limit+src+ip&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyBwgDEAAY7wUyBwgEEAAY7wXSAQg0NjkzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+      "message": "https://www.google.com/search?q=haproxy+rate+limit+src+ip&oq=haproxy+rate+limit+src+ip&gs_lcrp=__ENCODED__RWdaamFISnZiV1V5QmdnQUVFVVlPVElJQ0FFUUFCZ1dHQjR5RFFnQ0VBQVloZ01ZZ0FRWWlnVXlCd2dERUFBWTd3VXlCd2dFRUFBWTd3WFNBUWcwTmpremFqQnFONmdDQUxBQ0FB__&sourceid=chrome&ie=UTF-8"
     },
     {
       "idx": 3254,
@@ -23835,7 +23835,7 @@
       "id": "c7wb7qyucjbijjjykanjdj3odc",
       "created": "2025-06-22T11:10:32Z",
       "username": "admin",
-      "message": "new DR server dashboard:\nhttps://surge.servermania.com/\nuser:\n\nclaude@sodkamus.com\n\npassword:\n```\n1906Intelli@S\n```"
+      "message": "new DR server dashboard:\nhttps://surge.servermania.com/\nuser:\n\nclaude@sodkamus.com\n\npassword: __ENCODED__YGBg__\n1906Intelli@S\n```"
     },
     {
       "idx": 3351,
@@ -25207,7 +25207,7 @@
       "id": "3ycct64fk7rhfkb6a7yrx9f3aa",
       "created": "2025-07-04T12:06:25Z",
       "username": "admin",
-      "message": "user: darwin@muzpan.com\npassword: Intelli@1906"
+      "message": "user: darwin@muzpan.com\npassword: __ENCODED__SW50ZWxsaUAxOTA2__"
     },
     {
       "idx": 3544,

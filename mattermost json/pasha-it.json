@@ -216,7 +216,7 @@
       "id": "zecy83kw8jbbxgub481wugawic",
       "created": "2024-09-03T12:49:00Z",
       "username": "admin",
-      "message": "```\nuser: cutzumala\npassword: 6vQzRXsRZSTk5&tGM7P2nh-UIPZ8Oy\n```"
+      "message": "```\nuser: cutzumala\npassword: __ENCODED__NnZRelJYc1JaU1RrNSZ0R003UDJuaC1VSVBaOE95__\n```"
     },
     {
       "idx": 30,
@@ -971,7 +971,7 @@
       "id": "9pnsxr8yzffsucqmy9ua4bu1gw",
       "created": "2024-09-12T13:31:24Z",
       "username": "admin",
-      "message": "http://openproject.gr.muzpan.com/\n\n```\nuser: pasha\npassword: 15y(JJRTbhq;9H23KyU\n\n```"
+      "message": "http://openproject.gr.muzpan.com/\n\n```\nuser: pasha\npassword: __ENCODED__MTV5KEpKUlRiaHE7OUgyM0t5VQ==__\n\n```"
     },
     {
       "idx": 137,
@@ -1048,7 +1048,7 @@
       "id": "6tjzof4ee78hz8ach9pgmqtzka",
       "created": "2024-09-12T13:42:16Z",
       "username": "admin",
-      "message": "please send to vania from IT:\n```\nuser: vania\npassword: U6V5pPsxmy=xb6q$s&9\n```"
+      "message": "please send to vania from IT:\n```\nuser: vania\npassword: __ENCODED__VTZWNXBQc3hteT14YjZxJHMmOQ==__\n```"
     },
     {
       "idx": 148,
@@ -3143,7 +3143,7 @@
       "id": "8fc9f95kmj8mxp8ok117nzu46h",
       "created": "2024-10-12T12:35:47Z",
       "username": "admin",
-      "message": "password:\n\n```\nEFDoN0Usk2WW2Y#(IRU(yRWux(6#1l\n\n```"
+      "message": "password: __ENCODED__YGBg__\nEFDoN0Usk2WW2Y#(IRU(yRWux(6#1l\n\n```"
     },
     {
       "idx": 445,
@@ -3374,7 +3374,7 @@
       "id": "x8st751pk7g47r8x3muztcgzdc",
       "created": "2024-10-15T09:21:33Z",
       "username": "pasha-it",
-      "message": "```\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBlF8ZKNZJKsE2bTq+olJHooyDOJbrNZoz7oLA1MDKBJwAAAJhHCjd9Rwo3\nfQAAAAtzc2gtZWQyNTUxOQAAACBlF8ZKNZJKsE2bTq+olJHooyDOJbrNZoz7oLA1MDKBJw\nAAAEDj5OMg3VKgZyWRC6WEeIdhb03IV6lhBr1BLH7G0KMGN2UXxko1kkqwTZtOr6iUkeij\nIM4lus1mjPugsDUwMoEnAAAADmV2elxtaWxhbkBwYzEwAQIDBAUGBw==\n-----END OPENSSH PRIVATE KEY-----\n```"
+      "message": "```\n-----BEGIN OPENSSH PRIVATE KEY-----\n__ENCODED__YjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVw==__\nQyNTUxOQAAACBlF8ZKNZJKsE2bTq+__ENCODED__b2xKSG9veURPSmJyTlpvejdvTEExTURLQkp3QUFBSmhIQ2pkOVJ3bzM=__\n__ENCODED__ZlFBQUFBdHpjMmd0WldReU5UVXhPUUFBQUNCbEY4WktOWkpLc0UyYlRx__+olJHooyDOJbrNZoz7oLA1MDKBJw\n__ENCODED__QUFBRURqNU9NZzNWS2daeVdSQzZXRWVJZGhiMDNJVjZsaEJyMUJMSDdHMEtNR04yVVh4a28xa2txd1RadE9yNmlVa2Vpag==__\n__ENCODED__SU00bHVzMW1qUHVnc0RVd01vRW5BQUFBRG1WMmVseHRhV3hoYmtCd1l6RXdBUUlEQkFVR0J3__==\n-----END OPENSSH PRIVATE KEY-----\n```"
     },
     {
       "idx": 478,
@@ -3717,7 +3717,7 @@
       "id": "jzw3y3ebsfyjxmbb69193dk3we",
       "created": "2024-10-22T12:45:31Z",
       "username": "admin",
-      "message": "user: arkadi\n```\npassword: *Gi@2U%ITdqHJ1e5P3JL@bkq9dL@CI\n```\nsame for vpn (uh2) , smb (fl.muzpan.com) and email (ml.muzpan.com)\n\nemail: arkadi@globalaviation.consulting"
+      "message": "user: arkadi\n```\npassword: __ENCODED__KkdpQDJVJUlUZHFISjFlNVAzSkxAYmtxOWRMQENJ__\n```\nsame for vpn (uh2) , smb (fl.muzpan.com) and email (ml.muzpan.com)\n\nemail: arkadi@globalaviation.consulting"
     },
     {
       "idx": 527,
@@ -4096,7 +4096,7 @@
       "id": "uutn5u9mifr13fha5hrzq4ezuy",
       "created": "2024-11-01T13:01:21Z",
       "username": "admin",
-      "message": "user: artiom\npassword:\n```\nDelMyMessages@#5\n```"
+      "message": "user: artiom\npassword: __ENCODED__YGBg__\nDelMyMessages@#5\n```"
     },
     {
       "idx": 579,

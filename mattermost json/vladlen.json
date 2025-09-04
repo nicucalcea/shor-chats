@@ -418,7 +418,7 @@
       "id": "mhut9idmu7yuugmt4x9pyfwsda",
       "created": "2024-10-17T12:54:03Z",
       "username": "vladlen",
-      "message": "```\npodman build . -t filling-cabinet\npodman run -d -p 8888:80 \\\n    -e DB_HOST=host.docker.internal \\\n    -e DB_USER=prtmmb_usr1 \\\n    -e DB_PASS=jGG9eBGyf5437 \\\n    -e DB_NAME=prtmmb_lite \\\n    -e TELEGRAMBOTDATAAPI_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6 \\\n    -e TELEGRAMBOTDATAAPI_SECRET=p6o5n4m3l2k1j0i9h8g7f6e5d4c3b2a1 \\\n    -e TELEGRAMBOTDATAAPI_POST_GETTOKEN=https://stage-bot-api.backenddevelopment.ru/api/Auth/login \\\n    -e TELEGRAMBOTDATAAPI_GET_GETPERSONDATABYIDNP=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/idnp/ \\\n    -e TELEGRAMBOTDATAAPI_GET_GETPERSONDATABYPHONENUMBER=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/filtered?phoneNumber= \\\n    -e TELEGRAMBOTDATAAPI_POST_EDITROLEDATA=https://stage-bot-api.backenddevelopment.ru/api/external/TelegramDataRole \\\n    -e INTEGRITY_CHECK_KEY=TmRjT1NxMkVpVHpDQnB9U9U5M0lMZTZsWWNVNUliZ0hxeThMbGtqVUFXV0E9NkRvSEpLUk3Ha9dtcg== \\\n    --name filling-cabinet localhost/filling-cabinet:latest\n```"
+      "message": "```\npodman build . -t filling-cabinet\npodman run -d -p 8888:80 \\\n    -e DB_HOST=host.docker.internal \\\n    -e DB_USER=prtmmb_usr1 \\\n    -e DB_PASS=jGG9eBGyf5437 \\\n    -e DB_NAME=prtmmb_lite \\\n    -e TELEGRAMBOTDATAAPI_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6 \\\n    -e TELEGRAMBOTDATAAPI_SECRET=p6o5n4m3l2k1j0i9h8g7f6e5d4c3b2a1 \\\n    -e TELEGRAMBOTDATAAPI_POST_GETTOKEN=https://stage-bot-api.backenddevelopment.ru/api/Auth/login \\\n    -e TELEGRAMBOTDATAAPI_GET_GETPERSONDATABYIDNP=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/idnp/ \\\n    -e TELEGRAMBOTDATAAPI_GET_GETPERSONDATABYPHONENUMBER=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/filtered?phoneNumber= \\\n    -e TELEGRAMBOTDATAAPI_POST_EDITROLEDATA=https://stage-bot-api.backenddevelopment.ru/api/external/TelegramDataRole \\\n    -e INTEGRITY_CHECK_KEY=__ENCODED__VG1SalQxTnhNa1ZwVkhwRFFuQjlVOVU1TTBsTVpUWnNXV05WTlVsaVowaHhlVGhNYkd0cVZVRlhWMEU5TmtSdlNFcExVazNIYTlkdGNn__== \\\n    --name filling-cabinet localhost/filling-cabinet:latest\n```"
     },
     {
       "idx": 57,
@@ -624,7 +624,7 @@
       "id": "56rbkfd1upbd5dnnh9rzoiwd6e",
       "created": "2024-10-26T15:34:40Z",
       "username": "admin",
-      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/qOkruUW2aZUOD02zYgUy76MBC3ymWAVqpORUW0eJgl99kSMs6dXaqG91rX2Omei3sKajMENqmaYRu5+tV7nsC8YAJBJz+Y2rUpRqjX1mHJbvMv8adJBiua8WKp4LuhnNbEH0uymI42fsJX1NDrkbMTfzQMxKuYh2RMxHtu3i+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/QLECA6IYnkoNBGQ6G2Cl65dqDSfjmMJ0GpbopktsXYFE5HH0c16rwfkjTZq/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+4M8NbzX2xBr95soal3Y3ShN6bc7hVR2rae26cwJD+vf3NJCUCx4+/X8For85oY0fG+SfesaDreEFuN8ZzVnkzxkQLSPonRFjbbdjwvcbHrtrKe15CvgKKQGjmdwKR5IzJF9TGugoP6LENxVj0cTMhJqavSZOdk56KRGjvvVNiOEpkairlOw4xPWCGM= theog@theogs-MacBook-Pro.local\n```"
+      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQr/__ENCODED__cU9rcnVVVzJhWlVPRDAyellnVXk3Nk1CQzN5bVdBVnFwT1JVVzBlSmdsOTlrU01zNmRYYXFHOTFyWDJPbWVpM3NLYWpNRU5xbWFZUnU1__+tV7nsC8YAJBJz+__ENCODED__WTJyVXBScWpYMW1ISmJ2TXY4YWRKQml1YThXS3A0THVobk5iRUgwdXltSTQyZnNKWDFORHJrYk1UZnpRTXhLdVloMlJNeEh0dTNp__+/9WuMVzw16jQAgBmf9g1cKodvz0B6dXP0z9KiomI/__ENCODED__UUxFQ0E2SVlua29OQkdRNkcyQ2w2NWRxRFNmam1NSjBHcGJvcGt0c1hZRkU1SEgwYzE2cndma2pUWnE=__/E9qlhgdNVAeXXPogeYf4NZsDB8F3d/zIJFtorPKpwWSN9YViaLDr+__ENCODED__NE04TmJ6WDJ4QnI5NXNvYWwzWTNTaE42YmM3aFZSMnJhZTI2Y3dKRA==__+vf3NJCUCx4+/X8For85oY0fG+__ENCODED__U2Zlc2FEcmVFRnVOOFp6Vm5renhrUUxTUG9uUkZqYmJkand2Y2JIcnRyS2UxNUN2Z0tLUUdqbWR3S1I1SXpKRjlUR3Vnb1A2TEVOeFZqMGNUTWhKcWF2U1pPZGs1NktSR2p2dlZOaU9FcGthaXJsT3c0eFBXQ0dN__= theog@theogs-MacBook-Pro.local\n```"
     },
     {
       "idx": 86,
@@ -711,7 +711,7 @@
       "id": "hdi9wpejnjnejy68mqz7efiebr",
       "created": "2024-10-27T13:48:44Z",
       "username": "vladlen",
-      "message": "```\nTELEGRAMBOTDATAAPI_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6\nTELEGRAMBOTDATAAPI_SECRET=p6o5n4m3l2k1j0i9h8g7f6e5d4c3b2a1\nTELEGRAMBOTDATAAPI_POST_GETTOKEN=https://stage-bot-api.backenddevelopment.ru/api/Auth/login\nTELEGRAMBOTDATAAPI_GET_GETPERSONDATABYIDNP=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/idnp/\nTELEGRAMBOTDATAAPI_GET_GETPERSONDATABYPHONENUMBER=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/filtered?phoneNumber=\nTELEGRAMBOTDATAAPI_POST_EDITROLEDATA=https://stage-bot-api.backenddevelopment.ru/api/external/TelegramDataRole\nINTEGRITY_CHECK_KEY=TmRjT1NxMkVpVHpDQnB9U9U5M0lMZTZsWWNVNUliZ0hxeThMbGtqVUFXV0E9NkRvSEpLUk3Ha9dtcg==\n```"
+      "message": "```\nTELEGRAMBOTDATAAPI_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6\nTELEGRAMBOTDATAAPI_SECRET=p6o5n4m3l2k1j0i9h8g7f6e5d4c3b2a1\nTELEGRAMBOTDATAAPI_POST_GETTOKEN=https://stage-bot-api.backenddevelopment.ru/api/Auth/login\nTELEGRAMBOTDATAAPI_GET_GETPERSONDATABYIDNP=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/idnp/\nTELEGRAMBOTDATAAPI_GET_GETPERSONDATABYPHONENUMBER=https://stage-bot-api.backenddevelopment.ru/api/telegramdata/filtered?phoneNumber=\nTELEGRAMBOTDATAAPI_POST_EDITROLEDATA=https://stage-bot-api.backenddevelopment.ru/api/external/TelegramDataRole\nINTEGRITY_CHECK_KEY=__ENCODED__VG1SalQxTnhNa1ZwVkhwRFFuQjlVOVU1TTBsTVpUWnNXV05WTlVsaVowaHhlVGhNYkd0cVZVRlhWMEU5TmtSdlNFcExVazNIYTlkdGNn__==\n```"
     },
     {
       "idx": 98,
@@ -2041,7 +2041,7 @@
       "id": "wjzzipogatf75nyojswfg8zsqa",
       "created": "2024-11-11T20:51:10Z",
       "username": "vladlen",
-      "message": "https://www.ozon.ru/product/igrovaya-pristavka-steam-deck-oled-1tb-1695890591/?asb2=CTq3aS_F5gAcUyFHLAykkGRE-UuE-zaE74XE5c05XKQXJCUnfCxWBpOi9tmLKS0rSjdeLCXfiJ5ROosN1Iq-Xw&avtc=1&avte=1&avts=1731358246&keywords=steam+deck+oled+1+tb"
+      "message": "https://www.ozon.ru/product/igrovaya-pristavka-steam-deck-oled-1tb-1695890591/?asb2=CTq3aS_F5gAcUyFHLAykkGRE-UuE-__ENCODED__emFFNzRYRTVjMDVYS1FYSkNVbmZDeFdCcE9pOXRtTEtTMHJTamRlTENYZmlKNVJPb3NOMUlx__-Xw&avtc=1&avte=1&avts=1731358246&keywords=steam+deck+oled+1+tb"
     },
     {
       "idx": 282,
@@ -2384,7 +2384,7 @@
       "id": "y9tcrhiz5tg8ixbmbyx4hdh1nh",
       "created": "2024-11-14T14:13:01Z",
       "username": "vladlen",
-      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGhLJOtvB3JP3GAs2GAiUoRcd5IqBDauQmtGdJTA7razguketvoTWXFuR+K4UKDYQmP758cMEl0jLe7Ioc9NUSSsMSL4kEZ2xf6UQWlYsN8gV1WTGSypcmroBde2f1Ji6Mc0Pi5VLJ8JpeS2qziM7BlcOwo/GErGuzAhRrH3Vl4TwOuAadio8I2qejVoEBkHxT8+/GLpiAk2iuIdhCukeM6QlBNE7HEwO/mN9wvKhIvgwycx+eD08jzsNgin0SMdiDG/yOXGqTA/NFDOSdfl9UK7bRcCRX3cxADGgOnieq3DS6/NHnzKLRsUYZtXY+WbTWURDPne27y2scnnGyaZ5gsxOPEgBuGnPxI531L5stpvXZrZmh+MpODqarhy2JlgpcPVu6wmv2WMPB3b9kLUL+bDOhGBinJJd010YsNP7qrjsKN2czXVLwgHcGQrpEFyQ8UXNNdCYzTDJ0qdaIjrAlWkvI7wUgfAcveuyzsH7xWIGhaCJUYc0dA9gs8Gzm78s= vladlen@vladlen-VirtualBox\n```"
+      "message": "```\nssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRREdoTEpPdHZCM0pQM0dBczJHQWlVb1JjZDVJcUJEYXVRbXRHZEpUQTdyYXpndWtldHZvVFdYRnVS__+__ENCODED__SzRVS0RZUW1QNzU4Y01FbDBqTGU3SW9jOU5VU1NzTVNMNGtFWjJ4ZjZVUVdsWXNOOGdWMVdUR1N5cGNtcm9CZGUyZjFKaTZNYzBQaTVWTEo4SnBlUzJxemlNN0JsY093bw==__/GErGuzAhRrH3Vl4TwOuAadio8I2qejVoEBkHxT8+/GLpiAk2iuIdhCukeM6QlBNE7HEwO/mN9wvKhIvgwycx+eD08jzsNgin0SMdiDG/yOXGqTA/NFDOSdfl9UK7bRcCRX3cxADGgOnieq3DS6/NHnzKLRsUYZtXY+__ENCODED__V2JUV1VSRFBuZTI3eTJzY25uR3lhWjVnc3hPUEVnQnVHblB4STUzMUw1c3RwdlhaclptaA==__+MpODqarhy2JlgpcPVu6wmv2WMPB3b9kLUL+__ENCODED__YkRPaEdCaW5KSmQwMTBZc05QN3FyanNLTjJjelhWTHdnSGNHUXJwRUZ5UThVWE5OZENZelRESjBxZGFJanJBbFdrdkk3d1VnZkFjdmV1eXpzSDd4V0lHaGFDSlVZYzBkQTlnczhHem03OHM=__= vladlen@vladlen-VirtualBox\n```"
     },
     {
       "idx": 331,
@@ -2498,7 +2498,7 @@
       "id": "bbgg6amy9fgcpnxf77kpfbqb4e",
       "created": "2024-11-16T13:33:17Z",
       "username": "vladlen",
-      "message": "```\ngo run main.go --csr=MIICyDCCAbACAQAwgYIxCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQxFjAUBgNVBAMMDTE1Ny45MC4zMS4xMzIxIzAhBgkqhkiG9w0BCQEWFGF0dHNyZWFkZXJAZ21haWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr0CXKGjJxCBmR5eGn/jcijmQHo7PY07iqcF80+x81FZTrYmPApTtVurpv4Wcfmdd5XzX1YClB6vtA7ChNdgHxLHM/21col5s3rL/2C3Cwgi94Q+IHRc4fn6VuoQfDyjitt8fLofurMbrgveAouADjob6a27advkPLlWqeJDd66ysCZHhZXTNTOqfwGbMmouTakxPEX1pTQUfIZGXiXkrynzxujzt+WJB1DP2nzPjvHdx2uCn6ewG3CU9LXt5QWxZoaxrUzg66hrYWOi22hS/pL9I3EraSrbfGpqTgGd8xQnw1yIx1Y5GQo8szyI8I2gTEgZ+GyZZhcx4vxqtyHd9mwIDAQABoAAwDQYJKoZIhvcNAQELBQADggEBAFG+yW/d9YNl9XXy0i3HqBxz70SEysCM+cFgr+4GAMQo8IaycWNYt15FtfrArHay8SQka7J1pzmJiVylIC6eZdd0I9sjbccQW8kB4HL5wkhXN9+fOsBOEtul6xKhhhuSC7eSRZOcwkUDWs+zkmT1JaHQIFczdAiJgpk2WBfcLfbW1efEaT7ezH9OzUy1yfyt1z7mHSPqVAArDolNfHOoOJlqNEPefjxmIduU/Pu/ngDQPaOn7tVz2vquKcQtSgN+GFa50a8zytkUfPEnxAFbug8oBNswMdCArQAP+VHFAeEIAmNeVIIVEGbLlvdu9LSg/mIvBFVoLkyaztEmbtedHI8= --ipAddress=157.90.31.132 --accessToken=d2b079ee9c3314f8dd90b5196485b60c --verifyTokenPath=\"/home/vladlen/dev/socapp-zerossl-configure\" --certsDestinationPath=\"/home/vladlen/dev/socapp-zerossl-configure\"\n```",
+      "message": "```\ngo run main.go --csr=__ENCODED__TUlJQ3lEQ0NBYkFDQVFBd2dZSXhDekFKQmdOVkJBWVRBa0ZWTVJNd0VRWURWUVFJREFwVGIyMWxMVk4wWVhSbE1TRXdId1lEVlFRS0RCaEpiblJsY201bGRDQlhhV1JuYVhSeklGQjBlU0JNZEdReEZqQVVCZ05WQkFNTURURTFOeTQ1TUM0ek1TNHhNekl4SXpBaEJna3Foa2lHOXcwQkNRRVdGR0YwZEhOeVpXRmtaWEpBWjIxaGFXd3VZMjl0TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFyMENYS0dqSnhDQm1SNWVHbg==__/jcijmQHo7PY07iqcF80+__ENCODED__eDgxRlpUclltUEFwVHRWdXJwdjRXY2ZtZGQ1WHpYMVlDbEI2dnRBN0NoTmRnSHhMSE0=__/21col5s3rL/2C3Cwgi94Q+__ENCODED__SUhSYzRmbjZWdW9RZkR5aml0dDhmTG9mdXJNYnJndmVBb3VBRGpvYjZhMjdhZHZrUExsV3FlSkRkNjZ5c0NaSGhaWFROVE9xZndHYk1tb3VUYWt4UEVYMXBUUVVmSVpHWGlYa3J5bnp4dWp6dA==__+__ENCODED__V0pCMURQMm56UGp2SGR4MnVDbjZld0czQ1U5TFh0NVFXeFpvYXhyVXpnNjZocllXT2kyMmhT__/__ENCODED__cEw5STNFcmFTcmJmR3BxVGdHZDh4UW53MXlJeDFZNUdRbzhzenlJOEkyZ1RFZ1o=__+__ENCODED__R3laWmhjeDR2eHF0eUhkOW13SURBUUFCb0FBd0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFGRw==__+yW/d9YNl9XXy0i3HqBxz70SEysCM+cFgr+__ENCODED__NEdBTVFvOElheWNXTll0MTVGdGZyQXJIYXk4U1FrYTdKMXB6bUppVnlsSUM2ZVpkZDBJOXNqYmNjUVc4a0I0SEw1d2toWE45__+fOsBOEtul6xKhhhuSC7eSRZOcwkUDWs+__ENCODED__emttVDFKYUhRSUZjemRBaUpncGsyV0JmY0xmYlcxZWZFYVQ3ZXpIOU96VXkxeWZ5dDF6N21IU1BxVkFBckRvbE5mSE9vT0pscU5FUGVmanhtSWR1VQ==__/Pu/ngDQPaOn7tVz2vquKcQtSgN+GFa50a8zytkUfPEnxAFbug8oBNswMdCArQAP+VHFAeEIAmNeVIIVEGbLlvdu9LSg/mIvBFVoLkyaztEmbtedHI8= --ipAddress=157.90.31.132 --accessToken=d2b079ee9c3314f8dd90b5196485b60c --verifyTokenPath=\"/home/vladlen/dev/socapp-zerossl-configure\" --certsDestinationPath=\"/home/vladlen/dev/socapp-zerossl-configure\"\n```",
       "files": [
         "socapp-zerossl-configure"
       ]
@@ -2587,7 +2587,7 @@
       "id": "1xitoxiekinb58p3bqpmteoqno",
       "created": "2024-11-16T16:55:13Z",
       "username": "vladlen",
-      "message": "```\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGhLJOtvB3JP3GAs2GAiUoRcd5IqBDauQmtGdJTA7razguketvoTWXFuR+K4UKDYQmP758cMEl0jLe7Ioc9NUSSsMSL4kEZ2xf6UQWlYsN8gV1WTGSypcmroBde2f1Ji6Mc0Pi5VLJ8JpeS2qziM7BlcOwo/GErGuzAhRrH3Vl4TwOuAadio8I2qejVoEBkHxT8+/GLpiAk2iuIdhCukeM6QlBNE7HEwO/mN9wvKhIvgwycx+eD08jzsNgin0SMdiDG/yOXGqTA/NFDOSdfl9UK7bRcCRX3cxADGgOnieq3DS6/NHnzKLRsUYZtXY+WbTWURDPne27y2scnnGyaZ5gsxOPEgBuGnPxI531L5stpvXZrZmh+MpODqarhy2JlgpcPVu6wmv2WMPB3b9kLUL+bDOhGBinJJd010YsNP7qrjsKN2czXVLwgHcGQrpEFyQ8UXNNdCYzTDJ0qdaIjrAlWkvI7wUgfAcveuyzsH7xWIGhaCJUYc0dA9gs8Gzm78s= vladlen@vladlen-VirtualBox\n```"
+      "message": "```\nssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQmdRREdoTEpPdHZCM0pQM0dBczJHQWlVb1JjZDVJcUJEYXVRbXRHZEpUQTdyYXpndWtldHZvVFdYRnVS__+__ENCODED__SzRVS0RZUW1QNzU4Y01FbDBqTGU3SW9jOU5VU1NzTVNMNGtFWjJ4ZjZVUVdsWXNOOGdWMVdUR1N5cGNtcm9CZGUyZjFKaTZNYzBQaTVWTEo4SnBlUzJxemlNN0JsY093bw==__/GErGuzAhRrH3Vl4TwOuAadio8I2qejVoEBkHxT8+/GLpiAk2iuIdhCukeM6QlBNE7HEwO/mN9wvKhIvgwycx+eD08jzsNgin0SMdiDG/yOXGqTA/NFDOSdfl9UK7bRcCRX3cxADGgOnieq3DS6/NHnzKLRsUYZtXY+__ENCODED__V2JUV1VSRFBuZTI3eTJzY25uR3lhWjVnc3hPUEVnQnVHblB4STUzMUw1c3RwdlhaclptaA==__+MpODqarhy2JlgpcPVu6wmv2WMPB3b9kLUL+__ENCODED__YkRPaEdCaW5KSmQwMTBZc05QN3FyanNLTjJjelhWTHdnSGNHUXJwRUZ5UThVWE5OZENZelRESjBxZGFJanJBbFdrdkk3d1VnZkFjdmV1eXpzSDd4V0lHaGFDSlVZYzBkQTlnczhHem03OHM=__= vladlen@vladlen-VirtualBox\n```"
     },
     {
       "idx": 357,
@@ -5925,7 +5925,7 @@
       "id": "z91a8ryzo3bric4tc5kmdn5j3y",
       "created": "2025-01-21T13:36:57Z",
       "username": "admin",
-      "message": "```\n2025/01/21 13:32:29 main.go:34: Listening on port 8091\n2025/01/21 13:32:41 admins.go:46: SELECT id, username, password, register_dt FROM admins WHERE username = 'user1'\n2025/01/21 13:32:42 admin_tokens.go:30: INSERT INTO admin_tokens ( admin_id, token ) VALUES ( 1, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiZXhwIjoxNzM3NTUyNzYyfQ.kmnhvcPh0YODVKSfkiFyzE8G2jnzAHUd_fxXNABQLDw' );\n2025/01/21 13:33:09 admin_tokens.go:47: SELECT at.id, at.admin_id, at.token, at.creation_dt FROM admin_tokens at INNER JOIN admins a ON at.admin_id = a.id WHERE a.username = 'user1' AND token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiZXhwIjoxNzM3NTUyNzYyfQ.kmnhvcPh0YODVKSfkiFyzE8G2jnzAHUd_fxXNABQLDw'\n2025/01/21 13:33:09 ips.go:63: SELECT id, ip_address, suspicion_level, is_blocked, distibution FROM ips WHERE is_blocked = 0\n2025/01/21 13:33:09 open ./data/words_alpha.txt: no such file or directory\n```"
+      "message": "```\n2025/01/21 13:32:29 main.go:34: Listening on port 8091\n2025/01/21 13:32:41 admins.go:46: SELECT id, username, password, register_dt FROM admins WHERE username = 'user1'\n2025/01/21 13:32:42 admin_tokens.go:30: INSERT INTO admin_tokens ( admin_id, token ) VALUES ( 1, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.__ENCODED__ZXlKMWMyVnlibUZ0WlNJNkluVnpaWEl4SWl3aVpYaHdJam94TnpNM05UVXlOell5ZlE=__.kmnhvcPh0YODVKSfkiFyzE8G2jnzAHUd_fxXNABQLDw' );\n2025/01/21 13:33:09 admin_tokens.go:47: SELECT at.id, at.admin_id, at.token, at.creation_dt FROM admin_tokens at INNER JOIN admins a ON at.admin_id = a.id WHERE a.username = 'user1' AND token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.__ENCODED__ZXlKMWMyVnlibUZ0WlNJNkluVnpaWEl4SWl3aVpYaHdJam94TnpNM05UVXlOell5ZlE=__.kmnhvcPh0YODVKSfkiFyzE8G2jnzAHUd_fxXNABQLDw'\n2025/01/21 13:33:09 ips.go:63: SELECT id, ip_address, suspicion_level, is_blocked, distibution FROM ips WHERE is_blocked = 0\n2025/01/21 13:33:09 open ./data/words_alpha.txt: no such file or directory\n```"
     },
     {
       "idx": 820,
@@ -7191,7 +7191,7 @@
       "id": "dk6w55f4kpf7jy6qjbpdngx4dy",
       "created": "2025-01-30T05:56:38Z",
       "username": "vladlen",
-      "message": "hi, here is link generation. u can install now and test\n```\ncurl --location 'http://socappbeadmin.muzpan.com/v1/authenticate' \\\n--header 'Content-Type: application/json' \\\n--data '{\n    \"username\" : \"user1\",\n    \"password\" : \"1234567890!\"\n}'\n\ncurl --location --request POST 'http://socappbeadmin.muzpan.com/v1/clients-generate-one-link' \\\n--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiZXhwIjoxNzM4MzAyODAyfQ.cdMhsilyRR73eAivPmwzkm-5CustE64P1PezQebl0iU'\n```"
+      "message": "hi, here is link generation. u can install now and test\n```\ncurl --location 'http://socappbeadmin.muzpan.com/v1/authenticate' \\\n--header 'Content-Type: application/json' \\\n--data '{\n    \"username\" : \"user1\",\n    \"password\" : \"1234567890!\"\n}'\n\ncurl --location --request POST 'http://socappbeadmin.muzpan.com/v1/clients-generate-one-link' \\\n--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.__ENCODED__ZXlKMWMyVnlibUZ0WlNJNkluVnpaWEl4SWl3aVpYaHdJam94TnpNNE16QXlPREF5ZlE=__.cdMhsilyRR73eAivPmwzkm-5CustE64P1PezQebl0iU'\n```"
     },
     {
       "idx": 998,
@@ -8449,7 +8449,7 @@
       "id": "3fisik7hiin37bfnnhkz95ka8r",
       "created": "2025-02-17T14:43:42Z",
       "username": "vladlen",
-      "message": "like so?\n```\nssh-keygen -t rsa -b 4096 -C \"martinh@muzpan.com\"\ncat ~/.ssh/id_rsa.pub\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCpwBeR1kGPcvQFepgsweEO97bR4W0wLBbcMCdFsbbS7/6CsaF01hwkciOmDJ+KjzsTgKoJ9OOp2sx9gl2N0QLT8cAY31cQpZ1ga3Fq0HRT/1H/7TAuwaxAnS/Ko5IBPEHvI6672NYF0ejKFlnRAjB+zEXijFG+ML3wxRs3T24i+jDj5ioPjhPeU1N5t+v3gUp21ZYEZ6iNvPzGT8zXk2W81m5Ql5xYwhwrECiVWDER4HJd16ImESmv+kkWbY/8o6/7+RALIaPwMNhha2R0Gt7tiH0DvlUgbp6S/s7oY0QewZQ2mgBRQBaBpocAaXWOpb1P1GxnXr765iM/6holn1mmpobggKkqjGo1VnsnUEhvnCilVHuYKNJ7VFN1oX7zzK80jXKWuM7Hub3pNxdtVjypbnysOB+p/FTUDHvpM7VH58/qzhZvG3MEppbeiVm5FuIRKZAlEci2//tXLCU9c6tt6FNaaSGetzCLNt44BaoRmjDeD6qh02dvwkYCuTy3Wp4c553wc9xrAJTqcOFMJgf7bw166iD3Ae4GUiahVF/RkmtVlNiGGGLn8zGutHVNYsz/+C0X7W3cFJgn8+8yJkLftk0YXq1jPm1DYA9FhN0HqzEJ7BCsTFY6yABQnHZvyhXK6RnIqIchCJne8VOnx+bCoBZB+EWFxx2ZTrQoNffyjw== martinh@muzpan.com\n\n```"
+      "message": "like so?\n```\nssh-keygen -t rsa -b 4096 -C \"martinh@muzpan.com\"\ncat ~/.ssh/id_rsa.pub\nssh-rsa __ENCODED__QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQ0FRQ3B3QmVSMWtHUGN2UUZlcGdzd2VFTzk3YlI0VzB3TEJiY01DZEZzYmJTNw==__/6CsaF01hwkciOmDJ+__ENCODED__S2p6c1RnS29KOU9PcDJzeDlnbDJOMFFMVDhjQVkzMWNRcFoxZ2EzRnEwSFJU__/1H/7TAuwaxAnS/Ko5IBPEHvI6672NYF0ejKFlnRAjB+zEXijFG+ML3wxRs3T24i+jDj5ioPjhPeU1N5t+__ENCODED__djNnVXAyMVpZRVo2aU52UHpHVDh6WGsyVzgxbTVRbDV4WXdod3JFQ2lWV0RFUjRISmQxNkltRVNtdg==__+kkWbY/8o6/7+RALIaPwMNhha2R0Gt7tiH0DvlUgbp6S/__ENCODED__czdvWTBRZXdaUTJtZ0JSUUJhQnBvY0FhWFdPcGIxUDFHeG5Ycjc2NWlN__/__ENCODED__NmhvbG4xbW1wb2JnZ0trcWpHbzFWbnNuVUVodm5DaWxWSHVZS05KN1ZGTjFvWDd6eks4MGpYS1d1TTdIdWIzcE54ZHRWanlwYm55c09C__+p/FTUDHvpM7VH58/qzhZvG3MEppbeiVm5FuIRKZAlEci2//__ENCODED__dFhMQ1U5YzZ0dDZGTmFhU0dldHpDTE50NDRCYW9SbWpEZUQ2cWgwMmR2d2tZQ3VUeTNXcDRjNTUzd2M5eHJBSlRxY09GTUpnZjdidzE2NmlEM0FlNEdVaWFoVkY=__/RkmtVlNiGGGLn8zGutHVNYsz/+C0X7W3cFJgn8+__ENCODED__OHlKa0xmdGswWVhxMWpQbTFEWUE5RmhOMEhxekVKN0JDc1RGWTZ5QUJRbkhadnloWEs2Um5JcUljaENKbmU4Vk9ueA==__+bCoBZB+EWFxx2ZTrQoNffyjw== martinh@muzpan.com\n\n```"
     },
     {
       "idx": 1176,
@@ -8463,7 +8463,7 @@
       "id": "x7aux669tpr7icepeik4dk1ata",
       "created": "2025-02-17T15:21:52Z",
       "username": "vladlen",
-      "message": "dont forget please to setup, guys need to test something\n\n```\nvladlen@vladlen-VirtualBox:~$ ssh root@37.27.30.36\nroot@37.27.30.36's password: \n```\n157.90.31.132\n37.27.30.36\n195.22.157.66"
+      "message": "dont forget please to setup, guys need to test something\n\n```\nvladlen@vladlen-VirtualBox:~$ ssh root@37.27.30.36\nroot@37.27.30.36's password: __ENCODED__YGBg__\n157.90.31.132\n37.27.30.36\n195.22.157.66"
     },
     {
       "idx": 1178,
