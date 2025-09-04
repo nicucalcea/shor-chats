@@ -2,16 +2,37 @@
 function decodeSensitiveData(text) {
   if (!text) return text;
   
-  // Pattern to match our encoded data
+  // Pattern to match our encoded data (both old and new formats)
   const encodedPattern = /__ENCODED__([A-Za-z0-9+/=]+)__/g;
+  const splitPattern = /__SPLIT__([A-Za-z0-9+/=]+)__/g;
   
-  return text.replace(encodedPattern, (match, encoded) => {
+  let result = text;
+  
+  // Handle old format
+  result = result.replace(encodedPattern, (match, encoded) => {
     try {
       return atob(encoded); // Base64 decode
     } catch (e) {
       return match; // Return original if decoding fails
     }
   });
+  
+  // Handle new split format
+  result = result.replace(splitPattern, (match, encoded) => {
+    try {
+      const decoded = atob(encoded);
+      if (decoded.includes('|')) {
+        const [part2Rev, part1Rev] = decoded.split('|');
+        return part1Rev.split('').reverse().join('') + part2Rev.split('').reverse().join('');
+      } else {
+        return decoded.split('').reverse().join('');
+      }
+    } catch (e) {
+      return match; // Return original if decoding fails
+    }
+  });
+  
+  return result;
 }
 
 // const fileSelect = document.getElementById('fileSelect');
@@ -152,7 +173,7 @@ function renderChat(container, data){
     if(isSystem){
       const s = document.createElement('div');
       s.className = 'system-text';
-      s.textContent = p.message || '[system]';
+      s.textContent = decodeSensitiveData(p.message || '[system]');
       msg.appendChild(s);
     } else {
       const avatar = document.createElement('div');
@@ -172,7 +193,7 @@ function renderChat(container, data){
       top.appendChild(timeSpan);
       const bubble = document.createElement('div');
       bubble.className = 'bubble';
-      bubble.innerHTML = escapeHtml(p.message || '');
+      bubble.innerHTML = escapeHtml(decodeSensitiveData(p.message || ''));
       body.appendChild(top);
       body.appendChild(bubble);
       msg.appendChild(avatar);
@@ -231,7 +252,7 @@ function loadFileByName(filename){
   summary.textContent=''; viewer.innerHTML='';
   (async ()=>{
     try{
-      const res = await fetch('../mattermost json/'+encodeURIComponent(filename));
+      const res = await fetch('data/'+encodeURIComponent(filename));
       if(!res.ok) throw new Error('Fetch failed: '+res.status+' '+res.statusText);
       const blob = await res.blob();
       const size = blob.size;
@@ -239,7 +260,7 @@ function loadFileByName(filename){
       let data;
       try{ data = JSON.parse(text); }
       catch(err){
-        summary.innerHTML = `<div class="meta">Parse error: ${err.message}</div><pre class="node">${escapeHtml(text.slice(0,5000))}</pre>`;
+        summary.innerHTML = `<div class="meta">Parse error: ${err.message}</div><pre class="node">${escapeHtml(decodeSensitiveData(text.slice(0,5000)))}</pre>`;
         status.textContent = 'Parsed: error';
         return;
       }
