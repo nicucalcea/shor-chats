@@ -1,0 +1,215 @@
+{
+  "channel": {
+    "name": "a7-project-team",
+    "display_name": "A7 project team",
+    "header": "",
+    "id": "3x35gunsjb8axxb7ait4btqemo",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "hstt5cqfutdm7jsd4tcpwe7oco",
+      "created": "2024-09-11T21:07:37Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "7cw9xjo6d78c5j7y5kff31546w",
+      "created": "2024-09-11T21:08:15Z",
+      "username": "admin",
+      "message": "acropolis added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "abkfwn4mwfye7cxkytymckkwke",
+      "created": "2024-09-11T21:08:15Z",
+      "username": "admin",
+      "message": "john added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "fxf6dgnyjtb5fjcz4bx74ubfph",
+      "created": "2024-09-11T21:08:15Z",
+      "username": "admin",
+      "message": "alex added to the channel by admin."
+    },
+    {
+      "idx": 4,
+      "id": "tgff6ezwg3fijm4naomwm84ejw",
+      "created": "2024-09-11T21:08:15Z",
+      "username": "admin",
+      "message": "artemis added to the channel by admin."
+    },
+    {
+      "idx": 5,
+      "id": "z4khbax5j3n3jx1a93mg8g6uny",
+      "created": "2024-09-11T21:08:15Z",
+      "username": "admin",
+      "message": "hermes added to the channel by admin."
+    },
+    {
+      "idx": 6,
+      "id": "i5k7ngyuetnbzd1eztaoqthy3y",
+      "created": "2024-09-11T21:08:44Z",
+      "username": "admin",
+      "message": "iana added to the channel by admin."
+    },
+    {
+      "idx": 7,
+      "id": "ciq714d5atd6zetm8jre5y8nsy",
+      "created": "2024-09-11T21:08:57Z",
+      "username": "admin",
+      "message": "shon added to the channel by admin."
+    },
+    {
+      "idx": 8,
+      "id": "q94re63q8jfkt8jii8d9iurmxh",
+      "created": "2024-09-11T21:09:14Z",
+      "username": "admin",
+      "message": "athena added to the channel by admin."
+    },
+    {
+      "idx": 9,
+      "id": "3iazw1s5oircbjhpermg7wtx8e",
+      "created": "2024-09-11T21:10:08Z",
+      "username": "admin",
+      "message": "vic added to the channel by admin."
+    },
+    {
+      "idx": 10,
+      "id": "oytchaid4b8emj8bf16ojn1rco",
+      "created": "2024-09-11T21:18:54Z",
+      "username": "admin",
+      "message": "persifona added to the channel by admin."
+    },
+    {
+      "idx": 11,
+      "id": "iiddkidtnifi8b8or5az56yxre",
+      "created": "2024-09-11T21:22:42Z",
+      "username": "admin",
+      "message": "hephaestus added to the channel by admin."
+    },
+    {
+      "idx": 12,
+      "id": "exhcdpsqui8gtkdzut71j85gsy",
+      "created": "2024-09-12T08:40:53Z",
+      "username": "admin",
+      "message": "tvolodeam added to the channel by admin."
+    },
+    {
+      "idx": 13,
+      "id": "b4o8ytrmsfdjiq6jx1heqet4ne",
+      "created": "2024-09-12T15:31:07Z",
+      "username": "admin",
+      "message": "hi @all "
+    },
+    {
+      "idx": 14,
+      "id": "xygyfhhr8jrf3mtsy4wfygcshw",
+      "created": "2024-09-12T16:06:26Z",
+      "username": "admin",
+      "message": "@artemis hi"
+    },
+    {
+      "idx": 15,
+      "id": "x169rbs4fidsb87q6ci64894or",
+      "created": "2024-09-12T18:12:31Z",
+      "username": "artemis",
+      "message": "Hi all"
+    },
+    {
+      "idx": 16,
+      "id": "m5e9hdp91inipqs5jznjrn5aey",
+      "created": "2024-09-12T18:13:26Z",
+      "username": "persifona",
+      "message": "Good evening "
+    },
+    {
+      "idx": 17,
+      "id": "sxmfppn5m3ft7pa3oo6r9nizba",
+      "created": "2024-09-13T16:06:01Z",
+      "username": "alex111",
+      "message": "Коллеги, в продолжение встречи есть вопросы, на которые мне нужны ответы, что подготовленно идти к клиенту в понедельник.\n1.) Можно ли рассчитаться векселем, если нет фактической задолженности, так как вексель — это больше инструмент зачет требований между двумя юр. лицами по существующим долгам. Что это будет за договор, продажи векселя, передачи векселя или что?\n2.) Любая оплата за вексель автоматически попадет на фин. мониторинг в банке у покупателя, соответственно нужен готовый пакет документов, который клиент должен быстро отдать в свой банк, чтобы пропустили платеж.\n3.) Нужна полная юридическая механика покупки векселя и взаимодействия с ним для клиента, так как данную последовательность, похоже, нужно прописать будет в агентском.\n4.) Механика бух учета и налогообложения векселя и задолженности, связанной с ним для клиента. Гайдлайн как клиенту вести бухгалтерию.\n5.) Как будет строиться обмен документами между А7 и клиентом (в условном Владивостоке), как быстро, как пересылаются доверенности, как даются поручения на индоссамент и тд.\n6.) Что будет отправной точкой по отсчету срока на оказание услуги (исполнения обязательств) А7-Агентом? Сейчас это дата поступления покрытия. Как клиент проследит и может быть уверен, что это произошло в нужный ему момент, а не когда смог А7, учитывая, что он не держит в руках бумагу и он отдал все на откуп по доверенности. Как клиенту будет приходить информация, что передаточная надпись сделана?\n7.) Какая будет механика возврата, если услуга не исполнена и платеж вернулся? Нужна договорная обвязка по возврату покрытия для агентского договора, которая также будет регулировать возмещение фактически понесенных нашей инфраструктурой затрат (в каком виде и как, если у нас был только вексель) на проведение платежа."
+    },
+    {
+      "idx": 18,
+      "id": "g8g54wfdhbbptc3n9quw8exnur",
+      "created": "2024-09-13T17:12:51Z",
+      "username": "alex111",
+      "message": "И дайте, пожалуйста, полное планируемое наименование а7 агента"
+    },
+    {
+      "idx": 19,
+      "id": "s4m4cqq9hb8xxr33q981a9hzmc",
+      "created": "2024-09-13T20:14:31Z",
+      "username": "hephaestus1115",
+      "message": "ООО А7-агент\nС псб уже делаем документы"
+    },
+    {
+      "idx": 20,
+      "id": "p9ckyyah67b4xdq6e7exuhiw5a",
+      "created": "2024-09-14T15:24:42Z",
+      "username": "admin",
+      "message": "anastasiamw added to the channel by admin."
+    },
+    {
+      "idx": 21,
+      "id": "8oju8b4rfbbcmfsahygafjswqc",
+      "created": "2024-09-14T15:28:21Z",
+      "username": "anastasiamw",
+      "message": "Добрый вечер! Как я понимаю, что команда Алистера входит в А7 агента, давайте согласуем кандидатуру ген дира"
+    },
+    {
+      "idx": 22,
+      "id": "jmfgc555eiymmxjgg5ta74g68y",
+      "created": "2024-09-14T16:36:19Z",
+      "username": "acropolis1201",
+      "message": "Добрый вечер! По последнему пункту решение пока не принято."
+    },
+    {
+      "idx": 23,
+      "id": "cxu1xoyxp3bb886cwpyd78js4h",
+      "created": "2024-09-14T18:47:57Z",
+      "username": "anastasiamw",
+      "message": "По пункту ген дир решение ПСБ  это ИШ"
+    },
+    {
+      "idx": 24,
+      "id": "o3oebegm4ff97r13f6twf4omhe",
+      "created": "2024-09-14T18:48:20Z",
+      "username": "anastasiamw",
+      "message": "Далее они вмесое решать кто вхолит"
+    },
+    {
+      "idx": 25,
+      "id": "soy5n3d5e7frpq715r11dxk4ia",
+      "created": "2024-09-19T22:04:54Z",
+      "username": "shon853",
+      "message": "Add Python please "
+    },
+    {
+      "idx": 26,
+      "id": "wm3kf9yt1bgwj8a7y65byketia",
+      "created": "2024-09-19T22:05:02Z",
+      "username": "admin",
+      "message": "python added to the channel by admin."
+    },
+    {
+      "idx": 27,
+      "id": "9p8issniiibmfxeq1ymdyxdfgc",
+      "created": "2024-09-20T14:03:28Z",
+      "username": "admin",
+      "message": "@python removed from the channel."
+    },
+    {
+      "idx": 28,
+      "id": "kpbdtepf7i8m5mofisec3mur9c",
+      "created": "2025-03-23T14:50:56Z",
+      "username": "vic",
+      "message": "@vic left the channel."
+    }
+  ]
+}

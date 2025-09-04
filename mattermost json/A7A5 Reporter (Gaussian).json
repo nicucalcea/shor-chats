@@ -1,0 +1,162 @@
+{
+  "channel": {
+    "name": "a7a5-reporter",
+    "display_name": "A7A5 Reporter (Gaussian)",
+    "header": "",
+    "id": "kdx68aqc3bda5euyp86nqwoo9e",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "59f6f3nf7py9idtmuk79zujfjh",
+      "created": "2025-04-07T14:10:37Z",
+      "username": "yevgeniysokolov",
+      "message": "yevgeniysokolov joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "kfa1i6uuc7nsurzmnbmdpm7pmh",
+      "created": "2025-04-07T14:10:57Z",
+      "username": "yevgeniysokolov",
+      "message": "sergeyl added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 2,
+      "id": "cwoapg3oi7btbgwugxyp8qognh",
+      "created": "2025-04-07T14:10:57Z",
+      "username": "yevgeniysokolov",
+      "message": "igorsmi added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 3,
+      "id": "usz37jy1wirojcux1sptmci5cr",
+      "created": "2025-04-07T14:22:19Z",
+      "username": "yevgeniysokolov",
+      "message": "",
+      "files": [
+        "A7A5 Reporter.pdf"
+      ]
+    },
+    {
+      "idx": 4,
+      "id": "p4faa6w1mib63q8sx8rpbon9xh",
+      "created": "2025-04-07T14:23:20Z",
+      "username": "yevgeniysokolov",
+      "message": "vic added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 5,
+      "id": "g1j77b697jdwurfrwz691uwj1h",
+      "created": "2025-04-07T14:23:20Z",
+      "username": "yevgeniysokolov",
+      "message": "admin added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 6,
+      "id": "iz7npo4nw3dw3ye4xw6fwpwkuw",
+      "created": "2025-04-07T14:27:19Z",
+      "username": "yevgeniysokolov",
+      "message": "\"А по OTC-сделкам данные по почте получаем?\" - я\n\"отс - пока не формализовано, будет экселевский файл в том формате, с теми столбцами и тд, что вместе определим. получать будем в телегу. нет проблем скидывать куда-то\nпо биржам - по апи интеграция.\nGrinex and Meer\nмеер - это под капотом тот же гринекс, думаю)\" - Арнольд"
+    },
+    {
+      "idx": 7,
+      "id": "kjr1tmcmhbgc9cjwrr9kitgkrw",
+      "created": "2025-04-07T14:32:48Z",
+      "username": "admin",
+      "message": "admin updated the channel display name from: A7A5 Reporter to: A7A5 Reporter (Gaussian)"
+    },
+    {
+      "idx": 8,
+      "id": "ihsoqnrcwjbqdcdmg6ah4xzbaa",
+      "created": "2025-04-07T14:34:41Z",
+      "username": "yevgeniysokolov",
+      "message": "Access to Grinex (Garantex)\nhttps://garantexio.github.io/#695633f18a\ntradestable - это бот который в паре с usdt торгует\n\"LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb2dJQkFBS0NBUUVBaU5CTkVOSGt0ZGM4V0NYZzZ5alVwY1RrRm5xTXR1S2x4TlY2ZDdGMElERjZVSUkyCmczWHBGYTEzN3FzOHJNeXdtNDVqTTI4bDErNGNIbFptQmJWVEhWTlVBblBLeEtjaTlXaTNJVjhDNnVIYWZISUkKcVdZRGlGSHB0Kzk2Z3ZjTi9JVUdZOHV3cVNHRUZxR0doekpzV3o1SVZrQWR6eVpuZDU0dTRPRGw3eDNKRUZvLwpkai8vSDNNMjlmRXUzcGJTR0hneTZNUWhiYnB0Z1h6SEphVEVzaTdMREdvSkN5NW8yK04xeVc0dWpkUEYvSnA4CjdRNWdJQ01Rc2xDazJjMXFlZjRhVm55bkdoQXpQZ0xyMVhxaURjbWtpUU5JdUxzODF0dmxMNHl3NXZ0azRLMUEKUHluSHRweXArQXVBaURqaWRtdVZGbzBCM0VzVjYyNHV4Ny9Ka3dJREFRQUJBb0lCQUJIMVF1TUlwS2NERFRFRwpLbmkrT2tpc0NHMjBRUHQ4ZlMvUi92K1pDUVRLR2M1Wmc5aExtNEJmUXYvT29EODZVRVdLM01DU2xWQVE1QnROCi9KbVdqSENyK3c5UXJhRS9Jd1U5YlNtY2lXQ0FBWDFya1J3b2YzYmU4YU9xeVNwSm9zb0RtQUYwdjNLT2dLMEwKeWdHOXFrckJFOGo3ejRNeVVrc2tOZTVmVEM4azg1YmVLa1UrRURGYS91TE5OUGZoNnE4dWFoUnkweEJINzVFbgp6SkxiMXo1Z0V0bGJkUlg5VEl5Z0JtdTJBQ1ZGRWRoOEVCMG5vWk5JUW8wS1JjVDIwNExIM0Y4dEJJR2hvUnNyCkJRMGtnWisvckRLUGlFTTR4c0s0ckV1Q09ta0xDYkpDVzhqWFp0U2RMdmNISkdGdEM4bG1ucWJCQVVUVjJqSUUKVndiQTYrRUNnWUVBdnh6OW5uakk1SlhNSkVXRVdhd1N3UktLMWZ1a1JvNERvWkRoaStHeWNOVklFbDhPYzEwSQpJc09Oa2xpdWp4VG5SR3pmU1U4VmpkYUVncWQ2NDIwK0ovQ0lEdSswSGw0N1Z1azlRQWQvclBmYzhlcEdnN3RnCmpMWHYrS3F3VWhodE1OV2g0dlp1SmVCWkl2YmNpQ00wNUQ2Uzd6SktjaXo4c0gvemhQekkrZ01DZ1lFQXQwTy8KeXZwMXBIVzg3ZFZRWmswazNvZE1VOGpIK3V2czRrUS93bCtLZ1FmN3ZxTFZhcEREKzRBaEJrYlRLMUJCbURpNgpQYzdpVk5XbTZZc2ZlYVc0TkYrUEREdlJyZ0M5ZjFsY2ZDekVZcml6RTBXRVZNWS9xRGUyMmtCUndPempBK3hlCjZ0K01RVTZacnU5MnF4VXJIc3FXYVhxYXlZV2NHTkszNHd3TXBURUNnWUFTeDU2RWZBb0JyRmFyR2NtdnBpRVIKcCtqTXJqV3VXVFl5SWpLSHRGMzhpSGpVbFZLdU0yNGhQR1lsQTJIajNZSDhUMWFCdGF2QWpGdnBHdHdRalNPVwplU1JsazFoM3czckJSNW9sT0pkclA5QU9WWjhvUXJseUdrN0NlTU5xemN1dENORW5wRitlaVRVNUlsajVaN3hDCjBZTk96ZnBTemVqbXp5djIzWUJDVVFLQmdCdjlHOWlMSWRacEtONkYybzZWTDVGUXhvWnhQcUdDMEozSjRKYjEKOG5nOFdPVkhoeUtNVTNJZ29tcUwvSW83NnBpdDZUdXhVZjIwMTVZSmFsZ3d5QTR2bmZBM1hwR2RpVk5ldVhJNQpnQkMzdHBtMTN6ejNQaGVaMHJKSWFuUDFlY0pLb2tCcXZjZm5raThXWVdCRmpsMVlnVnBBb0Uwd3U2Tks0MHlvCnRYR3hBb0dBV0ZISmFwR29wL28wdkhWcTVSeXJQNlBnVGRoU3BSZ2V0bUt5cmsyMW9RUWY5RVNYTm5XbmZlZGYKK055MmVEbDdPREljS1pVWXlKcGdNalBHNVR0VUJwczJQeVJTd1VzdW50V0JrWHZjWWxycndZTUw3OElTRWxUMAo0ODB6S21tTHpKTzlxTmNDT05oYnJ1Ylc2am5kSko1R09YR241NFdEMkhaaTUycUlORlE9Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n\nПубличный ключ\n\nLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFpTkJORU5Ia3RkYzhXQ1hnNnlqVQpwY1RrRm5xTXR1S2x4TlY2ZDdGMElERjZVSUkyZzNYcEZhMTM3cXM4ck15d200NWpNMjhsMSs0Y0hsWm1CYlZUCkhWTlVBblBLeEtjaTlXaTNJVjhDNnVIYWZISUlxV1lEaUZIcHQrOTZndmNOL0lVR1k4dXdxU0dFRnFHR2h6SnMKV3o1SVZrQWR6eVpuZDU0dTRPRGw3eDNKRUZvL2RqLy9IM00yOWZFdTNwYlNHSGd5Nk1RaGJicHRnWHpISmFURQpzaTdMREdvSkN5NW8yK04xeVc0dWpkUEYvSnA4N1E1Z0lDTVFzbENrMmMxcWVmNGFWbnluR2hBelBnTHIxWHFpCkRjbWtpUU5JdUxzODF0dmxMNHl3NXZ0azRLMUFQeW5IdHB5cCtBdUFpRGppZG11VkZvMEIzRXNWNjI0dXg3L0oKa3dJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==\n\nAPI UID\naa795f60-cfb2-4743-844d-bdc6e6ba3b60\nДоступы\nReadonly\nРазрешенные IP\n0.0.0.0/0,::/0\"\n\na7a5 - это в паре с рублем\n\"Приватный ключ\nLS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBcmZYNUNuK01WT3FGOWNaMWxNMlNKbnR3VFVDNHpkVUg2dFFxMHVDZzNsdXBLZVA5CmV4OExEK3E5SWE1VHRaMW1QTjlRVzFDN1lQbmcvYlVrOCsvUmZwSW9OTDgwTysvdXg1OXpUT0JqMWd0R09KZE8KcUhtYUpSWVBMeS8rdzBwOEJKNjdiS05wQ3V3cUZtMkREbi9NdDV1RHpmUVZKUEM1TTdRSGRMdFNhOS81MDFmTQpweFg5dkoyZEM0SDZaTnp0ZktLV2lHencxVlFVN1JHYi9kVytyZUFsdlVrcG5MVU50NHFlc2g0WExGZFRBalFSCjNybDN6N1VDRXNXaTNNNVBOQW9GVVVrdHRzbUw1a1VqZ3hHcWFsNzVOUm1wRy81ZGtyV1pyZ09oaFIyeTNaU1YKNmo5SUZOOG5pQnFRNzFwdVRDeW5pRkdyRzg0K25McDZ3R0ZOcFFJREFRQUJBb0lCQUFtQllEdEhudVpnN2pMdwp4aW44VlprT3M2TTAveVFZR05lbkFqUUZuQ1NxUTRNTGR5Vk1HL0dodFBYckxaM0YzUGxFaG9LRzFjWkZ3UnA3CjFHb1QxNUdmOE54NCtpU3dSbzdYMHBnSHhzekNUdkwycVpDaEhHQWNaWFlCbkYwVmE5Tmd6UUx4cHVLMjV0SFUKNkExWnhGamdBWUsyYkpWWkpmV0NSOG9FRmt2WW1PcU1tZ1lnTnlMSDhKNnkzVFRvMXF6dzdjV2ZGdXdFNWpSWAphUmlYVGJFRjRraS9UK2FiaG9IVjNsWGJCVlZTeWJmdG1WMUJTMDBtSEx5aTc1K0JQbWpta0RCdFErNWdaRmtJCjhaQjdMYnY0TEtuVlpjTXI5bkFwWnBTWnNxUElsT1ZvQkl3MnY3MXd6a1gwaTB5SkloenF2WUlHRElKdVNWRHQKTmdWM282RUNnWUVBOGIxYXFjOTJzaEJyaVArcmtLS1YrL1dEM1ZhOFo2WkwxYjd2ZVp6dHdHT0phRWxBN1o5ZApGY3ZGUjlGQXZ2Tk1RaXJkcE00ZVo5WWpPZDNLZXJ1c005SkZ4MWh4Rkp4bnBVYk1ZNjE4STE0dkxHOU8xb0ZtCnFuZlpiQjlXWXU5ZWhFa2pZMGZER0kzaFViOHdrZVBUcGFpa2ZqdEtNY0E5NU5mM3JkbXNSdTBDZ1lFQXVEa04KZDBvaEs5eE5TV2NGckhsSXdxV3NnV1RRVHpMbnhtdElrRlBkNUt5WUlVY0YrTXZYMmw3WElMVzdUWG1XcmY0MApZR3YrQ0xrT3JqUUE3Y05yNDV4UlNFUmYrTkRlaGw1M3h2UHAzbE1KeTFlZjBNYW1LdzIzdkwrZ1hBRDJyZ3RuCnNYQkhialdHK0diODdDcVgwcmNQQjVORE0wUEYxNUt1Ymc4ZlVwa0NnWUFITi9WT0h0RFhqbC8zcmxMTU5kNnUKc0cwb25kOXdaT25jengvTmpOOFlvS0JJeWU4emFVL1pSOFZ6V0k5TFpHNkJoMUFwRExLaHZTWStJeDVadmVMdApoVGpxTS96a2Rhc3VwMGVSTG13SGpsZHdSejZlYnl6R3FGK0l1QUxYWDNoK0VNVUt3T2pWZ2Q4Wmx0RDNla3NtCnBqdUxQWEFBdmxIYTFJd2oxOTBxSFFLQmdHL3IrWXBudHc5Mm9GM2dBVXB2eFF5OHFybFNEbHlQaU5DN2pUSmkKUVlVVWRyaUE5ZGZad0NJalRIL0s2U2lBbmxMSEJmc3VvUCticnBlWGNKa0RDU0VYYnlxQW4rNEN0NjdhNWRveApoZnhVWnJiclhXVHh5ektNK3Z2cFQvdVZla2p6Rk9Sd1duVlNmOVdhZkQ3ZkFhNDdHUjU1RVhLcjBoN09OcnNXCjVPakJBb0dCQU94d2sxOTZxWW44N1NLbjFFd05FSWdwM0U1MDN1MnFSYTNtOEZjZ0tVUTFGaSt5cEZ3YUY0TWQKdUphZ005WHRvYzlTUS81bW9kdVpXVUNmallyMkFhS0VVQXJpd1Rlbmd2ckVhSU84NlR3K1BVNko2L3Vud2tHdApGb3Z1VnIyaTNUU3UxWHVSbCsvNjIzSEJXT2lTSkxjRlNkc045M3FqUERDZjRtcDYrSCtMCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n\nПубличный ключ\n\nLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFyZlg1Q24rTVZPcUY5Y1oxbE0yUwpKbnR3VFVDNHpkVUg2dFFxMHVDZzNsdXBLZVA5ZXg4TEQrcTlJYTVUdFoxbVBOOVFXMUM3WVBuZy9iVWs4Ky9SCmZwSW9OTDgwTysvdXg1OXpUT0JqMWd0R09KZE9xSG1hSlJZUEx5Lyt3MHA4Qko2N2JLTnBDdXdxRm0yRERuL00KdDV1RHpmUVZKUEM1TTdRSGRMdFNhOS81MDFmTXB4WDl2SjJkQzRINlpOenRmS0tXaUd6dzFWUVU3UkdiL2RXKwpyZUFsdlVrcG5MVU50NHFlc2g0WExGZFRBalFSM3JsM3o3VUNFc1dpM001UE5Bb0ZVVWt0dHNtTDVrVWpneEdxCmFsNzVOUm1wRy81ZGtyV1pyZ09oaFIyeTNaU1Y2ajlJRk44bmlCcVE3MXB1VEN5bmlGR3JHODQrbkxwNndHRk4KcFFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==\n\nAPI UID\n5a7d7b3c-2649-4bd8-b240-031a21ffa026\nДоступы\nReadonly\nРазрешенные IP\n0.0.0.0/0,::/0\"\n\n\"Перешли, пожалуйста, это сообщение:\n\nhttps://dauth.grinex.io/api/v1/sessions/generate_jwt\n\nВот сюда отправляем запрос для получения JWT, но приходит Application Is Not Available\n\nТокен получить не можем, чтобы дальше зарпосы слать. Остальные  методы АПИ работают, но требуют токен для авторизации\"\n\n\"https://auth.grinex.io/api/v1/sessions/generate_jwt\""
+    },
+    {
+      "idx": 9,
+      "id": "c9gynhsw4ine8fgbdufibs7zjo",
+      "created": "2025-04-07T14:35:34Z",
+      "username": "yevgeniysokolov",
+      "message": "@admin \nGaussian - what is it?)"
+    },
+    {
+      "idx": 10,
+      "id": "8jpkoiogmbd79xgf8bfzpxpcyr",
+      "created": "2025-04-07T14:36:11Z",
+      "username": "admin",
+      "message": "base64 encoding"
+    },
+    {
+      "idx": 11,
+      "id": "nu83wwg6hbyk3yausg6u4x14nc",
+      "created": "2025-04-07T14:42:19Z",
+      "username": "yevgeniysokolov",
+      "message": "@admin \nArnold has for us the second project\n\"маркет мейкинг - будем на разных новых биржах с токеном а7а5\nчтобы токен норм торговался, надо предоставлять в стакан ликвидность (токен наш + usdt)\nобычно это десятки и сотни тысяч долларов\n\nесть у нашей команды опыт маркет мейкинга между разными биржами и оптимизации таких процессов?\nкак будто можно было бы на одной основной бирже держать много ликвидности - сотни тысяч долларов\nа на других по 20-30 тыс в usdt и столько же в a7a5\nи когда объем ликвидности падает, то с основной биржи переливать туда автоматически ликвидность\n\nэтим пока не надо заниматься. спрашиваю просто, есть ли такой опыт\"\n\nIn English\n\"Market making – we’ll be present on various new exchanges with the A7A5 token.\nTo ensure the token trades well, we need to provide liquidity in the order book (our token + USDT).\nUsually, this means tens or even hundreds of thousands of dollars.\n\nDoes our team have experience in market making across different exchanges and optimizing such processes?\nIt seems like we could hold a large amount of liquidity (hundreds of thousands of dollars) on one main exchange,\nand keep around 20–30k in USDT and the same amount in A7A5 on other exchanges.\nWhen liquidity volume drops, we could automatically move funds from the main exchange to those that need it.\n\nThis doesn’t need to be done now — I’m just asking whether we have this kind of experience.\"\nHave we such experience?"
+    },
+    {
+      "idx": 12,
+      "id": "dgar81aw1jy95ye4uj4wygh3qo",
+      "created": "2025-04-07T14:43:16Z",
+      "username": "admin",
+      "message": "lets Get Arnold and relevant people to our office to discuss please we need to understand more not text in mattermost as a project description"
+    },
+    {
+      "idx": 13,
+      "id": "joiptzgmq7ydiqfdt3dqkfsy4w",
+      "created": "2025-04-07T14:44:06Z",
+      "username": "admin",
+      "message": "and ask him to come with some solidified information/document/drawing if he can for each project"
+    },
+    {
+      "idx": 14,
+      "id": "uoara1uy1tbmtk3g4ikfmp8ayo",
+      "created": "2025-04-07T14:45:25Z",
+      "username": "admin",
+      "message": "please check with @agata1159 she has access to mine and Victor's calendar :pray: "
+    },
+    {
+      "idx": 15,
+      "id": "kh918k7rsjng9qwdgmz3kwmrww",
+      "created": "2025-04-07T15:00:16Z",
+      "username": "yevgeniysokolov",
+      "message": "A7A5 Reporter.pdf (see above) - project description\nMarket Making - he has no project description (only text above)"
+    },
+    {
+      "idx": 16,
+      "id": "1pmbuo5yh3yd5r1zd71z9ge6ya",
+      "created": "2025-04-07T15:00:50Z",
+      "username": "admin",
+      "message": "ok set a meeting with @agata1159 please"
+    },
+    {
+      "idx": 17,
+      "id": "6fbxpgr39fntjkn8khukebm1cw",
+      "created": "2025-04-07T15:27:39Z",
+      "username": "yevgeniysokolov",
+      "message": "A trading platform for A7A5 for non-cash payments - the third project from Arnold in the future (A7A5 Trading)\n\nA7A5 MM (Market Making) and A7A5 Trading – two projects planned for the future.\nWe are now starting A7A5 Reporter."
+    },
+    {
+      "idx": 18,
+      "id": "c6i77cniebr8ixj7p6o8jqix1c",
+      "created": "2025-04-08T22:39:13Z",
+      "username": "admin",
+      "message": "A couple thing here:\n1. Since the data we recieve is unstructured it will not be wise to use rdbms I think we will use a document store\n"
+    },
+    {
+      "idx": 19,
+      "id": "s3ife915otn63euu43xzbnimuh",
+      "created": "2025-04-09T15:58:30Z",
+      "username": "yevgeniysokolov",
+      "message": "martin added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 20,
+      "id": "4koqnecont87mjr6geer6bcczo",
+      "created": "2025-04-09T15:59:13Z",
+      "username": "yevgeniysokolov",
+      "message": "Vladlen will be teamlead"
+    }
+  ]
+}

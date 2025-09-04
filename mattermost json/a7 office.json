@@ -1,0 +1,138 @@
+{
+  "channel": {
+    "name": "a7-office",
+    "display_name": "a7 office",
+    "header": "",
+    "id": "n5tirnch5inbbqinwqnninc9ur",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "hcpgm6kc6tf99roxpi3xnemcfe",
+      "created": "2024-09-22T09:42:39Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "yizdrjprhbfb9rrhxxdaa9qsuc",
+      "created": "2024-09-22T09:42:49Z",
+      "username": "admin",
+      "message": "shon added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "55r117ngkj8nfyqrdy5ifs1iyh",
+      "created": "2024-09-22T09:42:49Z",
+      "username": "admin",
+      "message": "vic added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "7ibd7jsidb8bffb1nsjycgzwdy",
+      "created": "2024-09-22T09:43:05Z",
+      "username": "admin",
+      "message": "hey guys please join Jitsi to talk about the new office software"
+    },
+    {
+      "idx": 4,
+      "id": "ed45c9j3y7gubdn8xyhiqde1iy",
+      "created": "2024-09-22T09:43:12Z",
+      "username": "admin",
+      "message": ""
+    },
+    {
+      "idx": 5,
+      "id": "ns6tcqkzfby9tb9iu76i5ujxuh",
+      "created": "2024-09-22T09:54:16Z",
+      "username": "admin",
+      "message": "@vic ?"
+    },
+    {
+      "idx": 6,
+      "id": "pcsgrk9rxp85dbfm6s91hsym5h",
+      "created": "2024-09-22T09:54:33Z",
+      "username": "vic",
+      "message": "Sec "
+    },
+    {
+      "idx": 7,
+      "id": "q94dqbpu6383meirzssw16ndcy",
+      "created": "2024-09-22T09:59:13Z",
+      "username": "vic",
+      "message": "Sean??"
+    },
+    {
+      "idx": 8,
+      "id": "f3xmntttu3ru3q8t33q7qotwqo",
+      "created": "2024-09-22T10:00:30Z",
+      "username": "shon853",
+      "message": "I cant use jitsy "
+    },
+    {
+      "idx": 9,
+      "id": "b7khdb9hi7ydiftpwi95i3mwjh",
+      "created": "2024-09-22T10:00:49Z",
+      "username": "vic",
+      "message": "Что за бред? "
+    },
+    {
+      "idx": 10,
+      "id": "n1dfadnnupdp3dwpzczt33p4ae",
+      "created": "2024-09-22T10:00:52Z",
+      "username": "admin",
+      "message": "why?"
+    },
+    {
+      "idx": 11,
+      "id": "iwabyuy6m3fpieeatdbm7odf3c",
+      "created": "2024-09-22T10:00:59Z",
+      "username": "vic",
+      "message": "Use it in browser "
+    },
+    {
+      "idx": 12,
+      "id": "xedr8daq3bb5djndhr83y1fgka",
+      "created": "2024-09-22T10:01:04Z",
+      "username": "shon853",
+      "message": "I was hearing you but you dont"
+    },
+    {
+      "idx": 13,
+      "id": "perjdqc1qfnexxnc5eski9u8xr",
+      "created": "2024-09-22T10:01:26Z",
+      "username": "shon853",
+      "message": "Let me login from pc"
+    },
+    {
+      "idx": 14,
+      "id": "7tuaoxqg8iy33n579t7kuqwt9c",
+      "created": "2024-09-22T10:01:34Z",
+      "username": "vic",
+      "message": "Allow using microphone "
+    },
+    {
+      "idx": 15,
+      "id": "daqd6qaqybyrx8hnugyajda41h",
+      "created": "2024-09-22T10:02:26Z",
+      "username": "admin",
+      "message": "open it incognito it will ask for m=permissions"
+    },
+    {
+      "idx": 16,
+      "id": "k4556pqw4tdjtbst3esp54k3dc",
+      "created": "2024-09-22T10:02:28Z",
+      "username": "admin",
+      "message": "https://jt.muzpan.com/newoffice-pndpfrqpfnwifecdhxwj"
+    },
+    {
+      "idx": 17,
+      "id": "wid9dzg91jdbbjkh4zuqckearc",
+      "created": "2025-03-23T14:51:06Z",
+      "username": "vic",
+      "message": "@vic left the channel."
+    }
+  ]
+}

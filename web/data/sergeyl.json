@@ -1,0 +1,677 @@
+{
+  "channel": {
+    "name": "hdrjsab4n3fr5rku8onbay6k5o__txrgtsrcujybdc4uxmy4uacd8r",
+    "display_name": "sergeyl",
+    "header": "",
+    "id": "md1i98ekw7dctnr4zwroiesbnr",
+    "team": "",
+    "team_id": ""
+  },
+  "posts": [
+    {
+      "idx": 1880,
+      "id": "1xwz3q84fjgm5xbq79n8qdqkzy",
+      "created": "2025-07-22T17:08:46Z",
+      "username": "sergeyl",
+      "message": "Lets not spread all guys everywhere.. it will become unmanageavlble. We wont know tasks that are spread across billion of chats"
+    },
+    {
+      "idx": 1881,
+      "id": "oeoia9k3wi8xjmfrjyfd59ygwc",
+      "created": "2025-07-22T17:08:54Z",
+      "username": "sergeyl",
+      "message": "You re making it unmanageable"
+    },
+    {
+      "idx": 1882,
+      "id": "m1xhg7qumfbzpgqaac5tcieu6o",
+      "created": "2025-07-22T17:09:07Z",
+      "username": "admin",
+      "message": "these are all people related to Matomo"
+    },
+    {
+      "idx": 1883,
+      "id": "ocfw1xh3jtbctqjgwnw9gdrmnw",
+      "created": "2025-07-22T17:09:41Z",
+      "username": "sergeyl",
+      "message": "Its unmanageable. We need not per projects, but devops should be in devops task group. Others wont see their tasks"
+    },
+    {
+      "idx": 1884,
+      "id": "k6hp649hmjrffc19fmuu7o98jc",
+      "created": "2025-07-22T17:10:46Z",
+      "username": "sergeyl",
+      "message": "We have single task queue.. if we will add everyone everywhere - everyone will fight for resource without central task management system, in private message channels"
+    },
+    {
+      "idx": 1885,
+      "id": "3fdph5yb73n8ipuytre9h5qxoh",
+      "created": "2025-07-22T17:11:14Z",
+      "username": "admin",
+      "message": "you are panicing over trivial chat"
+    },
+    {
+      "idx": 1886,
+      "id": "89ge8p9ft388mggmuyngjcktbe",
+      "created": "2025-07-22T17:11:39Z",
+      "username": "admin",
+      "message": "the project needs to kick start and all relevant personnel need to be there"
+    },
+    {
+      "idx": 1887,
+      "id": "jho1r5uzfpd1mjqwbbzc6m3hsr",
+      "created": "2025-07-22T17:11:40Z",
+      "username": "sergeyl",
+      "message": "I am not panicking, i am asking you "
+    },
+    {
+      "idx": 1888,
+      "id": "j7pybspxsidzzge4hczmachj6r",
+      "created": "2025-07-22T17:11:55Z",
+      "username": "sergeyl",
+      "message": "Okay. Lets add jarom to tons of other chats?"
+    },
+    {
+      "idx": 1889,
+      "id": "mpbd57chwbrfpjhj3kjk96beqe",
+      "created": "2025-07-22T17:12:14Z",
+      "username": "admin",
+      "message": "Sergey - this is starting to annoy me"
+    },
+    {
+      "idx": 1890,
+      "id": "q14zaoy6yj8z9nouhcfajk8soa",
+      "created": "2025-07-22T17:14:23Z",
+      "username": "sergeyl",
+      "message": "What? I am giving one order you are giving another, the opposite. i am teaching that we have rules x.y.z, not adding devops to all project channels and 9u are rendering my words = 0. I just want to discuss that."
+    },
+    {
+      "idx": 1891,
+      "id": "hjmeqro54iyhmxzzzjpsgfm48a",
+      "created": "2025-07-22T17:15:52Z",
+      "username": "admin",
+      "message": "no - you are being sarcastic everytime and I told you that it annoys people - myself included"
+    },
+    {
+      "idx": 1892,
+      "id": "eiag69e9xbfytkmged45oudu1e",
+      "created": "2025-07-22T17:16:01Z",
+      "username": "sergeyl",
+      "message": "No its not sarcasm"
+    },
+    {
+      "idx": 1893,
+      "id": "wudeqffocpbx7pzcud3dq6fgxc",
+      "created": "2025-07-22T17:16:09Z",
+      "username": "admin",
+      "message": "and I am not overriding you - to start working with Matomo you will need Jarom"
+    },
+    {
+      "idx": 1894,
+      "id": "1yujaz77qfrc7k5zwx971xtz4o",
+      "created": "2025-07-22T17:16:16Z",
+      "username": "admin",
+      "message": "you cannot work without him"
+    },
+    {
+      "idx": 1895,
+      "id": "a5c5oz876fgn9rzhzk1iy9517y",
+      "created": "2025-07-22T17:16:41Z",
+      "username": "sergeyl",
+      "message": "Its either devops is sitting in 1 channel and tracking. We create requests there."
+    },
+    {
+      "idx": 1896,
+      "id": "g4qzk13nafd78ypt453ents5fa",
+      "created": "2025-07-22T17:17:09Z",
+      "username": "sergeyl",
+      "message": "Either devops is jumping over tons of chat channel and nothing is done."
+    },
+    {
+      "idx": 1897,
+      "id": "6ose6u7uxido5gehsdh7irr5fh",
+      "created": "2025-07-22T17:17:21Z",
+      "username": "admin",
+      "message": "no, some projects such as Matomo require close work with DevOps"
+    },
+    {
+      "idx": 1898,
+      "id": "6wi7cmdgsbyj7qm87poiy6jrww",
+      "created": "2025-07-22T17:17:41Z",
+      "username": "admin",
+      "message": "every website requires a different url of Matomo"
+    },
+    {
+      "idx": 1899,
+      "id": "kfs45bps9jdtxnkn9suycs5csh",
+      "created": "2025-07-22T17:18:30Z",
+      "username": "sergeyl",
+      "message": "Np. They can call - do jitsi. But others need to see that queue is blocked and devops is busy. For that - requester needs to post a ticket card in common channel, so everyone will see - now jarom is busy with that task. Like the mutex, or semaphore.. ignoring task management system - super dangerous for us"
+    },
+    {
+      "idx": 1900,
+      "id": "hjxjz9cg1jnddy8gyojdiro8ze",
+      "created": "2025-07-22T21:02:06Z",
+      "username": "admin",
+      "message": "invoicer fixes MUST be ready tomorrow"
+    },
+    {
+      "idx": 1901,
+      "id": "pdhu3yofafdtpme5zrftfgg38r",
+      "created": "2025-07-22T21:02:09Z",
+      "username": "admin",
+      "message": "!!!"
+    },
+    {
+      "idx": 1902,
+      "id": "45nzc8b8sbr19cs85n19ognnuy",
+      "created": "2025-07-22T21:02:35Z",
+      "username": "sergeyl",
+      "message": "Roger that"
+    },
+    {
+      "idx": 1903,
+      "id": "ycrtjra5widt8phz87dw837hxc",
+      "created": "2025-07-22T21:02:47Z",
+      "username": "admin",
+      "message": "thank you !"
+    },
+    {
+      "idx": 1904,
+      "id": "ib1i3ufgctn5bbei5tc5iyz9yy",
+      "created": "2025-07-22T21:02:56Z",
+      "username": "admin",
+      "message": "as early as possiblr"
+    },
+    {
+      "idx": 1905,
+      "id": "edguxcauebdt3kzaf55s87swae",
+      "created": "2025-07-22T21:03:10Z",
+      "username": "sergeyl",
+      "message": "They arent playing fair.. some of bugs are actually present in Artem's version"
+    },
+    {
+      "idx": 1906,
+      "id": "zckox7ufe7d98grodxtzhfxjuh",
+      "created": "2025-07-22T21:03:25Z",
+      "username": "admin",
+      "message": "no worries"
+    },
+    {
+      "idx": 1907,
+      "id": "3e4ydyfr4pdbmfksrp8oufaodw",
+      "created": "2025-07-22T21:03:28Z",
+      "username": "admin",
+      "message": "we are on it"
+    },
+    {
+      "idx": 1908,
+      "id": "qstocprdzj8ifbqwj4xa6ytszy",
+      "created": "2025-07-22T21:03:37Z",
+      "username": "admin",
+      "message": "just dont make my life hard bro"
+    },
+    {
+      "idx": 1909,
+      "id": "myn9inoizpgk3x7f4kncte3y1a",
+      "created": "2025-07-22T21:03:41Z",
+      "username": "admin",
+      "message": "flow with me"
+    },
+    {
+      "idx": 1910,
+      "id": "86964ikekf8k5qm68my8iiw5qa",
+      "created": "2025-07-22T21:04:05Z",
+      "username": "admin",
+      "message": "I have a shitty political situation that I am getting us out of.... dont make it hard on me"
+    },
+    {
+      "idx": 1911,
+      "id": "cx586bt59tg1ip4j8kyusccxte",
+      "created": "2025-07-22T21:04:08Z",
+      "username": "admin",
+      "message": "be with me"
+    },
+    {
+      "idx": 1912,
+      "id": "wwajxups8frmdbamgshccsyg9c",
+      "created": "2025-07-22T21:04:16Z",
+      "username": "sergeyl",
+      "message": "Sure thing, i am"
+    },
+    {
+      "idx": 1913,
+      "id": "g6e3ej9aypdfbbjefdcfiwy3oo",
+      "created": "2025-07-22T21:04:30Z",
+      "username": "admin",
+      "message": "I have the others on my mind work with me and we will win"
+    },
+    {
+      "idx": 1914,
+      "id": "q1yyup14effdzq5te43udm1buw",
+      "created": "2025-07-22T21:06:13Z",
+      "username": "sergeyl",
+      "message": "We'll focus on delivery and fixes, collect real facts, so it will make us stronger 💪"
+    },
+    {
+      "idx": 1915,
+      "id": "3sou63jkubdh8pojhew66zjzry",
+      "created": "2025-07-22T21:06:38Z",
+      "username": "admin",
+      "message": "we just need to get the pieces in place"
+    },
+    {
+      "idx": 1916,
+      "id": "zgoiq9oa4fn35yyw3a41sakxkc",
+      "created": "2025-07-22T21:08:00Z",
+      "username": "sergeyl",
+      "message": "Tomorrow will build full list of fixes and features we applied "
+    },
+    {
+      "idx": 1917,
+      "id": "n89cg4zaffrciq7fis7r19rt7e",
+      "created": "2025-07-22T21:08:27Z",
+      "username": "admin",
+      "message": "please send it in the group (you not me)to show them all the team is on it)"
+    },
+    {
+      "idx": 1918,
+      "id": "aqf4ztacppdnjkt63ak3twn4wy",
+      "created": "2025-07-22T21:08:43Z",
+      "username": "sergeyl",
+      "message": "Okay"
+    },
+    {
+      "idx": 1919,
+      "id": "sy63czzsd3nspck1b5h6wroejr",
+      "created": "2025-07-22T21:09:05Z",
+      "username": "admin",
+      "message": "remember! be cool - dont let them make you angree - they will try!"
+    },
+    {
+      "idx": 1920,
+      "id": "yas7rwk343fe7bnf9hbyt73p3e",
+      "created": "2025-07-22T21:09:11Z",
+      "username": "admin",
+      "message": "remember machivelli"
+    },
+    {
+      "idx": 1921,
+      "id": "5q5xycb4mjn55nanyiu39jg13c",
+      "created": "2025-07-22T21:11:07Z",
+      "username": "sergeyl",
+      "message": "Sure. Have a good night! Pls, get some rest as well, we need strength health to withstand "
+    },
+    {
+      "idx": 1922,
+      "id": "hecksn976fnadqqmwkd1rctuco",
+      "created": "2025-07-22T21:15:57Z",
+      "username": "admin",
+      "message": "im not resting - Ioll sleep when im dead ;)"
+    },
+    {
+      "idx": 1923,
+      "id": "wuz7s7ipapfubnjbj9zt94axdw",
+      "created": "2025-07-22T21:23:36Z",
+      "username": "sergeyl",
+      "message": "Just 1 q.. What if you need to be in office every day at 9-10 am?"
+    },
+    {
+      "idx": 1924,
+      "id": "adcwze494prazj6qk39ep6hc7a",
+      "created": "2025-07-22T21:31:56Z",
+      "username": "sergeyl",
+      "message": "Main problem here that at 23+ hours most of our personnel are tired - actively communicating, solving problems from the morning and during the working day.. And all vampires and ghouls - like Stases, or other Mikhails/Leonids - usually wakes up at 23+ to make balagan at night and drain our energy, to make us walking dead at the morning - emotionally drained young people arent working well ❤️‍🩹 :-)"
+    },
+    {
+      "idx": 1925,
+      "id": "ubu5bs6yhtndi8pb6nt3n3u6ca",
+      "created": "2025-07-22T21:32:32Z",
+      "username": "sergeyl",
+      "message": "Going to sleep 😴"
+    },
+    {
+      "idx": 1926,
+      "id": "tzpiznwkubfj9epiaqowfhuhsw",
+      "created": "2025-07-22T21:47:26Z",
+      "username": "admin",
+      "message": "no worries"
+    },
+    {
+      "idx": 1927,
+      "id": "do9ukcnp7pfrfrjc5akccdsxqe",
+      "created": "2025-07-22T21:47:30Z",
+      "username": "admin",
+      "message": "we are on it"
+    },
+    {
+      "idx": 1928,
+      "id": "wke5875kgfnu7f315nmq8tzuxa",
+      "created": "2025-07-22T21:47:41Z",
+      "username": "admin",
+      "message": "we just need to establish out dominance"
+    },
+    {
+      "idx": 1929,
+      "id": "4jf1ortfmfrbpconpka5oeuqdy",
+      "created": "2025-07-23T11:04:15Z",
+      "username": "admin",
+      "message": "arnold has a developer he wants to bring to us - but that developer can only do online meeting this week - please insist an in-person meeting is required"
+    },
+    {
+      "idx": 1930,
+      "id": "ifcpisiwbpnjzj4c73rbnybjoa",
+      "created": "2025-07-23T11:04:19Z",
+      "username": "admin",
+      "message": "I already said so"
+    },
+    {
+      "idx": 1931,
+      "id": "888ta6yrqbbzpddxs8kaobwk9h",
+      "created": "2025-07-23T11:04:23Z",
+      "username": "admin",
+      "message": "to arnold"
+    },
+    {
+      "idx": 1932,
+      "id": "9em99tubitnrppmrzadeguhbuo",
+      "created": "2025-07-23T11:07:06Z",
+      "username": "sergeyl",
+      "message": "yes and we have interview process, we have a question list, so on.. but, why Leonid is in this process? Arnold is inviting Leonid to it, why do we need that? I really dont want to do any Interview (actually, any discussions) in front of Leonid"
+    },
+    {
+      "idx": 1933,
+      "id": "g1uwj6gb1ibmmxbcimnqyep6so",
+      "created": "2025-07-23T11:10:32Z",
+      "username": "admin",
+      "message": "I know this is why I am insisting it will take place in my office"
+    },
+    {
+      "idx": 1934,
+      "id": "jp9woebjntfnj8yxkxja3fw4qy",
+      "created": "2025-07-23T11:15:59Z",
+      "username": "sergeyl",
+      "message": "so this is Leonid's person?"
+    },
+    {
+      "idx": 1935,
+      "id": "67qyo4cbcingpprkjhp9cxj97e",
+      "created": "2025-07-23T11:16:57Z",
+      "username": "admin",
+      "message": "I dont know"
+    },
+    {
+      "idx": 1936,
+      "id": "afr6bq9q3bdz8jwdk4437ykzoc",
+      "created": "2025-07-23T11:16:59Z",
+      "username": "admin",
+      "message": "I think so"
+    },
+    {
+      "idx": 1937,
+      "id": "14zap6ahhjnh3qmo9ucj6tg1xw",
+      "created": "2025-07-23T11:17:18Z",
+      "username": "sergeyl",
+      "message": "issue is that orders are going against with what we are aiming to build. yesterday you told find a developers invite them to the group - but we are trying not to do so.. here is the same trick - we are aiming to discuss business things, why do we need developer on that call?)"
+    },
+    {
+      "idx": 1938,
+      "id": "qwyinzkakf8jmya5dhmbgxhzhw",
+      "created": "2025-07-23T11:17:47Z",
+      "username": "sergeyl",
+      "message": "we just dont define those separation layers good. interview with developer should be one thing, meeting with business should be other meetring"
+    },
+    {
+      "idx": 1939,
+      "id": "5y3t3nji8bn1zqqajzpx7ywpny",
+      "created": "2025-07-23T11:18:14Z",
+      "username": "sergeyl",
+      "message": "why constantly throw everyone relevant in 1 chat.. i dont get it and never would"
+    },
+    {
+      "idx": 1940,
+      "id": "anjiqhhzbbdkzquc7b8jq3sqjh",
+      "created": "2025-07-23T19:55:31Z",
+      "username": "admin",
+      "message": "how a bout we create a channel for project updates?"
+    },
+    {
+      "idx": 1941,
+      "id": "378ttbg9tfgrikdxjadeztmrsh",
+      "created": "2025-07-23T19:55:36Z",
+      "username": "admin",
+      "message": "all project updates"
+    },
+    {
+      "idx": 1942,
+      "id": "1sjezbrjqbba5bnw85b7xc7aae",
+      "created": "2025-07-23T19:55:40Z",
+      "username": "admin",
+      "message": "internal of course"
+    },
+    {
+      "idx": 1943,
+      "id": "o33qaai68bgkfxxs6tnhdstfdr",
+      "created": "2025-07-23T20:15:41Z",
+      "username": "sergeyl",
+      "message": "We have such channels.. which role are you interested at?)) Analytics reports? Pm reports? Ml reports?"
+    },
+    {
+      "idx": 1944,
+      "id": "rd18kneppjfwbpi78ozkogqkno",
+      "created": "2025-07-23T20:15:52Z",
+      "username": "sergeyl",
+      "message": "Daily blockers?"
+    },
+    {
+      "idx": 1945,
+      "id": "j8uyynoff38wppf5cjyjn3kpca",
+      "created": "2025-07-23T20:16:03Z",
+      "username": "admin",
+      "message": "status of each project"
+    },
+    {
+      "idx": 1946,
+      "id": "yixuur3awjgtum6ybtxxz6dgco",
+      "created": "2025-07-23T20:16:06Z",
+      "username": "admin",
+      "message": "every change "
+    },
+    {
+      "idx": 1947,
+      "id": "j49jdhno9irg9dcq3xqu5mpfth",
+      "created": "2025-07-23T20:16:09Z",
+      "username": "admin",
+      "message": "for me and victor"
+    },
+    {
+      "idx": 1948,
+      "id": "fsm5t1oxmpn3braax3afoxm15a",
+      "created": "2025-07-23T20:16:09Z",
+      "username": "sergeyl",
+      "message": "Urgents?"
+    },
+    {
+      "idx": 1949,
+      "id": "x8ff517tejbomr43ne1ujs4wue",
+      "created": "2025-07-23T20:16:42Z",
+      "username": "admin",
+      "message": "forexample now I need to know what is the production status of the CRM (paytrack) and invoicer"
+    },
+    {
+      "idx": 1950,
+      "id": "g44qwah1qfd4zba53r6rmi3e9c",
+      "created": "2025-07-23T20:17:50Z",
+      "username": "sergeyl",
+      "message": "Yevgeniy reported"
+    },
+    {
+      "idx": 1951,
+      "id": "eqyjxfxj3trp9bkbun9arfdqwr",
+      "created": "2025-07-23T20:17:53Z",
+      "username": "sergeyl",
+      "message": "Всем привет!\nДоработали наш Инвойсер по замечаниям Алексея М.\nТакже учли Тимберри, Гонгконг и Дубай\nПрошу проверить\npaytrack-invoicer-stg.muzpan.com\n@alexeimaslov "
+    },
+    {
+      "idx": 1952,
+      "id": "gdqe1ay3gtrrb8zario5p44q1c",
+      "created": "2025-07-23T20:18:49Z",
+      "username": "sergeyl",
+      "message": "> We adjusted our invoicer according to notes of maslov. Also we added timberri,hongkong and dubai nomenclatures. Requesting to check.."
+    },
+    {
+      "idx": 1953,
+      "id": "asxcqsmakib7uqp83ykg9rorxh",
+      "created": "2025-07-23T20:19:43Z",
+      "username": "admin",
+      "message": "yeah saw that -- but I thought for us - management it might be beneficial to have a stream of production status"
+    },
+    {
+      "idx": 1954,
+      "id": "qk493ff3jjrmxmzot1q96pyi7o",
+      "created": "2025-07-23T20:19:49Z",
+      "username": "sergeyl",
+      "message": "Almost all our employee is posting a report.. do you want me to direct all that inflow to you?)"
+    },
+    {
+      "idx": 1955,
+      "id": "du57rsdgrfns88rtz8ykqeptda",
+      "created": "2025-07-23T20:19:54Z",
+      "username": "admin",
+      "message": "meaning what is in production"
+    },
+    {
+      "idx": 1956,
+      "id": "nu117no1dfyjmb1scytzf6ocxr",
+      "created": "2025-07-23T20:20:07Z",
+      "username": "sergeyl",
+      "message": "Many things.."
+    },
+    {
+      "idx": 1957,
+      "id": "4qc36fzh1by3igbzghgjymhoie",
+      "created": "2025-07-23T20:21:23Z",
+      "username": "sergeyl",
+      "message": "Cant get what is needed.. status updates - which kind of? Handler added? Css style changed? "
+    },
+    {
+      "idx": 1958,
+      "id": "9esui3fgktn8zcfey986bijo5e",
+      "created": "2025-07-23T20:21:40Z",
+      "username": "sergeyl",
+      "message": "We re growing it would be impossible for a person to process all inflow"
+    },
+    {
+      "idx": 1959,
+      "id": "a9oud11btb8y885jyt4j95fgkh",
+      "created": "2025-07-23T20:22:07Z",
+      "username": "admin",
+      "message": "no - latest features sent for customer check, latest version in production, next version will be deployed at..."
+    },
+    {
+      "idx": 1960,
+      "id": "dhkaqzzh9pgspbt1fdkjd7xu1r",
+      "created": "2025-07-23T20:22:11Z",
+      "username": "admin",
+      "message": "stuff like that"
+    },
+    {
+      "idx": 1961,
+      "id": "d1jbg11qjifppmfgakn7d5sf7y",
+      "created": "2025-07-23T20:23:06Z",
+      "username": "sergeyl",
+      "message": "Only problems? Oh, Only Features? Okay, have an idea - lets makeit into official open project?"
+    },
+    {
+      "idx": 1962,
+      "id": "s13codnnnbn3tycf1g1bmehhia",
+      "created": "2025-07-23T20:23:31Z",
+      "username": "sergeyl",
+      "message": "We just need to actualize it.. on daily basis"
+    },
+    {
+      "idx": 1963,
+      "id": "csskf8cxy78gxdb64bsgcgpa5w",
+      "created": "2025-07-23T20:24:03Z",
+      "username": "sergeyl",
+      "message": "Its impossible to track it in chats.. op would be easier - wdyt?"
+    },
+    {
+      "idx": 1964,
+      "id": "heyd9ueza7fsxruaz4yq6m6szo",
+      "created": "2025-07-23T20:24:38Z",
+      "username": "admin",
+      "message": "ok - but to have latests statuses for all ongoing/done projects"
+    },
+    {
+      "idx": 1965,
+      "id": "jrsod5hd63nkxnks3fjhoi95gh",
+      "created": "2025-07-23T20:26:06Z",
+      "username": "sergeyl",
+      "message": "Sure.. need to start doing that. Tomorrow will start, lets start with some like invoicer, paytrack, finmart maybe?"
+    },
+    {
+      "idx": 1966,
+      "id": "nj5tp1mbnjgoxmb6aahkskk7mo",
+      "created": "2025-07-23T20:26:35Z",
+      "username": "admin",
+      "message": "yeah but one place to see all statuses"
+    },
+    {
+      "idx": 1967,
+      "id": "5ysk6u3u1id53e8rryqtio3d7h",
+      "created": "2025-07-23T20:27:42Z",
+      "username": "sergeyl",
+      "message": "Official openproject, the first one we created. Its just.. we need to embed it into our \"anykey operating system\" microcode.."
+    },
+    {
+      "idx": 1968,
+      "id": "39qa9fe1sbdg8kxbqhw3uy9tsa",
+      "created": "2025-07-23T20:28:46Z",
+      "username": "sergeyl",
+      "message": "Write a business logic for project managers - when and what to do every day, in order to keep info updated,make it mandatory, and collectively it will be updated good i believe. Today its kinda abit abandoned"
+    },
+    {
+      "idx": 1969,
+      "id": "g3y3bi5z77bpmcdmnah951ejhh",
+      "created": "2025-07-23T20:29:19Z",
+      "username": "sergeyl",
+      "message": "Will handle it tomorrow."
+    },
+    {
+      "idx": 1970,
+      "id": "gjnybh993bggzc8i3prfiimbao",
+      "created": "2025-07-24T15:33:07Z",
+      "username": "admin",
+      "message": "are you here?"
+    },
+    {
+      "idx": 1971,
+      "id": "66xeyga67jbb8khrnaz8u1hh3y",
+      "created": "2025-07-24T16:03:56Z",
+      "username": "admin",
+      "message": "????"
+    },
+    {
+      "idx": 1972,
+      "id": "mqbuhgjd9f8yxbi948rqk5brjr",
+      "created": "2025-07-24T16:03:58Z",
+      "username": "admin",
+      "message": "???"
+    },
+    {
+      "idx": 1973,
+      "id": "fghgoij8n3yn8byxoqmxnrh88a",
+      "created": "2025-07-24T16:10:17Z",
+      "username": "sergeyl",
+      "message": "yes"
+    },
+    {
+      "idx": 1974,
+      "id": "wk8w5jdb8p8kdndzzi1emhw4dy",
+      "created": "2025-07-24T20:53:57Z",
+      "username": "sergeyl",
+      "message": "Hello. Want to ask you for advice. Last monthes I have accidental problems with Yevgeniy. Basically he constantly tries to lower down my authority, while buillding his, on contrast. Tries to debate on mine decisions, in face of colleguaes. To create a situations that shows where i am inconfinent, and he is. Want to ask your advice - what should i do with him?"
+    }
+  ]
+}

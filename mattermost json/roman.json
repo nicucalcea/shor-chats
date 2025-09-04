@@ -1,0 +1,138 @@
+{
+  "channel": {
+    "name": "hdrjsab4n3fr5rku8onbay6k5o__ukpd9qjsi3rtzktyebgf71cm5o",
+    "display_name": "roman",
+    "header": "",
+    "id": "67pysiuitid7pj7p1ipaebtk9h",
+    "team": "",
+    "team_id": ""
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "x9ot737ohirzbe99ib3rf8axxh",
+      "created": "2025-05-12T12:16:03Z",
+      "username": "roman",
+      "message": "Hello!\nThis is preshared key from Ayil Bank"
+    },
+    {
+      "idx": 1,
+      "id": "riqweq1ytigkimbrtmg8xuc8ce",
+      "created": "2025-05-12T12:16:04Z",
+      "username": "roman",
+      "message": "```\nT5dC*Ibz$xZggpdvs5TEl2ZUYVi(-MYbeTsoO35NTCVv5PVVu&1eE70#vxJD\n```"
+    },
+    {
+      "idx": 2,
+      "id": "pdpn3i4jhtno9mnxy9f91cpsxw",
+      "created": "2025-05-12T14:14:33Z",
+      "username": "roman",
+      "message": " \n  right=<their ip>\n  rightsubnet=<their subnet>\n\n93.171.136.60 \n10.120.214.26 (prod)"
+    },
+    {
+      "idx": 3,
+      "id": "488dm9sawb8gp8fyugaozp7d9c",
+      "created": "2025-05-12T14:17:34Z",
+      "username": "roman",
+      "message": "Dima is on vacation, I'm currently in contact with the bank"
+    },
+    {
+      "idx": 4,
+      "id": "7g1xqjdr9385xyttk9yjcufauh",
+      "created": "2025-05-13T09:42:09Z",
+      "username": "admin",
+      "message": "hey Roman - Stas tells me you have a problem with vpn?"
+    },
+    {
+      "idx": 5,
+      "id": "qby1u4ag1jn1pbsj8fd9i9n7ae",
+      "created": "2025-05-13T09:44:20Z",
+      "username": "admin",
+      "message": "???"
+    },
+    {
+      "idx": 6,
+      "id": "gtbbwrgsu78abq5brao3m77kuc",
+      "created": "2025-05-13T09:58:26Z",
+      "username": "roman",
+      "message": "Hello!\nyes, mw.sodkamus.com doesn't work from morning\nother vpn's (mw, mw3) particaly overloaded and some banks have ip blocking (kg banks work normally from krg vpn, dubai sometimes work, sometimes no)"
+    },
+    {
+      "idx": 7,
+      "id": "zg49mojp3iro8x1ga5cqsk7grc",
+      "created": "2025-05-13T09:59:49Z",
+      "username": "admin",
+      "message": "how do you know they are loaded?"
+    },
+    {
+      "idx": 8,
+      "id": "axtdie9njibufprtk8hjgcrpfy",
+      "created": "2025-05-13T10:02:18Z",
+      "username": "roman",
+      "message": "When the channel is busy, people in the office start swearing loudly :D"
+    },
+    {
+      "idx": 9,
+      "id": "gtnrasqfyjgtjnmhuaat4thtyo",
+      "created": "2025-05-13T10:02:51Z",
+      "username": "admin",
+      "message": "ohh thats your monitoring?"
+    },
+    {
+      "idx": 10,
+      "id": "5xg5aymfgpghb8nagizmbwyy6a",
+      "created": "2025-05-13T10:06:27Z",
+      "username": "roman",
+      "message": "anyway, if sodkamus now working, im telling people about it"
+    },
+    {
+      "idx": 11,
+      "id": "rknwq1q663yptj3ieebx3habae",
+      "created": "2025-05-13T10:06:46Z",
+      "username": "admin",
+      "message": "k and   we will make 2 more vpns for you for backup and LB"
+    },
+    {
+      "idx": 12,
+      "id": "rtcks75rgjb57ykzx1dfp9ioqe",
+      "created": "2025-05-13T10:07:22Z",
+      "username": "roman",
+      "message": "what is LB ?"
+    },
+    {
+      "idx": 13,
+      "id": "tjcda6wx7t8zdnjrkdzte7r6sy",
+      "created": "2025-05-13T10:07:28Z",
+      "username": "admin",
+      "message": "load balancing"
+    },
+    {
+      "idx": 14,
+      "id": "rociypj6ejgu7rurmwmdqqfdoh",
+      "created": "2025-05-13T10:08:07Z",
+      "username": "roman",
+      "message": "ooo, its cool"
+    },
+    {
+      "idx": 15,
+      "id": "c9wwj7huwprtfrknijbmitgpir",
+      "created": "2025-05-13T10:12:53Z",
+      "username": "roman",
+      "message": "for stable banking work, need more vpns from different country's, because they (banks) block ip randomly"
+    },
+    {
+      "idx": 16,
+      "id": "m8p4h8yerp89dgi8a39qcet38h",
+      "created": "2025-05-13T10:13:08Z",
+      "username": "admin",
+      "message": "I know we are working on this as well"
+    },
+    {
+      "idx": 17,
+      "id": "41xgs6ymi78ndp6opetqwo6pwh",
+      "created": "2025-05-13T12:40:01Z",
+      "username": "roman",
+      "message": "mw.sodkamus.com doesn't open smb \\\\fl.chameleongroup.co\nTracert return 10940.impreza.host and next ***"
+    }
+  ]
+}

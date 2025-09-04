@@ -1,0 +1,1910 @@
+{
+  "channel": {
+    "name": "evrasiasu",
+    "display_name": "evrasia.su",
+    "header": "",
+    "id": "6g73ocorpj857cmjwt5rgzff8o",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "68nrs6r8mp86pxsukpqgxm6uma",
+      "created": "2024-10-28T12:20:38Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "azmfybf64bdzjbnjxjwwqedckw",
+      "created": "2024-10-28T12:20:48Z",
+      "username": "admin",
+      "message": "misha added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "13h3t9ifnb8wxjq3bknuweoxtc",
+      "created": "2024-10-28T12:20:48Z",
+      "username": "admin",
+      "message": "rezantsev added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "pqrod971738qmcf37mp7wdai1a",
+      "created": "2024-10-28T12:20:54Z",
+      "username": "admin",
+      "message": "@rezantsev ?"
+    },
+    {
+      "idx": 4,
+      "id": "t3qqgxgbef8ofdf33y1yg6mtpy",
+      "created": "2024-10-28T12:20:59Z",
+      "username": "admin",
+      "message": "@misha are you guys here?"
+    },
+    {
+      "idx": 5,
+      "id": "eqqrj4mkppyuffph9pjggjbxkh",
+      "created": "2024-10-28T12:22:35Z",
+      "username": "rezantsev",
+      "message": "Hi\nHere"
+    },
+    {
+      "idx": 6,
+      "id": "pdgccwau9trh5xca9xkiqfc59o",
+      "created": "2024-10-28T12:22:36Z",
+      "username": "admin",
+      "message": "@rezantsev ?"
+    },
+    {
+      "idx": 7,
+      "id": "4ke59j71ap8hifma1ecw5i4qxc",
+      "created": "2024-10-28T12:22:52Z",
+      "username": "rezantsev",
+      "message": "?"
+    },
+    {
+      "idx": 8,
+      "id": "rdeoitbfz7n6mrndccx8e5on9c",
+      "created": "2024-10-28T12:24:33Z",
+      "username": "admin",
+      "message": "who is Evgeny? is it one of your guys?"
+    },
+    {
+      "idx": 9,
+      "id": "igf94p46e7rqxdrrtjncepteiy",
+      "created": "2024-10-28T12:26:33Z",
+      "username": "rezantsev",
+      "message": "No, I don’t have anyone like that.\nCould it be the manager at Lesnaya?\nThe one named Azizov?"
+    },
+    {
+      "idx": 10,
+      "id": "u6zq689eyjdefg431zsggy47pw",
+      "created": "2024-10-28T12:27:00Z",
+      "username": "rezantsev",
+      "message": "I don't know any other Evgenievs"
+    },
+    {
+      "idx": 11,
+      "id": "iodihax5cpd5xqmoorh7ft7xwc",
+      "created": "2024-10-28T12:30:14Z",
+      "username": "admin",
+      "message": "ok , where do we stand in mail migration?"
+    },
+    {
+      "idx": 12,
+      "id": "dqqn3fapq3ntfb8m1wqbnz5z5o",
+      "created": "2024-10-28T12:31:05Z",
+      "username": "rezantsev",
+      "message": "Not yet.\nI asked you questions about the information we need to get started.\nI'll copy them here now"
+    },
+    {
+      "idx": 13,
+      "id": "ucqhxy9orbrwufm6xbs8rx9rsh",
+      "created": "2024-10-28T12:31:21Z",
+      "username": "rezantsev",
+      "message": "You need the public IP and all private ones at Lesnaya, right?\nThen, you need information on the generated login for the email account, the generated password, and the employee’s full name.\nFor the mailboxes that need to be migrated, you need the current login and password.\nYou’ll be migrating the mailboxes with something like imapsync, right?\n\nI didn’t forget anything, did I?\n\nEurasia is also very interested in moving from Telegram to their own messenger.\nAre we planning to set them up in Mattermost, or will we deploy a different service for them?"
+    },
+    {
+      "idx": 14,
+      "id": "cjeg7bfnfjg55cquuh9jikih1o",
+      "created": "2024-10-28T12:46:48Z",
+      "username": "admin",
+      "message": "",
+      "files": [
+        "Screenshot_20241028_153945_WhatsApp.jpg"
+      ]
+    },
+    {
+      "idx": 15,
+      "id": "5581srhq3fgx3cykiy6gnkoyfw",
+      "created": "2024-10-28T12:46:56Z",
+      "username": "admin",
+      "message": "you know this guys?"
+    },
+    {
+      "idx": 16,
+      "id": "tr8ehwkfdp83pnws7oo7j67dqe",
+      "created": "2024-10-28T12:48:01Z",
+      "username": "rezantsev",
+      "message": "I'll try to find out who this is right now"
+    },
+    {
+      "idx": 17,
+      "id": "e6s1goyzhtnk9nepgdddt3oxte",
+      "created": "2024-10-28T12:52:46Z",
+      "username": "rezantsev",
+      "message": "This is Yevgeny Sergeyevich Azizov, the Executive Director from Lesnaya"
+    },
+    {
+      "idx": 18,
+      "id": "te18npuwjtn6bqod45j77eusfc",
+      "created": "2024-10-28T12:57:58Z",
+      "username": "admin",
+      "message": "ok what domain is he asking Shon about? and why is he not contacting me / Misha or Victor ?"
+    },
+    {
+      "idx": 19,
+      "id": "7zt3jwc35tb1jkbrpkd8s6pcse",
+      "created": "2024-10-28T13:31:05Z",
+      "username": "rezantsev",
+      "message": "and what are we talking about in general?"
+    },
+    {
+      "idx": 20,
+      "id": "hja756ur7irdpp8mcqkraktjdw",
+      "created": "2024-10-28T14:07:55Z",
+      "username": "rezantsev",
+      "message": "Are we talking about creating mailboxes and migrating them?"
+    },
+    {
+      "idx": 21,
+      "id": "k7gy67sgmifkdcorzgq7uh1yyr",
+      "created": "2024-10-28T17:54:02Z",
+      "username": "admin",
+      "message": "Yes"
+    },
+    {
+      "idx": 22,
+      "id": "i4ny1z3xftd7tqpah1z66bypzh",
+      "created": "2024-10-28T18:37:56Z",
+      "username": "admin",
+      "message": "we have 2 points:\n1. what we agreed to migrate your mailboxes to the new server\n2. someone called Shon (from our team) and asked him to migrate something to some domain - a classic case of misinformation and Im trying to understand what is the issue"
+    },
+    {
+      "idx": 23,
+      "id": "eiik9zurjbyrmyxcj8rqm898ke",
+      "created": "2024-10-29T11:51:00Z",
+      "username": "rezantsev",
+      "message": "Hi,\nSo, what's the plan with the migration and mailbox creation?\nThey’re asking about it."
+    },
+    {
+      "idx": 24,
+      "id": "zyaxsoq8yjfq3rbm96a1ta33me",
+      "created": "2024-10-29T12:43:30Z",
+      "username": "admin",
+      "message": "I'm in lesnaya now let's meet later"
+    },
+    {
+      "idx": 25,
+      "id": "z4u4q4bc77frbcww3iamdze9iy",
+      "created": "2024-10-29T12:45:11Z",
+      "username": "gabriel",
+      "message": "Im on my drive to lesnaya"
+    },
+    {
+      "idx": 26,
+      "id": "8e8hjpodx7fzurhntdmzd7me7o",
+      "created": "2024-10-29T13:08:54Z",
+      "username": "admin",
+      "message": "@rezantsev can you come to floor 9?"
+    },
+    {
+      "idx": 27,
+      "id": "fokdui3katfntje1hk4k1tbfpy",
+      "created": "2024-10-29T13:08:59Z",
+      "username": "admin",
+      "message": "lets have a chant in the meantime"
+    },
+    {
+      "idx": 28,
+      "id": "aq86krsazpd68n63fjqmci66er",
+      "created": "2024-10-29T13:11:25Z",
+      "username": "admin",
+      "message": "Im going to write a list of things we need to start email migrations:\n1. Office IP address to allow IMAPs and ESMTP without vpn\n2. list of all mailboxes so we can create them for you on the new server\n3. list of users who will need vpn on their laptops/phones\n4. full access to the dns control panel (to make mx record changes and a records for rDNS)\n5. evrasia.su SSL certificate"
+    },
+    {
+      "idx": 29,
+      "id": "19kdg85wx3n5jr4bmcsuxeoycr",
+      "created": "2024-10-29T13:33:33Z",
+      "username": "admin",
+      "message": "@rezantsev "
+    },
+    {
+      "idx": 30,
+      "id": "dqs1p3rxn3bbb8wxyxo99m1sjc",
+      "created": "2024-10-29T13:33:35Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 31,
+      "id": "jzen6jgekff3djqwyk39uh4n3o",
+      "created": "2024-10-29T14:24:27Z",
+      "username": "rezantsev",
+      "message": "I'm working from home, so I won’t be able to come over.  \nDo you need both the public IP address and the private addresses?  \nI’ll send you the list a bit later with the full name and transliterated name for the mail user account.\n\nFor the list of users who need VPN — that’s a bit more complicated; I’ll request it.\n\nAccess to DNS management:\n\n[https://www.reg.ru/](https://www.reg.ru/)  \nLogin -  Info@evrazia.su\nPassword - EvrAZIA2024\n\n\nYou’ll also need the logins and passwords of the active mailboxes to transfer all the emails, right?\nYou’ll be doing the transfer with imapsync or something similar, correct?\n\n",
+      "files": [
+        "certificate.zip"
+      ]
+    },
+    {
+      "idx": 32,
+      "id": "bfpth1ybmbdrmmszpdfc5r5g7o",
+      "created": "2024-10-29T14:34:28Z",
+      "username": "rezantsev",
+      "message": "The VPN list will only be ready tomorrow.\n\n\nThey’re also asking about their messenger.\nWhat are we going to do for them — set them up in Mattermost or deploy something else?"
+    },
+    {
+      "idx": 33,
+      "id": "rbcncy7r7f8oiejjdx8xijzqsy",
+      "created": "2024-10-29T14:54:04Z",
+      "username": "admin",
+      "message": "mattermost - we have a separate business mattermost"
+    },
+    {
+      "idx": 34,
+      "id": "5wh9igbr9bfddrix3ugqdkh9hw",
+      "created": "2024-10-29T14:58:34Z",
+      "username": "rezantsev",
+      "message": "Can only you create accounts and grant permissions there?"
+    },
+    {
+      "idx": 35,
+      "id": "9fabhd86abfymfagen38pagfhy",
+      "created": "2024-10-29T14:59:49Z",
+      "username": "admin",
+      "message": "we can - how many users do you have?"
+    },
+    {
+      "idx": 36,
+      "id": "aof9z46y7b8jjnrts6iktakt4y",
+      "created": "2024-10-29T15:03:10Z",
+      "username": "rezantsev",
+      "message": "110 people, plus or minus 10.\nThe same ones for whom we will be creating email accounts."
+    },
+    {
+      "idx": 37,
+      "id": "g3e6zwoxjbfdien4eribnxs7yh",
+      "created": "2024-10-29T15:03:29Z",
+      "username": "admin",
+      "message": "do they interact with people from the other companies?"
+    },
+    {
+      "idx": 38,
+      "id": "aj6p3z5ikbrcumaoysdtiewk8c",
+      "created": "2024-10-29T15:03:34Z",
+      "username": "admin",
+      "message": "A7 etc... ?"
+    },
+    {
+      "idx": 39,
+      "id": "14ontaczoiyrurgbfaixh9meda",
+      "created": "2024-10-29T15:05:48Z",
+      "username": "rezantsev",
+      "message": "I asked about this — waiting for information"
+    },
+    {
+      "idx": 40,
+      "id": "fdqrzy16m3r35qtwne1kwpfnqw",
+      "created": "2024-10-29T20:23:58Z",
+      "username": "rezantsev",
+      "message": "Attached is a file with the list of users who need email accounts created in the domain evrazia.su",
+      "files": [
+        "generated_users.csv"
+      ]
+    },
+    {
+      "idx": 41,
+      "id": "1wcfs9qk7ifa789fuzf8jqu75c",
+      "created": "2024-10-29T20:24:24Z",
+      "username": "rezantsev",
+      "message": "Does it work in this format?"
+    },
+    {
+      "idx": 42,
+      "id": "g7a751s7k3r88dq71kjayy6g9y",
+      "created": "2024-10-29T20:25:16Z",
+      "username": "admin",
+      "message": "yes I will work on it"
+    },
+    {
+      "idx": 43,
+      "id": "yjsnje6ddf83umaxprmwzs48oo",
+      "created": "2024-10-29T20:26:25Z",
+      "username": "rezantsev",
+      "message": "Cool, thank u"
+    },
+    {
+      "idx": 44,
+      "id": "byxxpt97c3ntf86dq3cueq6j4c",
+      "created": "2024-10-29T20:32:04Z",
+      "username": "rezantsev",
+      "message": "User private IP ranges:\n192.168.100.0 /23\n192.168.200.0 /23\n\nPublic IP from the provider:\n217.67.190.150"
+    },
+    {
+      "idx": 45,
+      "id": "n18wwd5t9pgrtmwmku1c3p713w",
+      "created": "2024-11-01T17:26:30Z",
+      "username": "admin",
+      "message": "@rezantsev I need to delete this A record from the DNS:\n",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 46,
+      "id": "eggzpb1n57r8mp89tcuf9iz3hr",
+      "created": "2024-11-01T17:29:57Z",
+      "username": "admin",
+      "message": "???"
+    },
+    {
+      "idx": 47,
+      "id": "jccq47qtstrijegqhdezfmbydh",
+      "created": "2024-11-01T17:30:06Z",
+      "username": "admin",
+      "message": "can I delete this record?"
+    },
+    {
+      "idx": 48,
+      "id": "hix9uehpmjbsmjbjfi8rqx4emc",
+      "created": "2024-11-01T17:30:24Z",
+      "username": "admin",
+      "message": "@rezantsev "
+    },
+    {
+      "idx": 49,
+      "id": "17x6pxap6tffbe6n4td7fb154e",
+      "created": "2024-11-01T17:52:36Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 50,
+      "id": "x7pomu8jrpnftgtt73t3ocrb6c",
+      "created": "2024-11-01T18:04:14Z",
+      "username": "rezantsev",
+      "message": "I have no idea what this record is. I'll ask the guys who purchased this domain"
+    },
+    {
+      "idx": 51,
+      "id": "y7zwqrx8stfd3m5i97tnmuiexr",
+      "created": "2024-11-01T18:05:02Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 52,
+      "id": "maypqndip7g8bfnxwjrgfpf19r",
+      "created": "2024-11-01T18:10:40Z",
+      "username": "admin",
+      "message": "Please do I am waiting to complete the server"
+    },
+    {
+      "idx": 53,
+      "id": "3ehmorukp3dtjf31uczisqhyey",
+      "created": "2024-11-01T18:39:38Z",
+      "username": "rezantsev",
+      "message": "This is the IP address of the server where the website and all its files are hosted"
+    },
+    {
+      "idx": 54,
+      "id": "sedoabx4abdeteqts4uiju5w1w",
+      "created": "2024-11-01T18:39:59Z",
+      "username": "rezantsev",
+      "message": "And why do you want to delete this A record?"
+    },
+    {
+      "idx": 55,
+      "id": "4kce8pmc5ifexeicfthmdx5myc",
+      "created": "2024-11-01T18:40:24Z",
+      "username": "rezantsev",
+      "message": "Or are you concerned about the *?"
+    },
+    {
+      "idx": 56,
+      "id": "h7z39kznxb8t9k479kbdobcopr",
+      "created": "2024-11-01T18:40:35Z",
+      "username": "admin",
+      "message": "because I cannot put any other A record this is a catch all record"
+    },
+    {
+      "idx": 57,
+      "id": "cjqro3wdsjfoz89h5b79g56qpa",
+      "created": "2024-11-01T18:40:52Z",
+      "username": "admin",
+      "message": "this is total misconfiguration"
+    },
+    {
+      "idx": 58,
+      "id": "ncq6bhp3mpyqjrn4ic41nbd1zr",
+      "created": "2024-11-01T18:42:13Z",
+      "username": "rezantsev",
+      "message": "https://evrazia.su/"
+    },
+    {
+      "idx": 59,
+      "id": "dhsw84futtyd7y8imcg7ebridc",
+      "created": "2024-11-01T18:44:06Z",
+      "username": "rezantsev",
+      "message": "Add an A record with the name mail pointing to mail.evrazia.su"
+    },
+    {
+      "idx": 60,
+      "id": "r7adrhugfidnuez9kwypfgffye",
+      "created": "2024-11-01T18:44:49Z",
+      "username": "admin",
+      "message": "I added a webmail.evrazia.su but it will not work while the catch all record is there"
+    },
+    {
+      "idx": 61,
+      "id": "pjzte19t7tn77ygwf89rt64csh",
+      "created": "2024-11-01T18:46:43Z",
+      "username": "rezantsev",
+      "message": "Honestly, I don’t quite understand why"
+    },
+    {
+      "idx": 62,
+      "id": "fd9wy4ocmpn6xmdhyrsyar4gzo",
+      "created": "2024-11-01T18:47:20Z",
+      "username": "admin",
+      "message": "login see the webmail adition and make it work"
+    },
+    {
+      "idx": 63,
+      "id": "4tw8dba1z3gz8x4ic1dwqx47ga",
+      "created": "2024-11-01T18:47:52Z",
+      "username": "admin",
+      "message": "I am just not familiar with everything related to the domain and dont want to make breaking changes"
+    },
+    {
+      "idx": 64,
+      "id": "9tftjh87gtffxkw8djhg7j7sxe",
+      "created": "2024-11-01T18:48:50Z",
+      "username": "admin",
+      "message": "https://webmail.evrazia.su/"
+    },
+    {
+      "idx": 65,
+      "id": "j3awsacyfp85pfbgbfd8cpmamr",
+      "created": "2024-11-01T18:49:02Z",
+      "username": "admin",
+      "message": "it should reach our server but it reaches yours"
+    },
+    {
+      "idx": 66,
+      "id": "t8pwt8x6djnhtmxzen979pk6dh",
+      "created": "2024-11-01T18:51:44Z",
+      "username": "rezantsev",
+      "message": "The DNS record for webmail is used to redirect web traffic, usually for accessing the webmail interface, and does not affect the SMTP/IMAP/POP3 protocols that manage sending and receiving email.\n\nEmail will continue to function through the primary MX record configured to the IP where Postfix is running. Therefore, email will operate independently of where the webmail points."
+    },
+    {
+      "idx": 67,
+      "id": "f84sptbdsf8q988zqkwdyqoemh",
+      "created": "2024-11-01T18:51:57Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 68,
+      "id": "a1zifum97ibhbfh5khgf3k4jdh",
+      "created": "2024-11-01T18:52:45Z",
+      "username": "admin",
+      "message": "I am not changing MX record until you migrate all mailboxes - the server is setup - I am configuring a webmail for your users"
+    },
+    {
+      "idx": 69,
+      "id": "w8rhpw5m43frznybrudmszixyo",
+      "created": "2024-11-01T18:53:54Z",
+      "username": "admin",
+      "message": "for now I need https://webmail.evrazia.su/ to work and pointed to our server - can you please configure that?"
+    },
+    {
+      "idx": 70,
+      "id": "srtzmmngei879mzja9offpx69y",
+      "created": "2024-11-01T18:54:37Z",
+      "username": "admin",
+      "message": "this is the situation now:\n",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 71,
+      "id": "uerhrgk6d7n53xz6mzs5gqb9ah",
+      "created": "2024-11-01T18:55:24Z",
+      "username": "admin",
+      "message": "we are getting your let's encrypt certificate instead of our valid evrazia.su certificate:\n",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 72,
+      "id": "n7jw7um747rnj8myu3xt85gnzc",
+      "created": "2024-11-01T18:55:56Z",
+      "username": "admin",
+      "message": "the url reaches the wrong ip:\n",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 73,
+      "id": "s4zkpqtceigyjkcetqj5wdkr7r",
+      "created": "2024-11-01T18:55:58Z",
+      "username": "rezantsev",
+      "message": "Are you talking about network connectivity?"
+    },
+    {
+      "idx": 74,
+      "id": "p5xjww49h7fhpg9zfda8ssmhwr",
+      "created": "2024-11-01T18:56:12Z",
+      "username": "admin",
+      "message": "no"
+    },
+    {
+      "idx": 75,
+      "id": "ixwb9wjmqjgx3q56b1jq6ue68a",
+      "created": "2024-11-01T18:56:36Z",
+      "username": "admin",
+      "message": "https://webmail.evrazia.su/ should reach our server - now it does not"
+    },
+    {
+      "idx": 76,
+      "id": "b48zj84d17fztydum1kojdwhfh",
+      "created": "2024-11-01T18:57:07Z",
+      "username": "rezantsev",
+      "message": "Oh, I didn't read it all, sorry"
+    },
+    {
+      "idx": 77,
+      "id": "171zmqun8frs3d91t1cu9qqdrw",
+      "created": "2024-11-01T18:57:27Z",
+      "username": "admin",
+      "message": "I think the reg.ru DNS is misconfigured"
+    },
+    {
+      "idx": 78,
+      "id": "ancnknf7dt8fjycxcqkbr96ije",
+      "created": "2024-11-01T18:57:44Z",
+      "username": "admin",
+      "message": "but I don't want to touch it because I am not familiar with your environment"
+    },
+    {
+      "idx": 79,
+      "id": "8j4m7wwhobb5fk5gqfjsec1h7y",
+      "created": "2024-11-01T18:58:11Z",
+      "username": "admin",
+      "message": "vic added to the channel by admin."
+    },
+    {
+      "idx": 80,
+      "id": "tys5qtpbupfd5xwcidtyqhcajw",
+      "created": "2024-11-01T18:59:00Z",
+      "username": "rezantsev",
+      "message": "\"I don't think so; I see Let's Encrypt on your screenshot. Most likely, the path to the certificate is incorrectly specified somewhere in the config"
+    },
+    {
+      "idx": 81,
+      "id": "t6556nmm9f84xnifh16nqitrtw",
+      "created": "2024-11-01T18:59:08Z",
+      "username": "rezantsev",
+      "message": "Here is an example of the SSL certificate on the site [https://bitrix24.evrazia.su/](https://bitrix24.evrazia.su/)"
+    },
+    {
+      "idx": 82,
+      "id": "tz7j73joujr99nxfz5a913p6ph",
+      "created": "2024-11-01T18:59:14Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 83,
+      "id": "f4j7d9zpmt8obrrs4h1cw4augw",
+      "created": "2024-11-01T18:59:47Z",
+      "username": "admin",
+      "message": "ok can you please fix the DNS server so that https://webmail.evrazia.su/ will point to our server on browser?"
+    },
+    {
+      "idx": 84,
+      "id": "fnpph5onypgm3qys7smrwbodae",
+      "created": "2024-11-01T19:00:09Z",
+      "username": "admin",
+      "message": "look at the ip at the bottom"
+    },
+    {
+      "idx": 85,
+      "id": "487i97wdq7bapf9e7so3hu4ytw",
+      "created": "2024-11-01T19:01:01Z",
+      "username": "rezantsev",
+      "message": "This needs to be fixed on the Postfix server. Plus, the DNS record change can take from 1 hour to 3 days"
+    },
+    {
+      "idx": 86,
+      "id": "ta5za51e43dzde8stwxeisw63w",
+      "created": "2024-11-01T19:01:28Z",
+      "username": "admin",
+      "message": "what postfix misha? this is a web server!"
+    },
+    {
+      "idx": 87,
+      "id": "xhd9m9kxjjgyp8k68dsbnbywuw",
+      "created": "2024-11-01T19:02:13Z",
+      "username": "rezantsev",
+      "message": "Okay, not Postfix. But somewhere you physically have this web server, and somewhere you're providing it with the wildcard certificate"
+    },
+    {
+      "idx": 88,
+      "id": "ec64k98c8fnnbk56bktq3hj8bo",
+      "created": "2024-11-01T19:02:46Z",
+      "username": "rezantsev",
+      "message": "Or I don't understand what you're talking about at all"
+    },
+    {
+      "idx": 89,
+      "id": "yp1p8f4hxircmfkk1x9bbgowky",
+      "created": "2024-11-01T19:03:26Z",
+      "username": "admin",
+      "message": "can you please change the DNS configuration to point to our server?\n\nright now it points to 95.183.8.17 although there is a specific record for webmail.evrazia.su browsers take the catch all record"
+    },
+    {
+      "idx": 90,
+      "id": "uhrummffibdaif6g1f95i5ch6y",
+      "created": "2024-11-01T19:04:03Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 91,
+      "id": "9s536hfgotyabymgaazq1sydwy",
+      "created": "2024-11-01T19:04:16Z",
+      "username": "admin",
+      "message": "open in browser chrome"
+    },
+    {
+      "idx": 92,
+      "id": "ad5opza35ifntxnwz7kitz84my",
+      "created": "2024-11-01T19:05:09Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 93,
+      "id": "tcz4sehsefr9jc8fm6i7mdut3y",
+      "created": "2024-11-01T19:05:42Z",
+      "username": "rezantsev",
+      "message": "Apparently, the change hasn't reached your DNS zone yet"
+    },
+    {
+      "idx": 94,
+      "id": "ea6uepz8gjy1zrmiz6un1powcc",
+      "created": "2024-11-01T19:15:40Z",
+      "username": "gabriel",
+      "message": "Ну пробуйте в hosts поменять запись"
+    },
+    {
+      "idx": 95,
+      "id": "rweqfziryfg8byare345t8tnqy",
+      "created": "2024-11-01T19:15:55Z",
+      "username": "gabriel",
+      "message": "Не прям все через днс"
+    },
+    {
+      "idx": 96,
+      "id": "bgpu1yp37byqbbnst468wxyyzy",
+      "created": "2024-11-03T14:02:19Z",
+      "username": "admin",
+      "message": "The domain is ready with all the usersnames configured you can start copting emails from the yandex mailboxes to our server"
+    },
+    {
+      "idx": 97,
+      "id": "93rkmybwktgmdf4qijfuzda8ao",
+      "created": "2024-11-04T12:02:37Z",
+      "username": "gabriel",
+      "message": "Michail not answering the call and messages"
+    },
+    {
+      "idx": 98,
+      "id": "pujdrkza8pft5jr4kgc9gnez1r",
+      "created": "2024-11-04T12:03:07Z",
+      "username": "vic",
+      "message": "Which Michael ? "
+    },
+    {
+      "idx": 99,
+      "id": "iaai37fro389mypbufyyrycbgr",
+      "created": "2024-11-04T12:09:59Z",
+      "username": "gabriel",
+      "message": "Rezantsev"
+    },
+    {
+      "idx": 100,
+      "id": "mgbnus9kw7fxfdndu15j6z655o",
+      "created": "2024-11-04T17:16:59Z",
+      "username": "vic",
+      "message": "Так и не вышел на связь?"
+    },
+    {
+      "idx": 101,
+      "id": "sp4w8x14bbnyubgodhk1z1rn1r",
+      "created": "2024-11-04T20:31:22Z",
+      "username": "rezantsev",
+      "message": "Hi, team,\n\nI see that [https://webmail.evrazia.su/](https://webmail.evrazia.su/) is working. Leran, will it remain open to the public?\n\nWhat about ports—will employees be able to connect their mailboxes via IMAP? If so, will it be accessible only from the office and VPN, or have you opened the mail server to the public?\n\nRegarding migration—it's a bit more complicated here. They have mailboxes that aren't assigned to specific employees but are created for departments. I'll put together a list and send it in the same format as before for regular employees.\n\nIf you can create them by tomorrow, I'll draft instructions for employees based on the information, and then migrate the mailboxes overnight."
+    },
+    {
+      "idx": 102,
+      "id": "trtkq7cg9bnqdmrj7qmnk4xefr",
+      "created": "2024-11-04T20:39:01Z",
+      "username": "rezantsev",
+      "message": "I’ll only be able to send the list tomorrow. To authenticate with Yandex mail server, two-factor authentication via mobile phone is required, but unfortunately, I don’t have access to that phone"
+    },
+    {
+      "idx": 103,
+      "id": "hpjrmfdwqtd95mt4bfoeh1gojy",
+      "created": "2024-11-05T15:55:49Z",
+      "username": "rezantsev",
+      "message": "Here’s the file with the list of those who still need to be created",
+      "files": [
+        "generated_users1.csv"
+      ]
+    },
+    {
+      "idx": 104,
+      "id": "qzyy1zy4f7nx3bqikxai9hoipa",
+      "created": "2024-11-05T15:56:31Z",
+      "username": "rezantsev",
+      "message": "And here is the list of which aliases need to be added to whose email",
+      "files": [
+        "alias.csv"
+      ]
+    },
+    {
+      "idx": 105,
+      "id": "7j4ox61eq3gpix7s78tp9r8i7h",
+      "created": "2024-11-05T15:57:28Z",
+      "username": "admin",
+      "message": "@rezantsev when are you planning to start mailbox migration?"
+    },
+    {
+      "idx": 106,
+      "id": "8br13n5cg7g9igk8qp6cq3wonh",
+      "created": "2024-11-05T15:59:04Z",
+      "username": "rezantsev",
+      "message": "After you create the accounts, add the aliases, and answer the questions above, I'll also need to write instructions for people so everyone understands how to work"
+    },
+    {
+      "idx": 107,
+      "id": "hst339ibyi8ufprrb14zdzb4dh",
+      "created": "2024-11-05T16:04:27Z",
+      "username": "admin",
+      "message": "1. webmail will remain open without vpn to the internet\n2. the only IP allowed to connect using imaps (993) and esmtp (25)  - without vpn is 217.67.190.150\n3. in order to use imaps and esmtp not from the office address (217.67.190.150) you will need to connect to our vpn."
+    },
+    {
+      "idx": 108,
+      "id": "5y9io63jqjb85yg8cacx6am9qh",
+      "created": "2024-11-05T16:06:01Z",
+      "username": "rezantsev",
+      "message": "Great. Then we just need to create the users from the new list, add the aliases, and I can migrate everyone tonight and switch the MX record"
+    },
+    {
+      "idx": 109,
+      "id": "opztox9kxtnwxp5e4ykfkaz1pc",
+      "created": "2024-11-05T16:06:31Z",
+      "username": "rezantsev",
+      "message": "Or tomorrow, if you're busy today"
+    },
+    {
+      "idx": 110,
+      "id": "4bdi6ncecfdeifyzsjuj6zokee",
+      "created": "2024-11-05T16:09:25Z",
+      "username": "admin",
+      "message": "users added"
+    },
+    {
+      "idx": 111,
+      "id": "efw3gtbrrbfz8qwftfajh8yrty",
+      "created": "2024-11-05T16:12:09Z",
+      "username": "admin",
+      "message": "you need to migrate all mailboxes before I can continue changing additional configurations"
+    },
+    {
+      "idx": 112,
+      "id": "m9j4uq185byj8ref1z5e9qah3y",
+      "created": "2024-11-05T16:12:57Z",
+      "username": "rezantsev",
+      "message": "Alright, I'll do it a bit later since people are still working"
+    },
+    {
+      "idx": 113,
+      "id": "zh8huxeem7fpxntyc5c8u1qb5e",
+      "created": "2024-11-05T16:20:41Z",
+      "username": "admin",
+      "message": "my suggestion is to configure the mailboxes one by one and start copying the emails from their mailbox on yandex.ru to our server (it might be big mailboxes) and we make the full move (move mx records, change spf etc.... on a weekend - when we will do an additional sync of mailboxes to copy the new emails)"
+    },
+    {
+      "idx": 114,
+      "id": "6kpqcbs6afrqjd8ybw1wcy3xna",
+      "created": "2024-11-05T16:31:32Z",
+      "username": "rezantsev",
+      "message": "The total volume of all the mailboxes does not exceed 15 GB, so everything will be transferred quickly"
+    },
+    {
+      "idx": 115,
+      "id": "y8nqcia1fpnfun4bcm91c6e5xh",
+      "created": "2024-11-05T16:34:14Z",
+      "username": "admin",
+      "message": "ok"
+    },
+    {
+      "idx": 116,
+      "id": "k3434q3j73fyfnk85ig4osptkw",
+      "created": "2024-11-05T17:43:52Z",
+      "username": "rezantsev",
+      "message": "@admin \nLeran, could you tell me the IP address of the mail server? I'm migrating everyone with a script\n"
+    },
+    {
+      "idx": 117,
+      "id": "htjpn7g3bffzjpqa8bydsp16uy",
+      "created": "2024-11-11T13:12:26Z",
+      "username": "rezantsev",
+      "message": "@admin "
+    },
+    {
+      "idx": 118,
+      "id": "xe51sgs41t8cjqb395447tdzry",
+      "created": "2024-11-11T13:17:52Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 119,
+      "id": "kr8i8k9keff7tk91xywde11qay",
+      "created": "2024-11-11T13:18:28Z",
+      "username": "admin",
+      "message": "mlo.evrazia.su"
+    },
+    {
+      "idx": 120,
+      "id": "oqng1anxm7nsfb665omibjhqtr",
+      "created": "2024-11-11T13:19:09Z",
+      "username": "vic",
+      "message": "Please make them 🙏"
+    },
+    {
+      "idx": 121,
+      "id": "46syxpthyp8cxfe9dc6q14pduo",
+      "created": "2024-11-11T13:21:35Z",
+      "username": "admin",
+      "message": "make what?"
+    },
+    {
+      "idx": 122,
+      "id": "7j5rxyz3ibn19mwbdhapu3rpxw",
+      "created": "2024-11-11T13:28:47Z",
+      "username": "vic",
+      "message": "What they need for emails on evrasia"
+    },
+    {
+      "idx": 123,
+      "id": "mhy31z318pf6td3ag777ngzajy",
+      "created": "2024-11-11T13:29:22Z",
+      "username": "vic",
+      "message": "And there is a problem with bitrix access"
+    },
+    {
+      "idx": 124,
+      "id": "3h7h6rnxebf6jfjmu8phiswsby",
+      "created": "2024-11-11T13:30:19Z",
+      "username": "admin",
+      "message": "all the user accounts are alreayd created 2 weeks ago"
+    },
+    {
+      "idx": 125,
+      "id": "uioison8bir5f8d8d81kr87wsy",
+      "created": "2024-11-11T13:31:28Z",
+      "username": "vic",
+      "message": "As I understand, there are some problems "
+    },
+    {
+      "idx": 126,
+      "id": "grojzkpz63fgun1og5busndsxc",
+      "created": "2024-11-11T13:31:48Z",
+      "username": "vic",
+      "message": "Here "
+    },
+    {
+      "idx": 127,
+      "id": "6ma8qdcx7bfamcib7z59xw9bca",
+      "created": "2024-11-11T13:39:31Z",
+      "username": "admin",
+      "message": ":point_up: "
+    },
+    {
+      "idx": 128,
+      "id": "y4r8qsuzsjbsjk8j34kfay1n4c",
+      "created": "2024-11-11T14:00:13Z",
+      "username": "rezantsev",
+      "message": "Hello, thank you. As I understand it, the address is 159.100.19.206?"
+    },
+    {
+      "idx": 129,
+      "id": "e87ruh1jpbfjbe6aaytry5pjaa",
+      "created": "2024-11-11T14:00:26Z",
+      "username": "admin",
+      "message": "yes"
+    },
+    {
+      "idx": 130,
+      "id": "65r8f89dbbyud854mkp6c8f4cr",
+      "created": "2024-11-11T14:00:43Z",
+      "username": "admin",
+      "message": "imap is only available from your office address or VPN"
+    },
+    {
+      "idx": 131,
+      "id": "uyech4fpubf6zeskeuztwgjyor",
+      "created": "2024-11-11T14:01:24Z",
+      "username": "rezantsev",
+      "message": "Great! I will move all the data from the mailboxes today, and then you can change the MX record"
+    },
+    {
+      "idx": 132,
+      "id": "yyuhphwcrtbwzp7fsrymo81pko",
+      "created": "2024-11-11T14:02:07Z",
+      "username": "rezantsev",
+      "message": "I will also send the instructions to the employees today"
+    },
+    {
+      "idx": 133,
+      "id": "wkp8kzpib7gpbmp7hcp63pk8jr",
+      "created": "2024-11-11T20:51:33Z",
+      "username": "rezantsev",
+      "message": "All mailboxes have been migrated, and the MX record has been switched",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 134,
+      "id": "7qo53uyw1fy3dg1sad6nghrzww",
+      "created": "2024-11-11T21:10:36Z",
+      "username": "rezantsev",
+      "message": "There are still two people who need mailboxes created",
+      "files": [
+        "generated_users2.csv"
+      ]
+    },
+    {
+      "idx": 135,
+      "id": "it4phxsr1fd9bfp7jah6t4xxqa",
+      "created": "2024-11-12T07:14:34Z",
+      "username": "rezantsev",
+      "message": "Good morning, colleagues.\n\nThe new email is refusing to work and is showing a server connection error\n@admin "
+    },
+    {
+      "idx": 136,
+      "id": "g1bupmj46pnk3mnjtn1444mnch",
+      "created": "2024-11-12T08:51:37Z",
+      "username": "rezantsev",
+      "message": "Коллеги, это проблема \nУ людей почты больше нет \n@vic "
+    },
+    {
+      "idx": 137,
+      "id": "r68ypu8xi3f3zye5kxauj4uw9r",
+      "created": "2024-11-12T08:52:01Z",
+      "username": "admin",
+      "message": "WHO told you to change the MX record????"
+    },
+    {
+      "idx": 138,
+      "id": "9fb5n5f49brduywadnydp1cyuw",
+      "created": "2024-11-12T08:52:59Z",
+      "username": "admin",
+      "message": "and you set it to the wrong IP!!!"
+    },
+    {
+      "idx": 139,
+      "id": "r5h7e7kdfifnj8x3jzpbtiodre",
+      "created": "2024-11-12T08:53:13Z",
+      "username": "rezantsev",
+      "message": "How will it work?\nAlso, I have written about this several times"
+    },
+    {
+      "idx": 140,
+      "id": "p675ee4emffa7dy657e1oirf1c",
+      "created": "2024-11-12T08:53:23Z",
+      "username": "admin",
+      "message": "and the TTL is 25 DAYS!!!:\n```\n; <<>> DiG 9.10.6 <<>> evrazia.su mx\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50165\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; QUESTION SECTION:\n;evrazia.su.\t\t\tIN\tMX\n\n;; ANSWER SECTION:\nevrazia.su.\t\t86400\tIN\tMX\t0 mlo.evrazia.su.\n\n;; ADDITIONAL SECTION:\nmlo.evrazia.su.\t\t15939\tIN\tA\t159.100.19.206\n\n;; Query time: 134 msec\n;; SERVER: 10.12.12.14#53(10.12.12.14)\n;; WHEN: Tue Nov 12 11:52:41 MSK 2024\n;; MSG SIZE  rcvd: 75\n```"
+    },
+    {
+      "idx": 141,
+      "id": "qh6wk1j4kbrgum1a1kh5pdrknr",
+      "created": "2024-11-12T08:53:46Z",
+      "username": "admin",
+      "message": "no you didnt you took a decision by yourself and the damage is done now"
+    },
+    {
+      "idx": 142,
+      "id": "6tseqs83jb8u9m8fx7g6odow3e",
+      "created": "2024-11-12T08:54:45Z",
+      "username": "rezantsev",
+      "message": "Maybe you just need to read and reply to the messages?\nNow I’m the one at fault, great"
+    },
+    {
+      "idx": 143,
+      "id": "33p5ztx9fir8iye7ig5nmkqpwe",
+      "created": "2024-11-12T08:55:05Z",
+      "username": "admin",
+      "message": "I told you to migrate the mailboxes and WAIT!"
+    },
+    {
+      "idx": 144,
+      "id": "8sqswwsfe3bwpnxxuewbni6a6e",
+      "created": "2024-11-12T09:04:55Z",
+      "username": "rezantsev",
+      "message": "TTL 86400 - that's 24 hours.\nI’ve written to you several times that I’m doing a migration and changing the record.\nWhat’s the point of doing the migration and waiting?\nJust to do the migration again later?\nYou didn’t answer this, and now it’s my fault? You came up with that idea really well."
+    },
+    {
+      "idx": 145,
+      "id": "8iooiaxojbfgbrz4qzbhxz9aro",
+      "created": "2024-11-12T09:05:20Z",
+      "username": "admin",
+      "message": "so if you get no answer you do what you want?"
+    },
+    {
+      "idx": 146,
+      "id": "qd3i65qfstge9yq6agxxwre95a",
+      "created": "2024-11-12T09:08:22Z",
+      "username": "rezantsev",
+      "message": "What do you mean, what do you want?\nI’ve written about this at least 3 times, and after that, you replied. If there’s no denial or additional information, and you’ve read the messages, it means you’re aware of the issue and have no objections, right?\nOr do I need to confirm each message with you multiple times?"
+    },
+    {
+      "idx": 147,
+      "id": "xy1c9wezft8xt8i9sx71qa7b8c",
+      "created": "2024-11-12T09:09:09Z",
+      "username": "admin",
+      "message": "yes when it concerns IT you need to verify what you are doing and sync with your colleagues otherwise you cause damages like you did now!"
+    },
+    {
+      "idx": 148,
+      "id": "iienfnqiubgx9dgk45gw8woj9o",
+      "created": "2024-11-12T09:10:53Z",
+      "username": "rezantsev",
+      "message": "Maybe the problem is that you focus all the questions on yourself and don't give anyone any information about the services?\nYou don’t reply to messages, and as it turns out, even when you read them, you don’t read everything.\nAnd now we’re all dependent on you, just waiting all the time?"
+    },
+    {
+      "idx": 149,
+      "id": "ywx6xt7dofbrdfx4m764mrbjha",
+      "created": "2024-11-12T09:11:42Z",
+      "username": "admin",
+      "message": "@rezantsev you are not helping your case here.... "
+    },
+    {
+      "idx": 150,
+      "id": "9pjkdn7s43dwbexnqk6acku8rh",
+      "created": "2024-11-12T09:12:09Z",
+      "username": "rezantsev",
+      "message": "Will you switch the MX record to the correct one, or what are we doing now?"
+    },
+    {
+      "idx": 151,
+      "id": "se147upzuifyxk7modx4k4cjcy",
+      "created": "2024-11-12T09:12:29Z",
+      "username": "admin",
+      "message": "I am working on routing the emails to work now lets talk about this later on"
+    },
+    {
+      "idx": 152,
+      "id": "kysn11md8jfhdeszjjki9mfoyo",
+      "created": "2024-11-12T09:12:43Z",
+      "username": "admin",
+      "message": "DO NOT TOUCH ANYTHING for now please!"
+    },
+    {
+      "idx": 153,
+      "id": "ydbhn6az4igy3pwwhq8s3r741e",
+      "created": "2024-11-12T09:16:27Z",
+      "username": "admin",
+      "message": "shon added to the channel by admin."
+    },
+    {
+      "idx": 154,
+      "id": "gkkr35keyjbydr4xwpro3aqpqw",
+      "created": "2024-11-12T09:23:55Z",
+      "username": "admin",
+      "message": "At this point I made changes to IP mange and nat to fix the damage from the external IP of the MX record.\n\n@rezantsev \n1. please make sure everyone can read/send emails from and to the evrazia.su mailboxes.\n2. From this point on - you DO NOT MAKE ANY CHANGES especially DNS without consulting the team here!"
+    },
+    {
+      "idx": 155,
+      "id": "3ocbn7z7xty57fea8aghra4jsw",
+      "created": "2024-11-12T09:26:53Z",
+      "username": "admin",
+      "message": "@rezantsev please confirm you red this message and update here if everything is working or if you have found issues"
+    },
+    {
+      "idx": 156,
+      "id": "x8kgbjpzz7rbxrwpnaq9ra99ma",
+      "created": "2024-11-12T09:28:58Z",
+      "username": "rezantsev",
+      "message": "Not working yet"
+    },
+    {
+      "idx": 157,
+      "id": "6tdhro81sinzjg6y5n3waroiha",
+      "created": "2024-11-12T09:29:16Z",
+      "username": "admin",
+      "message": "what is not working please be more specific"
+    },
+    {
+      "idx": 158,
+      "id": "wia8mxnb9bgrj8ja7yrunm331c",
+      "created": "2024-11-12T09:30:42Z",
+      "username": "rezantsev",
+      "message": "The issue is the same: sending, receiving, and connecting to the server"
+    },
+    {
+      "idx": 159,
+      "id": "3dxppthnjib7upzbxnj5ax5wpo",
+      "created": "2024-11-12T09:31:20Z",
+      "username": "admin",
+      "message": "from where? I am connected to the server sending and receiving mail"
+    },
+    {
+      "idx": 160,
+      "id": "97pcyykgf3ykummo7kepo6q3br",
+      "created": "2024-11-12T09:32:05Z",
+      "username": "admin",
+      "message": "and I see you connected to the server as well:\n```\nNov 12 09:31:38 evrazia.su dovecot[86164]: auth: Debug: client passdb out: OK        1        user=mvryazantsev\n```"
+    },
+    {
+      "idx": 161,
+      "id": "fjj4tj5g6pf7uncs3cdnf37s7r",
+      "created": "2024-11-12T09:32:14Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 162,
+      "id": "j1nh4degnt8t3mh8dp1rzxdbqr",
+      "created": "2024-11-12T09:32:56Z",
+      "username": "rezantsev",
+      "message": "Emails from external mailboxes are not coming through either"
+    },
+    {
+      "idx": 163,
+      "id": "erw36s6xfjdt5m4uc8ykm8psxr",
+      "created": "2024-11-12T10:31:32Z",
+      "username": "admin",
+      "message": "webmail is tested and working now.\n\nplease test and report back here"
+    },
+    {
+      "idx": 164,
+      "id": "g95gg3iwgtb1iqb1z91yksphdc",
+      "created": "2024-11-12T10:43:04Z",
+      "username": "rezantsev",
+      "message": "Emails are being sent and delivered to external addresses from the evrazia.su domain,\nbut emails are not reaching the evrazia.su mailboxes"
+    },
+    {
+      "idx": 165,
+      "id": "yy675sjc9bfatcnru7cuzg54ke",
+      "created": "2024-11-12T10:54:30Z",
+      "username": "admin",
+      "message": "I do not understand"
+    },
+    {
+      "idx": 166,
+      "id": "atpxq966r7dnuccfew5fx7r4qe",
+      "created": "2024-11-12T10:58:30Z",
+      "username": "rezantsev",
+      "message": "I’m sending emails to mvryazantsev@evrazia.su from the mvr035@gmail.com mailbox, but the emails are not reaching mvryazantsev@evrazia.su"
+    },
+    {
+      "idx": 167,
+      "id": "gtt11okei7n35q1wqwynfc9t8e",
+      "created": "2024-11-12T10:59:30Z",
+      "username": "admin",
+      "message": "I just sent an email from gmail to [mvryazantsev@evrazia.su](mailto:mvryazantsev@evrazia.su) the email is in the mailbox"
+    },
+    {
+      "idx": 168,
+      "id": "899aa3fmoprdjgfbkyfq1rw8de",
+      "created": "2024-11-12T10:59:39Z",
+      "username": "admin",
+      "message": "meaning it arrived"
+    },
+    {
+      "idx": 169,
+      "id": "jc3pixeuqpb69djm3fk7qgzinh",
+      "created": "2024-11-12T11:00:33Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 170,
+      "id": "whoxkntjx7rwxrnntjxmehpufy",
+      "created": "2024-11-12T11:01:13Z",
+      "username": "rezantsev",
+      "message": "The last email was received yesterday at 21:11.\nI just re-logged into the web interface"
+    },
+    {
+      "idx": 171,
+      "id": "uubt8iewm7bmub746ptqebo59y",
+      "created": "2024-11-12T11:03:57Z",
+      "username": "admin",
+      "message": "this is my evrazia.su mailbox ",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 172,
+      "id": "4ayqkurqsbgntfjyijatn616fe",
+      "created": "2024-11-12T11:04:36Z",
+      "username": "admin",
+      "message": "try to hard refresh your browser"
+    },
+    {
+      "idx": 173,
+      "id": "tginmhnqgffqikmwomwzrc8i9w",
+      "created": "2024-11-12T11:07:44Z",
+      "username": "rezantsev",
+      "message": "It didn't help.  \nI just checked another inbox, it's the same there.  \nI logged in from my phone – still the same.  \nI sent a test from amryazantseva@evrazia.su to mvryazantsev@evrazia.su.  \nThe test was sent, but didn't go through"
+    },
+    {
+      "idx": 174,
+      "id": "n9jn8r6wfbfjfm7z49kos8ug1r",
+      "created": "2024-11-12T11:08:22Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "64282BCC-631B-466E-8514-E44EF518F160.png"
+      ]
+    },
+    {
+      "idx": 175,
+      "id": "ejh1uhiqmbfujxn9id8xoce5sa",
+      "created": "2024-11-12T11:15:37Z",
+      "username": "admin",
+      "message": "now it should work mx issue"
+    },
+    {
+      "idx": 176,
+      "id": "x7ma8nxujj8qdf8cosbt6ohj7y",
+      "created": "2024-11-12T11:15:53Z",
+      "username": "admin",
+      "message": "please test and report here"
+    },
+    {
+      "idx": 177,
+      "id": "yweynawe5jgddm3ucpajwsy76w",
+      "created": "2024-11-12T11:17:40Z",
+      "username": "rezantsev",
+      "message": "Yes, the emails have started coming through"
+    },
+    {
+      "idx": 178,
+      "id": "reggso7ziigw5cqkisermqb9zo",
+      "created": "2024-11-12T11:26:19Z",
+      "username": "admin",
+      "message": "keep testing please and be attentive to user in the upcoming days - please report any issues here so we can deal with them promptly."
+    },
+    {
+      "idx": 179,
+      "id": "ifb1qj8iptrbtkehtndc4u1jmy",
+      "created": "2024-11-12T11:35:44Z",
+      "username": "rezantsev",
+      "message": "Yes, I’ve informed them about it"
+    },
+    {
+      "idx": 180,
+      "id": "6tar4t73r7yzikk8mqeqdzu64e",
+      "created": "2024-11-12T11:36:48Z",
+      "username": "rezantsev",
+      "message": "We also need to create users.\nHere’s the list, and I’ll send another one shortly"
+    },
+    {
+      "idx": 181,
+      "id": "m83ii6r9n7njmfnrhuebgxrx8c",
+      "created": "2024-11-12T11:40:57Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "generated_users1 (2).csv"
+      ]
+    },
+    {
+      "idx": 182,
+      "id": "1gbcrmhs8fft8y6xnf4ju3t6kc",
+      "created": "2024-11-12T13:53:54Z",
+      "username": "admin",
+      "message": "```\nuniver WU4PaNKMFojuSXBuZxA#lQvV)AHiLdCMk8Rlu#)h\n```"
+    },
+    {
+      "idx": 183,
+      "id": "f31qndcyrtb4d8o4g6e4efzffh",
+      "created": "2024-11-12T15:10:57Z",
+      "username": "rezantsev",
+      "message": "Another person has been found\naasigaeva (Сигаева Анастасия Анатольевна)"
+    },
+    {
+      "idx": 184,
+      "id": "15a16msuyp8btg5mssxy7m7jty",
+      "created": "2024-11-13T08:57:09Z",
+      "username": "rezantsev",
+      "message": "Hello, colleagues. On port 80, the following is opening:\nhttp://webmail.evrazia.su:80\n@admin ",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 185,
+      "id": "re8795adhtgitxe6xjn4umw4ge",
+      "created": "2024-11-13T08:58:07Z",
+      "username": "admin",
+      "message": "https only"
+    },
+    {
+      "idx": 186,
+      "id": "n5jgysijipyw9pg68oocdm8xuy",
+      "created": "2024-11-13T09:33:50Z",
+      "username": "rezantsev",
+      "message": "I understand, you asked to report all unusual findings"
+    },
+    {
+      "idx": 187,
+      "id": "s9h3eqapg7ya88benm6pdpfagy",
+      "created": "2024-11-13T14:53:29Z",
+      "username": "rezantsev",
+      "message": "Leran, will you create it?\nThey are just asking"
+    },
+    {
+      "idx": 188,
+      "id": "4wwknzsdoibezrczn9qpoe6xwo",
+      "created": "2024-11-13T14:53:45Z",
+      "username": "admin",
+      "message": "create what?"
+    },
+    {
+      "idx": 189,
+      "id": "h75o63cam3nodmuppnutrmh7ha",
+      "created": "2024-11-13T14:53:52Z",
+      "username": "rezantsev",
+      "message": "mailuser"
+    },
+    {
+      "idx": 190,
+      "id": "fwdxujk4siyk8n6kn8juis4m4o",
+      "created": "2024-11-13T14:54:00Z",
+      "username": "admin",
+      "message": "sure what is the username?"
+    },
+    {
+      "idx": 191,
+      "id": "73b3gn3qmfnmxyq6gb5hcb3knw",
+      "created": "2024-11-13T14:54:17Z",
+      "username": "rezantsev",
+      "message": "aasigaeva (Сигаева Анастасия Анатольевна)"
+    },
+    {
+      "idx": 192,
+      "id": "4cfgzoxiubr15eoddaepjq4cja",
+      "created": "2024-11-13T14:54:58Z",
+      "username": "vic",
+      "message": "Liran. 🙏 "
+    },
+    {
+      "idx": 193,
+      "id": "ynxcpsdnhpyz3jnrduemoa5r6o",
+      "created": "2024-11-13T14:56:18Z",
+      "username": "admin",
+      "message": "```\naasigaeva #5KP(C_uKTYhG&MhV(Li*Z2Y5)pNbOw0RZiwW0yR\n```"
+    },
+    {
+      "idx": 194,
+      "id": "ppoocwfhzjd63kuq1p55cymqqh",
+      "created": "2024-11-13T14:59:37Z",
+      "username": "vic",
+      "message": "Done!?"
+    },
+    {
+      "idx": 195,
+      "id": "8bf95w74jirxunoc19ykfbkh3o",
+      "created": "2024-11-15T11:51:29Z",
+      "username": "rezantsev",
+      "message": "Hi everyone,\n@admin, could you tell me if you've added these aliases?",
+      "files": [
+        "alias.csv"
+      ]
+    },
+    {
+      "idx": 196,
+      "id": "w4hbsqc9c7b6xed9s8rht5eefw",
+      "created": "2024-11-16T16:15:31Z",
+      "username": "admin",
+      "message": "yes these accounts exists on the evrazia.su mail server"
+    },
+    {
+      "idx": 197,
+      "id": "j3ya4wqcxjbxurug6uqq5hy4uh",
+      "created": "2024-11-19T08:21:19Z",
+      "username": "rezantsev",
+      "message": "@admin, Hi!\nThe employees are asking to increase the maximum file size for attachments in email from 5MB to at least 15MB or more.\nCan you increase it for them?"
+    },
+    {
+      "idx": 198,
+      "id": "17es8ri18t8qd8kjx7cs7domua",
+      "created": "2024-11-19T08:37:17Z",
+      "username": "rezantsev",
+      "message": "A request was also made to create mailboxes under the subdomain kyrgyzstan.evrasia.su.\nI’ve requested information on the mailbox names and their quantity for now"
+    },
+    {
+      "idx": 199,
+      "id": "h7hgcra5h3rppf8kx8nmzq3xih",
+      "created": "2024-11-19T08:48:55Z",
+      "username": "rezantsev",
+      "message": "Requires 3 mailboxes\nhello@kyrgyzstan.evrasia.su\ndirector@kyrgyzstan.evrasia.su\ninfo@kyrgyzstan.evrasia.su\n\nI wrote to them that it would take time"
+    },
+    {
+      "idx": 200,
+      "id": "yob81qxemjrdbe8c3t3rtsgeoy",
+      "created": "2024-11-19T12:08:29Z",
+      "username": "admin",
+      "message": "we did not create a mailserver for the subdomain [kyrgyzstan.evrasia.su](mailto:hello@kyrgyzstan.evrasia.su)"
+    },
+    {
+      "idx": 201,
+      "id": "o5qyr76t6fy9un4z78jjhjybec",
+      "created": "2024-11-19T12:09:33Z",
+      "username": "admin",
+      "message": "this will impact spam rating we can do that but size bounced messages might be identified as spam"
+    },
+    {
+      "idx": 202,
+      "id": "8w3kuz3dtjbe5x9aq1qg68xwtc",
+      "created": "2024-11-19T12:12:12Z",
+      "username": "admin",
+      "message": "why not create them mailboxes under evrazia.su ?"
+    },
+    {
+      "idx": 203,
+      "id": "wjgkwtdkqighirfxbdwj37cy5h",
+      "created": "2024-11-19T12:32:00Z",
+      "username": "rezantsev",
+      "message": "I understand that we do not have such a subdomain, the question is to create it\nI also suggested that they create mailboxes in evrasia.su - they replied that they wanted to divide and create them in the kyrgyzstan.evrasia.su subdomain"
+    },
+    {
+      "idx": 204,
+      "id": "o47ii7z41fbjmxt1f47j6axapa",
+      "created": "2024-11-19T12:32:57Z",
+      "username": "rezantsev",
+      "message": "Definitely need to increase it, they can’t even exchange pdf files"
+    },
+    {
+      "idx": 205,
+      "id": "qthxqy8xffns5rottmf1yp6fih",
+      "created": "2024-11-19T12:36:49Z",
+      "username": "admin",
+      "message": "how many mailboxes will they have under kyrgyzstan.evrasia.su ?"
+    },
+    {
+      "idx": 206,
+      "id": "qofz1q5d3i8uux3ugb5tz847kr",
+      "created": "2024-11-19T12:40:37Z",
+      "username": "rezantsev",
+      "message": "Currently only 3 mailboxes"
+    },
+    {
+      "idx": 207,
+      "id": "m6u1d65rjfrwzd9864y161zn3a",
+      "created": "2024-11-19T12:44:17Z",
+      "username": "rezantsev",
+      "message": "They say that there will be more in the future"
+    },
+    {
+      "idx": 208,
+      "id": "uw4sf8q37frh8k55symbe7jzmh",
+      "created": "2024-11-19T12:49:54Z",
+      "username": "admin",
+      "message": "I think it is bad practice who is in chrage of these 3 people? lets have a jitsi call with them, it will just make a mess \n\nthey can create mailboxes in a format:\nhello-krg@evrasia.su\n\nfor example"
+    },
+    {
+      "idx": 209,
+      "id": "kat99ozxhtyubp7sxj14g3cjgc",
+      "created": "2024-11-19T14:45:35Z",
+      "username": "rezantsev",
+      "message": "We agreed that mailboxes for Kyrgyzstan will have the suffix -kgz\nIt turns out that we need 3 mailboxes\nhello-kgz@evrasia.su\ndirector-kgz@evrasia.su \ninfo-kgz@evrasia.su"
+    },
+    {
+      "idx": 210,
+      "id": "5g1js7wp8fn3myd61k7a3bmewh",
+      "created": "2024-11-22T08:45:06Z",
+      "username": "rezantsev",
+      "message": "Hi, @admin \n\nHaven't added a maximum attachment size to emails yet?\n\nEmployees are also waiting for mailboxes"
+    },
+    {
+      "idx": 211,
+      "id": "rfg18k9yepb89pnfmpsbzfc73r",
+      "created": "2024-11-22T09:25:36Z",
+      "username": "admin",
+      "message": "```\nhello-kgz IhWeLQOEfrAbc0AMs1Xvl3)8(2PuO-6Cr7N0sw0V\ndirector-kgz XzG_X-7t&Tm(Vg0-Q(WllqJnc_Zm2RvTJdODFtiw\ninfo-kgz AbMVzqMIk9k#yXeslH42T24zOx8YltO2-_479zT&\n```"
+    },
+    {
+      "idx": 212,
+      "id": "5gs3uoqqgid6bqkkqk6n7xbyyo",
+      "created": "2024-11-27T09:24:59Z",
+      "username": "rezantsev",
+      "message": "Hi all\n@admin \n1. They ask to block tashakkhmuradyan mailbox\nAnd create new mailbox aanikitin (Никитин Александр Аркадьевич)\n\n2. Tell me, do we have any solution to increase the volume of attachments in mail?\n\n3. I just found out that on the website evrazia.su there is a registration of external users who receive a letter from the mailbox info@evrazia.su\nFor now they are configured to send from the Yandex mail server\nWe need to transfer them to us, but this requires network connection for access via Imap and smtp\nSet up network connectivity for them, they only have one white address on the server - 95.183.8.17"
+    },
+    {
+      "idx": 213,
+      "id": "3718jsx34pnh5rg6itxrbbczbr",
+      "created": "2024-11-27T09:27:07Z",
+      "username": "gabriel",
+      "message": "Михаил, создай пожалуйста задачу в GLPI"
+    },
+    {
+      "idx": 214,
+      "id": "audwksqe33b1xbibpb65xcdfto",
+      "created": "2024-11-27T09:38:05Z",
+      "username": "rezantsev",
+      "message": "Леран там тоже есть?"
+    },
+    {
+      "idx": 215,
+      "id": "pqro4qjkoinw8fm1ggndge9tko",
+      "created": "2024-11-27T10:30:34Z",
+      "username": "gabriel",
+      "message": "Да"
+    },
+    {
+      "idx": 216,
+      "id": "eqsxbcf57fb53fwgr3ox9px1oh",
+      "created": "2024-12-05T11:45:29Z",
+      "username": "rezantsev",
+      "message": "Hi all!\n@admin, tell me pls, where is the best place to contact you with questions, in glpi or here?"
+    },
+    {
+      "idx": 217,
+      "id": "dfb4bwoo1jft8cyijr1rrn65po",
+      "created": "2024-12-05T11:45:39Z",
+      "username": "admin",
+      "message": "here"
+    },
+    {
+      "idx": 218,
+      "id": "4sskesu9zpfe7ercn79zrbeszo",
+      "created": "2024-12-05T11:45:43Z",
+      "username": "admin",
+      "message": "I am not in GLPI"
+    },
+    {
+      "idx": 219,
+      "id": "xkzg4ydg5fbffqg6u3jajdz7yc",
+      "created": "2024-12-05T11:45:46Z",
+      "username": "rezantsev",
+      "message": "Great"
+    },
+    {
+      "idx": 220,
+      "id": "eacehj9mep8dtbwpmpm3nq3pmo",
+      "created": "2024-12-05T11:45:51Z",
+      "username": "admin",
+      "message": "Misha is managing GLPI"
+    },
+    {
+      "idx": 221,
+      "id": "g975hdk9jirpmntg16apa6cd4c",
+      "created": "2024-12-05T11:46:22Z",
+      "username": "rezantsev",
+      "message": "I need help with these issues, can you help?"
+    },
+    {
+      "idx": 222,
+      "id": "p96yipgusjgkxbor383bnsdr7a",
+      "created": "2024-12-05T11:47:17Z",
+      "username": "rezantsev",
+      "message": "And need create one more mailbox nasemak (Семак Нелли Алексеевна)\n"
+    },
+    {
+      "idx": 223,
+      "id": "4reoo4kfu3d6dyj5dt6jkatrma",
+      "created": "2024-12-05T11:47:33Z",
+      "username": "rezantsev",
+      "message": "in domain evrazia.su"
+    },
+    {
+      "idx": 224,
+      "id": "cbd7adydtjrmx8r66xxnjdepqe",
+      "created": "2024-12-05T11:57:03Z",
+      "username": "admin",
+      "message": "1. what does \"block\" mean? we can delete the mailbox , change password or remove its virtual forward \n2. email size is critical to spam rating - large files should not be sent via emails - some spam lists consider every bounce (even mail size related bounce) as spam - what is the size you need?\n3. I dont understand"
+    },
+    {
+      "idx": 225,
+      "id": "r7cuzmmjptb68dpcup4qrjs73h",
+      "created": "2024-12-05T11:58:18Z",
+      "username": "rezantsev",
+      "message": "The employee quit, letters from there are not needed, so let’s delete him and that’s it"
+    },
+    {
+      "idx": 226,
+      "id": "zhagppgqcbyc9ytusg319sjaga",
+      "created": "2024-12-05T11:58:47Z",
+      "username": "admin",
+      "message": "ok so delete mailbox``` tashakkhmuradyan ```?"
+    },
+    {
+      "idx": 227,
+      "id": "rwe4pjygkty79rwj1mnr8mkm5e",
+      "created": "2024-12-05T11:59:24Z",
+      "username": "rezantsev",
+      "message": "2. Ideally, of course, 15 MB, but I have a suspicion that you won’t give that much :)"
+    },
+    {
+      "idx": 228,
+      "id": "uksoshbts7g37e64sis43667fa",
+      "created": "2024-12-05T11:59:50Z",
+      "username": "rezantsev",
+      "message": "\nYeah"
+    },
+    {
+      "idx": 229,
+      "id": "59uj8kuf5if77efryfxg64kfhh",
+      "created": "2024-12-05T12:02:32Z",
+      "username": "rezantsev",
+      "message": "3. We have a website evrazia.su. External users register on it and receive credentials from the info@evrazis.su mailbox. Now they send letters via Yandex. Us need to transfer them to your server. To do this, you need to open a network connection from your server to their server so that they can reach there"
+    },
+    {
+      "idx": 230,
+      "id": "c9ti7w9bjbrxur847adg1xdtky",
+      "created": "2024-12-05T12:03:12Z",
+      "username": "rezantsev",
+      "message": "You need to open imap and smtp to the address 95.183.8.17"
+    },
+    {
+      "idx": 231,
+      "id": "csstw8zx57nbf89q6as8hoqrsw",
+      "created": "2024-12-05T12:17:33Z",
+      "username": "admin",
+      "message": "where is this website hosted?"
+    },
+    {
+      "idx": 232,
+      "id": "ky51wg36kbba9gxdm16bor1quw",
+      "created": "2024-12-05T13:17:44Z",
+      "username": "rezantsev",
+      "message": "I asked them for information. Currently silent"
+    },
+    {
+      "idx": 233,
+      "id": "o9rhwcr5ctnsfbow3ww9zdkb6o",
+      "created": "2024-12-05T13:20:02Z",
+      "username": "rezantsev",
+      "message": "While we wait, will you create the requested mailboxes if you have time?\nnasemak (Семак Нелли Алексеевна)\naanikitin (Никитин Александр Аркадьевич)\n\n"
+    },
+    {
+      "idx": 234,
+      "id": "ac4ztznorpn3bfy39se6hj6tby",
+      "created": "2024-12-05T13:22:26Z",
+      "username": "admin",
+      "message": "```\nnasemak  R#h7Hl&2cem)62RgGCPA#7Y3JIgDkCovOJzqKZwl\naanikitin  PRrMzP2(HDF3Is*bqO_ED9gGZt1gR5SI-CH#pwVZ\n```"
+    },
+    {
+      "idx": 235,
+      "id": "6m5mea1u4tbh3e45au7w7ojsfy",
+      "created": "2024-12-05T13:22:48Z",
+      "username": "admin",
+      "message": "why is it not hosted on our cloud? can we move it?"
+    },
+    {
+      "idx": 236,
+      "id": "3453qzt7d78euq1cjtbytjgrbe",
+      "created": "2024-12-05T13:26:24Z",
+      "username": "rezantsev",
+      "message": "It was deployed before me. So this is a difficult question"
+    },
+    {
+      "idx": 237,
+      "id": "t1i4bh754by8mes97fhdh8bzra",
+      "created": "2024-12-05T13:35:02Z",
+      "username": "admin",
+      "message": "ok lets try to move it - \n1. it will solve a lot of problems\n2. it will put the werbsite in our secure cloud"
+    },
+    {
+      "idx": 238,
+      "id": "54unqn7d43nujbdm9dz67dfaur",
+      "created": "2024-12-05T13:36:27Z",
+      "username": "rezantsev",
+      "message": "Okay, I'll tell them our decision."
+    },
+    {
+      "idx": 239,
+      "id": "hg1qqkfsmpfg7y8prz3o94g1ch",
+      "created": "2024-12-05T13:36:42Z",
+      "username": "rezantsev",
+      "message": "Thank's"
+    },
+    {
+      "idx": 240,
+      "id": "sg7it3uz3fda5jzfyfwamb717y",
+      "created": "2025-01-31T12:04:16Z",
+      "username": "admin",
+      "message": "@rezantsev why is the MX record for the evrasia.su domain not changed???\n```\nevrasia.su.\t\t3600\tIN\tMX\t10 mmxs.majordomo.ru.\n```\nit should me set to mr1.evrasia.su"
+    },
+    {
+      "idx": 241,
+      "id": "d8uuxaso5td8bb8hgg71zxidea",
+      "created": "2025-01-31T12:04:47Z",
+      "username": "admin",
+      "message": "please repond URGENT!"
+    },
+    {
+      "idx": 242,
+      "id": "43r5onwiwbgf7g8yyyzcw6hxwo",
+      "created": "2025-01-31T12:07:05Z",
+      "username": "admin",
+      "message": "@rezantsev ???"
+    },
+    {
+      "idx": 243,
+      "id": "bqftghf4opygxk865scwgk7ube",
+      "created": "2025-01-31T12:07:15Z",
+      "username": "rezantsev",
+      "message": "Hello,\nYou are resolving the wrong domain.\nThe correct one is evrazia.su."
+    },
+    {
+      "idx": 244,
+      "id": "p3ws9fp4eir5mept4hmxj1yk6c",
+      "created": "2025-01-31T12:09:03Z",
+      "username": "rezantsev",
+      "message": "If we have the domain evrasia.su, I don't know anything about it"
+    },
+    {
+      "idx": 245,
+      "id": "5tc3xuywubyw787daxbzp5zmja",
+      "created": "2025-01-31T12:10:06Z",
+      "username": "admin",
+      "message": "thats bad - so there is a domain evrasia.su???"
+    },
+    {
+      "idx": 246,
+      "id": "85htt5yhx3ndbgufz6mfswcmdo",
+      "created": "2025-01-31T12:10:24Z",
+      "username": "admin",
+      "message": "can we buy it?"
+    },
+    {
+      "idx": 247,
+      "id": "dmmbwni8j3ge3qdgytr8hceq7o",
+      "created": "2025-01-31T12:10:57Z",
+      "username": "admin",
+      "message": "@gabriel can we buy evrasia.su?"
+    },
+    {
+      "idx": 248,
+      "id": "fx1pubh8g3ym7cz6wfnxwjoc6w",
+      "created": "2025-01-31T12:12:20Z",
+      "username": "rezantsev",
+      "message": "Where did the information come from that we have the domain evrasia.su?\nI don't know of any services in this domain"
+    },
+    {
+      "idx": 249,
+      "id": "fm5okmc3dpga9ryo6ozju6kpcr",
+      "created": "2025-01-31T12:12:45Z",
+      "username": "admin",
+      "message": "the group name - my mistake"
+    },
+    {
+      "idx": 250,
+      "id": "hgjg4serxirsim7rnnzdpsjkeh",
+      "created": "2025-01-31T12:12:57Z",
+      "username": "admin",
+      "message": "but I want to check if we can buy evrasia.su domain as well"
+    },
+    {
+      "idx": 251,
+      "id": "oxiy4idf3jyj5nzdyf61ojmanh",
+      "created": "2025-01-31T12:13:59Z",
+      "username": "gabriel",
+      "message": "может купить у них этот домен?"
+    },
+    {
+      "idx": 252,
+      "id": "mheuj8naiidffcfurojuzin66c",
+      "created": "2025-01-31T12:14:14Z",
+      "username": "rezantsev",
+      "message": "evrasia.su is already taken by someone else, I just checked"
+    },
+    {
+      "idx": 253,
+      "id": "b5kawu5uabydmkgi785zek1dho",
+      "created": "2025-01-31T12:15:07Z",
+      "username": "rezantsev",
+      "message": "They even have their own website on this domain\nhttps://evrasia.su/"
+    },
+    {
+      "idx": 254,
+      "id": "1ebnkhr4ji8cdjcrzwpfqi6ryw",
+      "created": "2025-01-31T12:18:27Z",
+      "username": "rezantsev",
+      "message": "There is a domain for sale – evras.ru in the domain store.\nThe price is 50,000 rubles"
+    },
+    {
+      "idx": 255,
+      "id": "7oki3e957inejd93cau8izsdze",
+      "created": "2025-01-31T12:18:45Z",
+      "username": "gabriel",
+      "message": "https://evrasia.ru/"
+    },
+    {
+      "idx": 256,
+      "id": "f7s3szjoapbjxen8rct5d5k84a",
+      "created": "2025-01-31T12:19:31Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 257,
+      "id": "z936gxy5dpr8xcrjk86xu4ooqa",
+      "created": "2025-01-31T12:20:56Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 258,
+      "id": "taphoruzubgj8yhp78j8gmco7c",
+      "created": "2025-01-31T12:21:08Z",
+      "username": "rezantsev",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 259,
+      "id": "gti5kyks4b8nfr5fd3u5q4cxsr",
+      "created": "2025-03-24T12:40:21Z",
+      "username": "vic",
+      "message": "@vic left the channel."
+    }
+  ]
+}

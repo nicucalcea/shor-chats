@@ -1,0 +1,273 @@
+{
+  "channel": {
+    "name": "a7a5-working-area",
+    "display_name": "A7A5 Working Area (Gaussian)",
+    "header": "",
+    "id": "x8kze9awrjr63ccpnqdi9wc1by",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "98jdrxa5ktbzfpik74deiuiimy",
+      "created": "2025-05-14T05:45:18Z",
+      "username": "vadimjar",
+      "message": "vadimjar joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "gyik75kpbtfq9k9dpam9wtrb3o",
+      "created": "2025-05-14T05:46:00Z",
+      "username": "vadimjar",
+      "message": "admin added to the channel by vadimjar."
+    },
+    {
+      "idx": 2,
+      "id": "w89p7hywyfyq3nnp8qrg9j7f6y",
+      "created": "2025-05-14T05:46:00Z",
+      "username": "vadimjar",
+      "message": "vic added to the channel by vadimjar."
+    },
+    {
+      "idx": 3,
+      "id": "c33zraypy3d78kh7w45gwq14oo",
+      "created": "2025-05-14T05:46:01Z",
+      "username": "vadimjar",
+      "message": "sergeyl added to the channel by vadimjar."
+    },
+    {
+      "idx": 4,
+      "id": "3nw6b6n41pdfidc4w6kuy61oao",
+      "created": "2025-05-14T05:46:01Z",
+      "username": "vadimjar",
+      "message": "yevgeniysokolov added to the channel by vadimjar."
+    },
+    {
+      "idx": 5,
+      "id": "s1y7cx4uobggznynt9uw4ypzzw",
+      "created": "2025-05-14T05:46:01Z",
+      "username": "vadimjar",
+      "message": "razuvaevserghey added to the channel by vadimjar."
+    },
+    {
+      "idx": 6,
+      "id": "e7rnh1ycf38afj3uzop579weqo",
+      "created": "2025-05-14T05:46:01Z",
+      "username": "vadimjar",
+      "message": "martin added to the channel by vadimjar."
+    },
+    {
+      "idx": 7,
+      "id": "8fmmdp5exigb5e5cm6t4xuzhgc",
+      "created": "2025-05-14T05:52:02Z",
+      "username": "vadimjar",
+      "message": "Hey Team: Result of yesterday testing of A7A5:\nDefects:\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/328 - Critical\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/326 - Low\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/325 - Critical\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/323 - High\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/322 - Medium\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/321 - Medium\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/319 - Low\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/315 - Critical\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/329 - Low\n\nMust Have Recomendations:\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/320 \nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/327\n"
+    },
+    {
+      "idx": 8,
+      "id": "687e54cfftbkbd1eyi61t4a16e",
+      "created": "2025-05-14T05:54:48Z",
+      "username": "vadimjar",
+      "message": "@martin @razuvaevserghey it is very sad that some of these defects was made and fixed during cashflow development and now are been repeated... please take some actions!\nHave a nice day all!"
+    },
+    {
+      "idx": 9,
+      "id": "9c7wjxmgdjn6zn94aiikn6zcow",
+      "created": "2025-05-14T06:01:45Z",
+      "username": "vadimjar",
+      "message": "@martin @razuvaevserghey please add your teammates who is working on this project to this channel"
+    },
+    {
+      "idx": 10,
+      "id": "wpmhxxa4678yjnqob3ryruxcjy",
+      "created": "2025-05-14T06:56:36Z",
+      "username": "razuvaevserghey",
+      "message": "pustovarovivan added to the channel by razuvaevserghey."
+    },
+    {
+      "idx": 11,
+      "id": "6etgbne1ybg58e8astbbbr474c",
+      "created": "2025-05-14T08:44:55Z",
+      "username": "vadimjar",
+      "message": "vitaliyvtorenco added to the channel by vadimjar."
+    },
+    {
+      "idx": 12,
+      "id": "637ak6qympb6xrgey1idjeo1ya",
+      "created": "2025-05-14T12:18:53Z",
+      "username": "vadimjar",
+      "message": "новая кнопка не в disabled по дефолтку @pustovarovivan @razuvaevserghey ",
+      "files": [
+        "Screenshot 2025-05-14 at 15.17.38.png"
+      ]
+    },
+    {
+      "idx": 13,
+      "id": "g81q466ocpyzjptxmjpq1g5h6e",
+      "created": "2025-05-14T12:20:02Z",
+      "username": "vadimjar",
+      "message": "дайте знать когда зальете изменения с фиксами"
+    },
+    {
+      "idx": 14,
+      "id": "668cn8sdbby5mc6698m6m611ua",
+      "created": "2025-05-14T12:20:09Z",
+      "username": "vadimjar",
+      "message": "мне нужно будет поменять селекторы"
+    },
+    {
+      "idx": 15,
+      "id": "33ry4hfswfrtddfpu7rejtusty",
+      "created": "2025-05-14T12:20:17Z",
+      "username": "pustovarovivan",
+      "message": "ок"
+    },
+    {
+      "idx": 16,
+      "id": "76adhgur4tdyzfsscetw3xnwty",
+      "created": "2025-05-14T12:57:14Z",
+      "username": "yevgeniysokolov",
+      "message": "igorsmi added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 17,
+      "id": "hozhbmbhn3g8tj68qo68zh4o4w",
+      "created": "2025-05-14T13:08:28Z",
+      "username": "yevgeniysokolov",
+      "message": "yevgeniysokolov updated the channel display name from: A7A5 Working Area to: A7A5 Working Area (Gaussian)"
+    },
+    {
+      "idx": 18,
+      "id": "ju5dpe4be7b49cetjpgbbnb77a",
+      "created": "2025-05-14T13:36:41Z",
+      "username": "vladlen",
+      "message": "vlachu added to the channel by vladlen."
+    },
+    {
+      "idx": 19,
+      "id": "mbrok3m7etdrfrgujome9gpojw",
+      "created": "2025-05-14T13:54:39Z",
+      "username": "vadimjar",
+      "message": "//div[@class='_calendar_1pp6i_1']\n//div[@class='_selectMonth_1pp6i_29']\n//div[@class='_selectYear_1pp6i_58']\n//div[@class='_day_1pp6i_147  ']"
+    },
+    {
+      "idx": 20,
+      "id": "3obysjhmepbpuqbdam5xuuwfdw",
+      "created": "2025-05-14T13:54:48Z",
+      "username": "vadimjar",
+      "message": "@pustovarovivan "
+    },
+    {
+      "idx": 21,
+      "id": "11r6ia97mtfzdb7bgqaocsj8bo",
+      "created": "2025-05-15T05:39:46Z",
+      "username": "vadimjar",
+      "message": "kislyakovadarya added to the channel by vadimjar."
+    },
+    {
+      "idx": 22,
+      "id": "qfknsggji3875xexjdu8cjqa7o",
+      "created": "2025-05-15T06:23:38Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/incident/334 \nplus the days ID-s was not made as we agreed, need to fix\n@razuvaevserghey  @pustovarovivan "
+    },
+    {
+      "idx": 23,
+      "id": "imco8nojsj8ppre88g7iujg1eh",
+      "created": "2025-05-15T06:48:50Z",
+      "username": "vitaliyvtorenco",
+      "message": "*   [**https://git.muzpan.com/cashflow/cashflow-be/-/issues/332**](https://git.muzpan.com/cashflow/cashflow-be/-/issues/332)"
+    },
+    {
+      "idx": 24,
+      "id": "n7o9zid8kbgoxdgw1z8iype6dw",
+      "created": "2025-05-15T10:29:13Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/333"
+    },
+    {
+      "idx": 25,
+      "id": "5e63u9ybtiywtjra4nh36ttwke",
+      "created": "2025-05-18T15:14:06Z",
+      "username": "vadimjar",
+      "message": "@vladlen @razuvaevserghey \nOne more critical Defect for A7A5\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/348 "
+    },
+    {
+      "idx": 26,
+      "id": "pfndbf94tfnbidpxh4ook6n4qw",
+      "created": "2025-05-18T15:29:57Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "A7A5-Regression-18-05-2025.zip"
+      ]
+    },
+    {
+      "idx": 27,
+      "id": "hhtmpr8c1if1urrhthujtqah5r",
+      "created": "2025-05-18T15:30:01Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-05-18 at 18.27.59.png"
+      ]
+    },
+    {
+      "idx": 28,
+      "id": "qbuyzc19t3da5mg1t31f6493or",
+      "created": "2025-05-18T15:31:01Z",
+      "username": "vadimjar",
+      "message": "Results for Regression of A5A7.... 86.79% pass rate.... defects are opened for failed scenarios"
+    },
+    {
+      "idx": 29,
+      "id": "kpataneqyjfwfnx3bb9wutncec",
+      "created": "2025-05-18T15:31:10Z",
+      "username": "vadimjar",
+      "message": "@all "
+    },
+    {
+      "idx": 30,
+      "id": "9cpjwgy5jjddbjcbqrkb7y91dc",
+      "created": "2025-07-03T15:47:45Z",
+      "username": "sergeyl",
+      "message": "@pustovarovivan removed from the channel."
+    },
+    {
+      "idx": 31,
+      "id": "1is4o9dyrtd3zmcti4noeqk3dr",
+      "created": "2025-07-10T10:12:27Z",
+      "username": "igorsmi",
+      "message": "Всем привет\n@vladlen, @razuvaevserghey \nПодготовил примерный RoadMap для будущих доработок по данному проекту\nПредлагаю собраться, скорректировать сроки \n@vadimjar, US по всему кроме аналитики уже есть. Сегодня сажусь проверять их\nТакже описанные блоки в данном документе могут **отредактироваться**\n\nПомимо RoadMap присылаю **согласованное с заказчиком** ТЗ",
+      "files": [
+        "ROADMAP A7A5Reporter.docx",
+        "Техническое_задание_на_расширение_функционала_PayFlow_CA.docx"
+      ]
+    },
+    {
+      "idx": 32,
+      "id": "kuax8eaoipdwdy5t4h4866ds3o",
+      "created": "2025-07-10T10:13:12Z",
+      "username": "igorsmi",
+      "message": "akrasnoschiok added to the channel by igorsmi."
+    },
+    {
+      "idx": 33,
+      "id": "pxs6359kstf9mbqnf4zjsnaccy",
+      "created": "2025-07-14T11:37:56Z",
+      "username": "igorsmi",
+      "message": "Всем привет!\nВ связи с изменениями в техническом задании, присылаю обновленный родмап",
+      "files": [
+        "Обновленный ROADMAP A7A5Reporter.docx"
+      ]
+    },
+    {
+      "idx": 34,
+      "id": "9hxmjo67j3ntfbicz3pj81g9cw",
+      "created": "2025-07-15T12:02:14Z",
+      "username": "igorsmi",
+      "message": "Также присылаю описанные US по А7А5\n- http://anykey.gr.muzpan.com/projects/a7a5reporter/wiki/epic-deals-analytics"
+    }
+  ]
+}

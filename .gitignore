@@ -1,0 +1,20 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Node modules (if any)
+node_modules/
+
+# Logs
+*.log
+
+# Private/sensitive data files
+файлы/
+"mattermost json"/
+
+# But keep the manifest and processed data
+!web/data/

@@ -1,0 +1,61 @@
+{
+  "channel": {
+    "name": "hdrjsab4n3fr5rku8onbay6k5o__quoz9mfcm7f87pt1mz6n6g3mjw",
+    "display_name": "semashkooleg",
+    "header": "",
+    "id": "ji31cszkgpnoxfpxt1hg4uszwa",
+    "team": "",
+    "team_id": ""
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "5hsdggtuu3n3jnywhn8znj8zye",
+      "created": "2025-03-31T11:10:59Z",
+      "username": "semashkooleg",
+      "message": "Hi, I have some questions for callcenter.\n\n1. Where is the card pulled in the callcenter application from?\n\n2. Is it possible to use Yandex maps in some cases as an alternative to Google, because people who collect data say that Google maps do not have some of the house numbers that are in Yandex."
+    },
+    {
+      "idx": 1,
+      "id": "pf8qyg9qwjfcfb8eh9rdtpm3jo",
+      "created": "2025-03-31T11:12:09Z",
+      "username": "admin",
+      "message": "No we use openstreetmaps"
+    },
+    {
+      "idx": 2,
+      "id": "rja4ori6wjyh5ngpkhc7nhhmoa",
+      "created": "2025-03-31T11:13:14Z",
+      "username": "admin",
+      "message": "Please don't use any other map service"
+    },
+    {
+      "idx": 3,
+      "id": "pjt7sgs8efrx38jf9t7b7jqtty",
+      "created": "2025-03-31T11:14:24Z",
+      "username": "semashkooleg",
+      "message": "Ok. What about people who brings the data? Can they use other services to declare data in xml format?"
+    },
+    {
+      "idx": 4,
+      "id": "njjqx15zcpyufqct3strijczoh",
+      "created": "2025-07-04T12:54:21Z",
+      "username": "semashkooleg",
+      "message": "Hi, I have a question\nCan I use my personal MacBook for work?"
+    },
+    {
+      "idx": 5,
+      "id": "wadnuhhysfyutbxz8d3ddetg4y",
+      "created": "2025-07-04T13:05:15Z",
+      "username": "admin",
+      "message": "You just be aware that support to non Ubuntu is best effort"
+    },
+    {
+      "idx": 6,
+      "id": "oy3wwcck1igwbnizjhknrf736c",
+      "created": "2025-07-04T13:43:01Z",
+      "username": "admin",
+      "message": "yes just keep in mind support for non ubuntu 22.04 is best effort"
+    }
+  ]
+}

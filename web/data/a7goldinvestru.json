@@ -1,0 +1,260 @@
+{
+  "channel": {
+    "name": "a7goldinvestru",
+    "display_name": "a7goldinvest.ru",
+    "header": "",
+    "id": "ru61eg1o1pyqpnquiwko67hcjw",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "tnxnn9ogj7nsdg6mxgad55o6ae",
+      "created": "2024-11-25T08:10:53Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "84ujcg4gxfnpmnfcyzeb6fy4ne",
+      "created": "2024-11-25T08:11:52Z",
+      "username": "admin",
+      "message": "vic added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "jc6pdm4cmtgcjbmtr4cy9ywmoh",
+      "created": "2024-11-25T08:11:52Z",
+      "username": "admin",
+      "message": "danielz added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "zgyqoq459fru7mekxwzcifcmio",
+      "created": "2024-11-25T08:11:52Z",
+      "username": "admin",
+      "message": "gabriel added to the channel by admin."
+    },
+    {
+      "idx": 4,
+      "id": "fjqggrayginuppsfmqu4hzqyce",
+      "created": "2024-11-25T08:12:12Z",
+      "username": "admin",
+      "message": "from @danielz :\n```\ngood morning, we need to make a tunnel between \"Krilatskoye\" and \"Beloruskaya\" offices for Bertulene Yulia - business assistant\nShaposhnikova Olga - hr director\n(Krylatskoye)\nthey ask to make them a shared network folder\nname \"HH\"\nnetwork folder is needed to work on a shared excel document\nread and write rights are needed\n\nwhen you do it, send me its network address and login and password for users\n```\n"
+    },
+    {
+      "idx": 5,
+      "id": "twzruj6hg3batxhwxjjruutexa",
+      "created": "2024-11-25T08:12:42Z",
+      "username": "admin",
+      "message": "@danielz I will create a new share on the server but please send me the usernames that require access to this share"
+    },
+    {
+      "idx": 6,
+      "id": "dg55zfmi83gatyys8p3c3fzesc",
+      "created": "2024-11-25T08:14:06Z",
+      "username": "danielz",
+      "message": "oshaposhnikova and ybertulene"
+    },
+    {
+      "idx": 7,
+      "id": "q11ikwomttb7tncn3yahahgqcw",
+      "created": "2024-11-25T08:30:00Z",
+      "username": "admin",
+      "message": "@danielz Marina asked for a new mailbox (kyc@a7goldinvest.ru) please configur it for:\n1. Marina Rodina\n2. Borodina Victoria\n3. Yurova Marina \n\nkyc@a7goldinvest.ru\n\n```\nkyc Xq9Zst(nSA0tjGZR^M*GNQ*4(KzcBWDSE(nU5Brc\n```"
+    },
+    {
+      "idx": 8,
+      "id": "pj5krqummjdm7e761jca5kudea",
+      "created": "2024-11-25T08:33:31Z",
+      "username": "admin",
+      "message": "usermod: user 'ybertulene' does not exist"
+    },
+    {
+      "idx": 9,
+      "id": "36p4i5cshpyxfxbdaix547bbuy",
+      "created": "2024-11-25T08:49:40Z",
+      "username": "danielz",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 10,
+      "id": "ici774gks7r7fezig9i4dzcopa",
+      "created": "2024-11-25T08:50:01Z",
+      "username": "admin",
+      "message": "thats the email user"
+    },
+    {
+      "idx": 11,
+      "id": "abshi1gfz7g47c17bfjdq6iqyw",
+      "created": "2024-11-25T08:50:57Z",
+      "username": "danielz",
+      "message": "I don't have any other information, maybe the user just wasn't created?"
+    },
+    {
+      "idx": 12,
+      "id": "1hhc67q97jf3fchh1cc946n4ow",
+      "created": "2024-11-25T08:51:19Z",
+      "username": "admin",
+      "message": "I think ybertulene is on the other server - I will create tbertulene on this servsre"
+    },
+    {
+      "idx": 13,
+      "id": "asncho9qojbyfjyoqr9f3i7kih",
+      "created": "2024-11-25T08:51:55Z",
+      "username": "danielz",
+      "message": "ок"
+    },
+    {
+      "idx": 14,
+      "id": "efcgncodzpreuf47yrcctz8mnh",
+      "created": "2024-11-25T08:51:57Z",
+      "username": "admin",
+      "message": "```\nybertulene L5LRYR#Ta-8&mWheWB#^i)Mjw^CqcGw_hf0vL8&c\n```"
+    },
+    {
+      "idx": 15,
+      "id": "xnmftkxuct83ix5r3xrsgx7e6e",
+      "created": "2024-11-25T08:52:32Z",
+      "username": "admin",
+      "message": "the share is on f.muzpan.com"
+    },
+    {
+      "idx": 16,
+      "id": "my7gtfyq7bbqbd5oqjjemyoh4h",
+      "created": "2024-11-25T08:52:33Z",
+      "username": "danielz",
+      "message": "and oshaposhnikova"
+    },
+    {
+      "idx": 17,
+      "id": "ywcchqiiubyricpsb6ufwq1uuy",
+      "created": "2024-11-25T08:52:59Z",
+      "username": "admin",
+      "message": "done"
+    },
+    {
+      "idx": 18,
+      "id": "8ruopz1rgfdd5qts8tmzkhdm4r",
+      "created": "2024-11-25T08:53:11Z",
+      "username": "danielz",
+      "message": "pass ?"
+    },
+    {
+      "idx": 19,
+      "id": "q6hjmfybf78w8efesprdh7da7e",
+      "created": "2024-11-25T08:56:08Z",
+      "username": "admin",
+      "message": "her own pass (same one she has now)"
+    },
+    {
+      "idx": 20,
+      "id": "taq7jyb51fny8quymktyyenfpe",
+      "created": "2024-11-25T08:56:17Z",
+      "username": "danielz",
+      "message": "I need the full network path to the new folder"
+    },
+    {
+      "idx": 21,
+      "id": "oez3rcuz5frdfe8srzmx6whaac",
+      "created": "2024-11-25T08:56:52Z",
+      "username": "admin",
+      "message": "\\\\f.muzpan.com\\A7TUNNEL"
+    },
+    {
+      "idx": 22,
+      "id": "uahcpjodkbnidxj4bcywwzbkko",
+      "created": "2024-11-25T08:57:06Z",
+      "username": "danielz",
+      "message": "thanks "
+    },
+    {
+      "idx": 23,
+      "id": "ogrcsoz8ht8o5pinqba1cyf6zy",
+      "created": "2024-11-25T08:59:54Z",
+      "username": "danielz",
+      "message": "invalid pass ("
+    },
+    {
+      "idx": 24,
+      "id": "1ag711tjwjdk9nf7p5snumtrgw",
+      "created": "2024-11-25T11:06:39Z",
+      "username": "admin",
+      "message": "sorry try now "
+    },
+    {
+      "idx": 25,
+      "id": "gsz6jacmxid58naygzdsojjopy",
+      "created": "2024-11-25T11:12:49Z",
+      "username": "admin",
+      "message": "works?"
+    },
+    {
+      "idx": 26,
+      "id": "kw3pubjckfb1mn7essge3tt91h",
+      "created": "2024-11-25T11:19:37Z",
+      "username": "danielz",
+      "message": "yes. with new data"
+    },
+    {
+      "idx": 27,
+      "id": "fg94465ubfyr7ysznh5f868twa",
+      "created": "2024-11-25T11:19:53Z",
+      "username": "admin",
+      "message": "what do you mean?"
+    },
+    {
+      "idx": 28,
+      "id": "47ed9uaxbib4b8z8kwzedthphe",
+      "created": "2024-11-25T12:20:40Z",
+      "username": "gabriel",
+      "message": "add please A record HD.a7goldinvenst.ru point to 10.120.120.34\n"
+    },
+    {
+      "idx": 29,
+      "id": "u1og6m4jr3gf8yepzaszegnnew",
+      "created": "2024-11-25T12:23:29Z",
+      "username": "danielz",
+      "message": "everything works\n"
+    },
+    {
+      "idx": 30,
+      "id": "hu3byzjra3n5m86rpp74owqurw",
+      "created": "2024-11-25T14:50:25Z",
+      "username": "danielz",
+      "message": "done"
+    },
+    {
+      "idx": 31,
+      "id": "apccd9g9uiyajmtxuxs4qex1fc",
+      "created": "2024-11-25T18:17:30Z",
+      "username": "admin",
+      "message": "Misha are you having a stroke?"
+    },
+    {
+      "idx": 32,
+      "id": "uzh4h7emwtga3my5hzxozey8uy",
+      "created": "2024-11-25T19:16:44Z",
+      "username": "gabriel",
+      "message": "??"
+    },
+    {
+      "idx": 33,
+      "id": "ag67g4z1dbrjbpa599s985p6ec",
+      "created": "2024-11-25T19:45:07Z",
+      "username": "admin",
+      "message": "How can you create an a record for an email address?"
+    },
+    {
+      "idx": 34,
+      "id": "3dc7dut4spbc3qdtu9zpti34ge",
+      "created": "2025-03-23T14:51:59Z",
+      "username": "vic",
+      "message": "@vic left the channel."
+    }
+  ]
+}

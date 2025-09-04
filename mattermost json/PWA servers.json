@@ -1,0 +1,354 @@
+{
+  "channel": {
+    "name": "pwa-servers",
+    "display_name": "PWA servers",
+    "header": "",
+    "id": "yf8kke71mfb9zc49xcr4tauq9e",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "4r4a7u1b3ffhzgd84kqn1cgeph",
+      "created": "2025-03-01T16:45:05Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "fc859aph3tg8pnssrkmgctpedy",
+      "created": "2025-03-01T16:45:12Z",
+      "username": "admin",
+      "message": "jarom added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "1gsgue48firq9ctp11z3s467de",
+      "created": "2025-03-01T16:45:12Z",
+      "username": "admin",
+      "message": "martinh added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "hnufx3n3cb8g8d7m7dcoui4bwh",
+      "created": "2025-03-01T16:45:31Z",
+      "username": "admin",
+      "message": "@jarom please assist @martinh install the following servers (he will tell you what is required"
+    },
+    {
+      "idx": 4,
+      "id": "ehihz17btigfpdubsneuytiu9y",
+      "created": "2025-03-01T16:45:47Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:172.232.217.185\n*   Username:root\n*   Password:TXG\\_CHRnNVUY \n```"
+    },
+    {
+      "idx": 5,
+      "id": "3mdk858dq3r7dgywyx5r6m81fy",
+      "created": "2025-03-01T16:46:16Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:194.195.116.19\n*   Username:root\n*   Password:tfB4XyrvrVw6\n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 6,
+      "id": "39nh6c4gwj8imyxwdb6fj7fewr",
+      "created": "2025-03-01T16:53:10Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:194.195.116.19\n*   Username:root\n*   Password:tfB4XyrvrVw6 \n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 7,
+      "id": "dxce3p6patdyu89ho35u3zw6na",
+      "created": "2025-03-01T16:53:31Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:217.69.14.206\n*   Username:root\n*   Password:sA.9d)PHoMV\\_f68o\n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 8,
+      "id": "j6g4caqjsjygtc7x3hf7q3j1br",
+      "created": "2025-03-01T16:57:48Z",
+      "username": "admin",
+      "message": "This channel has been converted to a Private Channel."
+    },
+    {
+      "idx": 9,
+      "id": "1g1r6qkunp83dydcd7qd4f1yae",
+      "created": "2025-03-01T16:58:27Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:135.181.34.41 \n*   Username:root\n*   Password:pUknpJLWdeCCxjAVcCax \n```"
+    },
+    {
+      "idx": 10,
+      "id": "pc9jbrxbipye9djt5pjurtng4c",
+      "created": "2025-03-01T17:05:48Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:199.247.14.110\n*   Username:root\n*   Password:nZ,5W,jPe7KRbXj. \n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 11,
+      "id": "n3m93btmfp8mbc9zig5xrxasmh",
+      "created": "2025-03-01T17:06:25Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:37.27.38.119 \n*   Username:root\n*   Password:JnM477xccujeMaMTFEFj \n```"
+    },
+    {
+      "idx": 12,
+      "id": "y3qckqnzcibob8ec7dzi13d6hw",
+      "created": "2025-03-01T17:06:30Z",
+      "username": "admin",
+      "message": "start with these servers"
+    },
+    {
+      "idx": 13,
+      "id": "7x3hkbn5atydzgfhwmmhrwbwfh",
+      "created": "2025-03-01T17:06:57Z",
+      "username": "admin",
+      "message": "@martinh ?"
+    },
+    {
+      "idx": 14,
+      "id": "qurde6nru3b4x89uyyrtf8rgxh",
+      "created": "2025-03-01T17:07:00Z",
+      "username": "admin",
+      "message": "@jarom ?"
+    },
+    {
+      "idx": 15,
+      "id": "n4jkzbtxg7fu9cibxahq3cnuwh",
+      "created": "2025-03-01T18:11:13Z",
+      "username": "vladlen",
+      "message": "we have to install there haproxy also"
+    },
+    {
+      "idx": 16,
+      "id": "8mo71a848tybbb6dijs3qx3kde",
+      "created": "2025-03-01T18:11:15Z",
+      "username": "vladlen",
+      "message": "right?"
+    },
+    {
+      "idx": 17,
+      "id": "icrsyz41a7rx5837zuu6f4xjio",
+      "created": "2025-03-01T18:16:08Z",
+      "username": "jarom",
+      "message": "Pls provide more info "
+    },
+    {
+      "idx": 18,
+      "id": "bizmeskz9i8c7cs1ai7n7hzpur",
+      "created": "2025-03-01T18:20:26Z",
+      "username": "vladlen",
+      "message": "its https://git.muzpan.com/bizapp/socapp-zerossl-configure project"
+    },
+    {
+      "idx": 19,
+      "id": "ozp37pgkx3yymp64ydc17hwyac",
+      "created": "2025-03-01T18:21:12Z",
+      "username": "vladlen",
+      "message": "it should be built and copied to server, haproxy configured, app started, it setups ssl certificate and haproxy restarted"
+    },
+    {
+      "idx": 20,
+      "id": "a43g4ows7trzjebp61934g7rth",
+      "created": "2025-03-01T18:21:25Z",
+      "username": "vladlen",
+      "message": "im trying to do it on 194.195.116.19"
+    },
+    {
+      "idx": 21,
+      "id": "53aegnbaxjrt88nxf9upu9bndr",
+      "created": "2025-03-01T18:21:45Z",
+      "username": "vladlen",
+      "message": "ill write back"
+    },
+    {
+      "idx": 22,
+      "id": "95na3mt7tjdaunitw6kkk1f59e",
+      "created": "2025-03-01T18:23:32Z",
+      "username": "vladlen",
+      "message": "there is readme with all instructions"
+    },
+    {
+      "idx": 23,
+      "id": "up17d5mygjyg3jxopbnzna4i9c",
+      "created": "2025-03-01T18:28:22Z",
+      "username": "admin",
+      "message": "Yes you need to install haproxy and copy the haproxy.cfg from an existing mqchine"
+    },
+    {
+      "idx": 24,
+      "id": "39dm8xtcofgb5j3bhqa13fa61o",
+      "created": "2025-03-01T18:28:52Z",
+      "username": "admin",
+      "message": "And then run the zerossl app you wrote vladlen"
+    },
+    {
+      "idx": 25,
+      "id": "55j74hknkpbstkpung1a3mapfw",
+      "created": "2025-03-01T18:43:18Z",
+      "username": "vladlen",
+      "message": "i do something wrong : (\n\n```\n194.195.116.19\ntfB4XyrvrVw6\n\n#terminal 1\nssh -t root@194.195.116.19\nsudo apt install haproxy\n\n#terminal 2\nscp -rp haproxy/haproxy.cfg root@194.195.116.19:/etc/haproxy\nscp -rp haproxy/crt-list.txt root@194.195.116.19:/etc/ssl/private\nscp -rp socapp-zerossl-configure root@194.195.116.19:/root\nsystemctl restart haproxy\nchmod +x /root/socapp-zerossl-configure\n./socapp-zerossl-configure\n```"
+    },
+    {
+      "idx": 26,
+      "id": "8rhj335y9pfp8gob186g5ax3dc",
+      "created": "2025-03-01T18:44:18Z",
+      "username": "vladlen",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 27,
+      "id": "zsqema6cwjdb3ecd6gsmgnux9h",
+      "created": "2025-03-01T18:51:43Z",
+      "username": "admin",
+      "message": "@jarom there is a script on 10.13.13.12 named \n```\n/usr/local/bin/getzerosslfiles.sh\n```"
+    },
+    {
+      "idx": 28,
+      "id": "8pq4iqjbxibcxgb676951tcn5w",
+      "created": "2025-03-01T18:51:57Z",
+      "username": "admin",
+      "message": "this script collects the validation files vladlen is creating on the machines"
+    },
+    {
+      "idx": 29,
+      "id": "f86as4qjrjg9jrpd39uwab86ic",
+      "created": "2025-03-01T18:52:59Z",
+      "username": "admin",
+      "message": "you need to put the ssh key of 10.13.13.12 in every machine @martinh installs and add a line to the script to fetch the validation file:\n\n```\n#!/bin/bash\n\n/usr/bin/scp -rp root@uk.muzpan.com:\"/root/*.txt\" /srv/nfs/pvc-334ce9d3-31b0-40c0-9f12-07f6c2b6eaee/\n/usr/bin/scp -rp root@il.muzpan.com:\"/root/*.txt\" /srv/nfs/pvc-334ce9d3-31b0-40c0-9f12-07f6c2b6eaee/\n/usr/bin/scp -rp root@hls.muzpan.com:\"/root/*.txt\" /srv/nfs/pvc-334ce9d3-31b0-40c0-9f12-07f6c2b6eaee/\n/usr/bin/scp -rp root@157.90.31.132:\"/root/*.txt\" /srv/nfs/pvc-334ce9d3-31b0-40c0-9f12-07f6c2b6eaee/\nchown k8s.2000 -R /srv/nfs/pvc-334ce9d3-31b0-40c0-9f12-07f6c2b6eaee/ && chmod 777 -R /srv/nfs/pvc-334ce9d3-31b0-40c0-9f12-07f6c2b6eaee/\n\n```"
+    },
+    {
+      "idx": 30,
+      "id": "s9w61f33djr9jkxeb6xf6d3f1a",
+      "created": "2025-03-02T10:23:28Z",
+      "username": "jarom",
+      "message": "| IP | Pass | Progress |\n| --- | --- | --- |\n| 172.232.217.185 | TXG\\\\\\_CHRnNVUY | cant login - wrong password |\n| 194.195.116.19 | tfB4XyrvrVw6 | 10.13.13.12  ssh key installed |\n| 217.69.14.206 | sA.9d)PHoMV\\\\\\_f68o | cant login - wrong password |\n| 135.181.34.41 | pUknpJLWdeCCxjAVcCax! | 10.13.13.12  ssh key installed |\n| 199.247.14.110 | nZ,5W,jPe7KRbXj. | 10.13.13.12  ssh key installed |\n| 37.27.38.119 | JnM477xccujeMaMTFEFj! | 10.13.13.12  ssh key installed |\n"
+    },
+    {
+      "idx": 31,
+      "id": "aaabgxgyzpfqfgb3jeq7myqgua",
+      "created": "2025-03-02T11:11:07Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:95.179.212.10 [](https://www.hostfirst.com/my/cloud/detail?id=88380##)\n*   Username:root\n*   Password:8qL}r?qGYn3Tnm?u [](https://www.hostfirst.com/my/cloud/detail?id=88380##)\n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 32,
+      "id": "7w3kz5x8opdbfj75aeeb9wepoh",
+      "created": "2025-03-02T11:11:24Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:65.20.102.171 [](https://www.hostfirst.com/my/cloud/detail?id=88381##)\n*   Username:root\n*   Password:Sy6\\*Y}Hb,LFe\\_xj3 [](https://www.hostfirst.com/my/cloud/detail?id=88381##)\n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 33,
+      "id": "naf6etrwkpdh3gi3wj38j9spoo",
+      "created": "2025-03-02T11:11:38Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:70.34.209.97 [](https://www.hostfirst.com/my/cloud/detail?id=88382##)\n*   Username:root\n*   Password:}W4nj(6tZb,E8!Fh [](https://www.hostfirst.com/my/cloud/detail?id=88382##)\n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 34,
+      "id": "enp7awxqx7dh5r39ot6xe7rnmr",
+      "created": "2025-03-02T11:12:42Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:172.232.217.185 [](https://www.hostfirst.com/my/cloud/detail?id=88383##)\n*   Username:root\n*   Password:TXG\\_CHRnNVUY [](https://www.hostfirst.com/my/cloud/detail?id=88383##)\n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 35,
+      "id": "betxk1u4spfpfr5zyfjor9ab6o",
+      "created": "2025-03-02T11:13:37Z",
+      "username": "admin",
+      "message": "```\n*   IP Address:217.69.14.206 [](https://www.hostfirst.com/my/cloud/detail?id=88385##)\n*   Username:root\n*   Password:sA.9d)PHoMV\\_f68o [](https://www.hostfirst.com/my/cloud/detail?id=88385##)\n*   Image:Ubuntu 22.04\n```"
+    },
+    {
+      "idx": 36,
+      "id": "pucye3xoabn5fjmxomw46k9rro",
+      "created": "2025-03-02T11:14:33Z",
+      "username": "admin",
+      "message": "@jarom you should prepare some automation for ssh key installation this will be a dynamic process"
+    },
+    {
+      "idx": 37,
+      "id": "ycundkxyjbg9mb34uxkiysy3io",
+      "created": "2025-03-02T11:14:54Z",
+      "username": "admin",
+      "message": "@martinh please do Jitsi with @jarom adn show him the whole process"
+    },
+    {
+      "idx": 38,
+      "id": "fnkt1guhbbf6mex5grhgwke3cw",
+      "created": "2025-03-02T11:36:45Z",
+      "username": "admin",
+      "message": "@martinh you now have 10 servers"
+    },
+    {
+      "idx": 39,
+      "id": "7yjny4bjy7d79qfrqqzk9cow5o",
+      "created": "2025-03-02T12:27:59Z",
+      "username": "vladlen",
+      "message": "wrote @jarom in pm"
+    },
+    {
+      "idx": 40,
+      "id": "dnxjuykp3p8zxcrr1m4qg3j43c",
+      "created": "2025-03-02T19:37:30Z",
+      "username": "jarom",
+      "message": "@all did someone change root password to one of the servers ?"
+    },
+    {
+      "idx": 41,
+      "id": "3h7hdsbezifwxjstw8upfwk9qo",
+      "created": "2025-03-02T20:09:52Z",
+      "username": "vladlen",
+      "message": "no"
+    },
+    {
+      "idx": 42,
+      "id": "m165a9emubyntcndc811y5fw9c",
+      "created": "2025-03-02T20:21:50Z",
+      "username": "jarom",
+      "message": "wher is th file h.pem ?\n",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 43,
+      "id": "qbwb33fmyjn13j96cfqfwdik7e",
+      "created": "2025-03-02T20:24:00Z",
+      "username": "jarom",
+      "message": "find it tnx"
+    },
+    {
+      "idx": 44,
+      "id": "rgctqwoexid1xprqhit8i4p3gy",
+      "created": "2025-03-02T20:44:24Z",
+      "username": "jarom",
+      "message": "@admin can you add jenkins id-rsa.pub on every new server that you create ?"
+    },
+    {
+      "idx": 45,
+      "id": "ac5xi86f97b7bjzq8r98z56fzh",
+      "created": "2025-03-02T20:44:37Z",
+      "username": "admin",
+      "message": "Add"
+    },
+    {
+      "idx": 46,
+      "id": "n19ect1uupyciqywo5jqsqy11y",
+      "created": "2025-03-02T20:44:44Z",
+      "username": "admin",
+      "message": "U have root"
+    },
+    {
+      "idx": 47,
+      "id": "ryep4fss5jrcxmb79owm549wha",
+      "created": "2025-03-03T18:04:03Z",
+      "username": "jarom",
+      "message": "| **IP** | **Pass** | **Progress** |     |\n| :-: | :-: | :-: | :-- |\n| 172.232.217.185 | TXG_CHRnNVUY|  |     |\n| 194.195.116.19 | tfB4XyrvrVw6 | 10.13.13.12 ssh key installed | ok |\n| 217.69.14.206 | sA.9d)PHoMV_f68o |  |     |\n| 135.181.34.41 | pUknpJLWdeCCxjAVcCax! | 10.13.13.12 ssh key installed | OK |\n| 199.247.14.110 | nZ,5W,jPe7KRbXj. |     | ok |\n| 37.27.38.119 | JnM477xccujeMaMTFEFj! | 10.13.13.12 ssh key installed |     |\n| 95.179.212.10 | 8qL}r?qGYn3Tnm?u |     | ok |\n| 65.20.102.171 | Sy6*Y}Hb,LFe_xj3 | |     |\n| 70.34.209.97 | }W4nj(6tZb,E8!Fh |  |     |\n"
+    }
+  ]
+}

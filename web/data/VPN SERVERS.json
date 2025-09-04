@@ -1,0 +1,208 @@
+{
+  "channel": {
+    "name": "vpn-servers",
+    "display_name": "VPN SERVERS",
+    "header": "",
+    "id": "kc4x4y1edfntbkn8h7mwhikqew",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "76xze7juipgbz8cggc8aq6z6bw",
+      "created": "2025-04-10T19:44:49Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "34xc1g3r3pby9nonc3so7s5kyc",
+      "created": "2025-04-10T19:45:00Z",
+      "username": "admin",
+      "message": "jarom added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "1bhaq9rjgbyx3m3kxpuy7dhc5e",
+      "created": "2025-04-10T19:45:00Z",
+      "username": "admin",
+      "message": "gabriel added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "thibwzk8zpbkufd66ojwacysow",
+      "created": "2025-04-10T19:46:00Z",
+      "username": "admin",
+      "message": "guys I want to start keeping track over VPN servers.\n\n| server | default internet | private cloud | SSH / IPSEC | Location |\n| --------- | ----------------------- | -------------------| ----------------- | ------------- |\n| yk.muzpan.com | Hong Kong | No | SSH | Yekaterinburg |\n| kz.muzpan.com | Israel | No | SSH | Kazan |\n| sp.muzpan.com | Germany | Yes | SSH | Saint Petersburg |"
+    },
+    {
+      "idx": 4,
+      "id": "xtx5tanmz3fz9xdc73ou4apsco",
+      "created": "2025-04-10T19:59:45Z",
+      "username": "gabriel",
+      "message": "Can you do for Kyrgyzstan ?"
+    },
+    {
+      "idx": 5,
+      "id": "eczig5tjiprqpk336x4pdsgx4c",
+      "created": "2025-04-10T19:59:55Z",
+      "username": "admin",
+      "message": "working on it now"
+    },
+    {
+      "idx": 6,
+      "id": "oiegk5h3opn3pn5uutxjsk1q9h",
+      "created": "2025-04-10T20:00:37Z",
+      "username": "admin",
+      "message": "maybe we route only relevant traffic to Kyrgizia?"
+    },
+    {
+      "idx": 7,
+      "id": "8norjaycbbyy5xa6m8imqejcye",
+      "created": "2025-04-10T20:00:40Z",
+      "username": "admin",
+      "message": "not all traffic?"
+    },
+    {
+      "idx": 8,
+      "id": "b3ukky6p1f8gtjooudsd84wmoo",
+      "created": "2025-04-10T20:01:05Z",
+      "username": "gabriel",
+      "message": "Yes, only relevant"
+    },
+    {
+      "idx": 9,
+      "id": "fgtr1tkkujf1u8cufwrd4s6mcy",
+      "created": "2025-04-10T20:01:19Z",
+      "username": "gabriel",
+      "message": "And for China "
+    },
+    {
+      "idx": 10,
+      "id": "dy7x7gsfap8zmr4od1u8ejdt6w",
+      "created": "2025-04-10T20:01:33Z",
+      "username": "admin",
+      "message": "ok I will show you tomorrow and you maintain the routes afterwards with coordination and documented"
+    },
+    {
+      "idx": 11,
+      "id": "oi8hu6gby7gmxb88m85wkn5oqc",
+      "created": "2025-04-10T20:01:41Z",
+      "username": "admin",
+      "message": "china I need a server"
+    },
+    {
+      "idx": 12,
+      "id": "3nmpt9q977897pdg45qgantzqe",
+      "created": "2025-04-10T20:01:47Z",
+      "username": "admin",
+      "message": "Im working on it"
+    },
+    {
+      "idx": 13,
+      "id": "gedshr1jmidmzxyu3mbhi5an6h",
+      "created": "2025-04-10T20:28:42Z",
+      "username": "admin",
+      "message": "@gabriel talk to me tomorrow I will show you how to route relevant ips to krg vpn"
+    },
+    {
+      "idx": 14,
+      "id": "gterom4cstbh9r9dwwh6i6qg7o",
+      "created": "2025-04-10T20:29:26Z",
+      "username": "gabriel",
+      "message": "What time will you have free time?"
+    },
+    {
+      "idx": 15,
+      "id": "ajwto3zwtfyyjpfpry9h7qmnfc",
+      "created": "2025-04-10T20:30:15Z",
+      "username": "admin",
+      "message": "hmmm"
+    },
+    {
+      "idx": 16,
+      "id": "gxygdsh88j8tmxe4oqhc15ruuh",
+      "created": "2025-04-10T20:30:20Z",
+      "username": "admin",
+      "message": "lets see"
+    },
+    {
+      "idx": 17,
+      "id": "9t97qxr1wfr89dhpsp14i65exw",
+      "created": "2025-04-10T20:30:23Z",
+      "username": "admin",
+      "message": "I will ping you"
+    },
+    {
+      "idx": 18,
+      "id": "zrwskksigtdg5jsszsytwnc56o",
+      "created": "2025-04-10T20:30:29Z",
+      "username": "admin",
+      "message": "I'll prepare it tonight"
+    },
+    {
+      "idx": 19,
+      "id": "mc8ddi3asidbpgazyom38ma5qh",
+      "created": "2025-04-10T20:31:32Z",
+      "username": "gabriel",
+      "message": "Tomorrow i will be in Skolkovo"
+    },
+    {
+      "idx": 20,
+      "id": "kdx67kqgubbr7e5e7ei9hti8yr",
+      "created": "2025-04-10T20:31:59Z",
+      "username": "admin",
+      "message": "I dont know if I will come got a shit ton to do and I fly at night"
+    },
+    {
+      "idx": 21,
+      "id": "pd3u5xriwfn6mgckybuwr4kxtr",
+      "created": "2025-04-21T18:26:18Z",
+      "username": "gabriel",
+      "message": "```\nrequest from Demetra\nneed 15 difrent vpn servers in Kyrgizia (for every new company), or any other solution for accesing bank from difrent IP\n```\n"
+    },
+    {
+      "idx": 22,
+      "id": "r3infwcg6tfsxg1nhc4z58g8py",
+      "created": "2025-05-05T18:01:33Z",
+      "username": "admin",
+      "message": "@gabriel can you send me one website that needs to go through the kyrgizie ip?"
+    },
+    {
+      "idx": 23,
+      "id": "pcggxp8w1tf6uqeapuidbgzpow",
+      "created": "2025-05-05T18:04:32Z",
+      "username": "gabriel",
+      "message": "```\n185.88.34.0/24 comment=https://keremetbank.kg/ _netname: ROSINBANK-NET\n185.88.32.0/24 comment=https://my.keremetbank.kg/login.html _netname: ROSINBANK-NET\n212.112.106.0/24 comment=https://esb.kg/ _netname: AKNET\n212.112.104.0/24 comment=https://ib.ab.kg/  _netname: AKNET\n18.65.39.0/24 comment=https://www.ab.kg/ _Amazon\n93.170.178.0/24 comment=https://www.rsk.kg/ _netname: ELDIK-BANK-NET\n\n13.48.252.0/24    comment=kifiko.preview.trustform.io  _Amazon\n91.198.63.0/24    comment=bcc.kz _netname: BankCenterCredit-KZ\n13.35.58.0/24    comment=ab.kg  _Amazon\n```"
+    },
+    {
+      "idx": 24,
+      "id": "6bbght1y37gpi8ywmhs3txz59c",
+      "created": "2025-05-06T16:16:22Z",
+      "username": "admin",
+      "message": "@gabriel can you test please yk.muzpan.com ?"
+    },
+    {
+      "idx": 25,
+      "id": "oz347fcpzfn9d89rh3isu9ddta",
+      "created": "2025-05-06T16:16:33Z",
+      "username": "admin",
+      "message": "a new vpn that routes to kyrgizya"
+    },
+    {
+      "idx": 26,
+      "id": "k9ukkeq6kj8f3yb855eqbizafa",
+      "created": "2025-06-05T11:43:17Z",
+      "username": "gabriel",
+      "message": "@admin please buy vpn server in Singapore for Pleshacov"
+    },
+    {
+      "idx": 27,
+      "id": "ndhix5ryffrojqjfauantjot5e",
+      "created": "2025-06-05T11:59:09Z",
+      "username": "admin",
+      "message": "ok"
+    }
+  ]
+}

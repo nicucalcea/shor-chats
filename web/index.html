@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shor Chats</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+    <header>
+      <h1>Shor Chats</h1>
+      <p>Select a file from the list to explore its structure. <a href="https://nicu.md/" target="_blank" rel="noopener">Built by Nicu Calcea</a></p>
+    </header>
+
+    <main class="layout">
+      <aside id="sidebar">
+        <div class="sidebar-header">
+          <input id="chatSearch" placeholder="Search chats…" aria-label="Search chats" />
+        </div>
+        <ul id="chatList"><li class="muted">Loading…</li></ul>
+      </aside>
+
+      <section id="content">
+        <div id="controls">
+          <span id="status" aria-live="polite"></span>
+        </div>
+        <section id="summary" aria-live="polite"></section>
+        <section id="viewer"></section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

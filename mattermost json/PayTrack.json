@@ -1,0 +1,138 @@
+{
+  "channel": {
+    "name": "operational-treasury",
+    "display_name": "PayTrack",
+    "header": "[grafana](http://grafanak8s.df.muzpan.com/d/AfcxN7yNk/dev-logs?orgId=1&refresh=5s&var-Namespace=crm&var-app=crm-be)",
+    "id": "puyfpadgy7gjmgydyutawt69hw",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 214,
+      "id": "7iyn78bx3trhxbqgwsrnmsxwey",
+      "created": "2025-07-22T07:14:33Z",
+      "username": "igorsmi",
+      "message": "Всем доброе утро!\nСобрал для вас эпик по доработкам\nhttp://anykey.gr.muzpan.com/wp/1641"
+    },
+    {
+      "idx": 215,
+      "id": "3kgik5g8cjg8fmnempkgb3h74a",
+      "created": "2025-07-22T11:17:17Z",
+      "username": "sayfutdinov_nik",
+      "message": "@igorsmi @kvaghin Вопрос по плательщикам, у них есть счета в банках в разной валюте, в ЮС написано, что заполняются \"Реквизиты счета\", собственно что входит в состав реквизитов, только номер счета?",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 216,
+      "id": "crap9jut4by7pkwkkguxhuwuzy",
+      "created": "2025-07-22T11:21:20Z",
+      "username": "kvaghin",
+      "message": "Давай уточним это у заказчика, по ощущениям это как PayFlow где у нас есть source bank  думаю нам нужны такие же поля"
+    },
+    {
+      "idx": 217,
+      "id": "ou1zhy9qzibjmpznb5si9ih3io",
+      "created": "2025-07-22T11:22:58Z",
+      "username": "kvaghin",
+      "message": "Хотя стоп, только реквизиты, банк же по идее будет потом реализован и там уже будет инфа"
+    },
+    {
+      "idx": 218,
+      "id": "xazbnj73w3fj8diojftng1s4qc",
+      "created": "2025-07-22T11:36:34Z",
+      "username": "kvaghin",
+      "message": "Только номер счёта "
+    },
+    {
+      "idx": 219,
+      "id": "xb6hmbwqctb9uk49pfgrmd4b5w",
+      "created": "2025-07-22T16:29:47Z",
+      "username": "igorsmi",
+      "message": "@sayfutdinov_nik, обсуждали с тобой ранее временную реализацию SWIFT:\n- Считываем по названию файла для мэтча\nВ пн должно быть на продакшн\nЕсли нужно что-то объяснить - я и @kvaghin открыты\nЮзер стори выложим завтра с утра\n\nВсем хорошего вечера!"
+    },
+    {
+      "idx": 220,
+      "id": "qekc93u61t8dxemnaomd9zch5o",
+      "created": "2025-07-23T09:07:40Z",
+      "username": "igorsmi",
+      "message": "[Доработка SWIFT](http://anykey.gr.muzpan.com/projects/anykey/work_packages/1818/activity?query_id=296&query_props=%7B\"c\"%3A%5B\"id\"%2C\"type\"%2C\"subject\"%2C\"customField1\"%2C\"customField2\"%2C\"status\"%2C\"assignee\"%2C\"priority\"%5D%2C\"hi\"%3Atrue%2C\"g\"%3A\"\"%2C\"is\"%3Atrue%2C\"tv\"%3Afalse%2C\"hl\"%3A\"none\"%2C\"t\"%3A\"id%3Adesc\"%2C\"f\"%3A%5B%7B\"n\"%3A\"customField1\"%2C\"o\"%3A\"%3D\"%2C\"v\"%3A%5B\"43\"%5D%7D%5D%2C\"ts\"%3A\"PT0S\"%2C\"pp\"%3A250%2C\"pa\"%3A1%7D)\n"
+    },
+    {
+      "idx": 221,
+      "id": "w5rmkf3fpib1tq33ebbekwt4ka",
+      "created": "2025-07-23T09:16:09Z",
+      "username": "sayfutdinov_nik",
+      "message": "@rabdulin "
+    },
+    {
+      "idx": 222,
+      "id": "fpt34q9i4jgm8eczhbsu3kjm1r",
+      "created": "2025-07-23T10:44:22Z",
+      "username": "igorsmi",
+      "message": "Всем привет!\nВ связи с переговорами с закзачиком, было определено, что срок реализации полного функционала модулей \"Банки\" и \"Плательщики\" выглядят объемно\nДля ускорения процессов решили, что ожидаем **ТЗ MVP** для быстрой реализации данных модулей\nСегодня получили, присылаю вам\n@kvaghin, @sayfutdinov_nik, @razuvaevserghey прошу ознакомиться и по возможности необходимо оценить насколько мы можем сократить сроки разработки\n\n@kvaghin, под данный MVP нам может понадобиться отдельный **Epic**, чтобы не путать разработчиков с скоупом"
+    },
+    {
+      "idx": 223,
+      "id": "ywkmz6w4ityhzxr7utyh9geugo",
+      "created": "2025-07-23T10:45:01Z",
+      "username": "igorsmi",
+      "message": "",
+      "files": [
+        "mvp [payers.docx",
+        "mvp banks.docx"
+      ]
+    },
+    {
+      "idx": 224,
+      "id": "hayyud16np845b667epircdwur",
+      "created": "2025-07-23T10:59:03Z",
+      "username": "igorsmi",
+      "message": "Прямо щас с @kvaghin ознакамливаемся для выявления неточностей со стороны заказчика\nНашли уже добавление нового функционала, хотя договор на сокращение функционала)"
+    },
+    {
+      "idx": 225,
+      "id": "1ahfpkmbkpfebxdi74rd14hywc",
+      "created": "2025-07-23T12:54:14Z",
+      "username": "igorsmi",
+      "message": "Сократили согласовали с заказчиком доработки\n@sayfutdinov_nik, @razuvaevserghey, сможем оценить?",
+      "files": [
+        "mvp [payers.docx",
+        "mvp banks.docx"
+      ]
+    },
+    {
+      "idx": 226,
+      "id": "cyyur46uo7b8fc4gxjj3ma7aoh",
+      "created": "2025-07-23T12:59:30Z",
+      "username": "sayfutdinov_nik",
+      "message": "Отразите в ЮС что нужно, пожалуйста"
+    },
+    {
+      "idx": 227,
+      "id": "b1c9ndo5obdy583sdrh8mhiboe",
+      "created": "2025-07-23T12:59:48Z",
+      "username": "igorsmi",
+      "message": "Ок"
+    },
+    {
+      "idx": 228,
+      "id": "wiasyqwe7tnambsqi9gkyzp8mh",
+      "created": "2025-07-24T09:14:00Z",
+      "username": "sayfutdinov_nik",
+      "message": "@kvaghin Вопрос по ЮС http://anykey.gr.muzpan.com/projects/anykey/work_packages/1818/activity?query_id=246\nЗачем эти 2 требования? Валюты мы раньше отпределяли, но не использовали, сумма нужна была для определения заявки, соответственно для реализации этой задачи нужно распозновать только дату получается, так как заявку мы определяем по названию файла",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 229,
+      "id": "m31p8codttrf5dadni4u77kaxa",
+      "created": "2025-07-24T09:36:39Z",
+      "username": "kvaghin",
+      "message": "Решили, что пока оставляем номер заявки, данные строки уберу "
+    }
+  ]
+}

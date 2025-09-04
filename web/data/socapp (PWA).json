@@ -1,0 +1,5345 @@
+{
+  "channel": {
+    "name": "the-social-app",
+    "display_name": "socapp (PWA)",
+    "header": "",
+    "id": "izc9gmeys7b78mhyd1ipzx6upc",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "pi73y1ypzfbybxqcrbqwcywf1e",
+      "created": "2024-10-28T18:49:14Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "qhf9a988p3b8ug64md85sbj3kc",
+      "created": "2024-10-28T18:49:26Z",
+      "username": "admin",
+      "message": "martinh added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "391qhxyfttbemcjqryt88crhwh",
+      "created": "2024-10-28T18:49:26Z",
+      "username": "admin",
+      "message": "vic added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "iwyc58ksa3fpiqabx89f4qcf5a",
+      "created": "2024-10-28T18:49:53Z",
+      "username": "admin",
+      "message": "Hey @martinh please add rou FE developers to this group"
+    },
+    {
+      "idx": 4,
+      "id": "s6kjbrbattbxzq484rooasnreo",
+      "created": "2024-10-28T18:50:14Z",
+      "username": "vic",
+      "message": "!!!! "
+    },
+    {
+      "idx": 5,
+      "id": "5s5gs955updftbkgd3tm8r8z5o",
+      "created": "2024-10-28T18:50:30Z",
+      "username": "vic",
+      "message": "🤦"
+    },
+    {
+      "idx": 6,
+      "id": "dkfxdpkxp3bw3rq597ccgsmz4h",
+      "created": "2024-10-28T19:14:04Z",
+      "username": "admin",
+      "message": "admin updated the channel display name from: the social app to: the business app"
+    },
+    {
+      "idx": 7,
+      "id": "z1hwxwubgjn4iggbetht5h4c3c",
+      "created": "2024-10-28T19:16:55Z",
+      "username": "admin",
+      "message": "@martinh we need to choose two different encryption keys one for dev and one for prod"
+    },
+    {
+      "idx": 8,
+      "id": "j8ycy7s6r3gybjom5ugkmins1h",
+      "created": "2024-10-28T19:24:04Z",
+      "username": "admin",
+      "message": "also the following should be incorporated:\n1. app \"api knocking\" (handshake) - \n- every request will create a dynamic api call (for example http://10.22.12.3/POS43DSD) \n- we will try to decrypt POS43DSD\n- if decryption succeeds - we send 3 ip addresses to fetch data from\n- if decryption fails we send \"normal\" news feed from regular website.\n\n2. every request from FE app should deliver any unreachable IP addresses.\n\n3. last resort weapon should be:\n- github/gitlab/bitbucket repos containing encrypted ip address list\n- gmail.com/outlook.com/tutanota.com imap containing encrypted ip address list\n\n3. We should create push notification topic with all devices listed in it for batch messaging.\n\n4. every access of the app should be preceeded with an http request to www.google.com (and similar websites) to ensure the device has internet connectivity.\n\n5. in our api we should also be able to send app configuration - mainly - to activate background service fetching data from the API every 5-20 minutes - in case out push notification appid project is blocked by google.\n\n6. we need to integrate with Shon's api:\n- link generation api (to send users for first install\n- get user details (bank, id etc...)\n\n7. first installation should also be monitored and performed in batches - every batch should be generated with different destination IP addresses.\n\n\n"
+    },
+    {
+      "idx": 9,
+      "id": "jcfkqh87apnszmwhcia4ia4n9c",
+      "created": "2024-10-29T10:49:50Z",
+      "username": "vladlen",
+      "message": "hulda added to the channel by martinh."
+    },
+    {
+      "idx": 10,
+      "id": "7mei5p4oijyjfdrr6ojm36xueo",
+      "created": "2024-10-29T10:52:27Z",
+      "username": "vladlen",
+      "message": "fenrir added to the channel by martinh."
+    },
+    {
+      "idx": 11,
+      "id": "bnuiqhxxfprg88j81bhguokdfc",
+      "created": "2024-10-29T10:55:03Z",
+      "username": "vladlen",
+      "message": "borghild added to the channel by martinh."
+    },
+    {
+      "idx": 12,
+      "id": "ae67qcnrbtbmj87k7zwjcwgpae",
+      "created": "2024-10-29T12:49:41Z",
+      "username": "admin",
+      "message": "@martinh "
+    },
+    {
+      "idx": 13,
+      "id": "4a79knx9ofnqjy6nt6r3mrg1ur",
+      "created": "2024-10-29T12:49:43Z",
+      "username": "admin",
+      "message": "@jarom "
+    },
+    {
+      "idx": 14,
+      "id": "ggfnasak1t8gmnz4zed4cyz7kc",
+      "created": "2024-10-29T12:53:45Z",
+      "username": "vladlen",
+      "message": "here"
+    },
+    {
+      "idx": 15,
+      "id": "n7nhaj5ty7gy7pki7p4pfngsxe",
+      "created": "2024-10-29T13:11:58Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 16,
+      "id": "7f4trfbdx7bpdga6hadig14rwe",
+      "created": "2024-10-29T13:11:59Z",
+      "username": "admin",
+      "message": "how is it going?"
+    },
+    {
+      "idx": 17,
+      "id": "5spmn5155fnc78ysiroy7x4jqr",
+      "created": "2024-10-29T13:33:39Z",
+      "username": "admin",
+      "message": "@martinh ?"
+    },
+    {
+      "idx": 18,
+      "id": "15k54h857jg488zd165n9u4ybc",
+      "created": "2024-10-29T13:35:38Z",
+      "username": "vladlen",
+      "message": "created project, created env class, gonna install rqlite, making endpoint /v1/hello/blablabla to decrypt and so on"
+    },
+    {
+      "idx": 19,
+      "id": "6b75gxxp5fga8fqbsgqm8wcqdo",
+      "created": "2024-10-29T13:36:05Z",
+      "username": "admin",
+      "message": "ok keep me posted please - I will try to come today later on to work together"
+    },
+    {
+      "idx": 20,
+      "id": "wrhsegkigfbwxd8aoibnsuqx4h",
+      "created": "2024-10-29T13:37:04Z",
+      "username": "vladlen",
+      "message": "ok"
+    },
+    {
+      "idx": 21,
+      "id": "fampok1h5ibpfp561j3u5bkm3w",
+      "created": "2024-10-29T14:33:24Z",
+      "username": "borghild",
+      "message": "Hi, should we send any github/gitlab accounts?"
+    },
+    {
+      "idx": 22,
+      "id": "9d53six8o3n1mdbd1p9ngpbc6c",
+      "created": "2024-10-29T14:56:12Z",
+      "username": "admin",
+      "message": "hey @borghild and guys - Welcome - we will do an online meeting soon - but for now - please be ready to push your repo's to our git server.\n\nwe will provide you with vpn accounts and gitlab accounts soon"
+    },
+    {
+      "idx": 23,
+      "id": "x98ro369mtgktej9zr1e7quhfy",
+      "created": "2024-10-31T13:21:06Z",
+      "username": "admin",
+      "message": ""
+    },
+    {
+      "idx": 24,
+      "id": "rcszoimtkbnkbe979zhw9ryd5e",
+      "created": "2024-10-31T14:01:59Z",
+      "username": "admin",
+      "message": "you got access to git already and please remember always do push immedietly :pray: "
+    },
+    {
+      "idx": 25,
+      "id": "zqmhu9a343rnxehfpmmk9z1q9o",
+      "created": "2024-11-01T12:12:29Z",
+      "username": "admin",
+      "message": "guys can you send a status update?"
+    },
+    {
+      "idx": 26,
+      "id": "wmefawwqebb1zk7kmgrozyeefc",
+      "created": "2024-11-01T12:23:41Z",
+      "username": "borghild",
+      "message": "We started the project, done some tests with styles, but now we are in road to home, we'll start working harder from this night"
+    },
+    {
+      "idx": 27,
+      "id": "yct13m1ntfg67q493tu95x33oe",
+      "created": "2024-11-01T12:25:17Z",
+      "username": "admin",
+      "message": "did @martinh updated you about the test we need to know now?"
+    },
+    {
+      "idx": 28,
+      "id": "7iprpp1iz3y75dys749z6yfjao",
+      "created": "2024-11-01T12:26:14Z",
+      "username": "borghild",
+      "message": "I don't think so, probably we will have a meeting and talk about linking with backend"
+    },
+    {
+      "idx": 29,
+      "id": "hzfpowotj38y5k7bjyaz5u8ogy",
+      "created": "2024-11-01T12:26:59Z",
+      "username": "vladlen",
+      "message": "test = install pwa from url and get string after slash /blablabla"
+    },
+    {
+      "idx": 30,
+      "id": "fkn1z3tjw7ghxnu3ayawnrjpia",
+      "created": "2024-11-01T12:27:46Z",
+      "username": "borghild",
+      "message": "We will test it on Android and Ios"
+    },
+    {
+      "idx": 31,
+      "id": "upqf6db37jgfzg1n4u89dhnh8c",
+      "created": "2024-11-01T12:28:32Z",
+      "username": "admin",
+      "message": "perfect this is very important that we test this it is the first step for user recognition"
+    },
+    {
+      "idx": 32,
+      "id": "hr4osyx7tjbduyoduxtfwk6jgc",
+      "created": "2024-11-01T12:28:48Z",
+      "username": "borghild",
+      "message": "Now that i think, @martinh sent us the list with test requirements, i thought of some other tests"
+    },
+    {
+      "idx": 33,
+      "id": "9jmkhe31pbgpmgkpar7ya8xyro",
+      "created": "2024-11-01T12:29:50Z",
+      "username": "admin",
+      "message": "awesome - lets start with this test first with a blank app - just make sure you can:\n1. install the application automatically right after clicking the link\n2. fetch the URI into the app post-install to be able to send to the backend"
+    },
+    {
+      "idx": 34,
+      "id": "u9iuyie3ubnhzm4co41m4nxedc",
+      "created": "2024-11-01T12:30:00Z",
+      "username": "borghild",
+      "message": "Will the app be for desktop as well?"
+    },
+    {
+      "idx": 35,
+      "id": "y8rzpcs9fjbw8e44pzqey7wezo",
+      "created": "2024-11-01T12:36:24Z",
+      "username": "admin",
+      "message": "not at the moment - but maybe in the futre"
+    },
+    {
+      "idx": 36,
+      "id": "cwrd3hwh7brhjr68fqm7gxb4fa",
+      "created": "2024-11-01T13:04:24Z",
+      "username": "admin",
+      "message": "let me know please as soon as we have results and I can test"
+    },
+    {
+      "idx": 37,
+      "id": "bzw7tr3c3f819qyn1epqxh8mna",
+      "created": "2024-11-01T15:56:28Z",
+      "username": "admin",
+      "message": "guys any update? we need an update and a testing version TODAY"
+    },
+    {
+      "idx": 38,
+      "id": "kn4pu9omeid1ifqjkgfrsxrmjo",
+      "created": "2024-11-01T15:59:28Z",
+      "username": "borghild",
+      "message": "Trying to make first commit, for some time we will have bad internet connection so its kinda hard"
+    },
+    {
+      "idx": 39,
+      "id": "rkuxwgn5hj8u3q3b1mg5mu3guw",
+      "created": "2024-11-01T16:00:00Z",
+      "username": "admin",
+      "message": "ok we are waiting - did you test locally?"
+    },
+    {
+      "idx": 40,
+      "id": "gkj8nnsmrfym7bdxtkfm657dky",
+      "created": "2024-11-01T16:00:06Z",
+      "username": "borghild",
+      "message": "Also trying the link to install"
+    },
+    {
+      "idx": 41,
+      "id": "uraprct4btgi8y9h3meriwi31h",
+      "created": "2024-11-01T16:19:31Z",
+      "username": "borghild",
+      "message": "We commited on git just the initial version, it can be pulled and built for a specific platform"
+    },
+    {
+      "idx": 42,
+      "id": "ypuotfewkf8qdeqymq16sjmmrc",
+      "created": "2024-11-01T16:19:44Z",
+      "username": "admin",
+      "message": "woking?"
+    },
+    {
+      "idx": 43,
+      "id": "1roguy7ewtrq9chzr7rciuh5uc",
+      "created": "2024-11-01T16:20:11Z",
+      "username": "admin",
+      "message": "1. automatic installation\n2. send uri to app and save it"
+    },
+    {
+      "idx": 44,
+      "id": "spnqezsfjj8bbeehfrj8n3j4ta",
+      "created": "2024-11-01T16:20:14Z",
+      "username": "borghild",
+      "message": "Yea its working, just a simple example, if you mean that"
+    },
+    {
+      "idx": 45,
+      "id": "qmokze4cdt8ffqnguhzcon6cer",
+      "created": "2024-11-01T16:20:34Z",
+      "username": "borghild",
+      "message": "Don't we need a server for automatic installation?"
+    },
+    {
+      "idx": 46,
+      "id": "ysc6dbor5trjup3qkdeo5g7srh",
+      "created": "2024-11-01T16:20:36Z",
+      "username": "admin",
+      "message": "yes just a simple exapmle but the two points I raised are working right?"
+    },
+    {
+      "idx": 47,
+      "id": "3tswyoi9fpdhtp5ofxy6cbzeea",
+      "created": "2024-11-01T16:20:42Z",
+      "username": "borghild",
+      "message": "May be I miss something"
+    },
+    {
+      "idx": 48,
+      "id": "kecj75c3bbdofne8f1ug7mtomo",
+      "created": "2024-11-01T16:20:53Z",
+      "username": "admin",
+      "message": "you can host it locally on a docker container on your computer"
+    },
+    {
+      "idx": 49,
+      "id": "jgggn4ejqbya5cjd7it6do8wce",
+      "created": "2024-11-01T16:22:55Z",
+      "username": "admin",
+      "message": "here is a dockerfile exapmle:\n```\nFROM nginx\nCOPY  /app/out/ /usr/share/nginx/html\n# COPY build/web /usr/share/nginx/html\nCOPY nginx/default.conf /etc/nginx/conf.d\n# COPY nginx/.htpasswd /etc/nginx/\n\nRUN chown 1000:1000 -R /usr/share && chmod 755 -R /usr/share &&  chown 1000:1000 -R /var/cache && chmod 777 -R /var/cache && chown 1000.1000 -R /etc/nginx  && chown 1000.1000 -R /var/log/nginx && touch /var/run/nginx.pid && chown 1000.1000 /var/run/nginx.pid\n\n```"
+    },
+    {
+      "idx": 50,
+      "id": "jwomsiw3w3gtxrx9z453fb9jdc",
+      "created": "2024-11-01T16:23:25Z",
+      "username": "admin",
+      "message": "the file. nginx/default.conf",
+      "files": [
+        "default.conf"
+      ]
+    },
+    {
+      "idx": 51,
+      "id": "tbmuwz4iuin8by99hxdteafhry",
+      "created": "2024-11-01T16:47:00Z",
+      "username": "admin",
+      "message": "@borghild did you use this?\nhttps://pub.dev/packages/pwa_install"
+    },
+    {
+      "idx": 52,
+      "id": "yphi7pi7qjbxjjbyqgxm1m1wke",
+      "created": "2024-11-01T16:47:07Z",
+      "username": "admin",
+      "message": "or another method?"
+    },
+    {
+      "idx": 53,
+      "id": "cqymchjm5proifk5y3n4wtzoya",
+      "created": "2024-11-01T21:34:54Z",
+      "username": "borghild",
+      "message": "PWA is working, just nginx/apache or other servers must be configured to take correctly the mime type of manifest file from web build"
+    },
+    {
+      "idx": 54,
+      "id": "hxie1ibqkifb5c7bt58xy8mzwh",
+      "created": "2024-11-01T21:35:24Z",
+      "username": "admin",
+      "message": "so you are about to:\nautomatic installation\nsend uri to app and save it"
+    },
+    {
+      "idx": 55,
+      "id": "pe47iz5jbir6xciose7nuss83c",
+      "created": "2024-11-01T21:35:24Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 56,
+      "id": "bmjifcotytbsie811ak7z9nhfa",
+      "created": "2024-11-01T21:36:47Z",
+      "username": "borghild",
+      "message": "yes, now i will try with sending uri"
+    },
+    {
+      "idx": 57,
+      "id": "37ao6s65j3fytrj7d5xu3iaxrh",
+      "created": "2024-11-01T21:39:24Z",
+      "username": "admin",
+      "message": "i am waiting let me know"
+    },
+    {
+      "idx": 58,
+      "id": "8c7pbpchhjgumyo5rj1p85c7kh",
+      "created": "2024-11-01T23:14:51Z",
+      "username": "borghild",
+      "message": "PWA is done, i think its not possible to prompt automatically because of security, got an error like this",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 59,
+      "id": "fy3a7w981bgcbd6amiqbk5yc6w",
+      "created": "2024-11-01T23:16:01Z",
+      "username": "borghild",
+      "message": "And reading URI its easy, I just need to try some real use cases, from manifest or just some saved value from js"
+    },
+    {
+      "idx": 60,
+      "id": "8zijmojyjjn7d8ht78qdhedw4a",
+      "created": "2024-11-02T10:57:17Z",
+      "username": "admin",
+      "message": "if I pull the repo build and put on a web server it will work?"
+    },
+    {
+      "idx": 61,
+      "id": "4jqu6ucazifk8pk9rdmrieufoc",
+      "created": "2024-11-02T11:03:53Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 62,
+      "id": "mj67ru1g5jnxtdrjb1385o1aah",
+      "created": "2024-11-02T11:18:09Z",
+      "username": "borghild",
+      "message": "Should work, but I need to push it, i had some troubles with pull/push, some ssh error even with ssh key connected to git"
+    },
+    {
+      "idx": 63,
+      "id": "ruxzwprodbd5xkmxa9syoixj3a",
+      "created": "2024-11-02T11:18:43Z",
+      "username": "admin",
+      "message": "Don't use ssh use http"
+    },
+    {
+      "idx": 64,
+      "id": "9n73ci573brdpmmx73319zw5fh",
+      "created": "2024-11-02T11:21:33Z",
+      "username": "borghild",
+      "message": "Yup"
+    },
+    {
+      "idx": 65,
+      "id": "7t6xr7yh1fb89dzw3gj5whssra",
+      "created": "2024-11-02T11:36:44Z",
+      "username": "admin",
+      "message": "works?"
+    },
+    {
+      "idx": 66,
+      "id": "7tipgf5g5bny78si7f7q83yw5c",
+      "created": "2024-11-02T11:37:14Z",
+      "username": "borghild",
+      "message": "Yea, making final changes for a simple example"
+    },
+    {
+      "idx": 67,
+      "id": "7ibs7kw68jr77rzee6m44jwksw",
+      "created": "2024-11-02T11:37:40Z",
+      "username": "admin",
+      "message": "once I build it lets do Jitsi to review"
+    },
+    {
+      "idx": 68,
+      "id": "4h9cgm5ti7dr9juariwdswpxqa",
+      "created": "2024-11-02T11:47:04Z",
+      "username": "borghild",
+      "message": "pushed the changes, should work after web build and serve"
+    },
+    {
+      "idx": 69,
+      "id": "46iyxneb4igimrip15te41uj4c",
+      "created": "2024-11-02T15:40:26Z",
+      "username": "admin",
+      "message": "hey @borghild can we do a meeting now? we deployed the app at https://socapp.muzpan.com"
+    },
+    {
+      "idx": 70,
+      "id": "4rds1bhenbr88ragbn1b6ud3iy",
+      "created": "2024-11-02T15:40:32Z",
+      "username": "admin",
+      "message": "we want to discuss"
+    },
+    {
+      "idx": 71,
+      "id": "pxw35qy867geicayyzhhou6enr",
+      "created": "2024-11-02T15:40:38Z",
+      "username": "admin",
+      "message": ""
+    },
+    {
+      "idx": 72,
+      "id": "m3qttyzwgpgh5czsug9edwsnwr",
+      "created": "2024-11-02T18:54:13Z",
+      "username": "admin",
+      "message": "@borghild any update on the uri parsing?"
+    },
+    {
+      "idx": 73,
+      "id": "zofxbhfhtt8n3qtcssg5hwk9xy",
+      "created": "2024-11-02T19:02:50Z",
+      "username": "borghild",
+      "message": "i got it working only in debug, im thinking without go_router package job cant be done, so im trying to set it up"
+    },
+    {
+      "idx": 74,
+      "id": "m1eaw571aj8sjds485u1txgywa",
+      "created": "2024-11-02T19:03:20Z",
+      "username": "admin",
+      "message": "if you need a demo I used it in one of my projects"
+    },
+    {
+      "idx": 75,
+      "id": "bbs17r47jt8gjqr3rtoj9d3i3c",
+      "created": "2024-11-02T19:03:50Z",
+      "username": "borghild",
+      "message": "and im not sure if it is possible for mobile, when on desktop pwa opens automatically after installing, but on mobile it just adds it on screen"
+    },
+    {
+      "idx": 76,
+      "id": "5uzgiixwjfng9bqzemoj4bt7by",
+      "created": "2024-11-02T19:04:10Z",
+      "username": "borghild",
+      "message": "i think i'm good, there are a lot of examples"
+    },
+    {
+      "idx": 77,
+      "id": "77czwf78k7dj98npetnkf88xur",
+      "created": "2024-11-02T19:04:59Z",
+      "username": "borghild",
+      "message": "so i'm making now like 2-3 pages, to see how app opens"
+    },
+    {
+      "idx": 78,
+      "id": "rfhyzy95a3ghdcyz7nh44h43zc",
+      "created": "2024-11-02T19:27:27Z",
+      "username": "borghild",
+      "message": "oof, done more tests on mobile, for now i have some doubts that it will be possible to open as we want, because after putting it on home screen, it does like a fresh start"
+    },
+    {
+      "idx": 79,
+      "id": "9iknrjgcy38a8qezghm5355x6e",
+      "created": "2024-11-02T19:28:19Z",
+      "username": "admin",
+      "message": "did you try to fetch the uri and save it to storage upon application installation?"
+    },
+    {
+      "idx": 80,
+      "id": "pbzx8o5pqtngifjginh3uertuo",
+      "created": "2024-11-02T19:28:37Z",
+      "username": "borghild",
+      "message": "doing it now with localStorage"
+    },
+    {
+      "idx": 81,
+      "id": "z6ix19jw7i8aif5aqz6tff3oky",
+      "created": "2024-11-02T19:28:58Z",
+      "username": "admin",
+      "message": "in mattermost for example - when you install the app you stay connected so that means it transfers the session data from the web to the app"
+    },
+    {
+      "idx": 82,
+      "id": "semx53h4epg83dbdymtp6gmjih",
+      "created": "2024-11-02T19:29:41Z",
+      "username": "borghild",
+      "message": "i remember something"
+    },
+    {
+      "idx": 83,
+      "id": "kpeh71ur13futqmpi13bonddeo",
+      "created": "2024-11-02T19:29:57Z",
+      "username": "borghild",
+      "message": "but then i installed it manually from App store"
+    },
+    {
+      "idx": 84,
+      "id": "wrzauw4xsidzpeziawesimcjor",
+      "created": "2024-11-02T19:30:29Z",
+      "username": "admin",
+      "message": "you can open mattermost on laptop in browser, install the app and you stay logged in - that means that the session data i transferred"
+    },
+    {
+      "idx": 85,
+      "id": "wm48w7ipsiyrfpo5jynesf375c",
+      "created": "2024-11-02T19:30:53Z",
+      "username": "borghild",
+      "message": "on desktop there are no problems"
+    },
+    {
+      "idx": 86,
+      "id": "r9jgm1t9878z5juxxrbxgbz43o",
+      "created": "2024-11-02T19:31:12Z",
+      "username": "admin",
+      "message": "also in android"
+    },
+    {
+      "idx": 87,
+      "id": "xa5bb89qh7ygfn717qg8en7jfe",
+      "created": "2024-11-02T19:31:26Z",
+      "username": "borghild",
+      "message": "it even opens on the page where the user was before installing"
+    },
+    {
+      "idx": 88,
+      "id": "455swmdar385xpt9oc1nx9cpmc",
+      "created": "2024-11-02T19:31:46Z",
+      "username": "admin",
+      "message": "and on android?"
+    },
+    {
+      "idx": 89,
+      "id": "97dacotnktfgzedk9icdahh5uw",
+      "created": "2024-11-02T19:31:59Z",
+      "username": "borghild",
+      "message": "for me it opened from start"
+    },
+    {
+      "idx": 90,
+      "id": "3od8mnszpfg1meq644p9irdr5e",
+      "created": "2024-11-02T19:32:34Z",
+      "username": "admin",
+      "message": "do you have a version I can deploy to the environment?"
+    },
+    {
+      "idx": 91,
+      "id": "us81tqoatbbeuycfaknerrqbgh",
+      "created": "2024-11-02T19:34:52Z",
+      "username": "borghild",
+      "message": "in 5-10 minutes i think i'll have one, i need to do some changes cleaning"
+    },
+    {
+      "idx": 92,
+      "id": "yk5b59htypy67k17ktr4ed8sdw",
+      "created": "2024-11-02T20:29:13Z",
+      "username": "borghild",
+      "message": "so i got it to save it to localStorage, and then make an alert and show the value, it worked, for desktop, but on mobile i just can't"
+    },
+    {
+      "idx": 93,
+      "id": "1zn6zn9op38y8qzzaygycb5pmy",
+      "created": "2024-11-02T20:29:24Z",
+      "username": "borghild",
+      "message": "not even the button for pwa prompt"
+    },
+    {
+      "idx": 94,
+      "id": "uiwgn9h4hinodj6yej9f63tb4a",
+      "created": "2024-11-02T20:29:54Z",
+      "username": "admin",
+      "message": "we HAVE to find a solution for this- it is VERY critical"
+    },
+    {
+      "idx": 95,
+      "id": "p86g3iyyq7ye8fcysawypyxa3e",
+      "created": "2024-11-02T20:30:13Z",
+      "username": "borghild",
+      "message": "i know it must be possible"
+    },
+    {
+      "idx": 96,
+      "id": "xgi8f866ciyzfjc4gqk8wqed3e",
+      "created": "2024-11-02T20:30:26Z",
+      "username": "borghild",
+      "message": "mb some async things"
+    },
+    {
+      "idx": 97,
+      "id": "4wczfdx6sif1zbzgaqp7z6bhgh",
+      "created": "2024-11-02T20:30:46Z",
+      "username": "admin",
+      "message": "maybe our whole project is based on this feature"
+    },
+    {
+      "idx": 98,
+      "id": "yoosraysopynpb61a6q9eqfhiw",
+      "created": "2024-11-02T20:31:05Z",
+      "username": "admin",
+      "message": "we need to be able to identify the user from the link we send him"
+    },
+    {
+      "idx": 99,
+      "id": "chxywgmjitdfdx8q44h7hjmh3c",
+      "created": "2024-11-02T20:37:12Z",
+      "username": "admin",
+      "message": "https://stackoverflow.com/questions/76745620/is-it-possible-to-send-parameters-to-the-pwa-application"
+    },
+    {
+      "idx": 100,
+      "id": "6iezcqbjy78ffqm6jjyhrcpskc",
+      "created": "2024-11-02T20:38:19Z",
+      "username": "borghild",
+      "message": "",
+      "files": [
+        "ED8681CD-0F25-45D6-9079-F26749F4E6E2.jpg"
+      ]
+    },
+    {
+      "idx": 101,
+      "id": "cejsxi45hifrudyu88yarj5tpw",
+      "created": "2024-11-02T20:39:17Z",
+      "username": "admin",
+      "message": "so in ios we cannot send the link to the app?"
+    },
+    {
+      "idx": 102,
+      "id": "fjd17rmpbj8r5qfri3bdtp9rur",
+      "created": "2024-11-02T20:39:40Z",
+      "username": "borghild",
+      "message": "I think no, only to AppStore"
+    },
+    {
+      "idx": 103,
+      "id": "n6xyf6m6nbbctc9u6nrrnnxo3o",
+      "created": "2024-11-02T20:39:57Z",
+      "username": "borghild",
+      "message": "Or if user manually save the app to home"
+    },
+    {
+      "idx": 104,
+      "id": "tciktup1tbgsiqtwxnpqw31usr",
+      "created": "2024-11-02T20:42:24Z",
+      "username": "borghild",
+      "message": "But it should save the session"
+    },
+    {
+      "idx": 105,
+      "id": "w8ed15b5sjghjqeutpd8me64rc",
+      "created": "2024-11-02T20:43:55Z",
+      "username": "admin",
+      "message": "ok so maybe we can perform an interim stage...\n1. upon opening the url we create a session\n2. backened can correlate this sessionis with the user identity\n3. upon PWA installation the application can send the sessionid\n4. backend will back-correlate the session id to the user id and send the userid back to the PWA"
+    },
+    {
+      "idx": 106,
+      "id": "jmeepwmnii8dfqmpfjmu133guw",
+      "created": "2024-11-02T20:43:59Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 107,
+      "id": "rs56zwxxo3fx5euocikjei3t3y",
+      "created": "2024-11-02T20:44:03Z",
+      "username": "admin",
+      "message": "@martinh ?"
+    },
+    {
+      "idx": 108,
+      "id": "6q7w1iw6ciyp7m7hagqs3urk3r",
+      "created": "2024-11-02T20:44:10Z",
+      "username": "admin",
+      "message": "@borghild ?"
+    },
+    {
+      "idx": 109,
+      "id": "khw9zm1x57r1tn9nju4sfb619w",
+      "created": "2024-11-02T20:45:22Z",
+      "username": "borghild",
+      "message": "i think i can get it to work, save something from flutter in storage on first run, then may be do a test if its pwa and then load data"
+    },
+    {
+      "idx": 110,
+      "id": "p6mkbufrzib6meqn4aq73aio8e",
+      "created": "2024-11-02T20:46:55Z",
+      "username": "admin",
+      "message": "the most important thing is that the link we send to the user will contain a unique identity which can be correlated with the user identity on a 1x1 way - then we can send back to the PWA user identity data to store for upcoming authentication"
+    },
+    {
+      "idx": 111,
+      "id": "uyxau9uxjjnjxj9aawqptqy47y",
+      "created": "2024-11-02T20:48:16Z",
+      "username": "admin",
+      "message": "just to clarify - the only way we can identify a user is with this specially crafted link we send them to install the application.\n\nthis link will be available ONLY for one installation - after that the link is useless and if for example the user wants to install again or install on another device they will need to go through a procedure to create a new link."
+    },
+    {
+      "idx": 112,
+      "id": "nq5nh3rc9ibtdm3pau79ruee8y",
+      "created": "2024-11-02T20:48:46Z",
+      "username": "admin",
+      "message": "so it is imperative we can identify the user upon installation of the app with MINIMAL user intervention (only click install...)"
+    },
+    {
+      "idx": 113,
+      "id": "7gjuoju5sbdhic38br1p5ozqoe",
+      "created": "2024-11-02T20:49:20Z",
+      "username": "admin",
+      "message": "@vic we need to do a session tomorrow about design can you join us at the office around 14:00?"
+    },
+    {
+      "idx": 114,
+      "id": "pme97jgwzinmdcqnqxbcqr6gtc",
+      "created": "2024-11-02T20:49:24Z",
+      "username": "admin",
+      "message": "or 15:00?"
+    },
+    {
+      "idx": 115,
+      "id": "j1t4jx45cb8hic34j5swquhi3o",
+      "created": "2024-11-02T20:51:51Z",
+      "username": "admin",
+      "message": "@vic"
+    },
+    {
+      "idx": 116,
+      "id": "tzihdumrufysx8nc7ciyb98wpy",
+      "created": "2024-11-02T20:51:52Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 117,
+      "id": "fkfhwksqw3ggiks9j4xytweyaa",
+      "created": "2024-11-02T20:54:27Z",
+      "username": "admin",
+      "message": "@borghild when do you think we can have a version working with this minimal functionality:\n1. send a link with a URI for example: http:domain.com/AppleDirection\n2. install the app and see \"AppleDirection\" on the screen after installation\n\nor:\n1. send a link with a URI for example: http:domain.com/AppleDirection\n2. pre-PWA installation - send the  sessionid and the uri \"AppleDirection\" to backend\n3. show session id on the PWA after installation"
+    },
+    {
+      "idx": 118,
+      "id": "texrixhx8jgqdjsgpkwih9atfr",
+      "created": "2024-11-02T20:54:30Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 119,
+      "id": "rhxb8ixoupyu9fb54ycpjdq34c",
+      "created": "2024-11-02T20:57:27Z",
+      "username": "borghild",
+      "message": "tommorow as like today i will spend all day to make something of it, i'm not very into mobile apps, if it was just web, we probably had finished a good part of logic..."
+    },
+    {
+      "idx": 120,
+      "id": "d7iixduuj38yfco6du3nxp6m8a",
+      "created": "2024-11-02T20:58:49Z",
+      "username": "borghild",
+      "message": "i can't say how much time it will be needed, i know we talked about flutter, but i will take some time also with react native and angular ion, may be i will have a better time with them"
+    },
+    {
+      "idx": 121,
+      "id": "85ne76cwyjn3fn14fsiaqp4e4w",
+      "created": "2024-11-02T20:59:47Z",
+      "username": "admin",
+      "message": "no problem - just remember - it has to be a PWA (not native)"
+    },
+    {
+      "idx": 122,
+      "id": "jkthbqjymbgm98xwt6thsm4xqc",
+      "created": "2024-11-02T21:00:04Z",
+      "username": "admin",
+      "message": "meaning we do not want to install from store (apk)"
+    },
+    {
+      "idx": 123,
+      "id": "cg4rpjbni7r4dfzukzktqmm94a",
+      "created": "2024-11-02T21:00:07Z",
+      "username": "borghild",
+      "message": "ok, even better i think"
+    },
+    {
+      "idx": 124,
+      "id": "qnryhfj6kpfddndfqgur3ei19r",
+      "created": "2024-11-02T21:00:32Z",
+      "username": "admin",
+      "message": "awesome - sync us here tomorrow about progress please - good night"
+    },
+    {
+      "idx": 125,
+      "id": "yj8uxrd99jy55nhii1h8te561a",
+      "created": "2024-11-02T21:00:35Z",
+      "username": "admin",
+      "message": "well done!"
+    },
+    {
+      "idx": 126,
+      "id": "q4g89qobn38fxfw7uehk6rftch",
+      "created": "2024-11-02T21:00:37Z",
+      "username": "borghild",
+      "message": "flutter its just overkill and confusing"
+    },
+    {
+      "idx": 127,
+      "id": "7pnm8wbootdubgdei6jzo41a9e",
+      "created": "2024-11-02T21:00:51Z",
+      "username": "borghild",
+      "message": "thanks, good night"
+    },
+    {
+      "idx": 128,
+      "id": "pn6gafw16bgt5bznbh8jhks7go",
+      "created": "2024-11-02T21:01:28Z",
+      "username": "admin",
+      "message": "well I think the fact that google backs it gives it an edge and probably more ready made packages (as it is tightly couple with Java and Kotlin) but I really am open to any other language"
+    },
+    {
+      "idx": 129,
+      "id": "968kkq8qutrkmbk8yh3o9e3jmy",
+      "created": "2024-11-02T21:02:33Z",
+      "username": "borghild",
+      "message": "yea, dart is great, as is GoLang, but web with them, seven hells"
+    },
+    {
+      "idx": 130,
+      "id": "r7dnxsh45bgcpydu6do9cc99so",
+      "created": "2024-11-02T21:07:04Z",
+      "username": "admin",
+      "message": "ok go with what will give us the best functionality"
+    },
+    {
+      "idx": 131,
+      "id": "ny8tcm9sbjbyijohnbern188yo",
+      "created": "2024-11-02T21:07:13Z",
+      "username": "admin",
+      "message": "keep us updated"
+    },
+    {
+      "idx": 132,
+      "id": "nzx6737ofpgc7fcp86fkkmugkr",
+      "created": "2024-11-03T09:06:42Z",
+      "username": "admin",
+      "message": "good morning - updates?"
+    },
+    {
+      "idx": 133,
+      "id": "es64pou34ir78f8d34e4cfn6rc",
+      "created": "2024-11-03T09:07:51Z",
+      "username": "borghild",
+      "message": "started a simple React app, made pwa to work in like 1 minute, for desktop is ok"
+    },
+    {
+      "idx": 134,
+      "id": "5gz8pyr1wfdpbd5u8g8zsxgdwe",
+      "created": "2024-11-03T09:07:58Z",
+      "username": "borghild",
+      "message": "android i think also should be ok"
+    },
+    {
+      "idx": 135,
+      "id": "dc45onyrcpgxudsgtn8568za9r",
+      "created": "2024-11-03T09:08:32Z",
+      "username": "borghild",
+      "message": "but ios can't trigger one event for pwa, so user should manually do all the work, to access page menu, then Add to home page"
+    },
+    {
+      "idx": 136,
+      "id": "9acdn6cdk7dj88xt8xmkwd1kqr",
+      "created": "2024-11-03T09:08:37Z",
+      "username": "admin",
+      "message": "ok create a new branch and push with instructionsin readme.md how to build"
+    },
+    {
+      "idx": 137,
+      "id": "tr3sp1ii1pd4pp1fsrimeqib4c",
+      "created": "2024-11-03T09:08:48Z",
+      "username": "borghild",
+      "message": "ok"
+    },
+    {
+      "idx": 138,
+      "id": "bi8z46gep3gabrd6u6rqg6q3gc",
+      "created": "2024-11-03T09:17:58Z",
+      "username": "borghild",
+      "message": "pushed on branch react_pwa"
+    },
+    {
+      "idx": 139,
+      "id": "ncrsdnysxt87fmjez1n6hxzeic",
+      "created": "2024-11-03T11:06:04Z",
+      "username": "admin",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 140,
+      "id": "ckbzbtfre7f3tecgnarg9yp81a",
+      "created": "2024-11-03T11:07:09Z",
+      "username": "borghild",
+      "message": "i'm still trying to send somehow data to pwa"
+    },
+    {
+      "idx": 141,
+      "id": "e3gno3igkjyqujt8b9zt4kad9r",
+      "created": "2024-11-03T11:07:37Z",
+      "username": "borghild",
+      "message": "for mobile localStorage won't work"
+    },
+    {
+      "idx": 142,
+      "id": "1zqawhhjkffbiec63br6gcnuue",
+      "created": "2024-11-03T11:07:59Z",
+      "username": "vladlen",
+      "message": "Try shared_prefs"
+    },
+    {
+      "idx": 143,
+      "id": "twwmygpjabya3b63eukkg8kcdy",
+      "created": "2024-11-03T11:08:42Z",
+      "username": "borghild",
+      "message": "tried Shared storage on desktop, it said it is not available, i'll try for mobile"
+    },
+    {
+      "idx": 144,
+      "id": "rytg4pnucbg1jqbxwnahxinupw",
+      "created": "2024-11-03T11:34:36Z",
+      "username": "borghild",
+      "message": "so i got something working, cookies"
+    },
+    {
+      "idx": 145,
+      "id": "aa9ekcdjzt8sipfwohaubbwhoa",
+      "created": "2024-11-03T11:34:54Z",
+      "username": "borghild",
+      "message": "they don't get lost as other storages"
+    },
+    {
+      "idx": 146,
+      "id": "9yjtf4ihwpr1jr1jjdpqcibony",
+      "created": "2024-11-03T11:35:28Z",
+      "username": "borghild",
+      "message": "and i imagine that if we use like http-only cookies, do a check for them and login"
+    },
+    {
+      "idx": 147,
+      "id": "c8ysaf8wojfofdhj4mn1n8g5ry",
+      "created": "2024-11-03T11:37:21Z",
+      "username": "admin",
+      "message": "That can work can we have a try on the server?"
+    },
+    {
+      "idx": 148,
+      "id": "4m5qpc51wtysbjnr5p5as9bwgh",
+      "created": "2024-11-03T11:37:56Z",
+      "username": "borghild",
+      "message": "sure, adding some randomness to it, to understand if it's working properly"
+    },
+    {
+      "idx": 149,
+      "id": "58ww4j6ip7ri5boypobyhenb5r",
+      "created": "2024-11-03T11:48:14Z",
+      "username": "borghild",
+      "message": "pushed the changes"
+    },
+    {
+      "idx": 150,
+      "id": "bgcq7g7ay3f3umaanjk8ojmkoa",
+      "created": "2024-11-03T11:49:09Z",
+      "username": "borghild",
+      "message": "so on mobile it will work like that, in browser it will render a generated uuid, and when app is added to home scree, on open it will show an alert with cookies"
+    },
+    {
+      "idx": 151,
+      "id": "4kuoiytipiym3k83h6nktxn1ky",
+      "created": "2024-11-03T11:55:08Z",
+      "username": "borghild",
+      "message": "as I read more forums, service-workers also can share some data, don't really understand for now how, but they can configure a lot of stuff, notifications, updates"
+    },
+    {
+      "idx": 152,
+      "id": "fgmf4oyahprz9y8xq8b8xn5edw",
+      "created": "2024-11-03T12:05:20Z",
+      "username": "admin",
+      "message": "this is why I hate react:\n```\nInefficient Regular Expression Complexity in nth-check - https://github.com/advisories/GHSA-rp65-9cf3-cjxr\nfix available via `npm audit fix --force`\nWill install react-scripts@3.0.1, which is a breaking change\nnode_modules/svgo/node_modules/nth-check\n  css-select  <=3.1.0\n  Depends on vulnerable versions of nth-check\n  node_modules/svgo/node_modules/css-select\n    svgo  1.0.0 - 1.3.2\n    Depends on vulnerable versions of css-select\n    node_modules/svgo\n      @svgr/plugin-svgo  <=5.5.0\n      Depends on vulnerable versions of svgo\n      node_modules/@svgr/plugin-svgo\n        @svgr/webpack  4.0.0 - 5.5.0\n        Depends on vulnerable versions of @svgr/plugin-svgo\n        node_modules/@svgr/webpack\n          react-scripts  >=2.1.4\n          Depends on vulnerable versions of @svgr/webpack\n          Depends on vulnerable versions of resolve-url-loader\n          node_modules/react-scripts\n\npostcss  <8.4.31\nSeverity: moderate\nPostCSS line return parsing error - https://github.com/advisories/GHSA-7fh5-64p2-3v2j\nfix available via `npm audit fix --force`\nWill install react-scripts@3.0.1, which is a breaking change\nnode_modules/resolve-url-loader/node_modules/postcss\n  resolve-url-loader  0.0.1-experiment-postcss || 3.0.0-alpha.1 - 4.0.0\n  Depends on vulnerable versions of postcss\n  node_modules/resolve-url-loader\n\n8 vulnerabilities (2 moderate, 6 high)\n\nTo address all issues (including breaking changes), run:\n  npm audit fix --force\n```\nnpm fix does not work"
+    },
+    {
+      "idx": 153,
+      "id": "uwg1iwypwjb4mp8j5jeintk47c",
+      "created": "2024-11-03T12:06:27Z",
+      "username": "borghild",
+      "message": "My fault, react-scripts should be in devDependencies"
+    },
+    {
+      "idx": 154,
+      "id": "rurpc4mc3fdq8r9j7g9cb991uh",
+      "created": "2024-11-03T12:06:34Z",
+      "username": "borghild",
+      "message": "I forgot"
+    },
+    {
+      "idx": 155,
+      "id": "mojsnyhrq7bwzg73g18bxo6ruy",
+      "created": "2024-11-03T12:06:44Z",
+      "username": "admin",
+      "message": "ok - can you fix and push?"
+    },
+    {
+      "idx": 156,
+      "id": "6tei7rbb9tyc8fy4db9cykjsxe",
+      "created": "2024-11-03T12:07:33Z",
+      "username": "borghild",
+      "message": "If build is made in production it will be ok"
+    },
+    {
+      "idx": 157,
+      "id": "3ojf4md1f7fm3eos3z5834rswe",
+      "created": "2024-11-03T12:09:38Z",
+      "username": "admin",
+      "message": "```\n npm i\n\nadded 1 package, changed 1 package, and audited 1359 packages in 3s\n\n263 packages are looking for funding\n  run `npm fund` for details\n\n8 vulnerabilities (2 moderate, 6 high)\n\nTo address all issues (including breaking changes), run:\n  npm audit fix --force\n\nRun `npm audit` for details.\n```"
+    },
+    {
+      "idx": 158,
+      "id": "xnjidzmampde9mb7b8prm1ncay",
+      "created": "2024-11-03T12:11:20Z",
+      "username": "admin",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 159,
+      "id": "pzyxb9b5d3fyjmuxg4emig3x1o",
+      "created": "2024-11-03T12:11:23Z",
+      "username": "admin",
+      "message": "in browser"
+    },
+    {
+      "idx": 160,
+      "id": "489a1gsw1fr6jbsc5dhd43pcqe",
+      "created": "2024-11-03T12:11:34Z",
+      "username": "admin",
+      "message": "can I build and pack in container?"
+    },
+    {
+      "idx": 161,
+      "id": "tmis31pyz38kuqx83itzej6qmw",
+      "created": "2024-11-03T12:12:04Z",
+      "username": "borghild",
+      "message": "I think so"
+    },
+    {
+      "idx": 162,
+      "id": "c4mz8cucxige8mkxxs3sa4g5sh",
+      "created": "2024-11-03T12:12:33Z",
+      "username": "borghild",
+      "message": "Now that i tested in React, it was faster than building flutter, i can try cookies also in flutter"
+    },
+    {
+      "idx": 163,
+      "id": "e6sgqd3ty3r1pgmznoo6obyk6a",
+      "created": "2024-11-03T12:12:42Z",
+      "username": "borghild",
+      "message": "Today i will give the final answer"
+    },
+    {
+      "idx": 164,
+      "id": "dcid3b3pnbb53m73ffxkomsccr",
+      "created": "2024-11-03T12:17:12Z",
+      "username": "admin",
+      "message": "how do I build it for web?"
+    },
+    {
+      "idx": 165,
+      "id": "xnks5hf3qb8npbeown17wsaroo",
+      "created": "2024-11-03T12:17:29Z",
+      "username": "admin",
+      "message": "npm install?"
+    },
+    {
+      "idx": 166,
+      "id": "yjyjgnap1ty97xa9fmtcotpyic",
+      "created": "2024-11-03T12:17:40Z",
+      "username": "borghild",
+      "message": "Its just npm run build"
+    },
+    {
+      "idx": 167,
+      "id": "ixdpay83jjnrdditrsx34t8xua",
+      "created": "2024-11-03T12:28:49Z",
+      "username": "admin",
+      "message": "installed on our k8s cluster:\nhttps://socapp.muzpan.com/"
+    },
+    {
+      "idx": 168,
+      "id": "m8z4qbq46ir7dckcnkoogksr1o",
+      "created": "2024-11-03T12:29:45Z",
+      "username": "admin",
+      "message": "on android I do not have a button nor is the application installed automatically"
+    },
+    {
+      "idx": 169,
+      "id": "cskr974sm3yi9g9etez846ohxr",
+      "created": "2024-11-03T12:30:30Z",
+      "username": "borghild",
+      "message": "Yeah, on mobile i just cant get the button"
+    },
+    {
+      "idx": 170,
+      "id": "ztcgqewiujyw3g9kgiuo4deujo",
+      "created": "2024-11-03T12:30:37Z",
+      "username": "borghild",
+      "message": "Only on desktop"
+    },
+    {
+      "idx": 171,
+      "id": "n7rjdb8gp7n87cdae7agppibro",
+      "created": "2024-11-03T12:30:42Z",
+      "username": "vladlen",
+      "message": "i have button"
+    },
+    {
+      "idx": 172,
+      "id": "w579g1mms3n43jcanenac4b7ea",
+      "created": "2024-11-03T12:30:47Z",
+      "username": "vladlen",
+      "message": "installed"
+    },
+    {
+      "idx": 173,
+      "id": "a5hfuosfjpdwzdx1fno66rrata",
+      "created": "2024-11-03T12:31:10Z",
+      "username": "vladlen",
+      "message": "have seen same session id in alert"
+    },
+    {
+      "idx": 174,
+      "id": "96nk8tmqj3ntfkd3ymmf5kdxuo",
+      "created": "2024-11-03T12:35:04Z",
+      "username": "borghild",
+      "message": "I also got on Android the button, not instantly, but got it"
+    },
+    {
+      "idx": 175,
+      "id": "zfjs3yckpjfifdxd7nktrjhz3o",
+      "created": "2024-11-03T12:38:39Z",
+      "username": "admin",
+      "message": "my bad - please note: APP INSTALLATION DOES NOT WORK INCOGNITO MODE"
+    },
+    {
+      "idx": 176,
+      "id": "95qhw6969iyfu8cackacfpnsxe",
+      "created": "2024-11-03T12:38:59Z",
+      "username": "borghild",
+      "message": "Interesting"
+    },
+    {
+      "idx": 177,
+      "id": "16hwrq1ndbrr9drnbc9361ts3o",
+      "created": "2024-11-03T12:39:18Z",
+      "username": "borghild",
+      "message": "But also i think cookies won't work in private"
+    },
+    {
+      "idx": 178,
+      "id": "ejb5ij4io7nhtjcq3x8xdymkcc",
+      "created": "2024-11-03T12:44:33Z",
+      "username": "admin",
+      "message": "yeah but I think incognito will not allow application installation (it incognito_"
+    },
+    {
+      "idx": 179,
+      "id": "9mth7db7b7fe8c4fc8xbuet6ma",
+      "created": "2024-11-03T12:45:45Z",
+      "username": "borghild",
+      "message": "I tried it, it installed and even saved cookie"
+    },
+    {
+      "idx": 180,
+      "id": "8qin3tqudtb17b1mizmfc1ukiw",
+      "created": "2024-11-03T12:45:52Z",
+      "username": "borghild",
+      "message": "Soo its ok"
+    },
+    {
+      "idx": 181,
+      "id": "1s4gathrw7r3ifmiyooaufkd7e",
+      "created": "2024-11-03T12:46:01Z",
+      "username": "admin",
+      "message": "incognito?"
+    },
+    {
+      "idx": 182,
+      "id": "4mpup4tf7tfhpdatyypjt9tmsh",
+      "created": "2024-11-03T12:46:12Z",
+      "username": "borghild",
+      "message": "Safari private, yea"
+    },
+    {
+      "idx": 183,
+      "id": "tu5nmjouh3yk5rjce4r6t5fwqe",
+      "created": "2024-11-03T17:06:18Z",
+      "username": "admin",
+      "message": "http://git.muzpan.com/bizapp/socapp-fe/-/boards"
+    },
+    {
+      "idx": 184,
+      "id": "meig9zbe6tfbfezb9o79xojw4w",
+      "created": "2024-11-04T16:44:26Z",
+      "username": "borghild",
+      "message": "So i got working most of the things using web api-s, geolocation, notifications, they are working on desktop, but very little support for mobile"
+    },
+    {
+      "idx": 185,
+      "id": "5pruwqosgj887ea5gc9i3so1ea",
+      "created": "2024-11-04T16:45:12Z",
+      "username": "borghild",
+      "message": "I don't even know if even flutter if it's built for web can do it"
+    },
+    {
+      "idx": 186,
+      "id": "7tq14pf9ptby9bbbfje4kqa8qc",
+      "created": "2024-11-04T18:57:05Z",
+      "username": "admin",
+      "message": "I did it all in flutter pwa"
+    },
+    {
+      "idx": 187,
+      "id": "4z59sr9tmig8jgtnguwfsu6xpa",
+      "created": "2024-11-05T09:19:12Z",
+      "username": "admin",
+      "message": "@borghild updates?"
+    },
+    {
+      "idx": 188,
+      "id": "3cbc5soaatd85goam8g7y7n5ue",
+      "created": "2024-11-05T09:19:38Z",
+      "username": "admin",
+      "message": "lets have a jitsi?\n@martinh are you available?"
+    },
+    {
+      "idx": 189,
+      "id": "mb4rwec4afgabfyp7ghgkek6tc",
+      "created": "2024-11-05T09:21:22Z",
+      "username": "borghild",
+      "message": "for moment i'm just reading and trying a bunch of stuff"
+    },
+    {
+      "idx": 190,
+      "id": "zsc7fi1jb78uxen4j5mijzbbsa",
+      "created": "2024-11-05T09:21:54Z",
+      "username": "borghild",
+      "message": "i saw how to do push notifications in some way"
+    },
+    {
+      "idx": 191,
+      "id": "zngs1ftrzibspyduj7r5krd3ry",
+      "created": "2024-11-05T09:22:21Z",
+      "username": "borghild",
+      "message": "but if I read correctly background sync isn't available for ios"
+    },
+    {
+      "idx": 192,
+      "id": "xpw3tjbioifnbmn4yfbpdxesyy",
+      "created": "2024-11-05T09:22:29Z",
+      "username": "admin",
+      "message": "yes I know that"
+    },
+    {
+      "idx": 193,
+      "id": "5f1sqkt817y9jrokuh8oaordwc",
+      "created": "2024-11-05T09:22:34Z",
+      "username": "admin",
+      "message": "I told you that already"
+    },
+    {
+      "idx": 194,
+      "id": "4dzrrt5fbbd6zgfkht8ofr318h",
+      "created": "2024-11-05T09:22:52Z",
+      "username": "admin",
+      "message": "its not about react or Flutter - IOS battery budget prevents it"
+    },
+    {
+      "idx": 195,
+      "id": "cddc5sx94idm9nbma8cpssbk9y",
+      "created": "2024-11-05T09:22:55Z",
+      "username": "admin",
+      "message": "but its ok"
+    },
+    {
+      "idx": 196,
+      "id": "cx1fkhppbjb67xw1jh76orcacr",
+      "created": "2024-11-05T09:23:03Z",
+      "username": "borghild",
+      "message": "geolocation worked for me only if manually give permission for browser"
+    },
+    {
+      "idx": 197,
+      "id": "eeuf51ddhprfjjupzx7w3ux8oy",
+      "created": "2024-11-05T09:23:24Z",
+      "username": "admin",
+      "message": "you need to ask user for permission upon application installation"
+    },
+    {
+      "idx": 198,
+      "id": "fxsmtpoqr3fqp8ic6n78c3rj5w",
+      "created": "2024-11-05T09:23:31Z",
+      "username": "admin",
+      "message": "like with push notifications"
+    },
+    {
+      "idx": 199,
+      "id": "rpgctbpkttfydrrjutfaiyh1xc",
+      "created": "2024-11-05T09:23:45Z",
+      "username": "borghild",
+      "message": "i tried, but i think it was all about secure connection"
+    },
+    {
+      "idx": 200,
+      "id": "wp8y5uk3tfrwznatixjwbnqt3r",
+      "created": "2024-11-05T09:24:29Z",
+      "username": "admin",
+      "message": "this is the flutter package that lets you do it :\nhttps://pub.dev/packages/permission_handler\n\nI dont know what you need to use in reactjs"
+    },
+    {
+      "idx": 201,
+      "id": "dkgtskkgdf86zg5sbjeq85qhty",
+      "created": "2024-11-05T09:24:37Z",
+      "username": "borghild",
+      "message": "i stopped at hardware detection, for now the only info i got is the user agent"
+    },
+    {
+      "idx": 202,
+      "id": "nc3c89m6njd7d8go36p3dh84kh",
+      "created": "2024-11-05T09:25:00Z",
+      "username": "admin",
+      "message": "https://pub.dev/packages/device_info_plus"
+    },
+    {
+      "idx": 203,
+      "id": "ta75bzirajy58f1o578176u7zo",
+      "created": "2024-11-05T09:25:25Z",
+      "username": "admin",
+      "message": "we need to quickly take a decision if we use flutter or react "
+    },
+    {
+      "idx": 204,
+      "id": "fkqmcwz17f83b8b7d4tozb4ddr",
+      "created": "2024-11-05T09:28:33Z",
+      "username": "admin",
+      "message": "@borghild "
+    },
+    {
+      "idx": 205,
+      "id": "r17c1zwh1bn6if4iidsnmgt45r",
+      "created": "2024-11-05T09:28:34Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 206,
+      "id": "o67ejd6s7bdeugsficcmryxq8r",
+      "created": "2024-11-05T09:30:30Z",
+      "username": "borghild",
+      "message": "flutter then it is, as ugly as it is"
+    },
+    {
+      "idx": 207,
+      "id": "a5brfhipbfy3zez7o93a765b9y",
+      "created": "2024-11-05T09:30:34Z",
+      "username": "admin",
+      "message": "lol"
+    },
+    {
+      "idx": 208,
+      "id": "ght4yhg1ftn49839nx4etjfp4a",
+      "created": "2024-11-05T09:30:51Z",
+      "username": "admin",
+      "message": "I dont mind using react - but I am not that familiar with it we just need to be sure"
+    },
+    {
+      "idx": 209,
+      "id": "fih1shohpprb78gt95staeq5de",
+      "created": "2024-11-05T09:31:24Z",
+      "username": "borghild",
+      "message": "react it's just js, and yeah, for mobile it doesn't have much support"
+    },
+    {
+      "idx": 210,
+      "id": "qco6pe7hmbrdmktcuframr64he",
+      "created": "2024-11-05T09:31:45Z",
+      "username": "admin",
+      "message": "so I think we better use flutter which is made for mobile apps"
+    },
+    {
+      "idx": 211,
+      "id": "77oter7fkff75ktnqnkuh1xbde",
+      "created": "2024-11-05T09:32:09Z",
+      "username": "admin",
+      "message": "and if we are missing something we can ask our java developer to research and build a package in java"
+    },
+    {
+      "idx": 212,
+      "id": "uhxrtka7mpbs5j1oim64jzsgjw",
+      "created": "2024-11-05T09:32:55Z",
+      "username": "borghild",
+      "message": "ok, so i'll start making pages for different features, and push them one by one"
+    },
+    {
+      "idx": 213,
+      "id": "f9w39inx6tn6pjtbkp8nqep1yc",
+      "created": "2024-11-05T09:33:26Z",
+      "username": "admin",
+      "message": "but first you need to do what you need in react with the sessinoid  - in flutter"
+    },
+    {
+      "idx": 214,
+      "id": "1ohnounudfnttd884ccea9ntde",
+      "created": "2024-11-05T09:33:42Z",
+      "username": "borghild",
+      "message": "yeah"
+    },
+    {
+      "idx": 215,
+      "id": "tuo9n53hrfbg9frdep81cwinfh",
+      "created": "2024-11-05T09:33:57Z",
+      "username": "borghild",
+      "message": "i think i can do it fast"
+    },
+    {
+      "idx": 216,
+      "id": "haxxhmtgc7fbxe61wzminarfec",
+      "created": "2024-11-05T09:34:15Z",
+      "username": "admin",
+      "message": "perfect - lets move fast on this"
+    },
+    {
+      "idx": 217,
+      "id": "qwe5q4tcetf8ff18tmjag7u1ka",
+      "created": "2024-11-05T09:34:23Z",
+      "username": "admin",
+      "message": "let me know when we can proceed"
+    },
+    {
+      "idx": 218,
+      "id": "ip8rmrb3ftyr8f8qd9iqmnyemw",
+      "created": "2024-11-05T09:34:34Z",
+      "username": "borghild",
+      "message": "sure"
+    },
+    {
+      "idx": 219,
+      "id": "z1id6zxfs7g5pk86p7je7dcf7c",
+      "created": "2024-11-05T10:59:50Z",
+      "username": "borghild",
+      "message": "Is there a rule as Pwa button wont appear if it's not https conn on Android?"
+    },
+    {
+      "idx": 220,
+      "id": "zw9o6s96g3nbmmnxz87gxsjqze",
+      "created": "2024-11-05T11:26:22Z",
+      "username": "admin",
+      "message": "I don't think so where did you read that?"
+    },
+    {
+      "idx": 221,
+      "id": "3q6mt1i5xfn6dp97bzswxrqqpe",
+      "created": "2024-11-05T11:27:00Z",
+      "username": "borghild",
+      "message": "i was hosting localy in my network, and on http i don't get the button for mobile"
+    },
+    {
+      "idx": 222,
+      "id": "14cfiajjbifytxje3gj8a6xkfa",
+      "created": "2024-11-05T11:28:09Z",
+      "username": "admin",
+      "message": "I'll try to research"
+    },
+    {
+      "idx": 223,
+      "id": "ukih5eb6rpdxtyeed5uimquhzy",
+      "created": "2024-11-05T11:29:34Z",
+      "username": "borghild",
+      "message": "i pushed a version on branch v1.1 with cookies"
+    },
+    {
+      "idx": 224,
+      "id": "jbe51hxkwpbjfedbuuxehdfrjc",
+      "created": "2024-11-05T11:29:53Z",
+      "username": "borghild",
+      "message": "it will just render as in browser, but will be the same"
+    },
+    {
+      "idx": 225,
+      "id": "bixmncimcjbujy39378im5fsbr",
+      "created": "2024-11-05T15:33:00Z",
+      "username": "admin",
+      "message": "I deployes on k8s http://socapp.muzpan.com"
+    },
+    {
+      "idx": 226,
+      "id": "q5154h7nrbnefjro7wua9kmf1y",
+      "created": "2024-11-05T15:33:12Z",
+      "username": "admin",
+      "message": "I can see the button on Android and web"
+    },
+    {
+      "idx": 227,
+      "id": "8mceiwph8ibfmm4qy594sgx9ze",
+      "created": "2024-11-05T15:35:28Z",
+      "username": "admin",
+      "message": "but I do not see the session id "
+    },
+    {
+      "idx": 228,
+      "id": "3okafdjcbprkxb7ktx4g7j3exw",
+      "created": "2024-11-05T15:42:12Z",
+      "username": "admin",
+      "message": "@borghild ?"
+    },
+    {
+      "idx": 229,
+      "id": "i5imgmgoa7fxuf5etdato9ooec",
+      "created": "2024-11-05T16:21:42Z",
+      "username": "admin",
+      "message": "???"
+    },
+    {
+      "idx": 230,
+      "id": "pndigpj3gfdu78b3ai5gupztqo",
+      "created": "2024-11-05T16:34:05Z",
+      "username": "borghild",
+      "message": "I think you got the wrong version or something overwritten it"
+    },
+    {
+      "idx": 231,
+      "id": "fhurx3ydejnfde4ptumemz5m8r",
+      "created": "2024-11-05T16:36:33Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 232,
+      "id": "jo3qoyapojgmpr1xniotye37xy",
+      "created": "2024-11-05T16:36:37Z",
+      "username": "admin",
+      "message": "I pulled branch 1.1"
+    },
+    {
+      "idx": 233,
+      "id": "3qzchdreh3fjde6yoeb9xma56r",
+      "created": "2024-11-05T16:37:14Z",
+      "username": "admin",
+      "message": "I just added a text to show recent version"
+    },
+    {
+      "idx": 234,
+      "id": "gaak5odxhfr5jx3po3ug95socc",
+      "created": "2024-11-05T16:38:14Z",
+      "username": "borghild",
+      "message": "I dunno, there was a Text element with cookie, hmm"
+    },
+    {
+      "idx": 235,
+      "id": "48a3gn6uktgm9ej91k5n6z3tfr",
+      "created": "2024-11-05T16:45:11Z",
+      "username": "borghild",
+      "message": "There should be an update with even a popup on ios how to install pwa"
+    },
+    {
+      "idx": 236,
+      "id": "yu4yka1htf8gbexawm44igqmzo",
+      "created": "2024-11-05T16:56:56Z",
+      "username": "admin",
+      "message": "now your version is installed - I mistakingly installed an old container"
+    },
+    {
+      "idx": 237,
+      "id": "5nzqdcstsiyz3d1aybcfbyz16y",
+      "created": "2024-11-05T16:57:10Z",
+      "username": "admin",
+      "message": "I get an install link but I get a message when trying to install"
+    },
+    {
+      "idx": 238,
+      "id": "wcdu5gk45bdwbg4jtmqh3ehwxh",
+      "created": "2024-11-05T16:58:06Z",
+      "username": "borghild",
+      "message": "On which platform?"
+    },
+    {
+      "idx": 239,
+      "id": "tkoxcj5nppgg8kou67uj44j4hw",
+      "created": "2024-11-05T16:59:06Z",
+      "username": "borghild",
+      "message": "On desktop and android if its supported from events it should prompt install"
+    },
+    {
+      "idx": 240,
+      "id": "sx1x3a4xdjr3tjpi99ew4eww9o",
+      "created": "2024-11-05T17:02:14Z",
+      "username": "admin",
+      "message": "but why is the button showing dialog and not installing the pwa?"
+    },
+    {
+      "idx": 241,
+      "id": "64x5ww9oa7yo7bmsqfafjnxopc",
+      "created": "2024-11-05T17:03:16Z",
+      "username": "borghild",
+      "message": "It will prompt install only on desktop and android"
+    },
+    {
+      "idx": 242,
+      "id": "kanqgid343rhzyrhgw7dn4ojho",
+      "created": "2024-11-05T17:04:08Z",
+      "username": "borghild",
+      "message": "It doesnt support safari on both desktop and iphone, also firefox on every device"
+    },
+    {
+      "idx": 243,
+      "id": "93hrw6uf4pf15c6d6krhcegq3r",
+      "created": "2024-11-05T17:06:51Z",
+      "username": "admin",
+      "message": "that cant be - what is the package you already created a version with the pwa_install package and it worked"
+    },
+    {
+      "idx": 244,
+      "id": "1aou88hnt3gb7rmjjg69ic53dh",
+      "created": "2024-11-05T17:07:21Z",
+      "username": "borghild",
+      "message": "PWA isn't supported by apple devices since ios 16 and latest versons of mac os.  Now you can use pwa only by following the instruction from that popup on apple devices. "
+    },
+    {
+      "idx": 245,
+      "id": "xmeposmcct8gupaxcs9qpb3fyw",
+      "created": "2024-11-05T17:07:56Z",
+      "username": "borghild",
+      "message": "Can i ask this again?"
+    },
+    {
+      "idx": 246,
+      "id": "wx4wj4btaib4pc9h1rzg7qdebc",
+      "created": "2024-11-05T17:08:06Z",
+      "username": "admin",
+      "message": "Android"
+    },
+    {
+      "idx": 247,
+      "id": "bntpgaectjrjumi1s5gcmwqpfw",
+      "created": "2024-11-05T17:08:18Z",
+      "username": "admin",
+      "message": "I tested your verion (also Vladlen did) on my phone"
+    },
+    {
+      "idx": 248,
+      "id": "361axeyn5bd3imbyh9ox87prue",
+      "created": "2024-11-05T17:08:56Z",
+      "username": "borghild",
+      "message": "On https connection?"
+    },
+    {
+      "idx": 249,
+      "id": "5atgg4janfbwxf4w8nnqahy7dw",
+      "created": "2024-11-05T17:09:08Z",
+      "username": "borghild",
+      "message": "Cuz from the link it opened in http"
+    },
+    {
+      "idx": 250,
+      "id": "ysmygse9ifykzjm9nmnmqix68o",
+      "created": "2024-11-05T17:09:12Z",
+      "username": "vladlen",
+      "message": "it showed me instruction on Android with app already installed, i deleted app, reopened and it prompt pwa installation"
+    },
+    {
+      "idx": 251,
+      "id": "x75fn6nefjr1drop85fryxa9do",
+      "created": "2024-11-05T17:09:15Z",
+      "username": "admin",
+      "message": "let me check this on https"
+    },
+    {
+      "idx": 252,
+      "id": "ennoao96r3fbxytojnaqymxfay",
+      "created": "2024-11-05T17:09:49Z",
+      "username": "admin",
+      "message": "btw - it is not installing (showing dialog) on https connection now"
+    },
+    {
+      "idx": 253,
+      "id": "8gosdpg3rjg5zjbm17bmke9fic",
+      "created": "2024-11-05T17:09:55Z",
+      "username": "admin",
+      "message": "https://socapp.muzpan.com"
+    },
+    {
+      "idx": 254,
+      "id": "y1my16u1i7yj9k9d6jfo6t49ya",
+      "created": "2024-11-05T17:10:02Z",
+      "username": "admin",
+      "message": "do you have an android device?"
+    },
+    {
+      "idx": 255,
+      "id": "ijx84f8j1fnp8ngpcm4hu1cbny",
+      "created": "2024-11-05T17:10:29Z",
+      "username": "borghild",
+      "message": "Ah, check error"
+    },
+    {
+      "idx": 256,
+      "id": "kcutcgsgitbrd8nusknc1yh48h",
+      "created": "2024-11-05T17:10:48Z",
+      "username": "borghild",
+      "message": "Not now sadly"
+    },
+    {
+      "idx": 257,
+      "id": "up8qj9p8kj8yid3qr4czh6hsdw",
+      "created": "2024-11-05T17:11:28Z",
+      "username": "borghild",
+      "message": "I understood the problem, its just a checking error"
+    },
+    {
+      "idx": 258,
+      "id": "8wspzajawfrt5bp87cj1hkewzw",
+      "created": "2024-11-05T17:12:15Z",
+      "username": "borghild",
+      "message": "Good that it works tho"
+    },
+    {
+      "idx": 259,
+      "id": "oq9wee5nbjbxzehqns564csxkr",
+      "created": "2024-11-05T17:13:54Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 260,
+      "id": "47gzpj5573fnffoe93tq3yh4aa",
+      "created": "2024-11-05T17:15:22Z",
+      "username": "admin",
+      "message": "you know you can also create an android VM using android studio and debug an app on android?"
+    },
+    {
+      "idx": 261,
+      "id": "mw31mob3ofbd3guzogge1gfzwc",
+      "created": "2024-11-05T17:15:50Z",
+      "username": "borghild",
+      "message": "The statement PWAInstall().installPromptEnabled returns false when its already installed"
+    },
+    {
+      "idx": 262,
+      "id": "myeb4zh5updnpcitqqi5g3a9bh",
+      "created": "2024-11-05T17:15:58Z",
+      "username": "borghild",
+      "message": "I tried"
+    },
+    {
+      "idx": 263,
+      "id": "bxrj4zz6qjf18mrwxrto1ehasw",
+      "created": "2024-11-05T17:16:04Z",
+      "username": "borghild",
+      "message": "It installs as native"
+    },
+    {
+      "idx": 264,
+      "id": "8u1cd77cpfg4bc59smoy1qyt5a",
+      "created": "2024-11-05T17:16:26Z",
+      "username": "borghild",
+      "message": "I can of course from emulator"
+    },
+    {
+      "idx": 265,
+      "id": "7765geppfbnm5rm38qkcsiebtr",
+      "created": "2024-11-05T17:16:49Z",
+      "username": "borghild",
+      "message": "But if I host it myself, it doesn't count as same network "
+    },
+    {
+      "idx": 266,
+      "id": "s3y4sqbxepd4mjdx9ps34rppra",
+      "created": "2024-11-05T17:18:34Z",
+      "username": "admin",
+      "message": "installation works now (I had the application installed already on my phone thats why it did not let me install"
+    },
+    {
+      "idx": 267,
+      "id": "mmcofh6t9prp3mfat3wo4oysde",
+      "created": "2024-11-05T17:19:15Z",
+      "username": "borghild",
+      "message": "Ok, we know how to solve, but thats like not really important now"
+    },
+    {
+      "idx": 268,
+      "id": "88d8h4dmqbfzxyf46f19ire8so",
+      "created": "2024-11-05T17:19:48Z",
+      "username": "borghild",
+      "message": "As I said i started working on adding different settings for permissions"
+    },
+    {
+      "idx": 269,
+      "id": "b8qkqjdenfy77kwq5dcbpoui1w",
+      "created": "2024-11-05T17:20:57Z",
+      "username": "admin",
+      "message": "please pull my branch - I added some package info to show installed version (you can change but I need to see the package version)"
+    },
+    {
+      "idx": 270,
+      "id": "nsxun89zu38mpehqp4ed8jay4o",
+      "created": "2024-11-05T17:21:14Z",
+      "username": "admin",
+      "message": "and I also see the sessionid in the APP!!! :partying_face: "
+    },
+    {
+      "idx": 271,
+      "id": "m88we5zutifg8pzhmk4118j48o",
+      "created": "2024-11-05T17:21:36Z",
+      "username": "admin",
+      "message": "",
+      "files": [
+        "Screenshot_20241105_192122_Chrome.jpg"
+      ]
+    },
+    {
+      "idx": 272,
+      "id": "rtieo7byjfyufpa47eywtcdcra",
+      "created": "2024-11-05T17:21:43Z",
+      "username": "borghild",
+      "message": "Yup"
+    },
+    {
+      "idx": 273,
+      "id": "qapiy77mo3da8pp3j3gf9bnh7e",
+      "created": "2024-11-05T17:22:06Z",
+      "username": "borghild",
+      "message": "Do we also need to read a link after installation?"
+    },
+    {
+      "idx": 274,
+      "id": "mf4uafdbcinq8dpqxfairqdu6h",
+      "created": "2024-11-05T17:22:59Z",
+      "username": "borghild",
+      "message": "That also could be done with something like cookies, its not optimal i know, but i dont know how to save links for mobile"
+    },
+    {
+      "idx": 275,
+      "id": "sd7mozr8nb8q9der6bah6iowoh",
+      "created": "2024-11-05T17:23:06Z",
+      "username": "borghild",
+      "message": "May be shared prefs will work now"
+    },
+    {
+      "idx": 276,
+      "id": "d6qbg5ii8jyc5rn5yx5x9j1g5c",
+      "created": "2024-11-05T17:23:14Z",
+      "username": "borghild",
+      "message": "If its not something native"
+    },
+    {
+      "idx": 277,
+      "id": "kmset5kwgfbcfmxm1tte1ppegh",
+      "created": "2024-11-05T17:24:55Z",
+      "username": "admin",
+      "message": "it works - shared_prefs should work on ALL web based apps"
+    },
+    {
+      "idx": 278,
+      "id": "sjpi34buyjymzmsgsq6rtjucar",
+      "created": "2024-11-05T17:25:16Z",
+      "username": "admin",
+      "message": "and also check the package secure_storage (using encryption - though its not mandatory)"
+    },
+    {
+      "idx": 279,
+      "id": "dqnua7obii8n7m9o7n4xirxgie",
+      "created": "2024-11-05T17:25:47Z",
+      "username": "admin",
+      "message": "after installation - you need to initiate and http request to the BE (knock) and get instructions on how to continue"
+    },
+    {
+      "idx": 280,
+      "id": "issfjnbd97bj5bcxyta6g9mgxe",
+      "created": "2024-11-05T17:31:52Z",
+      "username": "admin",
+      "message": "@martinh please sync @borghild and @fenrir about the knock / response process"
+    },
+    {
+      "idx": 281,
+      "id": "khac1jcsbtrw8pwuk6mipeptsa",
+      "created": "2024-11-05T17:35:16Z",
+      "username": "admin",
+      "message": "@fenrir are you with us bro?"
+    },
+    {
+      "idx": 282,
+      "id": "w5c8o98m93dzjxo1umxygxrwjc",
+      "created": "2024-11-05T17:35:39Z",
+      "username": "borghild",
+      "message": "He has problems with auth on mobile"
+    },
+    {
+      "idx": 283,
+      "id": "gttkoq59m7bbixwud1pqbsjo9o",
+      "created": "2024-11-05T17:36:08Z",
+      "username": "borghild",
+      "message": "But he knows what are we talking about"
+    },
+    {
+      "idx": 284,
+      "id": "nc5mfguueb8eirz455oy4upyxy",
+      "created": "2024-11-05T17:57:36Z",
+      "username": "borghild",
+      "message": "hey, I want to ask, why there is again a node_modules folder in v1.1 branch?"
+    },
+    {
+      "idx": 285,
+      "id": "iz4xhbrntib5jmr87as7wg1czy",
+      "created": "2024-11-05T18:08:31Z",
+      "username": "admin",
+      "message": "Dunno delete it"
+    },
+    {
+      "idx": 286,
+      "id": "zc9ej9ucupbhdb366knnht7u1c",
+      "created": "2024-11-05T18:09:15Z",
+      "username": "borghild",
+      "message": "thats the thing. i deleted it already"
+    },
+    {
+      "idx": 287,
+      "id": "ihhy9rieji8admfg89uy5qmj6c",
+      "created": "2024-11-05T18:09:33Z",
+      "username": "borghild",
+      "message": "someone adds it"
+    },
+    {
+      "idx": 288,
+      "id": "xug7q7fkzjr378du4azt19sb7w",
+      "created": "2024-11-06T10:53:55Z",
+      "username": "borghild",
+      "message": "so i tried working with permission_handler, it works only for native apps, for PWA it will work only with js API"
+    },
+    {
+      "idx": 289,
+      "id": "1yx5rxa163fnbpj9y61jt919fe",
+      "created": "2024-11-06T12:24:05Z",
+      "username": "borghild",
+      "message": "got working permissions"
+    },
+    {
+      "idx": 290,
+      "id": "iufzz7c1apr5ujn79bqdfbbgyr",
+      "created": "2024-11-06T12:24:21Z",
+      "username": "borghild",
+      "message": "working only the web ones, Notification, Location, Camera, Microphone"
+    },
+    {
+      "idx": 291,
+      "id": "ghfmw8yyfjr9fjjcybh5h4xrsr",
+      "created": "2024-11-06T12:24:40Z",
+      "username": "borghild",
+      "message": "Location on IOS will prompt only if location is allowed for website for safari"
+    },
+    {
+      "idx": 292,
+      "id": "u4wch8ioq3yuxy8pffystgqdby",
+      "created": "2024-11-06T12:24:58Z",
+      "username": "borghild",
+      "message": "pushed to git"
+    },
+    {
+      "idx": 293,
+      "id": "n4gzk33wppbpdeje383b76s6qy",
+      "created": "2024-11-06T12:25:39Z",
+      "username": "borghild",
+      "message": "",
+      "files": [
+        "image.png",
+        "image.png"
+      ]
+    },
+    {
+      "idx": 294,
+      "id": "gnzrd4bayi897g86w46mb57c6w",
+      "created": "2024-11-06T12:58:30Z",
+      "username": "admin",
+      "message": "will deploy soon - permission request should be done - upon application installation"
+    },
+    {
+      "idx": 295,
+      "id": "dyt9xurgwjy78xz1rurm3i9zrc",
+      "created": "2024-11-06T12:59:11Z",
+      "username": "borghild",
+      "message": "hm, okay, i will try"
+    },
+    {
+      "idx": 296,
+      "id": "u45s8wtf9fne7j1e14o7aukoqe",
+      "created": "2024-11-06T13:04:45Z",
+      "username": "admin",
+      "message": "@borghild you deleted all my changes"
+    },
+    {
+      "idx": 297,
+      "id": "iheii1xsojgujbxi18f8ie7wpa",
+      "created": "2024-11-06T13:05:10Z",
+      "username": "borghild",
+      "message": "Should be there"
+    },
+    {
+      "idx": 298,
+      "id": "1ic3on1jni8rdkw6g995b4fboy",
+      "created": "2024-11-06T13:05:15Z",
+      "username": "borghild",
+      "message": "Branch v1.1"
+    },
+    {
+      "idx": 299,
+      "id": "wo95etotyff5jfqr65cx3zxtyy",
+      "created": "2024-11-06T13:05:18Z",
+      "username": "admin",
+      "message": "ahh no - sorry I see now"
+    },
+    {
+      "idx": 300,
+      "id": "rwifuq3udfntimxzgriodqsndy",
+      "created": "2024-11-06T13:08:40Z",
+      "username": "admin",
+      "message": "deployed:\nhttps://socapp.muzpan.com/"
+    },
+    {
+      "idx": 301,
+      "id": "xqso1kazetywbmdckumofbagsa",
+      "created": "2024-11-06T13:08:45Z",
+      "username": "admin",
+      "message": "or http://socapp.muzpan.com/"
+    },
+    {
+      "idx": 302,
+      "id": "wnwnug6zzpfz5cgzdt3mc55hur",
+      "created": "2024-11-06T13:10:00Z",
+      "username": "borghild",
+      "message": "does it look ok on Android?"
+    },
+    {
+      "idx": 303,
+      "id": "rx9uk89r478xfktbei61rwe5hr",
+      "created": "2024-11-06T13:10:17Z",
+      "username": "borghild",
+      "message": "i got a mi mix 2 and lately it's rendering kinda bad"
+    },
+    {
+      "idx": 304,
+      "id": "gapf49muqiny5kb9ptb9aejmcr",
+      "created": "2024-11-06T13:12:16Z",
+      "username": "admin",
+      "message": "",
+      "files": [
+        "Screenshot_20241106_151206_Chrome.jpg"
+      ]
+    },
+    {
+      "idx": 305,
+      "id": "cuuw413353rs8fzt3uaryc9upr",
+      "created": "2024-11-06T13:12:33Z",
+      "username": "borghild",
+      "message": "ok, good"
+    },
+    {
+      "idx": 306,
+      "id": "omktp9ydqpffurye5b5jo5jsah",
+      "created": "2024-11-06T13:14:26Z",
+      "username": "borghild",
+      "message": "hmm, something missing, i think before build, should do a flutter pub get, then build"
+    },
+    {
+      "idx": 307,
+      "id": "wqhfff7wjfru7gi3ir97rn6zry",
+      "created": "2024-11-06T14:39:04Z",
+      "username": "vladlen",
+      "message": "ula_ula sent\n",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 308,
+      "id": "dgepcjtby7dpmcombubjnzixuo",
+      "created": "2024-11-06T15:15:44Z",
+      "username": "ula_ula",
+      "message": "https://www.figma.com/design/SiwmdceJybMaF8hLPgRAac/Untitled?node-id=131-34&t=gfK6MPxYwNnTzuRk-1"
+    },
+    {
+      "idx": 309,
+      "id": "xuqp1acw53rmtm6pa8kzd8briy",
+      "created": "2024-11-06T16:46:09Z",
+      "username": "vladlen",
+      "message": "should be mentioned that this view, design should be rendered before installation of pwa, its only rendered in browser. When its installed it should look the other way. @admin, right?"
+    },
+    {
+      "idx": 310,
+      "id": "pdt35yxrq7rb5pqazn5so7dfaw",
+      "created": "2024-11-07T08:42:15Z",
+      "username": "borghild",
+      "message": "will the permissions only for: Notification, Location, Camera and Microphone, be enough? Only those are available for PWA"
+    },
+    {
+      "idx": 311,
+      "id": "qf1mbxe81td1dp3pkogsx3feqr",
+      "created": "2024-11-07T08:58:18Z",
+      "username": "admin",
+      "message": "Back ground service requires battery optimization I think"
+    },
+    {
+      "idx": 312,
+      "id": "ofe38n3u9f8n38kfidd9zoda9w",
+      "created": "2024-11-07T08:58:36Z",
+      "username": "admin",
+      "message": "Or maybe it comes from the background service package"
+    },
+    {
+      "idx": 313,
+      "id": "dijdu8cjqjfizxaj3xdzsmujtc",
+      "created": "2024-11-07T08:58:54Z",
+      "username": "borghild",
+      "message": "understood, i'll search"
+    },
+    {
+      "idx": 314,
+      "id": "3anajzaryj83tecqfa7h5cf63e",
+      "created": "2024-11-07T12:25:12Z",
+      "username": "borghild",
+      "message": "tried shared_preferences, they won't do the work, when in browser it uses localStorage that is deleted after install, so for now only cookies works as we want"
+    },
+    {
+      "idx": 315,
+      "id": "3kourct1afddmqmq91n16nx5io",
+      "created": "2024-11-07T12:31:35Z",
+      "username": "admin",
+      "message": "ok - but we need to save the sessionid and secret phrase in the PWA for next application startup"
+    },
+    {
+      "idx": 316,
+      "id": "ueutn4zebpn6ubse7poyjuye1y",
+      "created": "2024-11-07T12:31:43Z",
+      "username": "admin",
+      "message": "meaning to save the credentials"
+    },
+    {
+      "idx": 317,
+      "id": "uoqkfi3b1jgbpdsnidwkqgtpua",
+      "created": "2024-11-07T12:31:53Z",
+      "username": "admin",
+      "message": "for the next application startup"
+    },
+    {
+      "idx": 318,
+      "id": "r71efxrk3iysimp933oef5m8zy",
+      "created": "2024-11-07T12:32:08Z",
+      "username": "borghild",
+      "message": "for URL i think I found something, Service Worker Cache API, trying it now"
+    },
+    {
+      "idx": 319,
+      "id": "bb839tbikbdz3kcy7uc91n76ge",
+      "created": "2024-11-07T12:35:38Z",
+      "username": "admin",
+      "message": "this should work https://docs.flutter.dev/cookbook/persistence/key-value"
+    },
+    {
+      "idx": 320,
+      "id": "7rj8wyetr7be7bhhnee84rkwac",
+      "created": "2024-11-07T12:36:16Z",
+      "username": "borghild",
+      "message": "this is shared_preferences"
+    },
+    {
+      "idx": 321,
+      "id": "g6c19q941bfn5pw68r1ahf6s3r",
+      "created": "2024-11-07T12:37:06Z",
+      "username": "borghild",
+      "message": "thanks for link, but sadly is uses localStorage)"
+    },
+    {
+      "idx": 322,
+      "id": "xet1sy5h9fr5jdiuz7m4yoih1w",
+      "created": "2024-11-07T12:43:05Z",
+      "username": "admin",
+      "message": "I used to work with this :\nhttps://pub.dev/packages/flutter_secure_storage"
+    },
+    {
+      "idx": 323,
+      "id": "5sxe4qbb6bf18qu7qyhrh9qoqo",
+      "created": "2024-11-07T12:43:23Z",
+      "username": "borghild",
+      "message": "looking on it right now))"
+    },
+    {
+      "idx": 324,
+      "id": "iyzk4pqgopdh7pjske45f6uqer",
+      "created": "2024-11-07T12:43:30Z",
+      "username": "admin",
+      "message": "it provieds AES symmetric encryption"
+    },
+    {
+      "idx": 325,
+      "id": "yr17awhhk3nuiex93shputh5kh",
+      "created": "2024-11-07T12:43:34Z",
+      "username": "admin",
+      "message": "better for us"
+    },
+    {
+      "idx": 326,
+      "id": "cnaabxkjpjrkxjrxbxnt1yqidy",
+      "created": "2024-11-07T12:43:36Z",
+      "username": "borghild",
+      "message": "cool"
+    },
+    {
+      "idx": 327,
+      "id": "zn35au1ej3rptqoqmq1xf9cwjr",
+      "created": "2024-11-07T13:42:21Z",
+      "username": "borghild",
+      "message": "Ok, I'm done, only cookies work, all other things uses localStorage, no magic("
+    },
+    {
+      "idx": 328,
+      "id": "79o9hxouw3ft5roto8nnrezuxo",
+      "created": "2024-11-07T16:24:04Z",
+      "username": "admin",
+      "message": "in the app?"
+    },
+    {
+      "idx": 329,
+      "id": "37xo1yfttpnodk8g3jihhngb1a",
+      "created": "2024-11-07T16:24:10Z",
+      "username": "admin",
+      "message": "after installation?"
+    },
+    {
+      "idx": 330,
+      "id": "4quourwpejfdteerctaeup6fdy",
+      "created": "2024-11-07T16:24:35Z",
+      "username": "admin",
+      "message": "@ula_ula can you please approve my account on Figma?"
+    },
+    {
+      "idx": 331,
+      "id": "oh3g4guggifzdjsbk55sbqk6gc",
+      "created": "2024-11-07T16:24:49Z",
+      "username": "admin",
+      "message": "@vic did you review the design?"
+    },
+    {
+      "idx": 332,
+      "id": "jz8sd65t13y49rffn8bnrej8xe",
+      "created": "2024-11-07T17:04:40Z",
+      "username": "borghild",
+      "message": "Yes"
+    },
+    {
+      "idx": 333,
+      "id": "xwsdbz4hff8zpm1ehq1n4ub3ta",
+      "created": "2024-11-07T17:08:03Z",
+      "username": "vic",
+      "message": "Sorry. Not yet "
+    },
+    {
+      "idx": 334,
+      "id": "tny4b38neffcjkf39yfw4izwpa",
+      "created": "2024-11-07T18:35:09Z",
+      "username": "admin",
+      "message": "@borghild so we cannot save key value data in the app?"
+    },
+    {
+      "idx": 335,
+      "id": "kis6fz9kqirjmdbqyara8yqcuw",
+      "created": "2024-11-07T18:52:41Z",
+      "username": "borghild",
+      "message": "Inside we can, I mean from browser to PWA it's possible only with cookies, i can't imagine that i missed something"
+    },
+    {
+      "idx": 336,
+      "id": "zgtjph7ycbdoxyy45iwmwk6h1e",
+      "created": "2024-11-07T18:53:34Z",
+      "username": "borghild",
+      "message": "If we will have some sessionID and URL from web, first we need to save it to cookies, then retrieve in PWA"
+    },
+    {
+      "idx": 337,
+      "id": "ddc8m776rjbqimkym9aechpgtc",
+      "created": "2024-11-07T18:54:53Z",
+      "username": "borghild",
+      "message": "But then, it will be harder for IOS, because it doesn't have events for prompt nor for when pwa is installed, so cookies like must be reinitialized, or just be forever"
+    },
+    {
+      "idx": 338,
+      "id": "uducp5zit3yn5x49cf8mj44nca",
+      "created": "2024-11-07T18:55:23Z",
+      "username": "borghild",
+      "message": "I think that's all"
+    },
+    {
+      "idx": 339,
+      "id": "t47xp933gpbm9gfqxrama5wa5o",
+      "created": "2024-11-07T19:59:21Z",
+      "username": "admin",
+      "message": "Ok as long as we can identify the user post-install"
+    },
+    {
+      "idx": 340,
+      "id": "ubd11izm7fns3ezesbr7spoqqo",
+      "created": "2024-11-07T19:59:53Z",
+      "username": "admin",
+      "message": "Also iOS is not our primary target audience we need it but we know it will be with degraded functionality"
+    },
+    {
+      "idx": 341,
+      "id": "cimapm9447dtm87hm8er3hfjfa",
+      "created": "2024-11-07T20:00:11Z",
+      "username": "borghild",
+      "message": "Ok, nice)"
+    },
+    {
+      "idx": 342,
+      "id": "uadwg6n5cjrfxx13o5c5jgd39h",
+      "created": "2024-11-07T20:00:18Z",
+      "username": "borghild",
+      "message": "Then it's settled"
+    },
+    {
+      "idx": 343,
+      "id": "1xwhrggbpjbsjfxjqgj9kfr1ke",
+      "created": "2024-11-07T20:01:15Z",
+      "username": "admin",
+      "message": "Keep sending updates please we need to work tightly here.\n\n@martinh please start integration of FE->BE"
+    },
+    {
+      "idx": 344,
+      "id": "kocjppq1i7gzzyk3zuqa8b3sie",
+      "created": "2024-11-10T13:09:38Z",
+      "username": "admin",
+      "message": "hey all - just got permission to see the design - I have a few comments:\n1. I think that the space at the top of the app is too large - it is a lot of \"wasted real estate\"\n2. I see that EVERY story looks like a blob post, we will have text only information, image only information, link only information, form for user data request  and Polls (maybe more types).\n3. I think there should be an alert icon at the top for new incoming messages information and maybe even an indicator for read/unread messages/stories"
+    },
+    {
+      "idx": 345,
+      "id": "1b7b9sxrepra8fpxz76w8kii8a",
+      "created": "2024-11-10T13:10:12Z",
+      "username": "admin",
+      "message": "@martinh @borghild how is the FE->BE integration going? are we done? can I see a PoC?"
+    },
+    {
+      "idx": 346,
+      "id": "uj9bcohjbtnk5rxxd9at64xaqy",
+      "created": "2024-11-10T13:11:01Z",
+      "username": "borghild",
+      "message": "@martinh is testing this on his side"
+    },
+    {
+      "idx": 347,
+      "id": "w9qeuk5etfbnpcap44tq7mb47h",
+      "created": "2024-11-10T15:12:27Z",
+      "username": "ula_ula",
+      "message": "I read you, the thing is the design you can observe now in figma is supposed to be the first thing one sees accesing the source, they are presented with a logo and a subscribe button, the rest is more of a visual representation of news"
+    },
+    {
+      "idx": 348,
+      "id": "h4dxbagjhpdd7rxfhn4pjhjrpw",
+      "created": "2024-11-10T15:12:56Z",
+      "username": "ula_ula",
+      "message": "think of the login page at netflix for example"
+    },
+    {
+      "idx": 349,
+      "id": "7zabmek4opnyzf4hb4a7tc91ih",
+      "created": "2024-11-10T15:13:10Z",
+      "username": "admin",
+      "message": "ok - so this is the pre-install page?"
+    },
+    {
+      "idx": 350,
+      "id": "jitcg1rtgprstxh8gnzehmoc4c",
+      "created": "2024-11-10T15:13:20Z",
+      "username": "ula_ula",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 351,
+      "id": "eb9w67odzbykmfzdbyr7kofhpy",
+      "created": "2024-11-10T15:13:41Z",
+      "username": "ula_ula",
+      "message": "yes it is"
+    },
+    {
+      "idx": 352,
+      "id": "78ig1fnyd78o5k8n5eof7rpsua",
+      "created": "2024-11-10T15:14:20Z",
+      "username": "admin",
+      "message": "let us know when the internal pages of design are ready so we can have a short chat about them"
+    },
+    {
+      "idx": 353,
+      "id": "ez513kke3fnbdknfkuu39j643h",
+      "created": "2024-11-10T15:15:14Z",
+      "username": "ula_ula",
+      "message": "as of the things you mentioned about how the actual app should look, I will do the things you described in let you know when it is ready so you can comment on it"
+    },
+    {
+      "idx": 354,
+      "id": "ctdnmg6jpiysdqzrcj4fxm9rih",
+      "created": "2024-11-10T15:15:36Z",
+      "username": "admin",
+      "message": "Thanks , @vic"
+    },
+    {
+      "idx": 355,
+      "id": "qgrcd7wnpp8jmrrq88qoe8185o",
+      "created": "2024-11-10T15:15:45Z",
+      "username": "admin",
+      "message": "We require your input here as well"
+    },
+    {
+      "idx": 356,
+      "id": "j3gx3mwhpfdu9xwcubx5poe7wo",
+      "created": "2024-11-10T15:16:14Z",
+      "username": "vic",
+      "message": "?"
+    },
+    {
+      "idx": 357,
+      "id": "qf6zjec5fp84meaef7iyd5y19o",
+      "created": "2024-11-10T15:16:51Z",
+      "username": "admin",
+      "message": "☝️ @vic "
+    },
+    {
+      "idx": 358,
+      "id": "shx3ksbpu7d1djrgfpn9fy8xio",
+      "created": "2024-11-10T15:17:18Z",
+      "username": "vic",
+      "message": "What? That is Netflix start page "
+    },
+    {
+      "idx": 359,
+      "id": "bpsr6am7j7dktg9qkpzbqpk53y",
+      "created": "2024-11-10T15:17:53Z",
+      "username": "vic",
+      "message": "You want to use that template as basis? "
+    },
+    {
+      "idx": 360,
+      "id": "wnypm57dtp8djxw6atwr5niz6e",
+      "created": "2024-11-10T15:17:56Z",
+      "username": "admin",
+      "message": "Look at my comments"
+    },
+    {
+      "idx": 361,
+      "id": "ishg9khzbtng3j9g9gw61mmewh",
+      "created": "2024-11-10T15:19:14Z",
+      "username": "vic",
+      "message": "Ok. 🤷‍♂️"
+    },
+    {
+      "idx": 362,
+      "id": "q33i4pb3jp8o7pkc7nefrm54je",
+      "created": "2024-11-10T15:19:36Z",
+      "username": "vic",
+      "message": "Who is ula_ula? "
+    },
+    {
+      "idx": 363,
+      "id": "fbkopkb5qigy5d7z8gtyyftj9a",
+      "created": "2024-11-10T15:19:41Z",
+      "username": "vic",
+      "message": "Silvia?"
+    },
+    {
+      "idx": 364,
+      "id": "89wc5mwp6irbjywunj8qqugabc",
+      "created": "2024-11-10T15:19:42Z",
+      "username": "admin",
+      "message": "Our designer"
+    },
+    {
+      "idx": 365,
+      "id": "e9dfpign8bdt9nijertr5bsu8r",
+      "created": "2024-11-10T15:20:13Z",
+      "username": "vic",
+      "message": "Сильва, а ну объясни чо там? "
+    },
+    {
+      "idx": 366,
+      "id": "97ybdhfkxffebeoqw9g1hh8xpw",
+      "created": "2024-11-11T09:30:35Z",
+      "username": "borghild",
+      "message": "I think thats all the info PWA can get",
+      "files": [
+        "F3A6E4FA-7ED8-41BF-9986-5FE7C65D8CC1.jpg"
+      ]
+    },
+    {
+      "idx": 367,
+      "id": "8w1zm9jdxtn7pmc75k3rcyihoy",
+      "created": "2024-11-11T11:07:11Z",
+      "username": "ula_ula",
+      "message": "я обьяснила что дизайн который сейчас в фигме это дизайн стартовой страницы когда юзер в первый раз открывает ссылку на приложение, ему показывается лого и кнопка САБСКРАЙБ, и просто привела пример того как на нетфликсе, а так все это я расписала в сообщении, АДМИН просто описал то что должно быть в самом приложении и спросил твое мнение, может что-то еще добавить если ты считаешь нужным"
+    },
+    {
+      "idx": 368,
+      "id": "j8b9jnz6zjrwjmf4mq67jb531y",
+      "created": "2024-11-11T11:08:24Z",
+      "username": "ula_ula",
+      "message": "\" hey all - just got permission to see the design - I have a few comments:\n\n1.  I think that the space at the top of the app is too large - it is a lot of \"wasted real estate\"\n2.  I see that EVERY story looks like a blob post, we will have text only information, image only information, link only information, form for user data request and Polls (maybe more types).\n3.  I think there should be an alert icon at the top for new incoming messages information and maybe even an indicator for read/unread messages/stories \""
+    },
+    {
+      "idx": 369,
+      "id": "wm6x6ht5zfni3f5ejqjfxctpdo",
+      "created": "2024-11-11T11:08:52Z",
+      "username": "ula_ula",
+      "message": "вот начиная с пункта 2 это мнение админа что должно быть в приложении, а пункт 1 это его екомеентарии по поводу того что сейчас в фигме, админ думал что ээто само приложение, и потом я объяснила что это не само приложение это стартовая"
+    },
+    {
+      "idx": 370,
+      "id": "oiuifawezjyqxdsry9mmg46hme",
+      "created": "2024-11-11T12:19:52Z",
+      "username": "admin",
+      "message": "then that will have to do - @martinh please guide @borghild to create a \"hardware hash\" from this text (sha256 or similar) for further identification of users"
+    },
+    {
+      "idx": 371,
+      "id": "o1opkjc4fbb9xdtitn33cgrwkw",
+      "created": "2024-11-20T17:27:02Z",
+      "username": "borghild",
+      "message": "In short, service worker is event driven, when the application is completely closed, it can only respond to a few events, push (for notification), fetch (not so important in this case), sync (this event can make some request and then save the data), but all these must be called by some server, like firebase, which should be also configured in the project so firebase knows where to send its requests"
+    },
+    {
+      "idx": 372,
+      "id": "dkwiyjbrtt8c9rxx1gh76s65kr",
+      "created": "2024-11-20T19:24:43Z",
+      "username": "admin",
+      "message": "Yes but we want to have a periodic background fetch service is case fb stops working"
+    },
+    {
+      "idx": 373,
+      "id": "o54ousnjk3rb7fzyo184dpx88a",
+      "created": "2024-11-20T19:26:24Z",
+      "username": "borghild",
+      "message": "periodicSync is another service worker feature, but its like limited by browser, it can only be activated minimum every 12 hours"
+    },
+    {
+      "idx": 374,
+      "id": "tnx4e44ytt8upn3rhhmsfxywwe",
+      "created": "2024-11-20T19:28:34Z",
+      "username": "borghild",
+      "message": "And if u really mean \"backgroundFetch\" then thats not possible in pwa, it doesnt have support "
+    },
+    {
+      "idx": 375,
+      "id": "hpssik9biidjucczw7nufy18ir",
+      "created": "2024-11-20T19:28:59Z",
+      "username": "borghild",
+      "message": "Or background refresh"
+    },
+    {
+      "idx": 376,
+      "id": "8c7gsz8yhtr87mcdmxb4m6j4fw",
+      "created": "2024-11-20T20:06:58Z",
+      "username": "admin",
+      "message": "can you verify that please? I have done a non-PWA background service in flutter let try to find a solution for a background service that will work (even over 12h periods) but will be able to fetch without a PN"
+    },
+    {
+      "idx": 377,
+      "id": "ob3yo6u1wtgnpq7p5but85f4sy",
+      "created": "2024-11-20T20:13:51Z",
+      "username": "borghild",
+      "message": "Even if it is pwa, it's environment is a browser alike, and it doesn't allow to run code by itself when its fully closed, when its not in RAM"
+    },
+    {
+      "idx": 378,
+      "id": "6x8hjj3bm7doi8sxhqw4w6kgpo",
+      "created": "2024-11-20T20:14:27Z",
+      "username": "admin",
+      "message": "we need a solution for it"
+    },
+    {
+      "idx": 379,
+      "id": "dzw9nxdq9f847yfjj8qg1pf9sw",
+      "created": "2024-11-20T20:14:39Z",
+      "username": "borghild",
+      "message": "Service worker allows to intercept request from third party apps for push notifications and sync"
+    },
+    {
+      "idx": 380,
+      "id": "cpuee1nkf3fhuyrccef97b4tec",
+      "created": "2024-11-20T20:14:56Z",
+      "username": "admin",
+      "message": "I am talking about a situation where PN does not work"
+    },
+    {
+      "idx": 381,
+      "id": "gsajgcswi7dnmfbkpewnwfcmay",
+      "created": "2024-11-20T20:15:15Z",
+      "username": "borghild",
+      "message": "I know we will have firebase so it can be manageable "
+    },
+    {
+      "idx": 382,
+      "id": "c3ccw7qyctnsuknf3t75kb179w",
+      "created": "2024-11-20T20:15:34Z",
+      "username": "admin",
+      "message": "https://developer.chrome.com/docs/capabilities/periodic-background-sync"
+    },
+    {
+      "idx": 383,
+      "id": "obzy1gbcmb8gxxgy4ccehxodby",
+      "created": "2024-11-20T20:17:11Z",
+      "username": "borghild",
+      "message": "PN? I think i forgot whats that"
+    },
+    {
+      "idx": 384,
+      "id": "w6eexq746387mmcqcfxo6apbqy",
+      "created": "2024-11-20T20:17:20Z",
+      "username": "admin",
+      "message": "Push Notifications"
+    },
+    {
+      "idx": 385,
+      "id": "wsxzbji6qtdkuxz6oxhsmx1rjo",
+      "created": "2024-11-20T20:17:55Z",
+      "username": "admin",
+      "message": "we might be in a situation where PN will not work for us and we need to be able to have the app fetch notifications (Android at least)"
+    },
+    {
+      "idx": 386,
+      "id": "d1sw5jtntbyq8ekzip6jhc1yae",
+      "created": "2024-11-20T20:18:16Z",
+      "username": "borghild",
+      "message": "Oh, yikes "
+    },
+    {
+      "idx": 387,
+      "id": "97huiohs4bdz3b1q7j6m6njr5e",
+      "created": "2024-11-20T20:18:24Z",
+      "username": "admin",
+      "message": "yep"
+    },
+    {
+      "idx": 388,
+      "id": "w68w3xdekidstmmycrczckd9to",
+      "created": "2024-11-20T20:18:28Z",
+      "username": "admin",
+      "message": "thats the task!"
+    },
+    {
+      "idx": 389,
+      "id": "b1x9erzswpyrpnkzoawgufqpbr",
+      "created": "2024-11-20T20:18:34Z",
+      "username": "admin",
+      "message": "I told you it will be interesting ;)"
+    },
+    {
+      "idx": 390,
+      "id": "s1qmwjsfu3b5bcgk1rayymiiqh",
+      "created": "2024-11-20T20:18:55Z",
+      "username": "borghild",
+      "message": "Brain goes brr sometimes "
+    },
+    {
+      "idx": 391,
+      "id": "onfqd17kb7rgj8sjhuf71rpfkc",
+      "created": "2024-11-20T20:19:07Z",
+      "username": "admin",
+      "message": "I know what you mean "
+    },
+    {
+      "idx": 392,
+      "id": "orbdwenygfg8tmdjfqjmaud34e",
+      "created": "2024-11-20T20:19:22Z",
+      "username": "admin",
+      "message": "challenges keep us sharp "
+    },
+    {
+      "idx": 393,
+      "id": "piywsgfuwpg5jb7pkqq8nkftyw",
+      "created": "2024-11-20T20:19:27Z",
+      "username": "borghild",
+      "message": "Some pwa features are still experimental "
+    },
+    {
+      "idx": 394,
+      "id": "p9g6rsmqbbgytnmgeuco9w7nka",
+      "created": "2024-11-20T20:19:43Z",
+      "username": "borghild",
+      "message": "I think some things after some times will be developed"
+    },
+    {
+      "idx": 395,
+      "id": "rgowrzrhs7fizybmipz8zyeghc",
+      "created": "2024-11-20T20:20:19Z",
+      "username": "borghild",
+      "message": "Like more apis for mobile, for now its a little bit hard"
+    },
+    {
+      "idx": 396,
+      "id": "p45s581b1tfjpj9hzbnrf7rjue",
+      "created": "2024-11-20T20:21:00Z",
+      "username": "admin",
+      "message": "we have a sayin \"there is only hard part in a piece of bread....\""
+    },
+    {
+      "idx": 397,
+      "id": "8784niij9pbs8x3emzrkgxzb6o",
+      "created": "2024-11-20T20:21:04Z",
+      "username": "borghild",
+      "message": "May be there will be some plugins for mobile, ill dig deeper"
+    },
+    {
+      "idx": 398,
+      "id": "w6er7bbosty3ukqrg7ebk8duwe",
+      "created": "2024-11-20T20:21:27Z",
+      "username": "admin",
+      "message": "find us a solution :muscle: "
+    },
+    {
+      "idx": 399,
+      "id": "pe9mk8okkiyzjde7e1rgb6zfnc",
+      "created": "2024-11-21T18:12:57Z",
+      "username": "admin",
+      "message": "https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent"
+    },
+    {
+      "idx": 400,
+      "id": "nt4b3uf5e3fij8hm33fr8d8zhr",
+      "created": "2024-11-21T18:13:58Z",
+      "username": "borghild",
+      "message": "fetch is for loading cached data when for example entering app"
+    },
+    {
+      "idx": 401,
+      "id": "5nrgjmk973yazxmn6f5em9mxfh",
+      "created": "2024-11-21T18:14:25Z",
+      "username": "borghild",
+      "message": "it can do also other things, but it should be called like an api"
+    },
+    {
+      "idx": 402,
+      "id": "r6n8jsf4hp8mjkhdd5wjqbskaa",
+      "created": "2024-11-21T18:15:28Z",
+      "username": "borghild",
+      "message": "you set fetch eventListener, then add an if statement with a tag which be a route name, like \"get-data\", then on front in dart you can call get or post on same origin with pathname as \"/get-data\""
+    },
+    {
+      "idx": 403,
+      "id": "7dp79zuhcpfj3ex6ja66oyzonr",
+      "created": "2024-11-21T18:16:50Z",
+      "username": "borghild",
+      "message": "or all that I said, is just one posibility"
+    },
+    {
+      "idx": 404,
+      "id": "m7isu3ykppn9td85nkqmzqrete",
+      "created": "2024-11-21T18:18:10Z",
+      "username": "admin",
+      "message": "https://www.sterlingtechnolabs.com/blog/flutter-pwa-development"
+    },
+    {
+      "idx": 405,
+      "id": "8wmdzyp9w38gzfzb6bpzkygfta",
+      "created": "2024-11-21T18:18:30Z",
+      "username": "admin",
+      "message": "I think you can schedule event in the phone scheduler"
+    },
+    {
+      "idx": 406,
+      "id": "5wf844xxp3gctqi1i1dsu5ictw",
+      "created": "2024-11-21T18:18:59Z",
+      "username": "admin",
+      "message": "https://www.zeepalm.com/blog/background-sync-in-pwas-service-worker-guide"
+    },
+    {
+      "idx": 407,
+      "id": "z4yq63aggb8y3yt7h1j9n6u4jh",
+      "created": "2024-11-23T18:25:08Z",
+      "username": "borghild",
+      "message": "a sa vedem cum a sa le punem, ca posibil trebuie doar partea din fata, iar backgroundul il setam la instalare"
+    },
+    {
+      "idx": 408,
+      "id": "63qykku9ufyr7mzhi6cz366yjo",
+      "created": "2024-11-23T18:39:32Z",
+      "username": "ula_ula",
+      "message": "am inteles, iaca dac ceva si alta varianta mai draguta cu roundness mai mare, cam cum pe android",
+      "files": [
+        "Untitled (1).zip"
+      ]
+    },
+    {
+      "idx": 409,
+      "id": "fr45pfi6winh8ec9ed3o8q96do",
+      "created": "2024-11-24T12:13:32Z",
+      "username": "vic",
+      "message": "Вы хотите чтобы лиран с ума сошел?? "
+    },
+    {
+      "idx": 410,
+      "id": "u4ez5h3kq7r578xrxk1ume9kmh",
+      "created": "2024-11-24T12:13:35Z",
+      "username": "vic",
+      "message": "))) "
+    },
+    {
+      "idx": 411,
+      "id": "sqpgfii4m3bkmnjc8bgg15rtuh",
+      "created": "2024-12-07T16:35:00Z",
+      "username": "ula_ula",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 412,
+      "id": "8ukywqt7ejnoxq8yhxc39wbbkc",
+      "created": "2024-12-07T16:36:53Z",
+      "username": "ula_ula",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 413,
+      "id": "jpaz676kbi8zzxurgq58i3gy8c",
+      "created": "2024-12-07T19:48:18Z",
+      "username": "admin",
+      "message": "guys I have just seen the last version , it looks great!!! WELL DONE!\n\nThank you for the efforts, we appreciate it very much! keep up the great work!"
+    },
+    {
+      "idx": 414,
+      "id": "348rmaba53rdijwmwcmacnyyry",
+      "created": "2024-12-16T10:22:59Z",
+      "username": "admin",
+      "message": "hey @all - how are you? I hope all is well.\nsorry for vanishing for a couple of days I was a bit under the weather - I am great now.\n\nand so we continue ;)\n\nplease implement a new menu - for now lets name it \"join us!\" \n\nthis should open a screen with an iframe from:\nhttps://stage-pwa.backendteam.space/\n\nyou can use:\nhttps://pub.dev/packages/flutter_html_iframe\n\n\nplease verify:\n1. click ability\n2. on click in the iframe the user does not \"leave\" our application (as to prevent navigation issues)\n3. check that the url is reachable before presenting it - if it is not reachable - show the user \"under maintenance\"\n4. once this is done we should implement a mechanism to check if the url is reachable, if it is, we show the content - if it is not - use our mechanism to fetch a new url and notify the backend that the ifram url is not reachable\n\nany questions?\n"
+    },
+    {
+      "idx": 415,
+      "id": "8gb8x54p83f6dgfrhpsp36o6kw",
+      "created": "2024-12-16T10:28:05Z",
+      "username": "borghild",
+      "message": "So it should be in Drawer after \"Chat Hub\", and likely to be a new page, am I understanding?"
+    },
+    {
+      "idx": 416,
+      "id": "qciuzk349ifqmg7fq5x1niwdkc",
+      "created": "2024-12-16T10:28:16Z",
+      "username": "borghild",
+      "message": "Should it be available from Browser or PWA?"
+    },
+    {
+      "idx": 417,
+      "id": "tr6x1mqsi3f18k77exdq57wgha",
+      "created": "2024-12-16T10:40:56Z",
+      "username": "admin",
+      "message": "only registered PWA"
+    },
+    {
+      "idx": 418,
+      "id": "rfuyjmj59bdx5c9y4wmh1cjh9a",
+      "created": "2024-12-16T10:40:59Z",
+      "username": "admin",
+      "message": "good point!"
+    },
+    {
+      "idx": 419,
+      "id": "85cro1pan7y1mrbqmiz5wu5hmc",
+      "created": "2024-12-16T10:44:59Z",
+      "username": "borghild",
+      "message": "Ok"
+    },
+    {
+      "idx": 420,
+      "id": "otzfejts7pfibgnxk5kkxtm7no",
+      "created": "2024-12-18T16:04:18Z",
+      "username": "borghild",
+      "message": "There are some iframe CSP settings that doesn't let us to render https://stage-pwa.backendteam.space/ into iframe tag"
+    },
+    {
+      "idx": 421,
+      "id": "p3sgaedqz3nrmgmz9zq4nw5yye",
+      "created": "2025-02-26T15:26:34Z",
+      "username": "admin",
+      "message": "@martinh good job today :muscle: \n\n@all we did a showcase to management (@martinh did it) and it was great - good job everyone!"
+    },
+    {
+      "idx": 422,
+      "id": "1mfngfkyjjdp9k4nm1qzhwi9ja",
+      "created": "2025-03-20T15:34:19Z",
+      "username": "admin",
+      "message": "admin updated the channel display name from: the business app to: socapp (PWA)"
+    },
+    {
+      "idx": 423,
+      "id": "u1rhtn87cbrxuxxaufswx5n3ao",
+      "created": "2025-03-20T15:34:36Z",
+      "username": "admin",
+      "message": "likesense added to the channel by admin."
+    },
+    {
+      "idx": 424,
+      "id": "x588s6nnzpggtgdibtjnd4wbfo",
+      "created": "2025-03-20T15:34:36Z",
+      "username": "admin",
+      "message": "yevgeniysokolov added to the channel by admin."
+    },
+    {
+      "idx": 425,
+      "id": "m4xu6kxjk3no3rao1ct5kozs4e",
+      "created": "2025-03-20T15:34:36Z",
+      "username": "admin",
+      "message": "vadimjar added to the channel by admin."
+    },
+    {
+      "idx": 426,
+      "id": "9frfrhqhjfngbdhpibnfzt4o4y",
+      "created": "2025-03-20T15:34:43Z",
+      "username": "admin",
+      "message": "sergeyl added to the channel by admin."
+    },
+    {
+      "idx": 427,
+      "id": "m663hjgw6fgf3nsnxyo4q1cfdh",
+      "created": "2025-03-20T15:36:47Z",
+      "username": "admin",
+      "message": "jarom added to the channel by admin."
+    },
+    {
+      "idx": 428,
+      "id": "b8d6pwfjwtr1mewgxuke13yo5o",
+      "created": "2025-03-20T15:36:54Z",
+      "username": "admin",
+      "message": "gabriel added to the channel by admin."
+    },
+    {
+      "idx": 429,
+      "id": "dc6qiew4h7r3pdj9gx71pczqnc",
+      "created": "2025-03-20T15:37:24Z",
+      "username": "admin",
+      "message": "Guys.... we have until 25.3 to go to production with the PWA.\n\nthis is a ALL HANDS ON DECK situation please make sure we meet the deadline!\n\n@likesense @sergeyl please send hourly updates about status\n@vadimjar please make sure EVERYTHING is tested by Monday morning\n\nif you need anything please write here\n\nagain - this is an ALL HANDS ON DECK situation!\n"
+    },
+    {
+      "idx": 430,
+      "id": "gns4qcdibinfbq6nwdpn6cdqco",
+      "created": "2025-03-20T15:37:57Z",
+      "username": "admin",
+      "message": "@sergeyl @likesense I made you admins of this channel please add any relevant ANYKEY only personnel to this group"
+    },
+    {
+      "idx": 431,
+      "id": "zhsb1wkhxffuidayzk67s48jdw",
+      "created": "2025-03-20T15:39:32Z",
+      "username": "admin",
+      "message": "@borghild please update today (ASAP) the status of FE regrading \"installation server not available anymore\" topic"
+    },
+    {
+      "idx": 432,
+      "id": "6onechobuigwuc4h3y5synigta",
+      "created": "2025-03-20T15:41:01Z",
+      "username": "likesense",
+      "message": "Okay, thanks we found some ways to create that logic that we are discussing today. Now we need to help borghild to create this "
+    },
+    {
+      "idx": 433,
+      "id": "zio9ck5au7bpzeakeca3tgzpkc",
+      "created": "2025-03-20T15:42:00Z",
+      "username": "likesense",
+      "message": "@semashkooleg would give you more details"
+    },
+    {
+      "idx": 434,
+      "id": "qum3bgfh3pdijbe6cmu6my4oer",
+      "created": "2025-03-20T15:42:17Z",
+      "username": "admin",
+      "message": "@jarom we need more servers (buy 10 more for now) and make sure all is ready in prod env"
+    },
+    {
+      "idx": 435,
+      "id": "kbjwuh14rfydzq41pscjuacdzo",
+      "created": "2025-03-20T15:42:32Z",
+      "username": "likesense",
+      "message": "semashkooleg added to the channel by likesense."
+    },
+    {
+      "idx": 436,
+      "id": "1udmaycedpd5xprpwyozjscx1c",
+      "created": "2025-03-20T15:43:32Z",
+      "username": "borghild",
+      "message": "For now didn't found any easy way, also service worker can't do a full redirect with changing origin. As a try I found something like serviceWorker.openWindow(), but it opens in browser not in application.\nI'll will try like something \"fetch, if not possible may be change origin from client\", but first need to check that offline mode caches all vital files like, index.html, main.js and so on"
+    },
+    {
+      "idx": 437,
+      "id": "bczqu5us1fb98cpw79wwh5ydrh",
+      "created": "2025-03-20T15:43:36Z",
+      "username": "admin",
+      "message": "@likesense please work with @jarom to install the captcha link - I will provide domain"
+    },
+    {
+      "idx": 438,
+      "id": "og9brsqp6jrxt8daqsydsyprno",
+      "created": "2025-03-21T09:35:13Z",
+      "username": "borghild",
+      "message": "So, I made a lot of research, changing installed PWA's origin is not possible, it's like against security.\n \nInside PWA we can open \"browser windows\" that will be considered also \"standalone\", but on re-entering app from home menu, it will be the same old origin.\n \nA workaround as it was with iPhones, it will be to show a message that \"Origin is not accessible\", and to explain how to uninstall, then redirect to \"socapp-link\" site, then install again. I know this is not the desired workflow, but we can't do what was not intended to work from browser perspective."
+    },
+    {
+      "idx": 439,
+      "id": "sc3cpxkbhtfrzm45wzbjwebd7y",
+      "created": "2025-03-21T10:16:44Z",
+      "username": "admin",
+      "message": "so in principle it will be a reinstallation of the application if the user did not get any connection to the server .\ninstallation will be done from another domain\n\nis that correct?"
+    },
+    {
+      "idx": 440,
+      "id": "w7uffx7a77dwbj45rubjk4yf4c",
+      "created": "2025-03-21T10:17:18Z",
+      "username": "admin",
+      "message": "lets have a chat in around 1h and decide\n\n@sergeyl @likesense @martinh please be ready once I finish a meeting I will ping and we will meet in my office"
+    },
+    {
+      "idx": 441,
+      "id": "m6o9sbfnyifcuednqruxrwn69w",
+      "created": "2025-03-21T10:20:03Z",
+      "username": "likesense",
+      "message": "So. We are trying to do a local cache now. Just have a problems with testing that solution"
+    },
+    {
+      "idx": 442,
+      "id": "n9monuqgityopfnsk1djsxuz6c",
+      "created": "2025-03-21T10:57:47Z",
+      "username": "admin",
+      "message": "what are the problems?"
+    },
+    {
+      "idx": 443,
+      "id": "5gaxb6kkijf73n7d6c9hq5rc8o",
+      "created": "2025-03-21T11:02:59Z",
+      "username": "sergeyl",
+      "message": "problems are with main backend - we cant auth from telegram, problems on Artem's side"
+    },
+    {
+      "idx": 444,
+      "id": "c6atwqryipbcpqn6btkgnt9tdy",
+      "created": "2025-03-21T11:03:52Z",
+      "username": "admin",
+      "message": "please ask them what the problem is and what do we do to not have this problem in the future - detailed data please"
+    },
+    {
+      "idx": 445,
+      "id": "yhtgkxq93pb57n3jha8bpr7mio",
+      "created": "2025-03-21T11:04:20Z",
+      "username": "borghild",
+      "message": "it was solved"
+    },
+    {
+      "idx": 446,
+      "id": "qjw9woma9bg83nobri8smgu5ma",
+      "created": "2025-03-21T11:04:51Z",
+      "username": "admin",
+      "message": "I understand (from Vladlen) but...\n\nI want to know what was the problem and what was done so it will not happen again"
+    },
+    {
+      "idx": 447,
+      "id": "cubmbkyftjgpfy8ondsokeji9y",
+      "created": "2025-03-21T11:05:51Z",
+      "username": "borghild",
+      "message": "they also don't know very well, a reload helped"
+    },
+    {
+      "idx": 448,
+      "id": "rqno76dgu3b9bdwaue1ez653ko",
+      "created": "2025-03-21T11:06:43Z",
+      "username": "admin",
+      "message": "not good enough!\n\n@sergeyl ask Artiom for a detailed report as of what happened and what was done to remediate it"
+    },
+    {
+      "idx": 449,
+      "id": "gb6b54dayjyrjqzhps4xmfhdxe",
+      "created": "2025-03-21T11:06:49Z",
+      "username": "admin",
+      "message": "restart is not a solution"
+    },
+    {
+      "idx": 450,
+      "id": "3podtwg36bfwbxkuk33kzkg5aw",
+      "created": "2025-03-21T11:07:00Z",
+      "username": "admin",
+      "message": "where is this bot's code?"
+    },
+    {
+      "idx": 451,
+      "id": "rp3wbrads3g6ufy4xr5x4w47jr",
+      "created": "2025-03-21T16:33:44Z",
+      "username": "admin",
+      "message": "Did they send us the bot source code?"
+    },
+    {
+      "idx": 452,
+      "id": "i7qoguffgprst8b14fcp7nr6ny",
+      "created": "2025-03-21T17:06:21Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 453,
+      "id": "55s1j1k4dprcfqjo5p7p5q9ygo",
+      "created": "2025-03-21T17:07:38Z",
+      "username": "likesense",
+      "message": "That question for @sergeyl cause we setup environments "
+    },
+    {
+      "idx": 454,
+      "id": "osmxsu8xjbymjp9k59puqcw9re",
+      "created": "2025-03-21T17:08:08Z",
+      "username": "admin",
+      "message": "@sergeyl?"
+    },
+    {
+      "idx": 455,
+      "id": "dfqbwgfkuibepenwswde8btsqy",
+      "created": "2025-03-21T17:09:31Z",
+      "username": "likesense",
+      "message": "He goes to home with us like about 15 minutes ago. Maybe he cant check the phone just now"
+    },
+    {
+      "idx": 456,
+      "id": "yw4d38f15fyr3dgq3srug1oiyh",
+      "created": "2025-03-21T17:25:24Z",
+      "username": "sergeyl",
+      "message": "Hello, just cloned csprojects will take a look"
+    },
+    {
+      "idx": 457,
+      "id": "3d8gxrdrgjry98qt1dpma5t7uo",
+      "created": "2025-03-21T17:33:12Z",
+      "username": "admin",
+      "message": "Of the bot?"
+    },
+    {
+      "idx": 458,
+      "id": "roatmaff6jgf3j9q9cc1kztk1o",
+      "created": "2025-03-21T17:38:22Z",
+      "username": "sergeyl",
+      "message": "@admin looks like its in the MDPWA-Backend-BackJob"
+    },
+    {
+      "idx": 459,
+      "id": "86oox6mjoprf3cf8mfyfrkrcph",
+      "created": "2025-03-21T17:38:57Z",
+      "username": "admin",
+      "message": "Yeah so @vic could you please text them to send us the bot code?"
+    },
+    {
+      "idx": 460,
+      "id": "nw78n8xnj3nz7jxizrsr449imc",
+      "created": "2025-03-21T17:40:03Z",
+      "username": "sergeyl",
+      "message": "we have it in one of the repos. basically its imlemented as background jobs"
+    },
+    {
+      "idx": 461,
+      "id": "btawpa4tujyqzbn7qxze49ikne",
+      "created": "2025-03-21T17:40:39Z",
+      "username": "admin",
+      "message": "But it is the phone number authorization bot for the pwa?"
+    },
+    {
+      "idx": 462,
+      "id": "4w4cy6wayffi9jqd73fy9fj5hy",
+      "created": "2025-03-21T17:43:23Z",
+      "username": "sergeyl",
+      "message": "its handwritten spagetthi - they arent using libraries or something, doing http calls to tg api, need some time to understand whats goin on ;-) ",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 463,
+      "id": "xtpweb4yobdf3ftt67mkcjy6go",
+      "created": "2025-03-21T17:44:02Z",
+      "username": "sergeyl",
+      "message": "chatid is hardcoded.. interesting, who is in charge for that hardcoded chat id?"
+    },
+    {
+      "idx": 464,
+      "id": "xcippmqqxfredm5pjjtphh683c",
+      "created": "2025-03-21T17:44:53Z",
+      "username": "admin",
+      "message": "Well if you look at the other projects they hardcode everything"
+    },
+    {
+      "idx": 465,
+      "id": "ct37pseb83bp7e9k3gg8wgafyy",
+      "created": "2025-03-21T17:45:16Z",
+      "username": "admin",
+      "message": "Like it was down in pascal or COBOL 25 years ago"
+    },
+    {
+      "idx": 466,
+      "id": "mmz3oy1id3n8zpgdwkanwoigsc",
+      "created": "2025-03-21T17:45:29Z",
+      "username": "sergeyl",
+      "message": "yeah, same feeling"
+    },
+    {
+      "idx": 467,
+      "id": "a4ddisgen7ng9rk83f5om6f7by",
+      "created": "2025-03-21T17:47:04Z",
+      "username": "admin",
+      "message": "This is why we we are build the best and most professional team in Russia!!!"
+    },
+    {
+      "idx": 468,
+      "id": "ak6gek93affqbmxghuyaapk4oa",
+      "created": "2025-03-21T17:55:59Z",
+      "username": "sergeyl",
+      "message": "function to send OTP is hosted under BackJob microservice, its called `SendTestVerificationMessageAsync(string phoneNumber)`. its talking with https://gatewayapi.telegram.org basically calling `sendVerificationMessage` method"
+    },
+    {
+      "idx": 469,
+      "id": "e4o1qf6gyirc5f96d1i7jbqjhy",
+      "created": "2025-03-21T18:01:13Z",
+      "username": "admin",
+      "message": "Why is the function named test?"
+    },
+    {
+      "idx": 470,
+      "id": "ezp3kyz4oiggpraupuimha11fo",
+      "created": "2025-03-21T18:02:58Z",
+      "username": "sergeyl",
+      "message": "because its sending message that is testing user i guess, with verification code.. naming is the most complex challenge in programming world :-)"
+    },
+    {
+      "idx": 471,
+      "id": "mioikgidjprm7k1pbbh19ppxch",
+      "created": "2025-03-21T18:04:00Z",
+      "username": "admin",
+      "message": "Well I would not be surprised if it's a copy paste from an internet example"
+    },
+    {
+      "idx": 472,
+      "id": "mdxbx4ofn7gqde4gurakbg18sc",
+      "created": "2025-03-21T18:04:13Z",
+      "username": "sergeyl",
+      "message": "its adjective - послать **проверочное** сообщение асинхронно, i can get how programmer named it"
+    },
+    {
+      "idx": 473,
+      "id": "e1a4xw35nif97jt74gr4tykspw",
+      "created": "2025-03-21T18:04:29Z",
+      "username": "sergeyl",
+      "message": "i mean russian programer"
+    },
+    {
+      "idx": 474,
+      "id": "trhd1bsdu3gabm6gqwwnd753hy",
+      "created": "2025-03-21T18:06:19Z",
+      "username": "sergeyl",
+      "message": "__ENCODED__U2VuZFRlc3RpbmdNZXNzYWdlRm9yVmVyaWZpY2F0aW9uQXN5bmNyb25vdXNseQ==__ - gives more sense?)"
+    },
+    {
+      "idx": 475,
+      "id": "wdzo7idw9ibruf98brpftg7i5a",
+      "created": "2025-03-21T18:08:47Z",
+      "username": "sergeyl",
+      "message": "in go we can name it shorter, eg \n```go\nfunc (s *TgApi) SendOTP(phoneNumber string) error\n```"
+    },
+    {
+      "idx": 476,
+      "id": "97ayfnzj3pg4u8reno9ijyybcw",
+      "created": "2025-03-21T18:09:31Z",
+      "username": "admin",
+      "message": "Let's just make it work and replace it with something more manageable and readable"
+    },
+    {
+      "idx": 477,
+      "id": "i1xhtcezt3bcimher9bzoiz6pw",
+      "created": "2025-03-21T18:10:59Z",
+      "username": "sergeyl",
+      "message": "@admin porting it to go is possible, but will take time and hands which we dont posess (just imagine their monolith have 120 HTTP handles and backend have 200 handles in total), so we have to use what they provided for now"
+    },
+    {
+      "idx": 478,
+      "id": "xxnjib7ujpr6bkxugbreo4qr8r",
+      "created": "2025-03-21T18:11:41Z",
+      "username": "admin",
+      "message": "Read what I wrote...make it work first we will change it later"
+    },
+    {
+      "idx": 479,
+      "id": "8ztiw1s843neijifioikr8i9rw",
+      "created": "2025-03-21T18:11:51Z",
+      "username": "sergeyl",
+      "message": "kk"
+    },
+    {
+      "idx": 480,
+      "id": "m5ig7u8qbb8etnshxjbs6x7aua",
+      "created": "2025-03-21T18:33:23Z",
+      "username": "likesense",
+      "message": "Posible in all languages we can name it shorter. But naming in C# and Java not from our world. If they have 200 handlers we can give for 20 developers task that we need to rewrite for 10 handlers on go. I think it possible work and our junior developers can upgrade their skills manually "
+    },
+    {
+      "idx": 481,
+      "id": "16doty4jjjbopgtpkx7ixebq9w",
+      "created": "2025-03-21T18:37:22Z",
+      "username": "likesense",
+      "message": "But firstly we need to setup our environments and start the project. Then we need to decide about our solution. If it works we are going to production and give the app to tester if not we are going to rewrite the frontend to some alert message that will redirect the user to register a new link"
+    },
+    {
+      "idx": 482,
+      "id": "xg6y8jurn38jdjufygt7kd4k9r",
+      "created": "2025-03-21T18:38:16Z",
+      "username": "admin",
+      "message": "Agreed"
+    },
+    {
+      "idx": 483,
+      "id": "ti81mkxfbfdwf87t5oqho35wuc",
+      "created": "2025-03-21T18:38:34Z",
+      "username": "admin",
+      "message": "Let's make it work first for Monday that's the most urgent topic"
+    },
+    {
+      "idx": 484,
+      "id": "rd5jzhpir7ni3r7szf5id6qu8y",
+      "created": "2025-03-22T05:30:05Z",
+      "username": "vadimjar",
+      "message": "Hey @all \nPlease take a look into this list (will continue to update it) once in a while. There are some High priority Defects (P1) there\nhttps://git.muzpan.com/bizapp/socapp-be/-/issues "
+    },
+    {
+      "idx": 485,
+      "id": "fraojno4ubf77b9495d44uqgcy",
+      "created": "2025-03-22T05:58:07Z",
+      "username": "sergeyl",
+      "message": "@vadimjar i guess we have to separate Defects from Good ideas aka Featre requests - No Refresh Page possibility in the app - its a Feature request"
+    },
+    {
+      "idx": 486,
+      "id": "wnyu5uh6etdpppek4jkmgjqe3e",
+      "created": "2025-03-22T05:59:47Z",
+      "username": "vadimjar",
+      "message": "Yes... agree... will swap that one. actually that's why I've put low priority on it, but no problem, I can take the defect tag out"
+    },
+    {
+      "idx": 487,
+      "id": "hkg7iapzjingmbewdeji39d7wy",
+      "created": "2025-03-22T06:02:35Z",
+      "username": "sergeyl",
+      "message": "small question - what is P1 S1 is it a form of ranking or scoring? I am thinking to start using human-readable labels, eg create labels - Bug(red), Feature, Critical, Minor, ..."
+    },
+    {
+      "idx": 488,
+      "id": "qf4zehs4xtyotyzi5q4eu7wsze",
+      "created": "2025-03-22T06:04:03Z",
+      "username": "sergeyl",
+      "message": "instead of putting [A][B][C][D] - put them into easy to distinguish, filtrable and readable labels"
+    },
+    {
+      "idx": 489,
+      "id": "k4md6fozpbd8xyujyr45ion7hc",
+      "created": "2025-03-22T06:06:39Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/wikis/Uniq-ID-and-Naming-for-Board-Issues-Formation-Rules\n\n",
+      "files": [
+        "Screenshot 2025-03-22 at 09.05.27.png"
+      ]
+    },
+    {
+      "idx": 490,
+      "id": "i1iuqxfzfpbaijk4ix85p4mqkh",
+      "created": "2025-03-22T06:08:19Z",
+      "username": "sergeyl",
+      "message": "okay, i mean that.",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 491,
+      "id": "xnkdntyspi878d8mdjzwmsks6c",
+      "created": "2025-03-22T06:08:31Z",
+      "username": "sergeyl",
+      "message": "prioritisation and severity is not testing responsibility. also you cannot know is it fe or be bug"
+    },
+    {
+      "idx": 492,
+      "id": "7wmiifcb3pbt5ciqb8p86qiakw",
+      "created": "2025-03-22T06:09:03Z",
+      "username": "sergeyl",
+      "message": "so please label bugs or features and mark most critical ones"
+    },
+    {
+      "idx": 493,
+      "id": "xhssk5nappnozjkrmi9qw4opcy",
+      "created": "2025-03-22T06:09:13Z",
+      "username": "vadimjar",
+      "message": "ok no problem"
+    },
+    {
+      "idx": 494,
+      "id": "3fq9dzckf3yb3ek77153mjmawc",
+      "created": "2025-03-22T06:09:16Z",
+      "username": "sergeyl",
+      "message": "ty"
+    },
+    {
+      "idx": 495,
+      "id": "jh6x5yp11jrz58uporbhh57p4a",
+      "created": "2025-03-22T06:11:26Z",
+      "username": "vadimjar",
+      "message": "about FE and BE I am making (experience base) asumption to atract the attention of right dev, but I can avoid that if it will be easier for you"
+    },
+    {
+      "idx": 496,
+      "id": "abyiyf7h57fuxn9jmgkwuna4bc",
+      "created": "2025-03-22T06:14:45Z",
+      "username": "sergeyl",
+      "message": "yep but it requires further investigation. for example - why it cant be installed on apple? because of some manifest misconfiguration in fe code? or its server-side configuration bug? sometimes its hard and messy, so what i am offering is to drop trains of prefixes actually, to keep descriptions lean. and start work with inbuilt labels mechanism, we will append labels at different stages, eg when we determint its definetely frontend bug - we will add a colored label Frontend"
+    },
+    {
+      "idx": 497,
+      "id": "yjphu8s5aty55dk9h9sr3cg74e",
+      "created": "2025-03-22T06:19:03Z",
+      "username": "vadimjar",
+      "message": "Thats a good idea, totaly agree, but I will leave the UniqID's mechanism. I will need it to monitor and manage tests in the automation framework"
+    },
+    {
+      "idx": 498,
+      "id": "t587mw5fwjd7dqw7cwbzt8fxee",
+      "created": "2025-03-22T06:19:26Z",
+      "username": "sergeyl",
+      "message": "what is UniqID?"
+    },
+    {
+      "idx": 499,
+      "id": "4eiooxp67bbrtkjxfu9fpxwncw",
+      "created": "2025-03-22T06:23:06Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-03-22 at 09.22.21.png"
+      ]
+    },
+    {
+      "idx": 500,
+      "id": "p9id9df1xfy1drs57a8tabzpea",
+      "created": "2025-03-22T06:25:02Z",
+      "username": "vadimjar",
+      "message": "GitLab provides just a number for every new issue or child issue, and as we spredd the issues on more boards each board starts from begining (from 1) so without exstra \"tactics\" there will be a lot of same ID-s for different issues"
+    },
+    {
+      "idx": 501,
+      "id": "4th98d9xr7n33ge6trmr3f87mo",
+      "created": "2025-03-22T06:28:04Z",
+      "username": "sergeyl",
+      "message": "basically everything needs to get through discussion and approvement, in order to adopt something. Creating unique ID for issue is a good idea, and we need to think of it fro different perspectives. From developement perspective its good to name branches according to issues they are facing at, eg `870-pwa-apple-installation-issue` and its okay to start numbers from 1 each time because each repository have unique set of branches"
+    },
+    {
+      "idx": 502,
+      "id": "hwxzbgyxobg1irfynpguejn63c",
+      "created": "2025-03-22T06:30:06Z",
+      "username": "sergeyl",
+      "message": "also up to group levels boards are uncorrelated, so if you have issue 1 on socapp its different from issue 1 on cashflow"
+    },
+    {
+      "idx": 503,
+      "id": "x6eaepwt97837etjr3sugkbrjo",
+      "created": "2025-03-22T06:32:01Z",
+      "username": "vadimjar",
+      "message": "Yes that's why when I create new page on WiKi I send the link so that to get some feed back. lets take it to offline discussion not to garbage this chat with unnesesary info, as it is about PWA testing"
+    },
+    {
+      "idx": 504,
+      "id": "11jecqqckpb5ibey3fm9x48dxc",
+      "created": "2025-03-22T06:32:30Z",
+      "username": "sergeyl",
+      "message": "np"
+    },
+    {
+      "idx": 505,
+      "id": "qo84qmarjjgk5qoyfyr465bkmw",
+      "created": "2025-03-22T10:33:37Z",
+      "username": "sergeyl",
+      "message": "@all guys lets do small jitsi sync call at 18 MSK today? Everyone up? Put thumbs up reaction please if you can attend!"
+    },
+    {
+      "idx": 506,
+      "id": "j8c4zwoqm7853cm4tje4bw5e6r",
+      "created": "2025-03-22T15:00:13Z",
+      "username": "yevgeniysokolov",
+      "message": "I'm ready)"
+    },
+    {
+      "idx": 507,
+      "id": "5i7o35ts7tbqtdffsno93a1y1o",
+      "created": "2025-03-22T15:00:39Z",
+      "username": "admin",
+      "message": "@sergeyl "
+    },
+    {
+      "idx": 508,
+      "id": "ps958xnxffb79bbgg4xjyhrt1y",
+      "created": "2025-03-22T15:00:40Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 509,
+      "id": "nkkehryhfjg6bm394n8rgix89o",
+      "created": "2025-03-22T15:00:42Z",
+      "username": "admin",
+      "message": "link?"
+    },
+    {
+      "idx": 510,
+      "id": "rr5qxnyfubd4jy3bbehr1wzspo",
+      "created": "2025-03-22T15:01:07Z",
+      "username": "sergeyl",
+      "message": "шi have problem with jitse can you create pls"
+    },
+    {
+      "idx": 511,
+      "id": "bs8enmmym3raxkce9bbb9c3ejh",
+      "created": "2025-03-22T15:01:20Z",
+      "username": "vadimjar",
+      "message": ""
+    },
+    {
+      "idx": 512,
+      "id": "ccog1ek7dfg5zfgr7g51zmyw8e",
+      "created": "2025-03-22T15:31:50Z",
+      "username": "yevgeniysokolov",
+      "message": "@jarom , are the domains (5 pieces) and IPs ready for this projects?"
+    },
+    {
+      "idx": 513,
+      "id": "6jfgiz3967yemcigash96skt5y",
+      "created": "2025-03-22T15:33:54Z",
+      "username": "jarom",
+      "message": "what domain - pls explain"
+    },
+    {
+      "idx": 514,
+      "id": "aujery95hpfc8jpicycixzb45y",
+      "created": "2025-03-22T15:36:48Z",
+      "username": "yevgeniysokolov",
+      "message": "@admin \nIn order all will be work, from Artem team we need:\n- otp authorization using Telegram\n- Artem's prod (they need to prepare the one)\nDid anybody ask them about it?"
+    },
+    {
+      "idx": 515,
+      "id": "fj71a4diktr33mqob1eiwf754e",
+      "created": "2025-03-22T15:37:44Z",
+      "username": "admin",
+      "message": "@yevgeniysokolov you need a domain for which app?"
+    },
+    {
+      "idx": 516,
+      "id": "grmj9k6cmpyybje4poq5eefnsh",
+      "created": "2025-03-22T15:49:44Z",
+      "username": "sergeyl",
+      "message": "for getting link"
+    },
+    {
+      "idx": 517,
+      "id": "m4dxs6uao3bx7jzds45dnhdqia",
+      "created": "2025-03-22T15:50:07Z",
+      "username": "yevgeniysokolov",
+      "message": "biz-social-daily.news\nbreaking-biz-trends.news\nreal-time-biz.news\ninstant-social-biz.news\nsocial-trends-hub.news"
+    },
+    {
+      "idx": 518,
+      "id": "5318oi7i9p8ktrzuenufqxztao",
+      "created": "2025-03-22T15:50:12Z",
+      "username": "admin",
+      "message": "yes but @jarom needs to understand where to forward requests to this link"
+    },
+    {
+      "idx": 519,
+      "id": "nbxdtzmmqjnrmxnnzu5pmtuirc",
+      "created": "2025-03-22T15:50:30Z",
+      "username": "sergeyl",
+      "message": "register 5 domains\n```\nbiz-social-daily.news\nbreaking-biz-trends.news\nreal-time-biz.news\ninstant-social-biz.news\nsocial-trends-hub.news\n```"
+    },
+    {
+      "idx": 520,
+      "id": "o5y94xah5ffd8rb3swi1xy6x6h",
+      "created": "2025-03-22T15:51:11Z",
+      "username": "sergeyl",
+      "message": "forward to the muzpan where we will download socapp pwa"
+    },
+    {
+      "idx": 521,
+      "id": "defx3cfs13nkpn5e6zuuqrbsiw",
+      "created": "2025-03-22T15:51:51Z",
+      "username": "sergeyl",
+      "message": "5 for redundancy, if we get blocked 1 we got another"
+    },
+    {
+      "idx": 522,
+      "id": "66bqxcq36p8fid8t7nh1hk5z9c",
+      "created": "2025-03-22T15:52:58Z",
+      "username": "sergeyl",
+      "message": "next thing you described zerossl process.. or its not related?"
+    },
+    {
+      "idx": 523,
+      "id": "iwsbxbrae7ysunr7ht59idm5qy",
+      "created": "2025-03-22T15:53:19Z",
+      "username": "sergeyl",
+      "message": "so can we download pwa from them? or we need extra steps?"
+    },
+    {
+      "idx": 524,
+      "id": "pkeo8fzc3i8eder8xibn71kxoo",
+      "created": "2025-03-22T15:55:33Z",
+      "username": "vadimjar",
+      "message": "@admin  @vic  30 mins... Artiom is not responding"
+    },
+    {
+      "idx": 525,
+      "id": "s8pgeda5y7bd5cygq6r6efj4gh",
+      "created": "2025-03-22T16:02:31Z",
+      "username": "yevgeniysokolov",
+      "message": "@jarom , have you any questions?\nif domains and IPs aren't ready, can you say, when will it be ready?"
+    },
+    {
+      "idx": 526,
+      "id": "tnnb68y7y38qpxa5ricwpqfg7w",
+      "created": "2025-03-22T16:10:47Z",
+      "username": "vadimjar",
+      "message": "@admin Artiom responded... told me that he will investigate by his own... are we ok with that? "
+    },
+    {
+      "idx": 527,
+      "id": "kefzq7ci638cdjurxfadttqggh",
+      "created": "2025-03-22T16:11:41Z",
+      "username": "admin",
+      "message": "no we need to get the firebase console user name today please if he does not comply message victor please"
+    },
+    {
+      "idx": 528,
+      "id": "b57n6acygb815xj658rfjzy9ww",
+      "created": "2025-03-22T16:18:45Z",
+      "username": "vadimjar",
+      "message": "he gave victor the credentials"
+    },
+    {
+      "idx": 529,
+      "id": "sfuhzs45k3yg7j7fhw6z5foiur",
+      "created": "2025-03-22T16:19:25Z",
+      "username": "vadimjar",
+      "message": "One more High Priority Defect on Artioms BE side\nhttps://git.muzpan.com/bizapp/socapp-be/-/issues/15 "
+    },
+    {
+      "idx": 530,
+      "id": "d4cu7t383bys9duianqh5yuuqa",
+      "created": "2025-03-22T16:19:27Z",
+      "username": "admin",
+      "message": "send it to you on PM"
+    },
+    {
+      "idx": 531,
+      "id": "8df5t5bu378h9ytxuohuh7aztc",
+      "created": "2025-03-22T16:20:20Z",
+      "username": "admin",
+      "message": "did you let them know?"
+    },
+    {
+      "idx": 532,
+      "id": "sfumurx4zprobdc3aoet549h3h",
+      "created": "2025-03-22T16:21:11Z",
+      "username": "admin",
+      "message": "@sergeyl please notify Artiom that we need a quick response for this bug (make sure its on their side ! don't make mistakes on this...)"
+    },
+    {
+      "idx": 533,
+      "id": "gficuykcktfxdetmn4416gcy8o",
+      "created": "2025-03-22T16:22:08Z",
+      "username": "vadimjar",
+      "message": "whell I think I found the reason of push notification defects"
+    },
+    {
+      "idx": 534,
+      "id": "eis8d5yt5p8gi8p3nopsdc4j3c",
+      "created": "2025-03-22T16:22:12Z",
+      "username": "vadimjar",
+      "message": "account is blocked"
+    },
+    {
+      "idx": 535,
+      "id": "brkm3p4k8bbsxd4gd3oa3pwtia",
+      "created": "2025-03-22T16:22:36Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-03-22 at 19.21.26.png"
+      ]
+    },
+    {
+      "idx": 536,
+      "id": "ijkirbk1zpfbdmbxn3d14rwmoy",
+      "created": "2025-03-22T16:23:25Z",
+      "username": "admin",
+      "message": "OMG"
+    },
+    {
+      "idx": 537,
+      "id": "ryxq9fw9ypnmpd7f7ezzypn1ko",
+      "created": "2025-03-22T16:24:38Z",
+      "username": "admin",
+      "message": "@vic please alert Artiom that we need this fixed immediately "
+    },
+    {
+      "idx": 538,
+      "id": "3pmbsnjiebdgmqafpn9hk5unno",
+      "created": "2025-03-22T16:36:58Z",
+      "username": "yevgeniysokolov",
+      "message": "@jarom ?"
+    },
+    {
+      "idx": 539,
+      "id": "uaoq6mz39jnobpzu9tshkxqzmr",
+      "created": "2025-03-22T16:44:45Z",
+      "username": "admin",
+      "message": "we are waiting for answers from Artiom\n1. push notifications user is blocked\n2. the deployment documents they sent have a lot of missing details\n3. the telegram bot "
+    },
+    {
+      "idx": 540,
+      "id": "eb46dhj4ci8rjehpoh78ms45zc",
+      "created": "2025-03-22T16:47:57Z",
+      "username": "admin",
+      "message": "@vadimjar please post the bug on their system you found in ~bizapp---integration "
+    },
+    {
+      "idx": 541,
+      "id": "8skmgw7cxtfxtpjqzty75eiajw",
+      "created": "2025-03-22T17:07:42Z",
+      "username": "yevgeniysokolov",
+      "message": "https://jt.muzpan.com/1234-qudycjprjjxjfrvgsnym#config.callDisplayName=%221234%22"
+    },
+    {
+      "idx": 542,
+      "id": "t3kza5dhybrwpe4sem16niudkr",
+      "created": "2025-03-22T17:08:11Z",
+      "username": "yevgeniysokolov",
+      "message": "Кому нужен Артем, подключитесь, пожалуйста, сейчас"
+    },
+    {
+      "idx": 543,
+      "id": "79w6x5ukbjbkzqzmq4j6net5by",
+      "created": "2025-03-22T17:08:38Z",
+      "username": "yevgeniysokolov",
+      "message": "@jarom , @sergeyl , @vadimjar "
+    },
+    {
+      "idx": 544,
+      "id": "gkzhsh99nirodm4i6aktycow1w",
+      "created": "2025-03-22T17:09:46Z",
+      "username": "vic",
+      "message": "@jarom please connect "
+    },
+    {
+      "idx": 545,
+      "id": "jpqbkdqi9igt3n8eexsk5kj4ia",
+      "created": "2025-03-22T17:32:34Z",
+      "username": "admin",
+      "message": "please contact @gabriel he will create for you with a non-person phone number\n\nbut what is his response for the account being blocked for 20 days and nobody knows?"
+    },
+    {
+      "idx": 546,
+      "id": "fifn7qcup7dqjrr4mf81on359w",
+      "created": "2025-03-22T17:32:49Z",
+      "username": "admin",
+      "message": "@vadimjar we can talk here to sync everybody"
+    },
+    {
+      "idx": 547,
+      "id": "h6aw9z41bibydef1a19k7k5q4r",
+      "created": "2025-03-22T17:39:33Z",
+      "username": "vadimjar",
+      "message": "@gabriel @sergeyl Кароче проблема пушнотификаций в том что гугл акк который они создавали заблочен (уже 20 дней)... нужно создать наш аккаунт и на нем организовать новый firebase console  для пуш нотификация и потом связаться с @efollow (Александр) чтобы он помог подключить из Бэк"
+    },
+    {
+      "idx": 548,
+      "id": "69naadegsfbqzg8snbik8etbcy",
+      "created": "2025-03-22T17:44:08Z",
+      "username": "sergeyl",
+      "message": "Это критично. Кто займется этим?"
+    },
+    {
+      "idx": 549,
+      "id": "6ue5dapjfpymtghgzgohgwm1xr",
+      "created": "2025-03-22T17:49:25Z",
+      "username": "gabriel",
+      "message": "По какой причине заблочили?"
+    },
+    {
+      "idx": 550,
+      "id": "rdstb1bcb3dyjq8p4tiaspxrwe",
+      "created": "2025-03-22T17:49:39Z",
+      "username": "vadimjar",
+      "message": "."
+    },
+    {
+      "idx": 551,
+      "id": "dwfgmsai17dg3dy8f7zo5xpcco",
+      "created": "2025-03-22T17:50:28Z",
+      "username": "vadimjar",
+      "message": "они даже не знали что он заблочен... это я узнал когда они дали пароль и я попробовал зайти на гугл акк"
+    },
+    {
+      "idx": 552,
+      "id": "q9w71y9iafy9d8juhy6puwxg6e",
+      "created": "2025-03-22T17:50:39Z",
+      "username": "sergeyl",
+      "message": "@gabriel ты на треке?"
+    },
+    {
+      "idx": 553,
+      "id": "xrfypra5offrujm8hfyi89rqxc",
+      "created": "2025-03-22T17:51:06Z",
+      "username": "gabriel",
+      "message": "Сейчас сделаем какой-то "
+    },
+    {
+      "idx": 554,
+      "id": "meuu1m6rypfgfeuzp7fhed739c",
+      "created": "2025-03-22T17:51:23Z",
+      "username": "sergeyl",
+      "message": "Уведомите по изменению состояния пж!"
+    },
+    {
+      "idx": 555,
+      "id": "afo84ru4njfs9pgf5t5q6bnyrc",
+      "created": "2025-03-22T17:56:58Z",
+      "username": "yevgeniysokolov",
+      "message": "efollow (Александр) ждет от нас аккаунта сегодня до 12 по Мск (для нас не ложится спать)"
+    },
+    {
+      "idx": 556,
+      "id": "g6dpdm54tpb3pmgbih699s89oe",
+      "created": "2025-03-22T17:57:21Z",
+      "username": "admin",
+      "message": "@jarom you got answers from them?"
+    },
+    {
+      "idx": 557,
+      "id": "whkam14zc3bxbefiznyzni4ocr",
+      "created": "2025-03-22T18:16:16Z",
+      "username": "sergeyl",
+      "message": "I can ask same, any updates?"
+    },
+    {
+      "idx": 558,
+      "id": "khqxifq5zfng5rs9p98nqfiy7h",
+      "created": "2025-03-22T18:16:26Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 559,
+      "id": "nkynp9s3wtr5jbgeww8skqa9be",
+      "created": "2025-03-22T18:16:42Z",
+      "username": "sergeyl",
+      "message": "?"
+    },
+    {
+      "idx": 560,
+      "id": "uqmdr8pt63nqxeuk8hwta3eq7r",
+      "created": "2025-03-22T18:16:54Z",
+      "username": "sergeyl",
+      "message": "Same questions"
+    },
+    {
+      "idx": 561,
+      "id": "w41sxk7mkfydmgab5bphc4ycsa",
+      "created": "2025-03-22T18:17:31Z",
+      "username": "sergeyl",
+      "message": "Udid earlier"
+    },
+    {
+      "idx": 562,
+      "id": "saagjr1nobdbdcxjgiks796u4c",
+      "created": "2025-03-22T18:35:47Z",
+      "username": "yevgeniysokolov",
+      "message": "The status of the project now:\n- Vanya's team are going to test two solutions related with IP-blocking today\n- otp authorization. Yulia from Artiom's team will help us to do the one today\n- as Artem and I understood, we will prepare tomorrow our own prod for the project using Artem's documentation and iis (Jarom)\n- Artem's team will help us today with firebird (efollow)\n- Jarom help us with domains (5 pieces) and hostings (5 pieces)"
+    },
+    {
+      "idx": 563,
+      "id": "oxqkrzsm47bcbffqx1hgp9h4ty",
+      "created": "2025-03-22T18:39:41Z",
+      "username": "yevgeniysokolov",
+      "message": "Получилось? С Александром списались (efollow)?"
+    },
+    {
+      "idx": 564,
+      "id": "6kkpt7gsibda8pi8p7pweu6oxa",
+      "created": "2025-03-22T18:42:16Z",
+      "username": "yevgeniysokolov",
+      "message": "@jarom ,\nAre the domains (5 pieces) and hostings (5 pieces) ready?"
+    },
+    {
+      "idx": 565,
+      "id": "cs7qd13utfnyicywifes1nn88a",
+      "created": "2025-03-22T18:42:59Z",
+      "username": "admin",
+      "message": "domains I will take care of - we have 2 why do you need 5?"
+    },
+    {
+      "idx": 566,
+      "id": "jbic9ankjigbjyp5tc6figtp6r",
+      "created": "2025-03-22T18:45:02Z",
+      "username": "yevgeniysokolov",
+      "message": "just in case)\nOK. let it be 2.\nare you doing 2 hosting services too?"
+    },
+    {
+      "idx": 567,
+      "id": "gqpchmib17f8xmfg9eamumboge",
+      "created": "2025-03-22T18:45:57Z",
+      "username": "yevgeniysokolov",
+      "message": "@gabriel ?"
+    },
+    {
+      "idx": 568,
+      "id": "m4awcxi1k389tk81wqhcxtti6r",
+      "created": "2025-03-22T18:48:06Z",
+      "username": "admin",
+      "message": "we can have multiple domain in 20m adding domains is not an issue"
+    },
+    {
+      "idx": 569,
+      "id": "g341fumoyj8ftp1njrah9htsma",
+      "created": "2025-03-22T18:59:38Z",
+      "username": "yevgeniysokolov",
+      "message": "Just in case\nIn order we will do our own prod for the project, Artiom's team sent to us this documentation yesterday\n@admin, @Jarom, please, look through\nWe need Windows with iis (server)",
+      "files": [
+        "devops-kq45c41wp7bdpm67xwrmn6cqcy.zip"
+      ]
+    },
+    {
+      "idx": 570,
+      "id": "hmyjnoo1epn6bedg15ej1c8hkw",
+      "created": "2025-03-22T19:03:22Z",
+      "username": "yevgeniysokolov",
+      "message": "",
+      "files": [
+        "devops-kq45c41wp7bdpm67xwrmn6cqcy.zip"
+      ]
+    },
+    {
+      "idx": 571,
+      "id": "wz4skcq6ip8q8fgjtmhd1kipro",
+      "created": "2025-03-22T19:07:04Z",
+      "username": "yevgeniysokolov",
+      "message": "@gabriel, did you manage to create an account?\nAlexander (efollow) is available until 12 o'clock today (Moscow time), he is waiting."
+    },
+    {
+      "idx": 572,
+      "id": "5ue6kduthjysip8ptdmhn8yx7y",
+      "created": "2025-03-22T19:33:00Z",
+      "username": "gabriel",
+      "message": "I created such an email. Who can I send the data to?"
+    },
+    {
+      "idx": 573,
+      "id": "w7yz57gajbbi78hg94prut1pye",
+      "created": "2025-03-22T19:38:56Z",
+      "username": "yevgeniysokolov",
+      "message": "We've just talked"
+    },
+    {
+      "idx": 574,
+      "id": "fbbhgayapjn5medu11fxw6x6fw",
+      "created": "2025-03-22T19:39:04Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 575,
+      "id": "ugy338n1fbbhtph9u6x67y1p8c",
+      "created": "2025-03-22T19:40:18Z",
+      "username": "yevgeniysokolov",
+      "message": "Gabriel will talk about google account with efollow from bizapp chat"
+    },
+    {
+      "idx": 576,
+      "id": "q7dz6ajsfbb6dmnbs76b5k5ofr",
+      "created": "2025-03-22T19:40:54Z",
+      "username": "admin",
+      "message": "@vadimjar use the firebase account to test PN after they change the firebase account"
+    },
+    {
+      "idx": 577,
+      "id": "dk3orxkpfpga58npyu7egwmmur",
+      "created": "2025-03-22T19:42:53Z",
+      "username": "vadimjar",
+      "message": "I'll try"
+    },
+    {
+      "idx": 578,
+      "id": "dk96657xfjg8md1zizgh1banfc",
+      "created": "2025-03-22T19:56:37Z",
+      "username": "yevgeniysokolov",
+      "message": "@admin \nBackup MDDbProd.bak from old prod MsSql\nhttps://disk.yandex.ru/d/OgPokR_VOJkGfQ"
+    },
+    {
+      "idx": 579,
+      "id": "u6o811hzq7g4pkjjud33z1b4ya",
+      "created": "2025-03-22T19:56:52Z",
+      "username": "yevgeniysokolov",
+      "message": "From Artiom's team"
+    },
+    {
+      "idx": 580,
+      "id": "tz4bj815rbngiji6no9qbyrmxe",
+      "created": "2025-03-22T19:57:09Z",
+      "username": "admin",
+      "message": "Please download the file and keep it until we deploy our own "
+    },
+    {
+      "idx": 581,
+      "id": "enr4sajfh78rzg34kciuekz3ia",
+      "created": "2025-03-22T20:11:37Z",
+      "username": "likesense",
+      "message": "downloaded"
+    },
+    {
+      "idx": 582,
+      "id": "xqpr1gbs1byhzeiinwaa4b1mhr",
+      "created": "2025-03-23T13:16:25Z",
+      "username": "vadimjar",
+      "message": "@sergeyl @admin Another Critical Defect on Admin panel: https://git.muzpan.com/bizapp/socapp-be/-/issues/19 "
+    },
+    {
+      "idx": 583,
+      "id": "rzk15nj3f3n8xnx94zaqcn9drc",
+      "created": "2025-03-23T13:19:38Z",
+      "username": "admin",
+      "message": "please send the ~bizapp---integration guys the description and mark Urgent"
+    },
+    {
+      "idx": 584,
+      "id": "qmmqtzqrobgobdcgf1rq4g11no",
+      "created": "2025-03-23T13:19:41Z",
+      "username": "admin",
+      "message": "well done"
+    },
+    {
+      "idx": 585,
+      "id": "pdshztcugbdax8ifiyge8h77cc",
+      "created": "2025-03-23T14:32:12Z",
+      "username": "vadimjar",
+      "message": "Their response to defect: \"Pretty long time ago we requested the list of roles and their admin-panel's permissions, but we still received nothing. So, the most of the pages or actiions on the frontend require super-admin user. \" \n\n"
+    },
+    {
+      "idx": 586,
+      "id": "i73rmxq5zibq9cg3fz43jxi8co",
+      "created": "2025-03-23T14:33:09Z",
+      "username": "admin",
+      "message": "@vic FYI this is the dashboard for the monitoring team - they have no roles built into the system only super admin"
+    },
+    {
+      "idx": 587,
+      "id": "gsq93oopy7bkuprefd6bdtqpjr",
+      "created": "2025-03-23T14:33:17Z",
+      "username": "admin",
+      "message": "I think this will not be useable?"
+    },
+    {
+      "idx": 588,
+      "id": "zzmdra7bzpd5tdomjimoudfdqw",
+      "created": "2025-03-23T14:34:04Z",
+      "username": "vic",
+      "message": "Ohhh "
+    },
+    {
+      "idx": 589,
+      "id": "aancf3f5uby88nskt1cihzphoo",
+      "created": "2025-03-23T14:34:17Z",
+      "username": "vadimjar",
+      "message": "this is a big issue.... because we can not provide admin rights to every operator"
+    },
+    {
+      "idx": 590,
+      "id": "qtrxz3k7w7b8xc64s7fhry3wfa",
+      "created": "2025-03-23T14:34:21Z",
+      "username": "vic",
+      "message": "Andrew should review this"
+    },
+    {
+      "idx": 591,
+      "id": "41wnd67tp7b99etafu3zwgpicc",
+      "created": "2025-03-23T14:35:51Z",
+      "username": "admin",
+      "message": "could you please Andrew to review this issue and send us his response?"
+    },
+    {
+      "idx": 592,
+      "id": "hcd49rbnajrizd9jqy77m9sejr",
+      "created": "2025-03-23T14:36:11Z",
+      "username": "admin",
+      "message": "and answer to their claim :\n> Pretty long time ago we requested the list of roles and their admin-panel's permissions, but we still received nothing. So, the most of the pages or actiions on the frontend require super-admin user. "
+    },
+    {
+      "idx": 593,
+      "id": "n73s97qqifg43qc4kbp7edr6fw",
+      "created": "2025-03-23T14:36:35Z",
+      "username": "admin",
+      "message": "they should have at least created a role system even without permissions"
+    },
+    {
+      "idx": 594,
+      "id": "x3wgou6p8bdgukbxermwa9neee",
+      "created": "2025-03-23T14:37:17Z",
+      "username": "admin",
+      "message": "@yevgeniysokolov please ask them in relation to this topic if they implemented a role-based system in the dashboard and all that is required is definition of roles?"
+    },
+    {
+      "idx": 595,
+      "id": "mr6e8mxp1j8sdp777stzzk88ph",
+      "created": "2025-03-23T14:37:41Z",
+      "username": "vic",
+      "message": "I will add you to corresponding group "
+    },
+    {
+      "idx": 596,
+      "id": "47ujof1ynf84bn7m4a7urc7trc",
+      "created": "2025-03-23T14:45:35Z",
+      "username": "yevgeniysokolov",
+      "message": "Ask to Artiom's team?"
+    },
+    {
+      "idx": 597,
+      "id": "1nmpofjeh7g6dnknuwm8roorea",
+      "created": "2025-03-23T14:46:19Z",
+      "username": "admin",
+      "message": "yes ask if there is a role system implemented and what they need to finalize it?"
+    },
+    {
+      "idx": 598,
+      "id": "yydnigecnbfcdc6a6wy8zfdkso",
+      "created": "2025-03-23T14:46:26Z",
+      "username": "admin",
+      "message": "and how long it will take to implement"
+    },
+    {
+      "idx": 599,
+      "id": "doreh8qr5jrx3dp4wwo7feqwuo",
+      "created": "2025-03-23T14:46:27Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 600,
+      "id": "35cqus114bg778n4bidrcda5uc",
+      "created": "2025-03-23T14:46:42Z",
+      "username": "yevgeniysokolov",
+      "message": "Ok"
+    },
+    {
+      "idx": 601,
+      "id": "hot9usb8f7rsxpop9hebtz61je",
+      "created": "2025-03-23T14:58:07Z",
+      "username": "yevgeniysokolov",
+      "message": "@Vic, @admin\nI've just told with Vadim about roles and saw the answer from Artiom's team\n\"Pretty long time ago we requested the list of roles and their admin-panel's permissions, but we still received nothing. So, the most of the pages or actiions on the frontend require super-admin user.\"\nSo we need to get the information (requirements) from our customer (Andrew)\nAs I understood, you are going to talk with Andrew\nPlease, give us information after that\nThen I'll go to Artiom"
+    },
+    {
+      "idx": 602,
+      "id": "1f6sxuqjsbrafjs1ao1gjpjkka",
+      "created": "2025-03-23T14:58:33Z",
+      "username": "admin",
+      "message": "vic"
+    },
+    {
+      "idx": 603,
+      "id": "bky9yshx8idudnt6j4s5ubmhho",
+      "created": "2025-03-23T14:58:39Z",
+      "username": "admin",
+      "message": "@vic :point_up: "
+    },
+    {
+      "idx": 604,
+      "id": "zg9a3hmbs3f9urg75dkh953pra",
+      "created": "2025-03-23T14:59:37Z",
+      "username": "yevgeniysokolov",
+      "message": "May be someone else know about it?\nYura, Tatiana, for example"
+    },
+    {
+      "idx": 605,
+      "id": "4u5wjauyaiyp9jauspduyipkyh",
+      "created": "2025-03-23T14:59:48Z",
+      "username": "vic",
+      "message": "Please be in touch with Andrew "
+    },
+    {
+      "idx": 606,
+      "id": "tuopwsce3p8ktr6readuqkmh5h",
+      "created": "2025-03-23T15:00:02Z",
+      "username": "vic",
+      "message": " About what?"
+    },
+    {
+      "idx": 607,
+      "id": "qxdha1w4jjrqxc359gehcnsbnc",
+      "created": "2025-03-23T15:00:17Z",
+      "username": "yevgeniysokolov",
+      "message": "I'll write to him now\nAbout roles"
+    },
+    {
+      "idx": 608,
+      "id": "bz47i1fpktb93ympmqjiy4q93c",
+      "created": "2025-03-23T15:00:17Z",
+      "username": "vic",
+      "message": "Also use iurii "
+    },
+    {
+      "idx": 609,
+      "id": "drswbxukbpy38n35d6hh58to5a",
+      "created": "2025-03-23T15:00:23Z",
+      "username": "yevgeniysokolov",
+      "message": "Ok"
+    },
+    {
+      "idx": 610,
+      "id": "so5zdwi5djfj78apmy5osuxfqc",
+      "created": "2025-03-23T15:01:37Z",
+      "username": "admin",
+      "message": "in any case they should have implemented a role-based system - permission for role is configuration - but the question is if they implemented one at all"
+    },
+    {
+      "idx": 611,
+      "id": "1jowzejyd3ggiep8kjnfzizgca",
+      "created": "2025-03-23T15:05:35Z",
+      "username": "sergeyl",
+      "message": "created a meeting\nhttps://jt.muzpan.com/StrongLampsDistributeStrongly"
+    },
+    {
+      "idx": 612,
+      "id": "xbwos1zex3dttr8osfu35bpraw",
+      "created": "2025-03-23T15:07:07Z",
+      "username": "yevgeniysokolov",
+      "message": "I wrote about the roles to Andrew and Yuri to SocApp chat",
+      "files": [
+        "rn_image_picker_lib_temp_c036f708-b0be-4922-96f8-3b1afe85afee.jpg"
+      ]
+    },
+    {
+      "idx": 613,
+      "id": "ukxefakfo7ykpgju7i83ga14qy",
+      "created": "2025-03-23T15:09:32Z",
+      "username": "sergeyl",
+      "message": "@admin will you join?"
+    },
+    {
+      "idx": 614,
+      "id": "draxt7dcebratynkff861gbqer",
+      "created": "2025-03-23T15:09:46Z",
+      "username": "admin",
+      "message": "?"
+    },
+    {
+      "idx": 615,
+      "id": "ysfam56wabr3985nru6um6186w",
+      "created": "2025-03-23T15:09:48Z",
+      "username": "admin",
+      "message": "topic?"
+    },
+    {
+      "idx": 616,
+      "id": "34mbex4iafr5tgdz5ed3rh7ehy",
+      "created": "2025-03-23T15:11:20Z",
+      "username": "sergeyl",
+      "message": "you've asked me for status call at 18 today"
+    },
+    {
+      "idx": 617,
+      "id": "g9u1efmdqfdqpdp16w8r8y3q6w",
+      "created": "2025-03-23T15:11:29Z",
+      "username": "admin",
+      "message": "ahh didnt see the time"
+    },
+    {
+      "idx": 618,
+      "id": "o9owze4zeid3ixy5yrhxtwc6cy",
+      "created": "2025-03-23T15:42:36Z",
+      "username": "yevgeniysokolov",
+      "message": "@admin , Andrew suggested to talk about roles tomorrow\nIs it normal for us?\nOr we need to ask him to give us the information today? In order to resend the one to Artiom's team",
+      "files": [
+        "rn_image_picker_lib_temp_ab0b9c31-12e1-424a-86cb-8e534077312b.jpg"
+      ]
+    },
+    {
+      "idx": 619,
+      "id": "rx4dnms69pd6ty8xpdqtf9xhhc",
+      "created": "2025-03-23T15:45:10Z",
+      "username": "admin",
+      "message": "today please"
+    },
+    {
+      "idx": 620,
+      "id": "5spg3qpiafytuckx44tgqihxch",
+      "created": "2025-03-23T15:45:38Z",
+      "username": "admin",
+      "message": "we need to know:\n1. if he sent any information to Artioms team\n2. what are the roles expected (document not verbal)"
+    },
+    {
+      "idx": 621,
+      "id": "rh9maqmc3jy1u8nfhz7hezrtwe",
+      "created": "2025-03-23T17:45:31Z",
+      "username": "likesense",
+      "message": "Hey guys, we have tried many different solutions. But unfortunetly at this stage we will not be able to make a seamless transfer of user data. We still don't know if it's realistic to fully implement it or not. Cause every new link to user might have a wordsID and session themselves that generates from socapp-be-admin. But at this stage, we want to solve issue by referral link to ourselves from front-end it would be checken for not working ip(I mean if it not work we write it to cache and after we check for match if match - delete if not generate) . We finish the part that depends on us and hand over the project to Gaby. We did all that we can"
+    },
+    {
+      "idx": 622,
+      "id": "81ey893y9fgi5y9rkmk7r176nr",
+      "created": "2025-03-23T17:51:28Z",
+      "username": "yevgeniysokolov",
+      "message": "@vic \nCan you write to Andrew?\nit might not be very good if I write to him at such a late hour)",
+      "files": [
+        "rn_image_picker_lib_temp_2d47301a-9532-4597-aef0-fa1d78f022fe.jpg"
+      ]
+    },
+    {
+      "idx": 623,
+      "id": "gm14rqg5gbf3bn7h9zbnsriz7h",
+      "created": "2025-03-23T17:52:39Z",
+      "username": "vic",
+      "message": "Я говорил с Андреем. Он вроде с тобой созвониться должен "
+    },
+    {
+      "idx": 624,
+      "id": "xm4epcb6upbaic3w4pgn9qb9gr",
+      "created": "2025-03-23T17:55:17Z",
+      "username": "admin",
+      "message": "Just to clarify:\n1. if the installation origin changes is the app still operational?\n2. if the origin changes, can we still send updates?\n3. if the origin changes, do we need to reinstall the app? if so - we cannot keep user details?"
+    },
+    {
+      "idx": 625,
+      "id": "37rzbkskgfybugnp38xucgpx8e",
+      "created": "2025-03-23T18:06:04Z",
+      "username": "likesense",
+      "message": "For now. If the origin ip is blocked we can reinstall the app manually from telegram. I can't find the way that user mustnt authenticate. Also for this solution in user device would be two apps one app with dialog that client need to reinstall app and second app with full acessability to our API"
+    },
+    {
+      "idx": 626,
+      "id": "u8xa8r3dnp8y78ksur3ftkshuw",
+      "created": "2025-03-23T18:15:23Z",
+      "username": "yevgeniysokolov",
+      "message": "Спасибо! Пообщались только что\nПонятнее стало по ролям\nСкоро сюда и в чат Артему распишу по ним"
+    },
+    {
+      "idx": 627,
+      "id": "rus3ckg37jr38d5jzyg31ck7uw",
+      "created": "2025-03-26T15:56:06Z",
+      "username": "admin",
+      "message": "@vic @yevgeniysokolov did you ask about the rdp connection?"
+    },
+    {
+      "idx": 628,
+      "id": "yi9yk7xryigz3dw5qdbu5hutjc",
+      "created": "2025-03-26T16:37:20Z",
+      "username": "yevgeniysokolov",
+      "message": "Yes, I did\nRDP they use in order to get to Windows server\nWindows server they use in order to open system browser (without UI)\nSystem browser they use in order to go to Facebook using many bots and cookies and to make screenshots\nScreenshots bots make in order to check work of activists using chatgpt\nMaybe they can use Linux server for this\nBut Artiom's  team decided not to take any chances)"
+    },
+    {
+      "idx": 629,
+      "id": "tz4eor1iz7gx9c54fqrnxjmx4a",
+      "created": "2025-03-26T17:07:21Z",
+      "username": "admin",
+      "message": "but why rdp?"
+    },
+    {
+      "idx": 630,
+      "id": "ur59w8ejf3nrpcjrbcr6m7g3sh",
+      "created": "2025-03-26T17:07:31Z",
+      "username": "admin",
+      "message": "do they do it manually?"
+    },
+    {
+      "idx": 631,
+      "id": "3en3144a7t8bxbcr9cnu8td8ur",
+      "created": "2025-03-26T17:26:08Z",
+      "username": "yevgeniysokolov",
+      "message": "Yes) They do the one manually"
+    },
+    {
+      "idx": 632,
+      "id": "5znwdjiaipneumjuyye4g1tqpc",
+      "created": "2025-03-26T17:26:20Z",
+      "username": "admin",
+      "message": ":face_palm: "
+    },
+    {
+      "idx": 633,
+      "id": "rayi8e45afdz8xhxut8ufnfqay",
+      "created": "2025-03-26T17:26:40Z",
+      "username": "admin",
+      "message": "for every post? who will do that? omg"
+    },
+    {
+      "idx": 634,
+      "id": "6eehxx3u9jf55k1p37trmgefza",
+      "created": "2025-03-26T17:29:19Z",
+      "username": "likesense",
+      "message": "Also they need to manually manage all these accounts on this server. If account is dead the specific admin goes with rsp to this server and tkae authentication by his hands. This solution not automaticly changing the accounts. Like this"
+    },
+    {
+      "idx": 635,
+      "id": "7eyrmbq4s3y338zxwhiw37rtzh",
+      "created": "2025-03-26T17:31:00Z",
+      "username": "sergeyl",
+      "message": "who will do that ->  specially-hired rdp ninja :ninja: "
+    },
+    {
+      "idx": 636,
+      "id": "64mo9fkmf7gmfdkskpnskr9a3e",
+      "created": "2025-03-26T17:31:26Z",
+      "username": "likesense",
+      "message": "Ahahah, yes"
+    },
+    {
+      "idx": 637,
+      "id": "pjj5kpneo3b93n7uuy7hfpwqpo",
+      "created": "2025-03-26T19:58:23Z",
+      "username": "yevgeniysokolov",
+      "message": "@admin , Yulia from Artiom's team said, that you blocked using their prod\nBut our prod isn't ready yet\nAnd we need use Artiom's prod tomorrow in order to start testing SocApp (1 000 users)\nCan you write to bizapp chat and give Artiom's team permission to use Artiom's prod for testing tomorrow?)"
+    },
+    {
+      "idx": 638,
+      "id": "dnx19ju4ajfe8yj4p7d7qyy79y",
+      "created": "2025-03-26T20:55:41Z",
+      "username": "admin",
+      "message": "She is lying we did not block anything"
+    },
+    {
+      "idx": 639,
+      "id": "6xdtagxwg78q3cy6gi4dry9mgo",
+      "created": "2025-03-26T20:57:10Z",
+      "username": "vic",
+      "message": "Suppose that they talking about verbal block "
+    },
+    {
+      "idx": 640,
+      "id": "hrmo1ja7djgaxmntf19zp4b7de",
+      "created": "2025-03-26T20:57:16Z",
+      "username": "vic",
+      "message": "Not real block "
+    },
+    {
+      "idx": 641,
+      "id": "d57sgqx7u7bazjz1oawpmyjduy",
+      "created": "2025-03-26T20:57:33Z",
+      "username": "admin",
+      "message": "What is verbal block?"
+    },
+    {
+      "idx": 642,
+      "id": "9b8p9mhwgj84fqs7zww7ot9rte",
+      "created": "2025-03-26T20:58:18Z",
+      "username": "vic",
+      "message": "Well it's blocking only by words "
+    },
+    {
+      "idx": 643,
+      "id": "zcr54rt4h7y3pdkog1r1mp5r8a",
+      "created": "2025-03-26T20:58:31Z",
+      "username": "admin",
+      "message": "Ia that blocking? "
+    },
+    {
+      "idx": 644,
+      "id": "1h4g79e3xfyutf6fzo1mwb5c7e",
+      "created": "2025-03-26T20:58:44Z",
+      "username": "admin",
+      "message": "Words can stop their system?"
+    },
+    {
+      "idx": 645,
+      "id": "rtbkmf6367dhzqcuc6x7efmxgc",
+      "created": "2025-03-26T20:58:57Z",
+      "username": "admin",
+      "message": "These games are not flying with me"
+    },
+    {
+      "idx": 646,
+      "id": "udtxwgoanjyytcq4hf5siwxrzh",
+      "created": "2025-03-26T20:59:22Z",
+      "username": "admin",
+      "message": "We currently are working on their environment until we say otherwise"
+    },
+    {
+      "idx": 647,
+      "id": "i59x184ou3njmxfsjumxxkp3sr",
+      "created": "2025-03-26T20:59:44Z",
+      "username": "admin",
+      "message": "Qnd by the way i did not say anything about not using their env"
+    },
+    {
+      "idx": 648,
+      "id": "mtwioqqb9bbuun8myrygx7kkse",
+      "created": "2025-03-26T21:00:21Z",
+      "username": "vic",
+      "message": "Well I mean that we said them not to use their part "
+    },
+    {
+      "idx": 649,
+      "id": "6iu9onxrctyu8dgdat6f38zguy",
+      "created": "2025-03-26T21:00:39Z",
+      "username": "admin",
+      "message": "0not true"
+    },
+    {
+      "idx": 650,
+      "id": "mioc1shdr3rifjqj6k3rzh5aew",
+      "created": "2025-03-26T21:00:41Z",
+      "username": "vic",
+      "message": "And they use it like a curse"
+    },
+    {
+      "idx": 651,
+      "id": "jjwgprppbifqt8pu87u8c8tzde",
+      "created": "2025-03-26T21:01:03Z",
+      "username": "admin",
+      "message": "We said we want to uae our env"
+    },
+    {
+      "idx": 652,
+      "id": "3f9d7otenpyzdr3fxpqimpuo3o",
+      "created": "2025-03-26T21:01:20Z",
+      "username": "admin",
+      "message": "That is very different than not using thwir environment"
+    },
+    {
+      "idx": 653,
+      "id": "dket4th7i3gs7n6br7rgzpiqec",
+      "created": "2025-03-26T21:03:11Z",
+      "username": "vic",
+      "message": "Женя. Короче. Блока нет никакого. Запускаем пока на их инфраструктуре"
+    },
+    {
+      "idx": 654,
+      "id": "ghjsxmgcypy4xcsbexe6asmx6y",
+      "created": "2025-03-26T21:05:57Z",
+      "username": "yevgeniysokolov",
+      "message": "I wrote to bizapp\nThank you)"
+    },
+    {
+      "idx": 655,
+      "id": "6ebbx4mde7gyfe1wu58qrnqwch",
+      "created": "2025-03-26T21:26:49Z",
+      "username": "likesense",
+      "message": "Hey. We need to generate more strongest environment keys for production. Now I'm writing nginx proxy config that we are going to use\nI think with this sensetive data @jarom needed to work"
+    },
+    {
+      "idx": 656,
+      "id": "tpnpiism67893qy84osi7kf4sc",
+      "created": "2025-03-27T07:41:56Z",
+      "username": "yevgeniysokolov",
+      "message": "@likesense , Nginx and keys are ready?)"
+    },
+    {
+      "idx": 657,
+      "id": "d4wxuq8o57fr3cxy6jj1rqp8bh",
+      "created": "2025-03-27T07:42:07Z",
+      "username": "likesense",
+      "message": "not yet"
+    },
+    {
+      "idx": 658,
+      "id": "31de5sc6j3yg8yxymp3gth7t5r",
+      "created": "2025-03-27T07:42:07Z",
+      "username": "yevgeniysokolov",
+      "message": "Hi, everyone!"
+    },
+    {
+      "idx": 659,
+      "id": "9dqra3zhbbfiuc8cqmydjk5smc",
+      "created": "2025-03-27T07:42:10Z",
+      "username": "likesense",
+      "message": "working on this"
+    },
+    {
+      "idx": 660,
+      "id": "7w5sw7nz57fs3kshhpy9a5meko",
+      "created": "2025-03-27T07:42:41Z",
+      "username": "likesense",
+      "message": "but nginx is working not well I want to check all flow that we need"
+    },
+    {
+      "idx": 661,
+      "id": "qeiiwa1uo7y9xqbpw77nqknudc",
+      "created": "2025-03-28T05:37:22Z",
+      "username": "vadimjar",
+      "message": "Only my pwa lost authorization or is this a global problem?"
+    },
+    {
+      "idx": 662,
+      "id": "rao1rgmhhp835c58yywx3a7p4o",
+      "created": "2025-03-28T05:38:39Z",
+      "username": "likesense",
+      "message": "My PWA works"
+    },
+    {
+      "idx": 663,
+      "id": "pznxpxzydtbw9mugqws9mfwo9y",
+      "created": "2025-04-18T14:22:39Z",
+      "username": "vadimjar",
+      "message": "vitaliyvtorenco added to the channel by vadimjar."
+    },
+    {
+      "idx": 664,
+      "id": "4x7qjbuq67r69poeyqs9e8j5nh",
+      "created": "2025-04-18T14:35:07Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/bizapp/socapp-be/-/issues/45"
+    },
+    {
+      "idx": 665,
+      "id": "9chpyhpyfjrzbep58u6y6bmgoa",
+      "created": "2025-04-18T14:35:27Z",
+      "username": "vitaliyvtorenco",
+      "message": "help me please with person who to assign to ?"
+    },
+    {
+      "idx": 666,
+      "id": "at6ywzni738if87csaqg3kjjte",
+      "created": "2025-04-18T15:13:01Z",
+      "username": "sergeyl",
+      "message": "это дефект на команду артёма походу. ещё не решили как будем доставлять им дефекты, но в нашем гитлабе разработчиков сторонней команды точно нет"
+    },
+    {
+      "idx": 667,
+      "id": "s81xpbznw7f9fxehmqdaxkcb9r",
+      "created": "2025-04-25T08:45:34Z",
+      "username": "vic",
+      "message": "Ребята. Что с пва? "
+    },
+    {
+      "idx": 668,
+      "id": "gbwewpj64irptnuud19uqknnxc",
+      "created": "2025-04-25T08:45:42Z",
+      "username": "vic",
+      "message": "Пофиксили проблему? "
+    },
+    {
+      "idx": 669,
+      "id": "8msuhbux4tgkicpawjhsrmsb9c",
+      "created": "2025-04-25T08:45:50Z",
+      "username": "likesense",
+      "message": "Нет, в процессе"
+    },
+    {
+      "idx": 670,
+      "id": "d37uyfj367f7xphoqrjwfm41ze",
+      "created": "2025-04-25T08:46:00Z",
+      "username": "vic",
+      "message": "Блять "
+    },
+    {
+      "idx": 671,
+      "id": "cbxpb6anb3d15kf99yn9wuo4ha",
+      "created": "2025-04-25T08:46:02Z",
+      "username": "vic",
+      "message": "Плохо "
+    },
+    {
+      "idx": 672,
+      "id": "yf9kphoxz7ye3m77yjwjzfqgur",
+      "created": "2025-04-29T06:27:25Z",
+      "username": "vadimjar",
+      "message": "ребята"
+    },
+    {
+      "idx": 673,
+      "id": "a139m8tg77ni7cg6spowtfup4e",
+      "created": "2025-04-29T06:27:56Z",
+      "username": "vadimjar",
+      "message": "у меня пропал мой админ юзер на https://frontadmin.muzpan.com/auth "
+    },
+    {
+      "idx": 674,
+      "id": "hs16jon1bby4ur1zefarsufkha",
+      "created": "2025-04-29T06:27:56Z",
+      "username": "likesense",
+      "message": "Да?"
+    },
+    {
+      "idx": 675,
+      "id": "ztko9xaj13r15qstgyze89nd5a",
+      "created": "2025-04-29T06:27:59Z",
+      "username": "vadimjar",
+      "message": "это норм"
+    },
+    {
+      "idx": 676,
+      "id": "1xjdtssdx7ne5yzndauikge8jo",
+      "created": "2025-04-29T06:28:02Z",
+      "username": "vadimjar",
+      "message": "?"
+    },
+    {
+      "idx": 677,
+      "id": "r81cu9wzjffdjgrnruajokbejh",
+      "created": "2025-04-29T06:28:16Z",
+      "username": "likesense",
+      "message": "Там кого-то удаляли, приеду добавлю если тебя нет"
+    },
+    {
+      "idx": 678,
+      "id": "r4k1rswyo7dxzfqiwo1xxjd3kh",
+      "created": "2025-04-29T06:28:51Z",
+      "username": "vadimjar",
+      "message": "написал тебе номр в личку"
+    },
+    {
+      "idx": 679,
+      "id": "ndbnrrjrej8ejp15mz4rmrm8pr",
+      "created": "2025-04-29T07:14:36Z",
+      "username": "vadimjar",
+      "message": "[DE48 Adding Employee flow do not work](http://git.muzpan.com/bizapp/socapp-be/-/issues/48) Defect (Critical) on https://frontadmin.muzpan.com/employees assigned on @yevgeniysokolov (for artiom team)"
+    },
+    {
+      "idx": 680,
+      "id": "t5r4k8zf63rgbg7gdqxck991jc",
+      "created": "2025-04-29T07:19:12Z",
+      "username": "vadimjar",
+      "message": "but it needs investigation by @likesense because I am sure it was working on artioms admin panel (on their enviroment) so it can be issue only on our side"
+    },
+    {
+      "idx": 681,
+      "id": "wayzfqwg7ffhdf9usj8twc6a3h",
+      "created": "2025-04-29T07:23:14Z",
+      "username": "vadimjar",
+      "message": "[DE49 Finish Manual Validation Flow is not working](https://git.muzpan.com/bizapp/socapp-be/-/issues/49) One More Critical "
+    },
+    {
+      "idx": 682,
+      "id": "hkernguesprj3jtuhqdpa59sic",
+      "created": "2025-04-29T07:27:09Z",
+      "username": "likesense",
+      "message": "надо смотреть"
+    },
+    {
+      "idx": 683,
+      "id": "8e7xutpd4brkunss3y6om8okdy",
+      "created": "2025-04-29T07:45:17Z",
+      "username": "likesense",
+      "message": "пофиксил"
+    },
+    {
+      "idx": 684,
+      "id": "njge3j5ye3g8ierbobka5wuzha",
+      "created": "2025-04-29T07:45:29Z",
+      "username": "likesense",
+      "message": "проверяй, закрывай"
+    },
+    {
+      "idx": 685,
+      "id": "gpif4kbwnbdczkmb9gfh76osur",
+      "created": "2025-04-29T08:23:29Z",
+      "username": "vadimjar",
+      "message": "retested... all good... defects closed"
+    },
+    {
+      "idx": 686,
+      "id": "h1ns1g9nxfr5jjnb7tuwwdr64y",
+      "created": "2025-05-12T10:19:52Z",
+      "username": "yevgeniysokolov",
+      "message": "prokopenkoalexei added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 687,
+      "id": "aqham3az17byx8wbu394ebex5e",
+      "created": "2025-05-15T05:33:25Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "1CC270EA-B1B8-4031-9155-C458F366B876.jpg"
+      ]
+    },
+    {
+      "idx": 688,
+      "id": "jx4h11ym9fni5ngdxwdi1omj8c",
+      "created": "2025-05-22T16:50:38Z",
+      "username": "vic",
+      "message": "",
+      "files": [
+        "F0EB9D10-617F-4D20-8C5E-573FF55B312D.png"
+      ]
+    },
+    {
+      "idx": 689,
+      "id": "74rfdkr3u3rw38qh8d3s4xgx7e",
+      "created": "2025-05-22T16:50:43Z",
+      "username": "vic",
+      "message": "Это что опять?????? "
+    },
+    {
+      "idx": 690,
+      "id": "pi3rfznh1idhxmu5p6t8fyap7e",
+      "created": "2025-05-22T16:51:14Z",
+      "username": "likesense",
+      "message": "Минутку"
+    },
+    {
+      "idx": 691,
+      "id": "mnersgbun3y9drjetbx3de8rqr",
+      "created": "2025-05-22T16:53:05Z",
+      "username": "likesense",
+      "message": "Это мы наверное домен меняли, когда на людей отдавали"
+    },
+    {
+      "idx": 692,
+      "id": "1ujgeqpc9inbpnezzbx77nmwar",
+      "created": "2025-05-22T16:53:25Z",
+      "username": "likesense",
+      "message": "https://socappgeneratelink.socappl.com"
+    },
+    {
+      "idx": 693,
+      "id": "9no88hoijj8mikhu7tf7efqaoy",
+      "created": "2025-05-22T16:53:47Z",
+      "username": "vic",
+      "message": "Я по нему скачивал "
+    },
+    {
+      "idx": 694,
+      "id": "k7nhhgoo7fboxxnbw9nuitbr6h",
+      "created": "2025-05-22T16:54:03Z",
+      "username": "likesense",
+      "message": "Странно, я старый открыл, я авторизованый там остался"
+    },
+    {
+      "idx": 695,
+      "id": "azjthc79yfgifqerfpsqdgu7xe",
+      "created": "2025-05-22T16:54:05Z",
+      "username": "vic",
+      "message": "На днях еще работало "
+    },
+    {
+      "idx": 696,
+      "id": "jy4e75naftfx5ystoe5pt76h8e",
+      "created": "2025-05-22T16:54:50Z",
+      "username": "vic",
+      "message": "Если все послетали нам пизда "
+    },
+    {
+      "idx": 697,
+      "id": "eok73s6ia78ezrgsr4k3gqn9ma",
+      "created": "2025-05-22T16:58:41Z",
+      "username": "likesense",
+      "message": "Я не слетел, у меня работает, качал около недели назад старую версию"
+    },
+    {
+      "idx": 698,
+      "id": "d8kdub3acffudenr3z6y13uf4h",
+      "created": "2025-05-22T16:59:15Z",
+      "username": "vic",
+      "message": "А когда меняли линк?"
+    },
+    {
+      "idx": 699,
+      "id": "68wbtac89jnu3ysxbsppy1rpse",
+      "created": "2025-05-22T16:59:41Z",
+      "username": "likesense",
+      "message": "Около двух недель назад"
+    },
+    {
+      "idx": 700,
+      "id": "ywt8fcai6bnwjfc5j5rhymm75a",
+      "created": "2025-05-22T17:00:06Z",
+      "username": "vic",
+      "message": "Но я смотрел на прошлой неделе "
+    },
+    {
+      "idx": 701,
+      "id": "yk4864ajcpdejnjh6fadts9yio",
+      "created": "2025-05-22T17:00:13Z",
+      "username": "vic",
+      "message": "Все работало"
+    },
+    {
+      "idx": 702,
+      "id": "jop8ejcygffwuprgciehdwscuc",
+      "created": "2025-05-22T17:00:51Z",
+      "username": "vic",
+      "message": "У Юрия тоже слетело "
+    },
+    {
+      "idx": 703,
+      "id": "g7crofsaptn1bgufes8ozytwar",
+      "created": "2025-05-22T17:00:54Z",
+      "username": "vic",
+      "message": "🤦"
+    },
+    {
+      "idx": 704,
+      "id": "8bqqtod33pb5zf5693xp4ietjh",
+      "created": "2025-05-22T17:01:19Z",
+      "username": "vic",
+      "message": "Бля. Очень плохо "
+    },
+    {
+      "idx": 705,
+      "id": "6e9oi74bz3rkjcb3p14yp1dqta",
+      "created": "2025-05-22T17:01:37Z",
+      "username": "vic",
+      "message": "Так нельзя чтобы приложение постоянно разлогинивалось "
+    },
+    {
+      "idx": 706,
+      "id": "mtodkoo1rpyytxkreoxz1xepkr",
+      "created": "2025-05-22T17:01:56Z",
+      "username": "vic",
+      "message": "Может привязывать к imei?"
+    },
+    {
+      "idx": 707,
+      "id": "jxwgtgmo3jbmuxc9j5t14z3g3r",
+      "created": "2025-05-22T17:03:20Z",
+      "username": "likesense",
+      "message": "Мы его не сможем подхватить с браузера к сожалению, завтра глянем"
+    },
+    {
+      "idx": 708,
+      "id": "h5rmwq5izfg6jjha6pcn713pgw",
+      "created": "2025-05-22T17:07:05Z",
+      "username": "vic",
+      "message": "Похоже. У тех кто заходит регулярно- не слетает. А кто долго не заходит может слететь "
+    },
+    {
+      "idx": 709,
+      "id": "7wizw56up7b9drgpccf5wjmofw",
+      "created": "2025-05-22T17:07:33Z",
+      "username": "likesense",
+      "message": "Возможно время жизни токена проходит, я уточню"
+    },
+    {
+      "idx": 710,
+      "id": "bsczcy3ir7fq7riuuwgfbfj8cc",
+      "created": "2025-05-22T17:08:38Z",
+      "username": "likesense",
+      "message": "А и вполне возможно это связано с тем, что я новую версию сегодня деплоил для Юры... если это так, то это плохо 😞 "
+    },
+    {
+      "idx": 711,
+      "id": "cc3sedfc8bbmi8a4ph48grr36a",
+      "created": "2025-05-22T17:11:21Z",
+      "username": "vic",
+      "message": "У Лены и у Саши зашло "
+    },
+    {
+      "idx": 712,
+      "id": "kndnofd3e7r58qsgj5ja9eh88w",
+      "created": "2025-05-22T17:12:28Z",
+      "username": "vic",
+      "message": "Они пользовались регулярно "
+    },
+    {
+      "idx": 713,
+      "id": "aa8simyw7byc7ebpz7s1wz1fwh",
+      "created": "2025-05-22T17:12:34Z",
+      "username": "vic",
+      "message": "Токен надо сделать бессрочным "
+    },
+    {
+      "idx": 714,
+      "id": "bn578gfdt7dp9kqcoj37umcqua",
+      "created": "2025-05-22T17:12:34Z",
+      "username": "sergeyl",
+      "message": "Не могу подтвердить, я ставил-удалял потом("
+    },
+    {
+      "idx": 715,
+      "id": "j71a5h3mpbg3ub9be4xzg6mf7o",
+      "created": "2025-05-22T17:13:40Z",
+      "username": "likesense",
+      "message": "Спрашиваю у ребят, может у них завалялась старая версия"
+    },
+    {
+      "idx": 716,
+      "id": "r9t9j7qkg3f49pr34ziegqr5sr",
+      "created": "2025-05-22T17:14:42Z",
+      "username": "semashkooleg",
+      "message": "На Поко сможем завтра проверить, так как на них почти везде авторизация пройдена "
+    },
+    {
+      "idx": 717,
+      "id": "zpays8ub7jffimgfjzw6w6b4ah",
+      "created": "2025-05-22T17:14:54Z",
+      "username": "likesense",
+      "message": "Кстати да"
+    },
+    {
+      "idx": 718,
+      "id": "8t9yjj143trddm61d4p5t4cdnr",
+      "created": "2025-05-22T17:15:06Z",
+      "username": "likesense",
+      "message": "На одном только я удалял, когда стейдж тестил"
+    },
+    {
+      "idx": 719,
+      "id": "zm4pakpcaibfdmwdw9unurwype",
+      "created": "2025-05-22T17:33:57Z",
+      "username": "sergeyl",
+      "message": "Если дело в токене, то у нас сложность с обновлением если приложение не открывается. Есть пару способов костыльных - но это например раз в день посылать пуш, и по прибытию пуша ежедневно обновлять токен в фоне. Но придётся ежедневно показывать какойто пуш уведомление, ято модет быть не оч - несколько навязчиво"
+    },
+    {
+      "idx": 720,
+      "id": "44hqdubg97bjmf3hd5c13djf5h",
+      "created": "2025-05-22T17:34:33Z",
+      "username": "sergeyl",
+      "message": "Второй способ специфичен для андроида и гуглхрома, не факт что раьотает на iOS "
+    },
+    {
+      "idx": 721,
+      "id": "rkmjdua68igd3bjtz6k9fad53e",
+      "created": "2025-05-22T17:34:43Z",
+      "username": "vic",
+      "message": "Ну надо сначала выяснить в чем проблема "
+    },
+    {
+      "idx": 722,
+      "id": "a9izhqdbfi8qbyw9jd74sbep8o",
+      "created": "2025-05-22T17:35:30Z",
+      "username": "likesense",
+      "message": " Этому варианту хотели прийти "
+    },
+    {
+      "idx": 723,
+      "id": "9fcqgdzezfditcrr1ng67gu68a",
+      "created": "2025-05-22T17:35:51Z",
+      "username": "likesense",
+      "message": "Ну всмысле пуши каждый день"
+    },
+    {
+      "idx": 724,
+      "id": "9go573k6gidni83pe6tcgwfejo",
+      "created": "2025-05-22T17:37:03Z",
+      "username": "vic",
+      "message": "Это костыль"
+    },
+    {
+      "idx": 725,
+      "id": "97s9nrzmi7d59nzzydqdefzs4h",
+      "created": "2025-05-22T17:37:03Z",
+      "username": "vic",
+      "message": ") "
+    },
+    {
+      "idx": 726,
+      "id": "zwfts8yihtnh9yy5axem3o1cfo",
+      "created": "2025-05-22T17:50:15Z",
+      "username": "sergeyl",
+      "message": "Пва - это в принципе костыль)"
+    },
+    {
+      "idx": 727,
+      "id": "n7a88upkofdr8c3kr7wnypxh8o",
+      "created": "2025-06-03T18:58:33Z",
+      "username": "admin",
+      "message": "@likesense @sergeyl please check PWA URGENT!!!"
+    },
+    {
+      "idx": 728,
+      "id": "qs3o7khqjin138hio5mwfozinr",
+      "created": "2025-06-03T19:00:02Z",
+      "username": "jarom",
+      "message": "Our account is suspended, checking with aws support "
+    },
+    {
+      "idx": 729,
+      "id": "t1hqpscpkfg88jsz31a8kqz1oc",
+      "created": "2025-06-03T19:00:21Z",
+      "username": "likesense",
+      "message": "Thats not working"
+    },
+    {
+      "idx": 730,
+      "id": "h57jqywdtpyk5r371b7zmhiy5a",
+      "created": "2025-06-03T19:00:35Z",
+      "username": "admin",
+      "message": "which account?"
+    },
+    {
+      "idx": 731,
+      "id": "ay6hd5pno3f8zfb5am1jiugpta",
+      "created": "2025-06-03T19:00:53Z",
+      "username": "vic",
+      "message": "Do we have backup ? "
+    },
+    {
+      "idx": 732,
+      "id": "6uayrfwzftfazbhz5fqqq96qza",
+      "created": "2025-07-13T14:06:48Z",
+      "username": "admin",
+      "message": "Jarom will buy more IPS to the knocking mechanism in prod please update the app and write here when done"
+    },
+    {
+      "idx": 733,
+      "id": "6npunzfxsfrrix9ck8b314kq8a",
+      "created": "2025-07-13T16:11:32Z",
+      "username": "admin",
+      "message": "@all I need for tomorrow:\n1. intructions on how to install the socapp application (Text/written and video) \n2. instructions on how to work with the application (Text/written and video) user usage\n\nPlease also check if we can send a video in the application (for example upload the video to vimeo or somewhere else and embed it in the app)"
+    },
+    {
+      "idx": 734,
+      "id": "4xu3m9i6tffm5nt3rf4mh77wde",
+      "created": "2025-07-13T16:11:45Z",
+      "username": "admin",
+      "message": "@likesense can you assist please in managing this?"
+    },
+    {
+      "idx": 735,
+      "id": "aw9z5ndbeirridjdny5i9zkuoh",
+      "created": "2025-07-13T16:13:46Z",
+      "username": "likesense",
+      "message": "Yes. After 20:30"
+    },
+    {
+      "idx": 736,
+      "id": "xhxaa3hsbp8d38hbsrs95eq9ny",
+      "created": "2025-07-13T16:13:54Z",
+      "username": "admin",
+      "message": "at night?"
+    },
+    {
+      "idx": 737,
+      "id": "ppak14ou3jnc7x3cnamx33jymc",
+      "created": "2025-07-13T16:15:13Z",
+      "username": "admin",
+      "message": "???"
+    },
+    {
+      "idx": 738,
+      "id": "u696ch3jwid6xcmdocepfhbpjy",
+      "created": "2025-07-13T16:15:45Z",
+      "username": "admin",
+      "message": "this is most important for tomorrow ASAP:\nintructions on how to install the socapp application (Text/written and video)\n"
+    },
+    {
+      "idx": 739,
+      "id": "ch6qih5m13rr581urzg68hb91r",
+      "created": "2025-07-13T16:17:58Z",
+      "username": "admin",
+      "message": "@likesense "
+    },
+    {
+      "idx": 740,
+      "id": "kum9yeqk43bszfrx9nnk7qnq4h",
+      "created": "2025-07-13T16:57:56Z",
+      "username": "likesense",
+      "message": "Instructions were wrote on russian"
+    },
+    {
+      "idx": 741,
+      "id": "5di68zh86irp7mdkwg14wij1ce",
+      "created": "2025-07-13T16:58:24Z",
+      "username": "likesense",
+      "message": "https://drive.google.com/drive/folders/1nTyHhoZ5t270ralrKYzNr-BAAiBRA0qp"
+    },
+    {
+      "idx": 742,
+      "id": "9nw4u5xa9ig87cixqzedupnaew",
+      "created": "2025-07-13T17:00:43Z",
+      "username": "likesense",
+      "message": "For android and ios",
+      "files": [
+        "-230096118579675475.mp4",
+        "-6736396100409163250.mp4"
+      ]
+    },
+    {
+      "idx": 743,
+      "id": "eyc38uqmhb887pjmjs4j396rhc",
+      "created": "2025-07-13T17:00:47Z",
+      "username": "likesense",
+      "message": "For android and ios",
+      "files": [
+        "-230096118579675475.MP4",
+        "-6736396100409163250.MP4"
+      ]
+    },
+    {
+      "idx": 744,
+      "id": "njm43x6gwffe7jkpxwerjuudpw",
+      "created": "2025-07-13T17:01:46Z",
+      "username": "likesense",
+      "message": "Wow duplicated😅"
+    },
+    {
+      "idx": 745,
+      "id": "kceuzsa1o78h5nn56mhcbjzgke",
+      "created": "2025-07-13T17:02:26Z",
+      "username": "likesense",
+      "message": "This is more common issues "
+    },
+    {
+      "idx": 746,
+      "id": "6o5rnamnipnttr91dudjz1skio",
+      "created": "2025-07-13T17:04:17Z",
+      "username": "likesense",
+      "message": "And we had docx for installation. I need a time to find it"
+    },
+    {
+      "idx": 747,
+      "id": "qimehybyotdszrxc74zu3qbdfe",
+      "created": "2025-07-13T17:05:17Z",
+      "username": "likesense",
+      "message": "Docx",
+      "files": [
+        "Instruction_socapp.docx"
+      ]
+    },
+    {
+      "idx": 748,
+      "id": "uqzpgdzzxtbtmpkr3tt8ysrukc",
+      "created": "2025-07-13T17:06:15Z",
+      "username": "likesense",
+      "message": "Also you need to provide me a photo (selfie) to give you a fake passport"
+    }
+  ]
+}

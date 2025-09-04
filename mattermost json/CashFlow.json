@@ -1,0 +1,3693 @@
+{
+  "channel": {
+    "name": "cashflow",
+    "display_name": "CashFlow",
+    "header": "",
+    "id": "iq9sr1igo3na5rzzqqkrj4h7za",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "7jfhnwfo5bd1xr3g78aprxxa4o",
+      "created": "2025-02-07T16:58:57Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "z4a4s3ka7iff3cwm6bpsi3c1sr",
+      "created": "2025-02-07T16:59:18Z",
+      "username": "admin",
+      "message": "jarom added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "3rssnzfjyj8qfyoufmphgsahwa",
+      "created": "2025-02-07T16:59:18Z",
+      "username": "admin",
+      "message": "vic added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "p1bxa75hpbn3pcb1ceijqswjnc",
+      "created": "2025-02-07T16:59:18Z",
+      "username": "admin",
+      "message": "martinh added to the channel by admin."
+    },
+    {
+      "idx": 4,
+      "id": "awucywi5gb8zfyyoea78ym8rdh",
+      "created": "2025-02-07T16:59:18Z",
+      "username": "admin",
+      "message": "sergeyl added to the channel by admin."
+    },
+    {
+      "idx": 5,
+      "id": "yxdsf74oc7r95mh5f6o1oheerh",
+      "created": "2025-02-07T16:59:18Z",
+      "username": "admin",
+      "message": "fenrir added to the channel by admin."
+    },
+    {
+      "idx": 6,
+      "id": "qepkz6wbmfng7ex6p7dq6soz1r",
+      "created": "2025-02-07T19:08:24Z",
+      "username": "vladlen",
+      "message": "ula_ula added to the channel by martinh."
+    },
+    {
+      "idx": 7,
+      "id": "1iutmij7dtgr9ryku6t1c3kjaa",
+      "created": "2025-02-09T12:09:10Z",
+      "username": "admin",
+      "message": "hi all - this is the channel for the cashflow app we spoke about on Friday.\n\nhere is a description document made by the customer\n",
+      "files": [
+        "Автоматизация процесса по проведению Анализа курсов реализованных сделок.docx"
+      ]
+    },
+    {
+      "idx": 8,
+      "id": "8gcwzrd947dzdpxq1kajnqhzuc",
+      "created": "2025-02-09T12:17:33Z",
+      "username": "admin",
+      "message": "in essence , we need to create an app with the fields in step 1 that will keep data about transactions , fetch currency conversion rate at the time of adding the transaction and calculate the conversion sum at the transaction day (when funds are sent to client).\n\nso to be more precise:\n1. user adds a transaction , for example, customer A wants to send 1000 Euro to customer B but Customer A pays in Rubles.\n2. the conversion rate from RUB to EUR is calculated at the day of adding the transaction.\n3. the money in Euro is sent to customer B 3 days later (for example)\n4. the conversion rate to send 1000 EUR in RUB at the day of sending the funds in Euro to customer B is calculated again and the difference is shown (and saved.\n\nThis is the initial step.\n\n## Guidelines:\n- Data will be kept in rqlite\n- backend should be written in golang (@sergeyl @martinh please cooperate on this - @sergeyl is in lead).\n- Frontend should be written in ReactJS (please also allow PWA functionality) by @fenrir - @sergeyl is in lead.\n- GIT repos will be created for both FE and BE\n- Authentication should be a minimal mechanism as this is going to be protected by VPN and for internal use (not exposed to the internet)\n- Backend should check if DB schema exists and if not - create it (we might reuse this app for other organizations).\n\n@sergeyl as the lead on this project please provide estimates and communicate with @fenrir and @martinh to provide ETA for first working version. Anything you need from me I am available."
+    },
+    {
+      "idx": 9,
+      "id": "up58f6s35b8b9rzosjxhzokjmr",
+      "created": "2025-02-09T14:25:51Z",
+      "username": "sergeyl",
+      "message": "@admin got you. For go we need first good libraries picks."
+    },
+    {
+      "idx": 10,
+      "id": "3q8gt94jj7dm5jp4z5axgr5oty",
+      "created": "2025-02-09T14:26:54Z",
+      "username": "sergeyl",
+      "message": "@martinh For example, lets try goose for db migrations. Projects should have root folder `migtate` for sql files. Format for filename should include date-description.sql"
+    },
+    {
+      "idx": 11,
+      "id": "ndaukpumuibb9gm3m1yk376i7e",
+      "created": "2025-02-09T14:28:24Z",
+      "username": "sergeyl",
+      "message": "As BE dev, do you yave any wishes/ready ideas regarding schema for our task?"
+    },
+    {
+      "idx": 12,
+      "id": "dgaed1unx3yc9mtm9qsubht5th",
+      "created": "2025-02-09T14:29:09Z",
+      "username": "sergeyl",
+      "message": "@admin regarding ETA could you give me abit of time to get into and evaluate developement speed?"
+    },
+    {
+      "idx": 13,
+      "id": "q9c67tunp7yxxk9rinacrxysrc",
+      "created": "2025-02-09T14:37:51Z",
+      "username": "sergeyl",
+      "message": "@fenrir regarding to FE lets start with auth, typical thing - establish reactjs env which will be guarded with a component that is rendering children in case if you have access token in local storage, if not - render auth page. Lets stick to jwt standard and opendid connect in future with sso, if its needed, but lets plan it from the start cuz they are worldwide standarts today. I think working with money we should think security-first way"
+    },
+    {
+      "idx": 14,
+      "id": "nkaobr5pktnffn187cfkbxxfha",
+      "created": "2025-02-09T14:40:10Z",
+      "username": "sergeyl",
+      "message": "Если возникают вопросы или недопонимания - можете также писать напрямую в ЛС для подробного обсуждения любых проблем и ньюансов"
+    },
+    {
+      "idx": 15,
+      "id": "dy651afwgprstmjresrmzdg9ia",
+      "created": "2025-02-09T15:08:52Z",
+      "username": "vladlen",
+      "message": "I'm reading task, I'll write back"
+    },
+    {
+      "idx": 16,
+      "id": "6j7nwjwempnijgxmrat4g9jduw",
+      "created": "2025-02-10T16:23:55Z",
+      "username": "sergeyl",
+      "message": "@admin Today, I've created task decomposition (with rough time estimates):",
+      "files": [
+        "Project ExchangeRates - Overall Time Estimation.docx"
+      ]
+    },
+    {
+      "idx": 17,
+      "id": "ue8t3x8gkfdopcznktonjj6nqc",
+      "created": "2025-02-12T08:51:59Z",
+      "username": "vic",
+      "message": "Hallo. What is the progress? "
+    },
+    {
+      "idx": 18,
+      "id": "mnxe1uzojfy9bygddgkm8f6fzh",
+      "created": "2025-02-12T10:52:27Z",
+      "username": "admin",
+      "message": "igorsmi added to the channel by admin."
+    },
+    {
+      "idx": 19,
+      "id": "z56g8s7onifw5pboj5834reb4w",
+      "created": "2025-02-12T10:52:51Z",
+      "username": "admin",
+      "message": "hey @igorsmi please join @sergeyl on our new cashflow app.\n\nSergey is out head of RnD "
+    },
+    {
+      "idx": 20,
+      "id": "7ywa4a5idb8adqwxcwxxpz9gwc",
+      "created": "2025-02-12T10:53:20Z",
+      "username": "admin",
+      "message": "@sergeyl please walk through with @igorsmi on tasks an lets go!"
+    },
+    {
+      "idx": 21,
+      "id": "9kryhous9f8q5bedhhbcwcmbsh",
+      "created": "2025-02-12T10:53:24Z",
+      "username": "admin",
+      "message": ":muscle: "
+    },
+    {
+      "idx": 22,
+      "id": "7idgrbyar78k5rct8y3kt5nceh",
+      "created": "2025-02-12T12:00:52Z",
+      "username": "vic",
+      "message": "👍"
+    },
+    {
+      "idx": 23,
+      "id": "9d1caxs953rwxm5amhtr91bdre",
+      "created": "2025-02-12T14:55:36Z",
+      "username": "admin",
+      "message": "created group and repo in GIT:\nhttp://git.muzpan.com/cashflow1"
+    },
+    {
+      "idx": 24,
+      "id": "8hju5itbf7gm9qh3imfw3uu5eh",
+      "created": "2025-02-12T14:55:50Z",
+      "username": "admin",
+      "message": "@ula_ula can you join a call at 18:00?"
+    },
+    {
+      "idx": 25,
+      "id": "ftow7ithq7yjupdurmosre8kby",
+      "created": "2025-02-12T14:56:20Z",
+      "username": "ula_ula",
+      "message": "hi\nI will"
+    },
+    {
+      "idx": 26,
+      "id": "qy1chezzjtgozjjzuf7oiar83a",
+      "created": "2025-02-12T14:56:47Z",
+      "username": "admin",
+      "message": "https://jt.muzpan.com/cashflow"
+    },
+    {
+      "idx": 27,
+      "id": "bwias5c4f7dgdgnhwsp58a4ukw",
+      "created": "2025-02-12T15:06:18Z",
+      "username": "sergeyl",
+      "message": "jitsi isnt working on my desktop neither on my laptop"
+    },
+    {
+      "idx": 28,
+      "id": "nf3z98c6mjgo5djw48wsmycmhr",
+      "created": "2025-02-12T15:06:28Z",
+      "username": "sergeyl",
+      "message": "damn jitsi"
+    },
+    {
+      "idx": 29,
+      "id": "3urshgy9ajg3bdwkwswgesqq4h",
+      "created": "2025-02-12T15:06:35Z",
+      "username": "sergeyl",
+      "message": "chineese shit"
+    },
+    {
+      "idx": 30,
+      "id": "r7aa6pnbbpytbfoduhhp7ttjxe",
+      "created": "2025-02-12T15:07:01Z",
+      "username": "sergeyl",
+      "message": "why we are doomed to use that? i can use gmeet whatever"
+    },
+    {
+      "idx": 31,
+      "id": "str7e5rcqjbemdqh8bc4jom8ow",
+      "created": "2025-02-12T15:07:15Z",
+      "username": "admin",
+      "message": "login from your phone"
+    },
+    {
+      "idx": 32,
+      "id": "i17xr88f9try9ppoeujazh6hfw",
+      "created": "2025-02-12T15:07:41Z",
+      "username": "sergeyl",
+      "message": "i cant work like that"
+    },
+    {
+      "idx": 33,
+      "id": "ht77dcyr83ri7p7qy9xr7no1hc",
+      "created": "2025-02-12T15:16:25Z",
+      "username": "admin",
+      "message": "@vic can you please ask Irina for a sample excel (csv) file for the application?"
+    },
+    {
+      "idx": 34,
+      "id": "exte4skyctgm3fwyguf1au1d4a",
+      "created": "2025-02-12T15:19:45Z",
+      "username": "admin",
+      "message": "@vic which logo should we put on the app?"
+    },
+    {
+      "idx": 35,
+      "id": "fopp3sh5sbrwbe98rf1xri5ote",
+      "created": "2025-02-12T15:24:11Z",
+      "username": "sergeyl",
+      "message": "U re writing to me "
+    },
+    {
+      "idx": 36,
+      "id": "f7gzm4cdfprxum75nfz6kyzg3r",
+      "created": "2025-02-12T15:24:31Z",
+      "username": "sergeyl",
+      "message": "?"
+    },
+    {
+      "idx": 37,
+      "id": "muwn76i65jyr7nzgi68t734p5h",
+      "created": "2025-02-12T15:24:43Z",
+      "username": "admin",
+      "message": "no - to @vic "
+    },
+    {
+      "idx": 38,
+      "id": "ps147konet8ftgnizt6gpxeztc",
+      "created": "2025-02-12T15:25:17Z",
+      "username": "vic",
+      "message": "Asked"
+    },
+    {
+      "idx": 39,
+      "id": "ruze6aaoqtyq7ft6hjeptn6cty",
+      "created": "2025-02-12T15:25:35Z",
+      "username": "vic",
+      "message": "Add Anastasia in this group "
+    },
+    {
+      "idx": 40,
+      "id": "b4xmczqu97d1zp9wic37ayxjey",
+      "created": "2025-02-12T15:25:48Z",
+      "username": "vic",
+      "message": "",
+      "files": [
+        "36AA5D10-BD93-4972-A233-B3AA162D62C5.png"
+      ]
+    },
+    {
+      "idx": 41,
+      "id": "d4wmd6sziidxd8wn1asrcash6y",
+      "created": "2025-02-12T15:25:49Z",
+      "username": "admin",
+      "message": "please paste it here when you have it - also they need to understand that the csv / excel file should be VERY structured "
+    },
+    {
+      "idx": 42,
+      "id": "1hhh7654htro5rxoqsqq9dybqw",
+      "created": "2025-02-12T15:33:15Z",
+      "username": "admin",
+      "message": "**cashflow sync**\n\nScheduled: 13 Feb 2025 at 16:00 to 16:30, GMT+3\n\nLocation: cashflow sync\n\n[https://jt.muzpan.com/cashflow](https://jt.muzpan.com/cashflow)\n\n",
+      "files": [
+        "cashflow sync.ics"
+      ]
+    },
+    {
+      "idx": 43,
+      "id": "3oz1hdgdxjfxzktpyrzu9f4puy",
+      "created": "2025-02-13T11:49:59Z",
+      "username": "admin",
+      "message": "vlachu added to the channel by admin."
+    },
+    {
+      "idx": 44,
+      "id": "mdd9i6yzu3rqmxgha4jdfsmt7e",
+      "created": "2025-02-13T11:50:16Z",
+      "username": "admin",
+      "message": "hey guys please e-meet @vlachu our new BE developer"
+    },
+    {
+      "idx": 45,
+      "id": "japgi9b13j8ytdizk3qqfm7cgc",
+      "created": "2025-02-13T13:00:07Z",
+      "username": "admin",
+      "message": "guys are you joining?"
+    },
+    {
+      "idx": 46,
+      "id": "mxpa6pycqbn5txtqsfmcqtud8w",
+      "created": "2025-02-13T13:02:50Z",
+      "username": "admin",
+      "message": "@sergeyl @ula_ula @martinh ?"
+    },
+    {
+      "idx": 47,
+      "id": "m1xf1taoxpr67nufwmm3rnizpw",
+      "created": "2025-02-13T13:02:55Z",
+      "username": "vladlen",
+      "message": "+"
+    },
+    {
+      "idx": 48,
+      "id": "haqsjn691pb9dyz63bujmhpw5y",
+      "created": "2025-02-13T13:05:26Z",
+      "username": "ula_ula",
+      "message": "hi\ni am sorry\nI will not be able to join, i am running errands"
+    },
+    {
+      "idx": 49,
+      "id": "xphhtidnnifxubmw9e8ahub18e",
+      "created": "2025-02-13T13:07:11Z",
+      "username": "sergeyl",
+      "message": "I am having some connection issues, i cant see or hear anyone "
+    },
+    {
+      "idx": 50,
+      "id": "yj1f9gxa1jrixj137dskfcuqza",
+      "created": "2025-02-13T13:07:41Z",
+      "username": "vladlen",
+      "message": "let me join please @admin : )"
+    },
+    {
+      "idx": 51,
+      "id": "1ks5wznni3n39cxoqe4jnaijte",
+      "created": "2025-02-13T13:17:46Z",
+      "username": "sergeyl",
+      "message": "https://mm.muzpan.com/global/pl/6j7nwjwempnijgxmrat4g9jduw"
+    },
+    {
+      "idx": 52,
+      "id": "nidt5zxgr3nkzdr4wta51m9udc",
+      "created": "2025-02-14T08:43:22Z",
+      "username": "ula_ula",
+      "message": "",
+      "files": [
+        "01_login.pdf",
+        "04 final step.pdf",
+        "02_send A.pdf",
+        "03_send B.pdf"
+      ]
+    },
+    {
+      "idx": 53,
+      "id": "rmciqbydtprf8ce71rjj4ohr4a",
+      "created": "2025-02-14T08:48:59Z",
+      "username": "ula_ula",
+      "message": "Hi everyone\nplease feel free to comment on the design\n\nI struggled a bit with understanding the logic of the program as it is not always clear (from reading the Description document) where there's an input or a simple text field\n\nalso on the 4th screen, that is the final step, I couldn't figure out how to show everything you requested ( a comparison between step A and step B, some result, and remaining funds), so there needs some data to be added"
+    },
+    {
+      "idx": 54,
+      "id": "udy5xskodbygiydpyhs4qp7hxw",
+      "created": "2025-02-14T08:50:02Z",
+      "username": "vic",
+      "message": "Liran. Please comment "
+    },
+    {
+      "idx": 55,
+      "id": "dyj5ad4ybbfrxgwt9k5s8gn66o",
+      "created": "2025-02-14T08:50:37Z",
+      "username": "vic",
+      "message": "Also, please put on every product- anykey trademark "
+    },
+    {
+      "idx": 56,
+      "id": "rho36igk97dm9r1n6ihnu7icdy",
+      "created": "2025-02-14T10:33:35Z",
+      "username": "ula_ula",
+      "message": "desktop version of most relevant page"
+    },
+    {
+      "idx": 57,
+      "id": "8fi4533r4fyz7ru8syhy1pp1gw",
+      "created": "2025-02-14T10:52:28Z",
+      "username": "ula_ula",
+      "message": "",
+      "files": [
+        "webapp.pdf"
+      ]
+    },
+    {
+      "idx": 58,
+      "id": "iggkmcu5kbfoxdqc7szbwq83rc",
+      "created": "2025-02-14T13:04:13Z",
+      "username": "vic",
+      "message": "Сильва. Лого влепи "
+    },
+    {
+      "idx": 59,
+      "id": "rdcyuqh4qtb58bfy8t1dqdjupo",
+      "created": "2025-02-14T13:04:21Z",
+      "username": "vic",
+      "message": "Пусть везде будет копирайт "
+    },
+    {
+      "idx": 60,
+      "id": "eet1adwq6irn9ddfdxrgdscine",
+      "created": "2025-02-14T14:59:37Z",
+      "username": "vic",
+      "message": "",
+      "files": [
+        "ШАГ 1_пример таблицы-pf1tfjjmx3gh8ef8z3ijcqtr3o.xlsx"
+      ]
+    },
+    {
+      "idx": 61,
+      "id": "39pqyzbhpfde8x96yweri9rzme",
+      "created": "2025-02-14T14:59:51Z",
+      "username": "vic",
+      "message": "",
+      "files": [
+        "ШАГ 2_пример таблицы-drinmyedjbrnino1bpk19c6j4y.xlsx"
+      ]
+    },
+    {
+      "idx": 62,
+      "id": "msmzg4tshbr77ee4sshe3q3fme",
+      "created": "2025-02-14T15:00:42Z",
+      "username": "admin",
+      "message": "@sergeyl @martinh the above ( what @vic  sent) is a sample csv (excel) file to import into the application"
+    },
+    {
+      "idx": 63,
+      "id": "4cyt15xuofrbdn115st7bfap6e",
+      "created": "2025-02-14T15:19:10Z",
+      "username": "sergeyl",
+      "message": "Good. Reading csv isn't a big deal actually, whenever its correctly formed"
+    },
+    {
+      "idx": 64,
+      "id": "xhtxythqfpbx5ruo5oc64oyiio",
+      "created": "2025-02-14T15:21:49Z",
+      "username": "admin",
+      "message": "whats the status now?"
+    },
+    {
+      "idx": 65,
+      "id": "qnw58tqie78idnxrrjqek1qkur",
+      "created": "2025-02-14T15:22:22Z",
+      "username": "admin",
+      "message": "where are we standing?\n@fenrir did you start implementing @ula_ula 's design?\n\n@sergeyl @martinh how are we on the BE endpoints?"
+    },
+    {
+      "idx": 66,
+      "id": "k5pfhqpssfraty3dai11b7kr3o",
+      "created": "2025-02-14T15:22:44Z",
+      "username": "sergeyl",
+      "message": "But its not a csv, its excel file, actually I was working with excelize library for go"
+    },
+    {
+      "idx": 67,
+      "id": "6jczzybbg3fatkduotdt6nsw5y",
+      "created": "2025-02-14T15:23:10Z",
+      "username": "sergeyl",
+      "message": "But for writing.."
+    },
+    {
+      "idx": 68,
+      "id": "w5by75t1u38w9p57u7c57fmrja",
+      "created": "2025-02-14T15:23:12Z",
+      "username": "admin",
+      "message": "1. we can ask them to convert \n2. we can perform the file ingestion using excelize"
+    },
+    {
+      "idx": 69,
+      "id": "dh5ncekjpjy5uno7p9cea3izco",
+      "created": "2025-02-14T15:23:51Z",
+      "username": "admin",
+      "message": "for now convert to csv when we get to it - we can implement the excelize pkg later on after we have a working version"
+    },
+    {
+      "idx": 70,
+      "id": "hswefbdc17f3bx4saswgn9wzuw",
+      "created": "2025-02-14T15:24:59Z",
+      "username": "fenrir",
+      "message": "Yep.  Now im working ok transaction stage pages. At the moment every thing else is done "
+    },
+    {
+      "idx": 71,
+      "id": "3q1pgeooxbgj3bq168uy915una",
+      "created": "2025-02-14T15:25:40Z",
+      "username": "admin",
+      "message": "can you guys setup a session between yourself to attach FE to BE? or you need me in the session?"
+    },
+    {
+      "idx": 72,
+      "id": "wki4i9thjpy598rosoyxw66p4w",
+      "created": "2025-02-14T15:27:47Z",
+      "username": "sergeyl",
+      "message": "Regarding endpoints, for exchange-rates , @igorsmi have just pushed the repo, i havent seen it yet. But I am thinking to separate exchange rates endpoint to separate microservice"
+    },
+    {
+      "idx": 73,
+      "id": "iagftt8frjnd8rzw6xqmkuks6c",
+      "created": "2025-02-14T15:29:09Z",
+      "username": "admin",
+      "message": "np - but I would not use redis for it - I dont see a lot (not more than 100 an hour and even that is too large) so I propose to use an rqlite table for it - we can improve in the future but for now deploying redis and working with it seems a bit redundant for our stage"
+    },
+    {
+      "idx": 74,
+      "id": "q3beioampid6inae6x3b7m4rfo",
+      "created": "2025-02-14T15:29:13Z",
+      "username": "admin",
+      "message": "what do you think?"
+    },
+    {
+      "idx": 75,
+      "id": "yngu79o6aifo7cxs7adnpierdy",
+      "created": "2025-02-14T15:29:15Z",
+      "username": "vladlen",
+      "message": "I've implemented endpoints: \n1) authorization: login, get user info\n2) add one client, get all clients\n3) add one foreign legal entity, get all foreign legal entities\n4) add report( client request+ client transaction models), after calculations it will create data and there will be 3 inserts.\nGet report by request number"
+    },
+    {
+      "idx": 76,
+      "id": "gricnfzg83nxuentnkp1ff718r",
+      "created": "2025-02-14T15:30:15Z",
+      "username": "vladlen",
+      "message": "The only endpoint to tweak is add one report ( no calculations yet, but it can be called from fe)"
+    },
+    {
+      "idx": 77,
+      "id": "gnymnusw4igf5rdzjxta37i5se",
+      "created": "2025-02-14T15:32:44Z",
+      "username": "vladlen",
+      "message": "I'm always in touch with @fenrir and @ula_ula"
+    },
+    {
+      "idx": 78,
+      "id": "eb5oipou9frpxg88dobyz84dxc",
+      "created": "2025-02-14T15:33:13Z",
+      "username": "sergeyl",
+      "message": "Kk will ask to remake to rqlike, but codewise its harder - need migrations, create schemes, etc. okay will think how to getout of situation if you dont like redis"
+    },
+    {
+      "idx": 79,
+      "id": "sx376ee7fpb49k3r7nqpgdrgdy",
+      "created": "2025-02-14T15:35:27Z",
+      "username": "igorsmi",
+      "message": "I think Redis is good for handling such queries, because speed is important. queries for constantly needed data + it reduces the load on the DB. But if it is necessary to remake it to rqlite, then I will do it"
+    },
+    {
+      "idx": 80,
+      "id": "us4kyjj95fb5ic8zdeg3bs64hy",
+      "created": "2025-02-14T15:37:13Z",
+      "username": "sergeyl",
+      "message": "@martinh btw have you managed migration microservice with goose working, in the end? 🦆"
+    },
+    {
+      "idx": 81,
+      "id": "w9n7kz6dwtbmzbtk3xqqfguzse",
+      "created": "2025-02-14T15:37:43Z",
+      "username": "sergeyl",
+      "message": "Or we would use hardcoded version for now?"
+    },
+    {
+      "idx": 82,
+      "id": "g8br4knef387id1bk6c8pko4ah",
+      "created": "2025-02-14T15:40:03Z",
+      "username": "vladlen",
+      "message": "Not yet, implemented endpoints to let @fenrir make requests finally : )\nI'll try to fix it tomorrow"
+    },
+    {
+      "idx": 83,
+      "id": "rwppc4zxtpno3xfhtxr51ubuge",
+      "created": "2025-02-14T15:41:16Z",
+      "username": "sergeyl",
+      "message": "So, we would need to add a table for exchange-rates, @martinh could you please assist @igorsmi to show the place where to create a table? I want at least to keep it in 1 place for easier schema management.."
+    },
+    {
+      "idx": 84,
+      "id": "y6bkt17qy38ppx49iohpyp7tew",
+      "created": "2025-02-14T15:41:37Z",
+      "username": "vladlen",
+      "message": "Yes, ok"
+    },
+    {
+      "idx": 85,
+      "id": "f15igboqfjdpuyakrfjj53sx6o",
+      "created": "2025-02-14T15:41:42Z",
+      "username": "sergeyl",
+      "message": "Ty"
+    },
+    {
+      "idx": 86,
+      "id": "xhaaqipbn7dpzpgd4yooi61xdy",
+      "created": "2025-02-14T16:40:46Z",
+      "username": "admin",
+      "message": ":muscle: "
+    },
+    {
+      "idx": 87,
+      "id": "3rcfy7i5fpfwtyibecb51pqfge",
+      "created": "2025-02-17T11:22:40Z",
+      "username": "sergeyl",
+      "message": "@vlachu Hello! Can you please create auth microservice for cashflow users? Please talk to @martinh - he already started to create, and have some endpoints for users"
+    },
+    {
+      "idx": 88,
+      "id": "hrxhezgfsi8m9phah1hnkq7n1c",
+      "created": "2025-02-17T11:23:41Z",
+      "username": "vlachu",
+      "message": "Yes, ok"
+    },
+    {
+      "idx": 89,
+      "id": "dkicxwwdqpdzuxybhuy7xcyi5y",
+      "created": "2025-02-18T10:25:11Z",
+      "username": "sergeyl",
+      "message": "@vlachu @igorsmi @martinh @fenrir Hello, how it's going? Any progress? Do you have any developement questions or problems?"
+    },
+    {
+      "idx": 90,
+      "id": "w8ufkttjdfb6zc8s1513czkk9w",
+      "created": "2025-02-18T10:32:34Z",
+      "username": "fenrir",
+      "message": "Everything is going really well. Yesterday I finished implementing the mobile design. And today I plan to finish the desktop one. And later Im planning to work with the backend."
+    },
+    {
+      "idx": 91,
+      "id": "qsno4s9tity6dc634ochbir83y",
+      "created": "2025-02-18T11:06:29Z",
+      "username": "vladlen",
+      "message": "changed all tables(spoke to @sergeyl  yesterday), changed all queries, refactored, added response models for cashflowbe, tested all endpoints.  "
+    },
+    {
+      "idx": 92,
+      "id": "hfqbhi31pj8m78xipgbhbw19jr",
+      "created": "2025-02-18T11:14:28Z",
+      "username": "sergeyl",
+      "message": "@igorsmi how its the progress with exchange rates? Managed to fetch rates and write to rqlite table? Have you started creating an endpoint for cashflow-be to fetch rates from rqlite?"
+    },
+    {
+      "idx": 93,
+      "id": "97159ypc3id1zfznw4deda8yke",
+      "created": "2025-02-18T11:14:56Z",
+      "username": "vlachu",
+      "message": "Hi Sergey, I'm finishing reading the code and will be ready to start writing mine soon. For now I don't have questions "
+    },
+    {
+      "idx": 94,
+      "id": "tbz6m5qr9j8uifra6q96846fwa",
+      "created": "2025-02-18T13:58:19Z",
+      "username": "igorsmi",
+      "message": "Hi, Sergei!\nyes, i was able to add the currency to rqlite, contacted martinh, made migrations\n\nI added updates: changed the code structure, everything is already in the repository"
+    },
+    {
+      "idx": 95,
+      "id": "ia6qzcioxbr45jhcszoys3dimo",
+      "created": "2025-02-18T14:12:42Z",
+      "username": "vlachu",
+      "message": "@sergeyl I sent you a merge request"
+    },
+    {
+      "idx": 96,
+      "id": "dujcb1siz3ya8pedytg68b7nxh",
+      "created": "2025-02-18T14:33:12Z",
+      "username": "admin",
+      "message": "Do we have a visible version of the product?"
+    },
+    {
+      "idx": 97,
+      "id": "4zkxg8hacp8aik9nq8zt4abizw",
+      "created": "2025-02-18T15:57:01Z",
+      "username": "fenrir",
+      "message": "",
+      "files": [
+        "Screenshot 2025-02-18 at 17.51.00 (2).png",
+        "Screenshot 2025-02-18 at 17.51.36 (2).png",
+        "Screenshot 2025-02-18 at 17.51.44 (2).png",
+        "Screenshot 2025-02-18 at 17.52.12 (2).png",
+        "Screenshot 2025-02-18 at 17.51.55 (2).png",
+        "Screenshot 2025-02-18 at 17.52.23 (2).png",
+        "Screenshot 2025-02-18 at 17.52.55 (2).png",
+        "Screenshot 2025-02-18 at 17.53.00 (2).png",
+        "Screenshot 2025-02-18 at 17.53.03 (2).png",
+        "Screenshot 2025-02-18 at 17.53.07 (2).png"
+      ]
+    },
+    {
+      "idx": 98,
+      "id": "rceux8n1xirn7xbi3zmnwckd3a",
+      "created": "2025-02-18T15:57:38Z",
+      "username": "fenrir",
+      "message": "thats all I have on Front-end"
+    },
+    {
+      "idx": 99,
+      "id": "nc8xrfmf9fnn7qyn4r13x9sumo",
+      "created": "2025-02-18T17:25:58Z",
+      "username": "admin",
+      "message": "@fenrir http://cashflow.muzpan.com/transactions"
+    },
+    {
+      "idx": 100,
+      "id": "ycmrz7sjgj8j8crmnnq8g9qtyh",
+      "created": "2025-02-18T17:36:59Z",
+      "username": "fenrir",
+      "message": "Ive seen that issue with the button to the next stage.  Tomorrow I will solve it.  "
+    },
+    {
+      "idx": 101,
+      "id": "bnjjugscx3gebcq3jcaz9mkhca",
+      "created": "2025-02-18T17:37:51Z",
+      "username": "admin",
+      "message": "on laptop it looks bad there is no responsive design? I suspect they will be using it mostly on computers"
+    },
+    {
+      "idx": 102,
+      "id": "qr4oe5su6t8jdbpoctrr78itxy",
+      "created": "2025-02-18T17:39:43Z",
+      "username": "fenrir",
+      "message": "Can you send me in pm some screenshots? Because on my laptop it looks like in the screenshots Ive sent to you "
+    },
+    {
+      "idx": 103,
+      "id": "dg4eq6h3pbgibgpmjfagprfrfa",
+      "created": "2025-02-19T13:59:10Z",
+      "username": "admin",
+      "message": "likesense added to the channel by admin."
+    },
+    {
+      "idx": 104,
+      "id": "fmr1i5a4ptf1xqp7khh4ejxx9e",
+      "created": "2025-02-19T13:59:49Z",
+      "username": "admin",
+      "message": "@all please meet @likesense a new member of our team.\n\n@jarom please add @likesense to the relevant gitlab projects (cashflow)"
+    },
+    {
+      "idx": 105,
+      "id": "rkh4itofefd7pq3muksxpqtiqo",
+      "created": "2025-02-19T14:00:10Z",
+      "username": "likesense",
+      "message": "Hello guys:) "
+    },
+    {
+      "idx": 106,
+      "id": "s7ki7oi1ctnejenjopo8dj46hc",
+      "created": "2025-02-19T14:00:26Z",
+      "username": "ula_ula",
+      "message": "hi!"
+    },
+    {
+      "idx": 107,
+      "id": "gsk3wxmgsiymtf5kf8tko5anhe",
+      "created": "2025-02-19T14:00:31Z",
+      "username": "vladlen",
+      "message": "Hi "
+    },
+    {
+      "idx": 108,
+      "id": "cprw6ss8djg1mk3563ysitp6so",
+      "created": "2025-02-19T14:01:48Z",
+      "username": "jarom",
+      "message": "Done"
+    },
+    {
+      "idx": 109,
+      "id": "8xz7xu4pf7rejjqdiwpybmdw9y",
+      "created": "2025-02-19T14:13:45Z",
+      "username": "igorsmi",
+      "message": "Hi"
+    },
+    {
+      "idx": 110,
+      "id": "iczprqdppib49gehnaz1oz7jza",
+      "created": "2025-02-19T21:54:59Z",
+      "username": "jarom",
+      "message": "@all git address has change to https://git.muzpan.com just reenter credentials "
+    },
+    {
+      "idx": 111,
+      "id": "3bboyabyeprhjrwsi6zzxificw",
+      "created": "2025-02-20T06:24:01Z",
+      "username": "sergeyl",
+      "message": "@admin @jarom Hi! As infrastructure will grow, and we will have more projects, i can offer interesting practice - to create special channel *Infra* or *DevOps*, which can be dedicated to infra team discussions, and reflect infrastructural discussions, changes and announcements. Wdyt?"
+    },
+    {
+      "idx": 112,
+      "id": "emkat8cm678fpd6qeh4yd7hrwr",
+      "created": "2025-02-25T13:29:28Z",
+      "username": "vladlen",
+      "message": "vadimjar added to the channel by martinh."
+    },
+    {
+      "idx": 113,
+      "id": "3yra7jg31pr87dcrw8ztbc1qay",
+      "created": "2025-02-27T15:19:02Z",
+      "username": "admin",
+      "message": "guys please depict the changes needed in cashflow to release to production"
+    },
+    {
+      "idx": 114,
+      "id": "nqtfy9imgfb3dydjbc1gbqfkse",
+      "created": "2025-02-27T15:32:00Z",
+      "username": "sergeyl",
+      "message": "evgeniisokolov added to the channel by sergeyl."
+    },
+    {
+      "idx": 115,
+      "id": "ss6s9s6tt3dnmgw8ptpnymzf8w",
+      "created": "2025-02-27T15:44:23Z",
+      "username": "sergeyl",
+      "message": "@admin \n\n1. XLS import for both step1 and step2\n2. Add a reference(foreign key) between step1 and step2 - to link step2 transaction to step1\n3. Step3 - Per-order profit/loss in USD, and RUB, and gain %\n4. TX Table - Add order status (new, processing, done)\n5. Add per-day aggregation of orders in done status\n6. Auth microservice integration\n7. Couple of bugfixes (3-rd screen breaks sometimes, auth issue)\n8. Small ui improvements - add UI transitions for button/input/table row hovers (easy to do, makes good inpression on customer)"
+    },
+    {
+      "idx": 116,
+      "id": "7gpz3pncff8tbqikwe8w6qst5w",
+      "created": "2025-02-27T15:53:35Z",
+      "username": "admin",
+      "message": "1. please create gitlab tasks :pray: \n2. what is the timeline to finish and release to them?"
+    },
+    {
+      "idx": 117,
+      "id": "s7t4r8ky7i835xnkp6i6hs48te",
+      "created": "2025-02-27T15:54:22Z",
+      "username": "vic",
+      "message": "We have time till 5 march "
+    },
+    {
+      "idx": 118,
+      "id": "fpuiwcxou7dq8y68mc649r5ioo",
+      "created": "2025-02-27T18:58:37Z",
+      "username": "sergeyl",
+      "message": "yevgeniysokolov added to the channel by sergeyl."
+    },
+    {
+      "idx": 119,
+      "id": "h56axfepej8g9fzs1eykd6uo5c",
+      "created": "2025-02-27T19:01:47Z",
+      "username": "sergeyl",
+      "message": "@evgeniisokolov removed from the channel."
+    },
+    {
+      "idx": 120,
+      "id": "g79u75ka5ffajyyf55wujmaekc",
+      "created": "2025-02-27T19:04:13Z",
+      "username": "sergeyl",
+      "message": "@yevgeniysokolov  Почему два разных ника? Я запутался, Жень ты с нами? Какой аккаунт валиден?"
+    },
+    {
+      "idx": 121,
+      "id": "tmdubi7ozif9fq8w8aiyferqko",
+      "created": "2025-02-27T21:23:24Z",
+      "username": "yevgeniysokolov",
+      "message": "Ура! С вами)\nВалидный yevgeniy\nevgenii невалидный. Сашу просил удалить его (мне 2 похожих сделали в разное время). Еще раз попрошу"
+    },
+    {
+      "idx": 122,
+      "id": "kp9eor7w6tyeirxxr7mqbwdjre",
+      "created": "2025-02-27T21:26:53Z",
+      "username": "yevgeniysokolov",
+      "message": "The information from customer after our meeting today",
+      "files": [
+        "rn_image_picker_lib_temp_4ad24bf4-97c9-40b5-8d5c-f4fd2086e338.jpg"
+      ]
+    },
+    {
+      "idx": 123,
+      "id": "yftpjk6najnxbmz8p7g1dkqdqe",
+      "created": "2025-03-01T16:10:30Z",
+      "username": "admin",
+      "message": "@all when is the due date for the fixes the customer asked for?"
+    },
+    {
+      "idx": 124,
+      "id": "tq3eukda93d4ub8jrqjpy73ugr",
+      "created": "2025-03-01T16:12:39Z",
+      "username": "sergeyl",
+      "message": "3-4 march i guess - there should be minor fixes, right @martinh ?  plus hopefully we should do bugfixes that customer hasnt explicitly asked but i dont think its correct to provide buggy product - there was issue loading third screen"
+    },
+    {
+      "idx": 125,
+      "id": "kzjj5fmwr7rzbxc43erkbr9kbw",
+      "created": "2025-03-01T16:16:17Z",
+      "username": "admin",
+      "message": "ok - lets try to deliver asap and get more feedback :pray: "
+    },
+    {
+      "idx": 126,
+      "id": "kmwcafimhp8fbnbxzqc9ryhxrh",
+      "created": "2025-03-01T16:22:46Z",
+      "username": "vladlen",
+      "message": "yeah. 4 march bugs must be fixed and additional functions added."
+    },
+    {
+      "idx": 127,
+      "id": "hx74nkxwib8kufhbypue8unqow",
+      "created": "2025-03-01T16:24:26Z",
+      "username": "admin",
+      "message": "@martinh please provide information to @vadimjar to add automated testing for the cashflow application during the build.\n@jarom please add automation tests to the cashflow build - assist @vadimjar "
+    },
+    {
+      "idx": 128,
+      "id": "yode7tqzf7f3xybmwfiaaawqbw",
+      "created": "2025-03-03T15:25:55Z",
+      "username": "yevgeniysokolov",
+      "message": "Questions to customer",
+      "files": [
+        "rn_image_picker_lib_temp_de69664a-805c-424b-8c8f-ec9b4b93affa.jpg"
+      ]
+    },
+    {
+      "idx": 129,
+      "id": "hht3de9c3bn6xkrueuccdhmqdw",
+      "created": "2025-03-03T15:26:17Z",
+      "username": "yevgeniysokolov",
+      "message": "And answers",
+      "files": [
+        "rn_image_picker_lib_temp_bdd861b0-809a-499c-b707-e1b287ccd075.jpg"
+      ]
+    },
+    {
+      "idx": 130,
+      "id": "se6sugu193fs3pdx1zqbtuwiqa",
+      "created": "2025-03-06T18:37:48Z",
+      "username": "admin",
+      "message": "@yevgeniysokolov can you please send a report about the presentation today?"
+    },
+    {
+      "idx": 131,
+      "id": "ed83hszcojb1585sgwe7o3mebr",
+      "created": "2025-03-06T19:02:10Z",
+      "username": "yevgeniysokolov",
+      "message": "Of course\nHi, all!)\nThe customer is satisfied.\nThe presentation was about 3 hours.\nWe discussed many details, in order to develop the system further.\nSo tomorrow we are going to create HLD. Then we are going to create EPICs with features next week, using HLD, and coordinate the one with you and the customer.\nOn monday the customer will send us examples of Excel files.\nAlso we created the chat in the MM with the customer, in order to resolve operational issues faster."
+    },
+    {
+      "idx": 132,
+      "id": "pxc3zkgo3bbzfkmk1jzz4i3mfy",
+      "created": "2025-03-06T19:03:51Z",
+      "username": "admin",
+      "message": "Well-done...any ETA when they will go production?"
+    },
+    {
+      "idx": 133,
+      "id": "843g7rq9rf85ipyorxpz5qhs3a",
+      "created": "2025-03-06T19:09:28Z",
+      "username": "yevgeniysokolov",
+      "message": "We have agreed with the customer, that we will announce the deadline after the EPICs estimate on the next week."
+    },
+    {
+      "idx": 134,
+      "id": "wkjjsseiafrftdyfiozazxogio",
+      "created": "2025-03-06T19:32:34Z",
+      "username": "admin",
+      "message": "Let's try to do this fast this is an important win for us"
+    },
+    {
+      "idx": 135,
+      "id": "ookuhdr64prdfdda4z48je4ita",
+      "created": "2025-03-07T12:21:43Z",
+      "username": "igorsmi",
+      "message": "@likesense removed from the channel."
+    },
+    {
+      "idx": 136,
+      "id": "e3bqc5aouidnjga1uyz11dny1r",
+      "created": "2025-03-10T07:42:21Z",
+      "username": "vladlen",
+      "message": "lyaskovskiiandrey added to the channel by martinh."
+    },
+    {
+      "idx": 137,
+      "id": "i6ek6ezq43yymygdgna1bgn6yr",
+      "created": "2025-03-10T07:42:58Z",
+      "username": "vladlen",
+      "message": ""
+    },
+    {
+      "idx": 138,
+      "id": "njsbj1uwmtgitnkx9d78rn97ka",
+      "created": "2025-03-10T14:05:37Z",
+      "username": "igorsmi",
+      "message": "@admin Hi! Sent actual link to cashflow Epic (description of customer flow)\nhttps://git.muzpan.com/cashflow/cashflow-be/-/milestones/2#tab-issues\nand technical requirements.",
+      "files": [
+        "Техническое задание.docx"
+      ]
+    },
+    {
+      "idx": 139,
+      "id": "1fxw3m9dw7dzfk8yw5cifk8k4c",
+      "created": "2025-03-12T09:35:14Z",
+      "username": "fenrir",
+      "message": "Пацаны, а это как? Еррор со статусом 200.  Чтоб вы понимали я перезапустил проект. Там токенов не должно было быть. То есть я сделал запросы с несуществующим  торенном, и на часть запросов получаю ответ. А на другую часть, еррор со статусом 200. Хотя при любом раскладе должно было быть 401",
+      "files": [
+        "Screenshot 2025-03-12 at 11.28.33 (2).png"
+      ]
+    },
+    {
+      "idx": 140,
+      "id": "3szy3tbfafdztfrz57ruzjip1w",
+      "created": "2025-03-13T08:53:42Z",
+      "username": "vladlen",
+      "message": "подправлено"
+    },
+    {
+      "idx": 141,
+      "id": "sqe46nrh7ibxijcn9kgghyczcc",
+      "created": "2025-03-13T12:15:42Z",
+      "username": "vladlen",
+      "message": "перепуляйте все сервисы"
+    },
+    {
+      "idx": 142,
+      "id": "zsiph4hh3jb4bq16ro7gtbf7ir",
+      "created": "2025-03-13T12:15:55Z",
+      "username": "vladlen",
+      "message": "там фиксов пару"
+    },
+    {
+      "idx": 143,
+      "id": "qcy4hoyaxifdjgipcg6c6g8kyy",
+      "created": "2025-03-13T12:16:04Z",
+      "username": "vladlen",
+      "message": "особенно @fenrir "
+    },
+    {
+      "idx": 144,
+      "id": "6g5kw9prutdtfp7iyty5h4sj7y",
+      "created": "2025-03-13T12:19:38Z",
+      "username": "fenrir",
+      "message": "Ок.  Спс "
+    },
+    {
+      "idx": 145,
+      "id": "1aao8wh187de5ppxng6xu3zmge",
+      "created": "2025-03-13T14:14:00Z",
+      "username": "andrey",
+      "message": "ты ведь не менял код в дата-импортер?"
+    },
+    {
+      "idx": 146,
+      "id": "mg46chgzqjgi3cdr4zbgasfrzc",
+      "created": "2025-03-13T14:22:16Z",
+      "username": "andrey",
+      "message": "@martinh "
+    },
+    {
+      "idx": 147,
+      "id": "7akz3qe4f7yp7yr1ykhb6t7g1e",
+      "created": "2025-03-13T14:22:55Z",
+      "username": "vladlen",
+      "message": "не мерджил еще "
+    },
+    {
+      "idx": 148,
+      "id": "3nwqdbmxwjb43cdrgqbrqycuhw",
+      "created": "2025-03-13T14:23:17Z",
+      "username": "andrey",
+      "message": "пончл "
+    },
+    {
+      "idx": 149,
+      "id": "839spwn7q3n6u8oagn8tz9mwqr",
+      "created": "2025-03-13T14:23:31Z",
+      "username": "andrey",
+      "message": "просто скорее всего будут конфликты "
+    },
+    {
+      "idx": 150,
+      "id": "c6zq61qtytr8pqhi7kce8fdric",
+      "created": "2025-03-13T14:23:39Z",
+      "username": "vladlen",
+      "message": "щас сделаю мердж"
+    },
+    {
+      "idx": 151,
+      "id": "tirho1trfbgsjetmrb6fyka3zw",
+      "created": "2025-03-13T14:24:02Z",
+      "username": "andrey",
+      "message": "я в любом случае не смогу уже ничего сделать "
+    },
+    {
+      "idx": 152,
+      "id": "xuzm5e4oy7ffz8xwnusmn19yze",
+      "created": "2025-03-13T14:24:15Z",
+      "username": "andrey",
+      "message": "только если git pull origin master "
+    },
+    {
+      "idx": 153,
+      "id": "hozybugs6pfiirhgnt38ttjhxw",
+      "created": "2025-03-13T14:24:22Z",
+      "username": "vlachu",
+      "message": "Endpoints:\n- v1/client-orders/get-many-filtered\n- v1/client-orders/add-many\n\nГотовы✅\n\nОбновил readme и restclient.http чтобы было понятнее как они работают. "
+    },
+    {
+      "idx": 154,
+      "id": "rg4wj9y8f3bdpcdzhktm3nqtte",
+      "created": "2025-03-13T14:24:26Z",
+      "username": "andrey",
+      "message": "и потом  пофиксить конфлиткы "
+    },
+    {
+      "idx": 155,
+      "id": "rtdzssy6bpndxxk1hwe8qi5hee",
+      "created": "2025-03-13T14:25:37Z",
+      "username": "vladlen",
+      "message": "@fenrir /add-many Для первого шага"
+    },
+    {
+      "idx": 156,
+      "id": "tn8p9bnbbpns3rcrns4r8afuqe",
+      "created": "2025-03-13T14:25:48Z",
+      "username": "vladlen",
+      "message": "сейчас будет и парс дэйта"
+    },
+    {
+      "idx": 157,
+      "id": "wiorra5jmtdfdkuc56obanwcpr",
+      "created": "2025-03-13T16:31:19Z",
+      "username": "andrey",
+      "message": "**новые endpoints** \n[POST] - /v1/client-requests/parse-data-from-xlsx (парсинг заявок)\n[POST] - /v1/client-orders/parse-data-from-xlsx (парсинг поручений)"
+    },
+    {
+      "idx": 158,
+      "id": "31i86frthifx8mn499coqx9zcy",
+      "created": "2025-03-13T16:37:49Z",
+      "username": "vladlen",
+      "message": "@fenrir "
+    },
+    {
+      "idx": 159,
+      "id": "75pi6dirapynfet3ay1itr1ssh",
+      "created": "2025-03-13T16:38:00Z",
+      "username": "vladlen",
+      "message": "глянь плиз как раз для первого и второго шагов"
+    },
+    {
+      "idx": 160,
+      "id": "pz9x8szsjpra9ypbahkx6fxgjh",
+      "created": "2025-03-14T07:32:11Z",
+      "username": "sergeyl",
+      "message": "@andrey Мне кажется роутинг субоптимален. Можно ли структуровать наоборот по шаблону /service/function ? Например `/v1/xlsx-importer/parse-client-requests`"
+    },
+    {
+      "idx": 161,
+      "id": "uscj84y8qi8jmxohqubw5mnt7r",
+      "created": "2025-03-14T07:33:35Z",
+      "username": "andrey",
+      "message": "Хорошо, сделаю "
+    },
+    {
+      "idx": 162,
+      "id": "55wzz4kgiiftumo6yuj1yfi54e",
+      "created": "2025-03-14T07:34:26Z",
+      "username": "sergeyl",
+      "message": "Так мы сможем одним прокси направить все запросы к /xlsx-importer/* к этому миктосервису"
+    },
+    {
+      "idx": 163,
+      "id": "faw1tdq1hbd7x85ph7j9zensfc",
+      "created": "2025-03-14T17:09:50Z",
+      "username": "yevgeniysokolov",
+      "message": "Получилось сегодня встретиться спонтанно с Анастасией\nРезюме встречи от Игоря С. из чата с Заказчиком\n\"Подведя итоги нашей сегодняшней внезапной встречи, предлагаю вывести тезисный задел на будущее:\n- Фильтрация данных по колонке \"Канал\". Для понимания общих потоков\n- Уровни доступа\n- Разделение анализа на банки\n- Интеграция с другими системами\n- Добавление нового списка валют\"\nЕсли на след. неделе заканчиваем текущий EPIC/объём работ, то текст выше - это будущие объёмы работ на след. спринты\nЧерез неделю, если все ок, то Заказчик планирует наполнять нашу БД своими эксельками"
+    },
+    {
+      "idx": 164,
+      "id": "qjud1eo4n7db5rjn8udwbgsdkr",
+      "created": "2025-03-14T17:12:59Z",
+      "username": "yevgeniysokolov",
+      "message": "Всем отличных выходных!)"
+    },
+    {
+      "idx": 165,
+      "id": "sj7s1eotdbfm8kcpejxesssboa",
+      "created": "2025-03-15T08:55:14Z",
+      "username": "vadimjar",
+      "message": "Раз заказчик собирается тестить аппу реальными данными, то у нас есть больщая проблема со стороны секьюрити... и до того как передавать аппу для использования (пусть даже частичными, но реальными данными) он должна быть хотябы защищена 2FA-ем.... Так что вот эпик который должен быть приоритетней того что Женя написал выше:\nhttps://git.muzpan.com/cashflow/cashflow-be/-/milestones/3#tab-issues "
+    },
+    {
+      "idx": 166,
+      "id": "ykp589xzzbdf5r3mahpbexdu4a",
+      "created": "2025-03-15T18:21:45Z",
+      "username": "admin",
+      "message": "At the moment this API is a test sandbox more of a poc .\nWith that said 2fa is not a good idea for a headless API (it denies the \"something you have\" principle).\n\nWe will however provide tighter security in production when it will reach that stage"
+    },
+    {
+      "idx": 167,
+      "id": "1yxses4x9ir1jggr48sw4gqnbo",
+      "created": "2025-03-15T20:21:58Z",
+      "username": "admin",
+      "message": "Btw are we in production yet with cashflow?"
+    },
+    {
+      "idx": 168,
+      "id": "3aphkbummigyikadn6u9ee8a4e",
+      "created": "2025-03-15T21:22:42Z",
+      "username": "sergeyl",
+      "message": "we did interesting refactor to the end"
+    },
+    {
+      "idx": 169,
+      "id": "1148gx6pyfbs9dknx5kc8a69qy",
+      "created": "2025-03-15T21:24:22Z",
+      "username": "sergeyl",
+      "message": "cashflow today is much more flexible, its divided by technical layers amd is ready to immediately adopt any challenge posed behind tech team!"
+    },
+    {
+      "idx": 170,
+      "id": "ogxcwa45xirybj86ij9jdkoayh",
+      "created": "2025-03-15T21:25:26Z",
+      "username": "sergeyl",
+      "message": "just ready to your challenge to adopt asap!"
+    },
+    {
+      "idx": 171,
+      "id": "nd41ur6h7pgumrsxm1coii5phy",
+      "created": "2025-03-15T21:26:42Z",
+      "username": "sergeyl",
+      "message": "enterprise code standards are exactly up in here to immediately react to any business challenge, right, @martinh "
+    },
+    {
+      "idx": 172,
+      "id": "p46e81o1fpfstcf5udgxwpc5gr",
+      "created": "2025-03-15T21:28:14Z",
+      "username": "vladlen",
+      "message": "Yep"
+    },
+    {
+      "idx": 173,
+      "id": "rd8yz56o9fnjznx9xbaqweagey",
+      "created": "2025-03-23T20:33:31Z",
+      "username": "vadimjar",
+      "message": "@martinh @fenrir  Guys please.... we do not show anything to the client untill you make the upload form after the design.... you have everything... userstories, and UX design how it should look....\nwe are not in primary school, stop doing \"how you think it should be done\", do as it should be done. Thank you.\n",
+      "files": [
+        "Screenshot 2025-03-23 at 23.23.35.png",
+        "Screenshot 2025-03-23 at 23.26.12.png"
+      ]
+    },
+    {
+      "idx": 174,
+      "id": "cy7gr5r1gj8f7xgnpzi35m4qao",
+      "created": "2025-03-23T20:35:37Z",
+      "username": "yevgeniysokolov",
+      "message": "@igorsmi, please pay attention"
+    },
+    {
+      "idx": 175,
+      "id": "hhzf77nqtpndznkseqcx5z9sqe",
+      "created": "2025-03-23T20:35:39Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-03-23 at 23.35.15.png",
+        "Screenshot 2025-03-23 at 23.34.27.png"
+      ]
+    },
+    {
+      "idx": 176,
+      "id": "h3buzwktdjb19q7uuty5tck7eh",
+      "created": "2025-03-23T20:36:23Z",
+      "username": "yevgeniysokolov",
+      "message": "It looks pretty)"
+    },
+    {
+      "idx": 177,
+      "id": "jktqxwf4rjr3zx6e5s3jpb3rxe",
+      "created": "2025-03-23T20:36:28Z",
+      "username": "vadimjar",
+      "message": "this is cashflow, Igor has nothing to do with it"
+    },
+    {
+      "idx": 178,
+      "id": "ao6fnigzntdkbmrb1ddoih9psy",
+      "created": "2025-03-28T08:00:17Z",
+      "username": "vlachu",
+      "message": "Guys, I send you the examples given by the client to test our program",
+      "files": [
+        "1.xlsx",
+        "2.xlsx",
+        "3.2.xlsx",
+        "3.3.xlsx",
+        "3.1.xlsx"
+      ]
+    },
+    {
+      "idx": 179,
+      "id": "bzagb9hfqpb39mnhrsik9yicba",
+      "created": "2025-03-28T14:04:01Z",
+      "username": "vladlen",
+      "message": "stepanovvyacheslav added to the channel by martin."
+    },
+    {
+      "idx": 180,
+      "id": "4buo3xppbbr88xspbjg7oz8mqe",
+      "created": "2025-03-31T07:03:10Z",
+      "username": "vadimjar",
+      "message": "Hey @all . Please take a time to study the defects on cashflow. Theire are quite some of high priority, that should be fixed before we procide to next features. Thank you:\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues "
+    },
+    {
+      "idx": 181,
+      "id": "fezemkiast8qjk5cfkkw177bya",
+      "created": "2025-04-01T10:54:18Z",
+      "username": "vadimjar",
+      "message": "hey @all. Very important defect... to be fixed ASAP:"
+    },
+    {
+      "idx": 182,
+      "id": "jiu78oca43fimb1d6rn3h4y7gy",
+      "created": "2025-04-01T10:54:20Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/107"
+    },
+    {
+      "idx": 183,
+      "id": "yp6o48u5ujnf5fbpthsar51ash",
+      "created": "2025-04-01T11:01:27Z",
+      "username": "yevgeniysokolov",
+      "message": "yevgeniysokolov updated the channel display name from: CashFlow to: PayFlow Analytics"
+    },
+    {
+      "idx": 184,
+      "id": "ph8g1ii9nffyj8aqs8uc8nr7wa",
+      "created": "2025-04-01T14:26:00Z",
+      "username": "admin",
+      "message": "@all FYI:\nit was just brought to my attention (thank you @vadimjar ) that cashflow.muzpan.com is being used byt the customer for real data which is considered production.\n\nAs a result I have blocked access from the internet and from now on the url:\n\nhttps://cashflow.muzpan.com\n\nis ONLY accesible using VPN.\n\n@yevgeniysokolov please notify the client\n"
+    },
+    {
+      "idx": 185,
+      "id": "gg8nweahcprbmdj7rb1rw47z3e",
+      "created": "2025-04-01T14:27:08Z",
+      "username": "vadimjar",
+      "message": "client already notified"
+    },
+    {
+      "idx": 186,
+      "id": "ka4cn63ckin9zrjfegygufdcec",
+      "created": "2025-04-02T17:06:32Z",
+      "username": "vadimjar",
+      "message": "@fenrir @martin hey friends we need to repair this"
+    },
+    {
+      "idx": 187,
+      "id": "t8ze55nxt7ddxeyuwp8ey7w7ey",
+      "created": "2025-04-02T17:06:36Z",
+      "username": "vadimjar",
+      "message": "defect coming from client"
+    },
+    {
+      "idx": 188,
+      "id": "f9n3zzwub7nsz83jqr7kjqqgpw",
+      "created": "2025-04-02T17:06:39Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/117"
+    },
+    {
+      "idx": 189,
+      "id": "ogcky6uh6bfmmqmw3fmcdqwkir",
+      "created": "2025-04-03T11:00:57Z",
+      "username": "vadimjar",
+      "message": "@fenrir @martin I've added one more important AC to following User story:"
+    },
+    {
+      "idx": 190,
+      "id": "wo876cuhajrh7xhky1kx34kitr",
+      "created": "2025-04-03T11:01:03Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/24\nplease take a look"
+    },
+    {
+      "idx": 191,
+      "id": "xqhwsb3wajdaff6k7qbuujc49r",
+      "created": "2025-04-03T12:06:15Z",
+      "username": "vadimjar",
+      "message": "@martin \nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/52\nupdated... need reestimation"
+    },
+    {
+      "idx": 192,
+      "id": "a9fambj4x3g97fqnukntr95nbc",
+      "created": "2025-04-03T12:59:48Z",
+      "username": "vadimjar",
+      "message": "hey @all Epic https://git.muzpan.com/cashflow/cashflow-be/-/milestones/3#tab-issues is finished with creating stories. if you think that I've missed something or you have other questions please do not hesitate to ask.  :heart: "
+    },
+    {
+      "idx": 193,
+      "id": "iww3tkxbfbbtub93ozcurxocrh",
+      "created": "2025-04-04T12:52:15Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/156"
+    },
+    {
+      "idx": 194,
+      "id": "xrkbc4gga7nu5ywmi9kkmepyko",
+      "created": "2025-04-04T12:56:42Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "99898-front copy.tiff"
+      ]
+    },
+    {
+      "idx": 195,
+      "id": "yebtcbz4h383tc4nb16kyi3ako",
+      "created": "2025-04-04T13:22:12Z",
+      "username": "vadimjar",
+      "message": "One more:"
+    },
+    {
+      "idx": 196,
+      "id": "ni5pnari8fby7nhp1fu81mmj3r",
+      "created": "2025-04-04T13:22:13Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/157"
+    },
+    {
+      "idx": 197,
+      "id": "zrrx7z7p438zpdmacjxafw9oxa",
+      "created": "2025-04-04T14:49:01Z",
+      "username": "vadimjar",
+      "message": "one more"
+    },
+    {
+      "idx": 198,
+      "id": "m3j3wnsxaid6p8qyrjo9ojrktr",
+      "created": "2025-04-04T14:49:02Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/158"
+    },
+    {
+      "idx": 199,
+      "id": "tujfyj5eq3npmqic1guy9z3cea",
+      "created": "2025-04-07T16:42:57Z",
+      "username": "vadimjar",
+      "message": "@fenrir @martin @andrey Hot fix required:\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/163 "
+    },
+    {
+      "idx": 200,
+      "id": "9diorn3jy3y6fchog38hmud3jo",
+      "created": "2025-04-08T06:49:32Z",
+      "username": "vadimjar",
+      "message": "@all пацаны.... я вернул много  сторей которые были в ready for testing назад в in progress или defect.\nПричины:\nА. Не читаете внимательно требования.... у многих сторей сделанно только часть\nБ. Дефекты указаны что пофикшены.... на самом деле нет\nВ. Все таски привязаные в стори в опен стэйте.... когда стори попадает в рэди фор тестинг в опен должен быть только таск для тестеров... остольное все должно быть комплетед... там в низу таска есть специальная кнопочка\n\nЗ.Ы. Я понимаю, что многое может быть просто еще не задеплоенно, но учитывая количество 100% недоделаных сторей/дефектов из за невнимательности к содержанию, вернул все, что нашел... плз перепроверьте/перечитайте ваши иссуе и убедитесь, что действительно покрыли все, перед тем как возвращать назад в рэди фор тестинг\n\nЗ.Ы.Ы. Много сторей вообще были в in testing или даже completed, куда они должны поподать только от руки тестера.... плз повнимательней.... "
+    },
+    {
+      "idx": 201,
+      "id": "zdiz7ft8i3d7bpgpr993w6xfwo",
+      "created": "2025-04-08T06:54:02Z",
+      "username": "vadimjar",
+      "message": "прошу пролайкать сообщение, буду использовать это как доказательство того что вы прочитали"
+    },
+    {
+      "idx": 202,
+      "id": "3d6d7ssrbjbkxyfkqud4son7hc",
+      "created": "2025-04-09T09:17:57Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-04-09 at 12.14.26.png"
+      ]
+    },
+    {
+      "idx": 203,
+      "id": "8ggnjz1h3jg7pd83pud5ahktzr",
+      "created": "2025-04-09T09:19:03Z",
+      "username": "vadimjar",
+      "message": "Regression Result for Demo Version of Cashflow. That will be presented to client at 04/11/2025"
+    },
+    {
+      "idx": 204,
+      "id": "16sszpcq7bgdxcpetm44ig5s8c",
+      "created": "2025-04-09T09:19:11Z",
+      "username": "vadimjar",
+      "message": "@all"
+    },
+    {
+      "idx": 205,
+      "id": "zn8w3gjfcib7uj4dpeoxsotf5a",
+      "created": "2025-04-10T06:39:04Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-04-10 at 09.38.41.png"
+      ]
+    },
+    {
+      "idx": 206,
+      "id": "b33qj6ri6brwbq6fwopmswjo1a",
+      "created": "2025-04-10T06:45:32Z",
+      "username": "vlachu",
+      "message": "Получил новый токен через login? "
+    },
+    {
+      "idx": 207,
+      "id": "ccruh44sj3fqznnuu1rkis33xa",
+      "created": "2025-04-10T06:50:46Z",
+      "username": "vadimjar",
+      "message": "конечно"
+    },
+    {
+      "idx": 208,
+      "id": "urh9p5js9pbhtq1sbp48jj7tiw",
+      "created": "2025-04-10T06:51:13Z",
+      "username": "vadimjar",
+      "message": "но это не самая большая проблема ) с математикой беда бедная"
+    },
+    {
+      "idx": 209,
+      "id": "q31ia4txubgg7fdsigjteuqnzc",
+      "created": "2025-04-10T11:07:51Z",
+      "username": "yevgeniysokolov",
+      "message": "С заказчиком договорились на 16 на демо в пн"
+    },
+    {
+      "idx": 210,
+      "id": "3zzywf9nnt8ptguwgnts9x64jw",
+      "created": "2025-04-11T06:28:56Z",
+      "username": "vadimjar",
+      "message": "Hey @all please take a note that this story https://git.muzpan.com/cashflow/cashflow-be/-/issues/127 was updated with one more AC. Thank you"
+    },
+    {
+      "idx": 211,
+      "id": "uc4w1yejr7gmbpnekxn8wij95a",
+      "created": "2025-04-11T07:08:48Z",
+      "username": "vadimjar",
+      "message": "Delete request returns 200 when need to return 400 "
+    },
+    {
+      "idx": 212,
+      "id": "6sa7j7sjyfy5ppitdrd1wzxygh",
+      "created": "2025-04-11T07:08:49Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/179"
+    },
+    {
+      "idx": 213,
+      "id": "7iz4k5wq3jdmjbmfhe41wrdxae",
+      "created": "2025-04-13T12:02:10Z",
+      "username": "vadimjar",
+      "message": "@all Братва. Составил отчет о проделаных работах которые будут предоставлены клиенту. Прошу прочтите и если я чото упустил напишите мне (особенно касается девов). я мог упустить чото из того что мы сделали добавили и т.д. жду ваш фитбэк"
+    },
+    {
+      "idx": 214,
+      "id": "6h37bger8pgdfxs51e1j37hgbo",
+      "created": "2025-04-13T12:07:01Z",
+      "username": "vadimjar",
+      "message": "vitaliyvtorenco added to the channel by vadimjar."
+    },
+    {
+      "idx": 215,
+      "id": "a8yufykygiyd9ba7o58hczmjma",
+      "created": "2025-04-13T12:17:38Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "14:4:2025_Рапорт_о_проделаных_работах.pdf"
+      ]
+    },
+    {
+      "idx": 216,
+      "id": "q8cazc6k7bnidjfpzijk9cbw4c",
+      "created": "2025-04-13T12:18:21Z",
+      "username": "vadimjar",
+      "message": "Прошу поставьте лайк на это сообщение когда прочитаете рапорт"
+    },
+    {
+      "idx": 217,
+      "id": "7tctjipubidgbfjrikjpox9cjw",
+      "created": "2025-04-14T09:20:44Z",
+      "username": "vladlen",
+      "message": "в 16:00 показ демо, всем разработчикам cashflow надо присутствовать "
+    },
+    {
+      "idx": 218,
+      "id": "karfdofq8tyjtmxbgys3c6oyzc",
+      "created": "2025-04-14T11:37:27Z",
+      "username": "vadimjar",
+      "message": "kislyakovadarya added to the channel by vadimjar."
+    },
+    {
+      "idx": 219,
+      "id": "ipd4mpq3wbrqjgdyokkihnjqby",
+      "created": "2025-04-14T13:26:44Z",
+      "username": "vadimjar",
+      "message": "так сосздаю ссылку для демо"
+    },
+    {
+      "idx": 220,
+      "id": "fpda6jwwoj8adc8jzea91qgwiy",
+      "created": "2025-04-14T13:26:56Z",
+      "username": "vadimjar",
+      "message": ""
+    },
+    {
+      "idx": 221,
+      "id": "rrejg1meybda7poqakk3njpzqr",
+      "created": "2025-04-25T14:25:08Z",
+      "username": "vadimjar",
+      "message": "## Цель на 22 мая\n\nВысокая преоритетность:\n+ Переработать FX флоу с учетом банков\n+ Разрядность всех цыфр и запятая вместо точки\n+ Изменения тайтлов секции выбора времени\n+ Внедрить валидацию (подсказки оператору: математический рессчеты, дубликаты и т.д.)\n\nСредняя преоритетность:\n+ Экспорт результатов анализов в Excel формате\n+ Доделать возможность удаления записей из базы\n+ Админ Панель и Разбивка Ролей Юзеров\n+ Исправление Критических и Мидловых Дефектов (выявленых и будующих)\n\nНизкая приортетность:\n+ Исправление лоу приорити дефектов"
+    },
+    {
+      "idx": 222,
+      "id": "n4ojnap8ytnibjts3uquw7zejh",
+      "created": "2025-04-25T14:25:31Z",
+      "username": "vadimjar",
+      "message": "@martin "
+    },
+    {
+      "idx": 223,
+      "id": "r5n6xt5wbty8pjmwbzfmdncaxe",
+      "created": "2025-04-25T14:25:57Z",
+      "username": "vadimjar",
+      "message": "razuvaevserghey added to the channel by vadimjar."
+    },
+    {
+      "idx": 224,
+      "id": "br3ijs7zrfnc7jpppo55yp6yjc",
+      "created": "2025-04-25T14:26:04Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey  :point_up_2: "
+    },
+    {
+      "idx": 225,
+      "id": "njmfhou8dfdw88qi89c57gcayh",
+      "created": "2025-04-25T14:26:52Z",
+      "username": "vitaliyvtorenco",
+      "message": "это уже у них на доске написано маркером "
+    },
+    {
+      "idx": 226,
+      "id": "75xhy4ifqjnzuqefbsisjxqubr",
+      "created": "2025-04-25T14:27:15Z",
+      "username": "vadimjar",
+      "message": "несмываемым надеюсь"
+    },
+    {
+      "idx": 227,
+      "id": "frf69wn5mfna9gxw48dbddjd5r",
+      "created": "2025-04-25T14:40:38Z",
+      "username": "vitaliyvtorenco",
+      "message": "не смывается только кровь :) "
+    },
+    {
+      "idx": 228,
+      "id": "jw4wsxsjijnc7mt6jf1pmq69zw",
+      "created": "2025-04-25T14:47:38Z",
+      "username": "razuvaevserghey",
+      "message": "можно не надо? :neutral_face: "
+    },
+    {
+      "idx": 229,
+      "id": "3ud9w95ikbrnzyejb158r3es3e",
+      "created": "2025-05-06T13:23:06Z",
+      "username": "vadimjar",
+      "message": "Concrats team with defect number 300"
+    },
+    {
+      "idx": 230,
+      "id": "zcbiqopsopy6djsx9yf34a89dy",
+      "created": "2025-05-06T13:23:07Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/300"
+    },
+    {
+      "idx": 231,
+      "id": "ke7tnjogqt8t3f3xryrjctno5c",
+      "created": "2025-05-06T13:23:10Z",
+      "username": "vadimjar",
+      "message": ")))"
+    },
+    {
+      "idx": 232,
+      "id": "m18zbicmtjgcjjdm7z7zstesuc",
+      "created": "2025-05-07T05:26:00Z",
+      "username": "sergeyl",
+      "message": "But beware of future defect 666 - better not do that defect!"
+    },
+    {
+      "idx": 233,
+      "id": "tiwt494wz7dgb8ynyt1guqx3pe",
+      "created": "2025-05-08T10:09:48Z",
+      "username": "vadimjar",
+      "message": "@martin @razuvaevserghey Critical defect with login"
+    },
+    {
+      "idx": 234,
+      "id": "sgw7why393fc5yg4gp7c6nyw3y",
+      "created": "2025-05-08T10:09:49Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/306"
+    },
+    {
+      "idx": 235,
+      "id": "e971b4nx6jghtnxtbntdm1ff4w",
+      "created": "2025-05-11T14:00:20Z",
+      "username": "vadimjar",
+      "message": "@martin https://git.muzpan.com/cashflow/cashflow-be/-/issues/307"
+    },
+    {
+      "idx": 236,
+      "id": "6jhd4jfdep8kipub3eioey89zc",
+      "created": "2025-05-11T14:04:35Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey  :point_up_2: "
+    },
+    {
+      "idx": 237,
+      "id": "86z3ycos3ibw3ckr5bntr77n8r",
+      "created": "2025-05-19T12:43:27Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey  \nP1 S3 \nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/357"
+    },
+    {
+      "idx": 238,
+      "id": "xpdtb1sb3jfc9nz9uf677odssa",
+      "created": "2025-05-19T12:53:17Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey \nImprovement of story 52\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/358"
+    },
+    {
+      "idx": 239,
+      "id": "1carmbwiypn99kmwksi8e7eprh",
+      "created": "2025-05-19T12:53:57Z",
+      "username": "vadimjar",
+      "message": "with my sensory apology that I did not mention it in 52"
+    },
+    {
+      "idx": 240,
+      "id": "nsfgrfg5h3ywunxkdmg6idm3iy",
+      "created": "2025-05-19T15:10:51Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey \nP2 S3\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/359"
+    },
+    {
+      "idx": 241,
+      "id": "kem3joicajgm7b5asouxp6edmo",
+      "created": "2025-05-19T16:19:01Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey \nCritical\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/360"
+    },
+    {
+      "idx": 242,
+      "id": "tzten1rwpjgjzeiudkd9ooofpa",
+      "created": "2025-05-20T13:56:30Z",
+      "username": "vadimjar",
+      "message": "*   [https://git.muzpan.com/cashflow/cashflow-be/-/issues/367](https://git.muzpan.com/cashflow/cashflow-be/-/issues/367)\n*   [https://git.muzpan.com/cashflow/cashflow-be/-/issues/366](https://git.muzpan.com/cashflow/cashflow-be/-/issues/366)\n*   [https://git.muzpan.com/cashflow/cashflow-be/-/issues/365](https://git.muzpan.com/cashflow/cashflow-be/-/issues/365)\n*   [https://git.muzpan.com/cashflow/cashflow-be/-/issues/363](https://git.muzpan.com/cashflow/cashflow-be/-/issues/363)"
+    },
+    {
+      "idx": 243,
+      "id": "1pzxtfknfjn4jjdbrjfdjrisro",
+      "created": "2025-05-20T13:56:38Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/368"
+    },
+    {
+      "idx": 244,
+      "id": "qb6s4m1mg7b33y6txp1qjm5wqw",
+      "created": "2025-05-20T13:57:52Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/361\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/362\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/363\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/364\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/365"
+    },
+    {
+      "idx": 245,
+      "id": "9kfxbbqdcf81bxdn53qsrs4pgw",
+      "created": "2025-05-20T14:15:06Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey Critical (Разрядность)\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/incident/369"
+    },
+    {
+      "idx": 246,
+      "id": "hanhtpwipift7rcbpd46hmnwey",
+      "created": "2025-05-20T14:17:36Z",
+      "username": "sergeyl",
+      "message": "This `#include` section is in C++?",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 247,
+      "id": "fd8soq39uffwigc5xq5fi4gp3y",
+      "created": "2025-05-20T14:18:46Z",
+      "username": "sergeyl",
+      "message": "`using namespace cashflowbe;`"
+    },
+    {
+      "idx": 248,
+      "id": "c5xs56a57tb73k6ogxr97hwkje",
+      "created": "2025-05-20T14:26:50Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/370. @vladlen Critical "
+    },
+    {
+      "idx": 249,
+      "id": "6ts7is9t6bb79nzafa8wns466e",
+      "created": "2025-05-21T12:56:49Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey  :point_up_2: "
+    },
+    {
+      "idx": 250,
+      "id": "7ik6sbdckfyzfme3obgsei7xth",
+      "created": "2025-05-21T16:17:59Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey  https://git.muzpan.com/cashflow/cashflow-be/-/issues/377 "
+    },
+    {
+      "idx": 251,
+      "id": "95yha46wj38tzjzx6ebea5e35w",
+      "created": "2025-05-21T16:31:11Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey @vladlen CRITICAL\n\nSometimes when admin clicks delete user system offers to delete another user\n\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/378"
+    },
+    {
+      "idx": 252,
+      "id": "3js6wbsbbfdwdbc5pjtactpebc",
+      "created": "2025-05-22T09:26:02Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey Non Fanctional Regression defect. (But should be fixed because requirement came directly from client)\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/380"
+    },
+    {
+      "idx": 253,
+      "id": "iioifj8ympbpdr5n96nz6dqu7h",
+      "created": "2025-05-22T13:36:12Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/381 @razuvaevserghey "
+    },
+    {
+      "idx": 254,
+      "id": "zbsrs93oobg68boydqhfujmz3y",
+      "created": "2025-05-22T14:23:28Z",
+      "username": "vitaliyvtorenco",
+      "message": "*   [https://git.muzpan.com/cashflow/cashflow-be/-/issues/382](https://git.muzpan.com/cashflow/cashflow-be/-/issues/382)\n*   [https://git.muzpan.com/cashflow/cashflow-be/-/issues/383](https://git.muzpan.com/cashflow/cashflow-be/-/issues/383)"
+    },
+    {
+      "idx": 255,
+      "id": "36ejyrqzwfrkzbapi4nafwxsyw",
+      "created": "2025-05-22T14:24:02Z",
+      "username": "vitaliyvtorenco",
+      "message": "@vladlen @razuvaevserghey  pick proper "
+    },
+    {
+      "idx": 256,
+      "id": "kijeacq3pbdnmfpnzjour9ytzr",
+      "created": "2025-05-22T14:24:22Z",
+      "username": "vadimjar",
+      "message": "тут еще нужны скролы"
+    },
+    {
+      "idx": 257,
+      "id": "grui51jutjnd8qmj1iu4yj7bjy",
+      "created": "2025-05-22T14:24:38Z",
+      "username": "vadimjar",
+      "message": "на маленьком мониторе не видно даже нихних кнопок"
+    },
+    {
+      "idx": 258,
+      "id": "bbpo8qad8bbtpy3pmeeuda1z1h",
+      "created": "2025-05-22T14:57:25Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/384"
+    },
+    {
+      "idx": 259,
+      "id": "uorqzw8ctfnz8nyn1uu89aruca",
+      "created": "2025-05-22T15:01:28Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/385"
+    },
+    {
+      "idx": 260,
+      "id": "9y8uctuoojd3tg9jtgxgtyts3e",
+      "created": "2025-05-22T15:07:52Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/386"
+    },
+    {
+      "idx": 261,
+      "id": "eqz9y81sjprf9f1o9gfq5e3kbh",
+      "created": "2025-05-23T02:09:07Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/387\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/388 - Critical\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/389 _-High!"
+    },
+    {
+      "idx": 262,
+      "id": "p3388jjjjtfoupmapi1wkwijzo",
+      "created": "2025-05-23T05:36:38Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/390"
+    },
+    {
+      "idx": 263,
+      "id": "xcgzxckc1pfkuy7ix3j876k7bc",
+      "created": "2025-05-23T05:36:56Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey all 4  :point_up_2: "
+    },
+    {
+      "idx": 264,
+      "id": "wo6gjsm8pj8umygtdes4gx4y8e",
+      "created": "2025-05-23T06:15:53Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/391"
+    },
+    {
+      "idx": 265,
+      "id": "si6a4ippebywbrbndyiag3s5oe",
+      "created": "2025-05-23T06:18:15Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey  Repeated Old Defect.... Reopened old one not to open new: https://git.muzpan.com/cashflow/cashflow-be/-/issues/99"
+    },
+    {
+      "idx": 266,
+      "id": "1i7dsxmkqtgkpfq6grspog3iaw",
+      "created": "2025-05-23T06:57:29Z",
+      "username": "vadimjar",
+      "message": "@vladlen Critical.... the thing that we discused yesterday \nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/incident/392"
+    },
+    {
+      "idx": 267,
+      "id": "yxzwgjzkj3rajckh6tdb1urjyy",
+      "created": "2025-05-23T08:43:57Z",
+      "username": "razuvaevserghey",
+      "message": "solonin.egor added to the channel by razuvaevserghey."
+    },
+    {
+      "idx": 268,
+      "id": "4srfxms8uidpfe9g65wq7oeheo",
+      "created": "2025-05-23T08:43:57Z",
+      "username": "razuvaevserghey",
+      "message": "lfazliev added to the channel by razuvaevserghey."
+    },
+    {
+      "idx": 269,
+      "id": "f9puege61frmzm98se3yzpaw3o",
+      "created": "2025-05-23T09:21:09Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/393"
+    },
+    {
+      "idx": 270,
+      "id": "kgcs5gan5igq8xn9ydt8n3m5de",
+      "created": "2025-05-23T09:59:40Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/394"
+    },
+    {
+      "idx": 271,
+      "id": "1efac95j4frc3fa9n33uuj91yw",
+      "created": "2025-05-23T10:15:17Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/395"
+    },
+    {
+      "idx": 272,
+      "id": "fzknnsk5w7gsmcswjj4yotb7ac",
+      "created": "2025-05-23T12:01:24Z",
+      "username": "vadimjar",
+      "message": "@all ",
+      "files": [
+        "Screenshot 2025-05-23 at 15.00.51.png"
+      ]
+    },
+    {
+      "idx": 273,
+      "id": "yrfkkscit7nymeays6hiztsy9a",
+      "created": "2025-05-23T12:01:48Z",
+      "username": "vadimjar",
+      "message": "предворительный результат регресии"
+    },
+    {
+      "idx": 274,
+      "id": "dywmz9g15t8dtnce98tfxiereh",
+      "created": "2025-05-23T12:48:03Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/396"
+    },
+    {
+      "idx": 275,
+      "id": "5pjpnrgm3br8tpn7sosrn1m1hw",
+      "created": "2025-05-23T12:48:13Z",
+      "username": "vitaliyvtorenco",
+      "message": "@razuvaevserghey "
+    },
+    {
+      "idx": 276,
+      "id": "jdfwkpxcsbnkikbc7s3aap6ufa",
+      "created": "2025-05-23T14:47:22Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey @vladlen  CRITICAL\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/incident/397"
+    },
+    {
+      "idx": 277,
+      "id": "zyyj7u4f7tn55dz7q4mtyasaue",
+      "created": "2025-05-23T15:05:00Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey @vladlen  HIGH\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/398"
+    },
+    {
+      "idx": 278,
+      "id": "kcxkudxem3gapep4yu6wyux4ae",
+      "created": "2025-05-23T15:26:19Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey https://git.muzpan.com/cashflow/cashflow-be/-/issues/399"
+    },
+    {
+      "idx": 279,
+      "id": "akx74z14fpf5zfk3b1qdm98b9c",
+      "created": "2025-05-24T09:37:38Z",
+      "username": "vadimjar",
+      "message": ":dizzy:  :boom:  :dizzy:  :boom:  DEFECT NUMBER 400 :dizzy:  :boom:  :dizzy:  :boom:  \nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/400\n\nNumber 666 is so close!\n"
+    },
+    {
+      "idx": 280,
+      "id": "cuizn83fapbpuepidtjdz3qyje",
+      "created": "2025-05-24T09:37:44Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey "
+    },
+    {
+      "idx": 281,
+      "id": "dwcgeynettrcbk7ko8ygiptp1e",
+      "created": "2025-05-24T09:57:22Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/401"
+    },
+    {
+      "idx": 282,
+      "id": "ijkfwewymjnyfc59mhus6txe7y",
+      "created": "2025-05-24T14:54:36Z",
+      "username": "vadimjar",
+      "message": "@all "
+    },
+    {
+      "idx": 283,
+      "id": "yz9bnxpq3jn8xnsmw8bck3ch3c",
+      "created": "2025-05-24T14:54:41Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-05-24 at 17.53.00.png"
+      ]
+    },
+    {
+      "idx": 284,
+      "id": "pza43c7gtpbqxr4af5s4yktq8e",
+      "created": "2025-05-24T14:57:26Z",
+      "username": "vadimjar",
+      "message": "Regression Results For Cashflow.... All failes due to Critical Or High Severity Defects. Need to Be Fixed ASAP!!!!!",
+      "files": [
+        "cashflow_24_05_2025.zip"
+      ]
+    },
+    {
+      "idx": 285,
+      "id": "ae9k3m3o33npdqjub5ee55kcyw",
+      "created": "2025-05-25T14:44:23Z",
+      "username": "vadimjar",
+      "message": "Low https://git.muzpan.com/cashflow/cashflow-be/-/issues/402"
+    },
+    {
+      "idx": 286,
+      "id": "i6b96aofepd4xpm71jizh94zye",
+      "created": "2025-05-25T15:14:02Z",
+      "username": "vadimjar",
+      "message": ":anger:  :white_check_mark:  :boom:  :dizzy: \nList of Fixed and Accepted (Retested) Defects:\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/370\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/360\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/364\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/362\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/361\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/300\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/365\n\nGood Job @vladlen and @razuvaevserghey teams "
+    },
+    {
+      "idx": 287,
+      "id": "uesgjyq6d3f3dnxu64jszmu1mw",
+      "created": "2025-05-25T15:17:16Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/359"
+    },
+    {
+      "idx": 288,
+      "id": "thyhkobkz3bm88duc33ee6s4sa",
+      "created": "2025-05-25T15:17:58Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/354"
+    },
+    {
+      "idx": 289,
+      "id": "an6ticmfztd3jpqjo6xsuofsze",
+      "created": "2025-05-25T15:19:11Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/343"
+    },
+    {
+      "idx": 290,
+      "id": "xb8q797my3dt9ff6g9yzwhk5yo",
+      "created": "2025-05-25T15:20:43Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/324"
+    },
+    {
+      "idx": 291,
+      "id": "bxn1jbrdgff97gr5i3jsemu87e",
+      "created": "2025-05-25T15:22:33Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/306\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/314"
+    },
+    {
+      "idx": 292,
+      "id": "iyqxjxicwjbrdk6rnwjo7cqo6o",
+      "created": "2025-05-25T15:23:30Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/249"
+    },
+    {
+      "idx": 293,
+      "id": "dts9fhqkufgamy744syfssc6ty",
+      "created": "2025-05-25T15:29:06Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/71"
+    },
+    {
+      "idx": 294,
+      "id": "7nswqbkkciyr5p5adrdzhnwnor",
+      "created": "2025-05-25T15:29:28Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/186"
+    },
+    {
+      "idx": 295,
+      "id": "5ksg3bykjirq9paeyooweenxuw",
+      "created": "2025-05-25T15:32:01Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/167\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/165\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/164\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/94"
+    },
+    {
+      "idx": 296,
+      "id": "hs8z4xti6jrufeeig7ibf4r7sa",
+      "created": "2025-05-25T15:36:45Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/130\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/190\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/191\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/82\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/80\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/93\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/89\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/83"
+    },
+    {
+      "idx": 297,
+      "id": "myn89pz4nbbe5pkr4uedtt1s4e",
+      "created": "2025-05-25T15:37:30Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-05-25 at 18.37.14.png"
+      ]
+    },
+    {
+      "idx": 298,
+      "id": "pdcuwypnp7gzpqqjochtq4cmzo",
+      "created": "2025-05-25T15:37:47Z",
+      "username": "vadimjar",
+      "message": "## 54 Fixed.... 78 to go!"
+    },
+    {
+      "idx": 299,
+      "id": "bthrgc8wkpbydnywzxd5ccdwoe",
+      "created": "2025-05-25T15:38:48Z",
+      "username": "vadimjar",
+      "message": "# 39 of them are High/Critical... @razuvaevserghey  @vladlen  please take them in work ASAP!",
+      "files": [
+        "Screenshot 2025-05-25 at 18.38.04.png"
+      ]
+    },
+    {
+      "idx": 300,
+      "id": "hdmuewf1nfr5jeieba8s8b37ae",
+      "created": "2025-05-25T15:56:49Z",
+      "username": "vadimjar",
+      "message": "We are Very close to finish this thing.... Next Sprint I suggest to put all effort on fixing Defects! Then we can polish this thing to perfection required!\n@sergeyl Please give approve to that!",
+      "files": [
+        "Screenshot 2025-05-25 at 18.55.04.png"
+      ]
+    },
+    {
+      "idx": 301,
+      "id": "puipsjzqwby3tjkyhkwayisfmc",
+      "created": "2025-05-25T16:11:16Z",
+      "username": "vadimjar",
+      "message": "# If couting just User Stories the project is completed for 83.56 %\n# With Defects included the result is 60%\n@all"
+    },
+    {
+      "idx": 302,
+      "id": "eck56rn89f86dp8hgxm3bibq5h",
+      "created": "2025-05-26T06:50:21Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/403"
+    },
+    {
+      "idx": 303,
+      "id": "uymymy9nbbba8qenw6iikeug9y",
+      "created": "2025-05-26T06:50:50Z",
+      "username": "vitaliyvtorenco",
+      "message": "@razuvaevserghey  this one should be working prior to demo "
+    },
+    {
+      "idx": 304,
+      "id": "6q7t7mniyifmjnw8qiih9h3whe",
+      "created": "2025-05-26T11:00:43Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/404 @razuvaevserghey  @vladlen  High Priority.... dates formats are different in different colums"
+    },
+    {
+      "idx": 305,
+      "id": "zf5damozspyw8qddxz4p6xgg1o",
+      "created": "2025-05-26T11:03:06Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/405 @razuvaevserghey @vladlen CRITICAL"
+    },
+    {
+      "idx": 306,
+      "id": "y4ry6hca1tywmdn7eppjyy4oge",
+      "created": "2025-05-26T11:03:23Z",
+      "username": "vadimjar",
+      "message": "sub table has more then 6 records :)"
+    },
+    {
+      "idx": 307,
+      "id": "7fzwqyfusbdq7ym1awuzh1y6ch",
+      "created": "2025-05-26T11:12:36Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/406 CIRICTAL.... "
+    },
+    {
+      "idx": 308,
+      "id": "5pta3zjzefnspxx7f5yb51rw1e",
+      "created": "2025-05-26T11:14:11Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/407 CRICAL"
+    },
+    {
+      "idx": 309,
+      "id": "qecyz6dc7bbfpe8t1pf9xmfpxw",
+      "created": "2025-05-26T12:59:06Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/410"
+    },
+    {
+      "idx": 310,
+      "id": "it6xcxy93fdd7juk6dgupw4g6w",
+      "created": "2025-05-26T17:03:26Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/411"
+    },
+    {
+      "idx": 311,
+      "id": "a351cyrmapgt3b37n1mmthsdfc",
+      "created": "2025-05-26T17:03:29Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/412"
+    },
+    {
+      "idx": 312,
+      "id": "zcbri6pm4pb4fyr8byq5ug37ec",
+      "created": "2025-05-27T13:52:31Z",
+      "username": "vadimjar",
+      "message": "@vladlen @razuvaevserghey  Story Coming After Demo https://git.muzpan.com/cashflow/cashflow-be/-/issues/413"
+    },
+    {
+      "idx": 313,
+      "id": "y8mmx9n16fnr3fhuxyy1ariw3e",
+      "created": "2025-05-27T13:52:49Z",
+      "username": "vadimjar",
+      "message": "please ASK Question if you do not understand the logic!"
+    },
+    {
+      "idx": 314,
+      "id": "sjg8dfi3obrhix38u8s5b7bazw",
+      "created": "2025-05-27T14:10:10Z",
+      "username": "vladlen",
+      "message": "добавляем логику через поиск по subagentPayedAt"
+    },
+    {
+      "idx": 315,
+      "id": "jh5g7fkr3jg3tcyzi4uayijt3w",
+      "created": "2025-05-27T14:10:11Z",
+      "username": "vladlen",
+      "message": "?"
+    },
+    {
+      "idx": 316,
+      "id": "xey3bkgm9fdy7db338cjas7her",
+      "created": "2025-05-27T14:29:35Z",
+      "username": "vadimjar",
+      "message": "для второй части таблицы"
+    },
+    {
+      "idx": 317,
+      "id": "zaqm7zag8ifjpftnes7fb7ym4e",
+      "created": "2025-05-27T14:29:41Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/414"
+    },
+    {
+      "idx": 318,
+      "id": "pp5exxyum3g1xjpfaujgs5g75w",
+      "created": "2025-05-27T14:30:32Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-05-27 at 17.29.50.png"
+      ]
+    },
+    {
+      "idx": 319,
+      "id": "1udok58wrfbppq1pcw8ejqnquy",
+      "created": "2025-05-27T14:30:55Z",
+      "username": "vadimjar",
+      "message": "первая часть в обоих случаях выдает одинаковый результат"
+    },
+    {
+      "idx": 320,
+      "id": "4ze18qti17bd9qzg41r1fzxauy",
+      "created": "2025-05-27T14:40:34Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/415"
+    },
+    {
+      "idx": 321,
+      "id": "ur6m3hrdgbn9dee3e3y6c5qsoa",
+      "created": "2025-05-27T14:48:58Z",
+      "username": "vadimjar",
+      "message": "@vladlen "
+    },
+    {
+      "idx": 322,
+      "id": "6ffpnwyaffyciyi9b6nzmkszoc",
+      "created": "2025-05-27T14:51:39Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/416 @razuvaevserghey "
+    },
+    {
+      "idx": 323,
+      "id": "xqfpgwzazfnm3yyzr33id7hywe",
+      "created": "2025-05-28T09:31:43Z",
+      "username": "vadimjar",
+      "message": "На Стэйд ничего не заливайте"
+    },
+    {
+      "idx": 324,
+      "id": "5kt6fnisnfg1bk513ijjs68xry",
+      "created": "2025-05-28T09:31:47Z",
+      "username": "vadimjar",
+      "message": "запускаю регрессию"
+    },
+    {
+      "idx": 325,
+      "id": "9q5xpi3xhb8pjm9wpt1yuag8ih",
+      "created": "2025-05-28T09:31:55Z",
+      "username": "vadimjar",
+      "message": "@vladlen @razuvaevserghey "
+    },
+    {
+      "idx": 326,
+      "id": "gcxwzs3h13g8unqhfgunequz9c",
+      "created": "2025-05-28T10:28:00Z",
+      "username": "vadimjar",
+      "message": "Fresh Critical Regression Defect @razuvaevserghey \nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/419"
+    },
+    {
+      "idx": 327,
+      "id": "sg8qtyigipdfbdw6nppredmxdc",
+      "created": "2025-05-28T11:02:13Z",
+      "username": "razuvaevserghey",
+      "message": "this issue is not relevant. we need to update STG "
+    },
+    {
+      "idx": 328,
+      "id": "rqnnkdku8bfrbpzwynmi7hjiuw",
+      "created": "2025-05-28T11:11:48Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/400"
+    },
+    {
+      "idx": 329,
+      "id": "1gmmiwacsi8o8ycfnenr8nt4wa",
+      "created": "2025-05-28T11:11:53Z",
+      "username": "vadimjar",
+      "message": "Returned"
+    },
+    {
+      "idx": 330,
+      "id": "rtcghagf3jrw7bnz6tm3xcr9uh",
+      "created": "2025-05-28T11:11:59Z",
+      "username": "vadimjar",
+      "message": "evidence in comments"
+    },
+    {
+      "idx": 331,
+      "id": "jd9zqi4emi845kd6prtf95srqe",
+      "created": "2025-05-28T11:16:28Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey update the stage if you are ready then let me know and I will rerun regression"
+    },
+    {
+      "idx": 332,
+      "id": "4nqhk1tj5bnibx6pmjwiif3a8c",
+      "created": "2025-05-28T11:43:43Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/411 is blocked by 419 ))) "
+    },
+    {
+      "idx": 333,
+      "id": "tamudbnyzjyyinstudwfgtc6ny",
+      "created": "2025-05-28T11:43:53Z",
+      "username": "vadimjar",
+      "message": "so waiting for your redeploy"
+    },
+    {
+      "idx": 334,
+      "id": "9p99cq6a4pg778xgky9jtw3i8e",
+      "created": "2025-05-28T15:46:01Z",
+      "username": "vadimjar",
+      "message": "@vladlen вот тебе новый фикс "
+    },
+    {
+      "idx": 335,
+      "id": "cwg6986jg3bqubz4un11gcgujh",
+      "created": "2025-05-28T15:46:09Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-05-28 at 18.45.18.png"
+      ]
+    },
+    {
+      "idx": 336,
+      "id": "fh6rrgko7pb9tpix6ga3kidcqw",
+      "created": "2025-05-28T15:46:27Z",
+      "username": "vadimjar",
+      "message": "чтоб не скучал"
+    },
+    {
+      "idx": 337,
+      "id": "awy3zkgdjib7xjhaubugo4ykwh",
+      "created": "2025-05-28T15:48:54Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-05-28 at 18.48.41.png"
+      ]
+    },
+    {
+      "idx": 338,
+      "id": "ja4gcdhp3prwteyyxu78xhet1e",
+      "created": "2025-05-28T15:50:12Z",
+      "username": "vladlen",
+      "message": "так это с фронта, тут прям на русском текст для пользователя"
+    },
+    {
+      "idx": 339,
+      "id": "kydeu8cmibyotmopmzjcqewrza",
+      "created": "2025-05-28T15:50:54Z",
+      "username": "razuvaevserghey",
+      "message": "Это наши "
+    },
+    {
+      "idx": 340,
+      "id": "k3pyficxx3dpjyritmx5y8g5uc",
+      "created": "2025-05-28T15:51:29Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/423"
+    },
+    {
+      "idx": 341,
+      "id": "nurcj13igprp5qnkius48tohra",
+      "created": "2025-05-28T15:51:45Z",
+      "username": "vadimjar",
+      "message": "не важно"
+    },
+    {
+      "idx": 342,
+      "id": "87us9rrr1fyo7bqi8odz9iw58r",
+      "created": "2025-05-28T15:51:51Z",
+      "username": "vadimjar",
+      "message": "утром было упавших 8 тестов"
+    },
+    {
+      "idx": 343,
+      "id": "uyeutaxz7bbmug5qogk831bqqo",
+      "created": "2025-05-28T15:51:53Z",
+      "username": "vadimjar",
+      "message": "теперь 40"
+    },
+    {
+      "idx": 344,
+      "id": "65qxyeb8mtn6jnwm3qtwqek1fo",
+      "created": "2025-05-28T15:52:17Z",
+      "username": "vadimjar",
+      "message": "по этому НЕ НАДО ДОБАВЛЯТЬ ничего нового.... пока не ПОФИКСИТЕ то что уже наломали"
+    },
+    {
+      "idx": 345,
+      "id": "6r3oh894j3b9bcx6m5aq7ni5hy",
+      "created": "2025-05-28T15:53:32Z",
+      "username": "razuvaevserghey",
+      "message": "@vladlen нужно унифицировать ошибки все и нам прислать"
+    },
+    {
+      "idx": 346,
+      "id": "3ehpud9yatgd9gu7brk1eui79w",
+      "created": "2025-05-28T15:53:42Z",
+      "username": "razuvaevserghey",
+      "message": "Не только по auth"
+    },
+    {
+      "idx": 347,
+      "id": "fmbc91hzatdujp7hcowdrzppwe",
+      "created": "2025-05-29T04:58:20Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-05-29 at 07.57.17.png"
+      ]
+    },
+    {
+      "idx": 348,
+      "id": "3bee7tdyktrfmqetcc96jtm54a",
+      "created": "2025-05-29T04:59:01Z",
+      "username": "vadimjar",
+      "message": "23 fails.... 17 of them because of fresh defect: https://git.muzpan.com/cashflow/cashflow-be/-/issues/423"
+    },
+    {
+      "idx": 349,
+      "id": "py83xbna6ibp7na3wg3tx7zrwe",
+      "created": "2025-05-29T05:40:04Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/424"
+    },
+    {
+      "idx": 350,
+      "id": "bwtpjupjtjgazbt9rkkx5p3ege",
+      "created": "2025-05-29T06:07:43Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey returning this defect for 4th time... with the same issue:"
+    },
+    {
+      "idx": 351,
+      "id": "66cs8y7s6f888j59esrch4kufh",
+      "created": "2025-05-29T06:07:45Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/229"
+    },
+    {
+      "idx": 352,
+      "id": "qgzymkqorbgt7nhrkaty4haghw",
+      "created": "2025-05-29T06:07:54Z",
+      "username": "vadimjar",
+      "message": "read commentaries"
+    },
+    {
+      "idx": 353,
+      "id": "go9ua1msmbysieify7fii3iaea",
+      "created": "2025-05-29T06:53:43Z",
+      "username": "vadimjar",
+      "message": "@vladlen https://git.muzpan.com/cashflow/cashflow-be/-/issues/428 "
+    },
+    {
+      "idx": 354,
+      "id": "od4qiwyndj8y38a46jp8x5n8qr",
+      "created": "2025-05-29T06:55:31Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey https://git.muzpan.com/cashflow/cashflow-be/-/issues/427"
+    },
+    {
+      "idx": 355,
+      "id": "44befsiwktridpn9ykbkxo1gwy",
+      "created": "2025-05-29T07:08:23Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey returned with issue https://git.muzpan.com/cashflow/cashflow-be/-/issues/363"
+    },
+    {
+      "idx": 356,
+      "id": "u6798tbrejf39c8kjm3jpn69hy",
+      "created": "2025-05-29T07:37:00Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/429  :firecracker: "
+    },
+    {
+      "idx": 357,
+      "id": "i6hz913ezir89canpruo1rkqia",
+      "created": "2025-05-29T08:53:10Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/430"
+    },
+    {
+      "idx": 358,
+      "id": "g46yt8i3hjyc3fz7kuqm9jpdry",
+      "created": "2025-05-29T10:14:54Z",
+      "username": "vadimjar",
+      "message": "Returned with new defect flow: https://git.muzpan.com/cashflow/cashflow-be/-/issues/378"
+    },
+    {
+      "idx": 359,
+      "id": "a6ab7wn79p8gdc9zghai991w1w",
+      "created": "2025-05-29T10:18:50Z",
+      "username": "vadimjar",
+      "message": "Same issue I believe need investigation: https://git.muzpan.com/cashflow/cashflow-be/-/issues/398 @razuvaevserghey "
+    },
+    {
+      "idx": 360,
+      "id": "g6wah5sygfn7xpwb8x5zb7bgqy",
+      "created": "2025-05-29T10:20:12Z",
+      "username": "vladlen",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/428 @vlachu described in comments"
+    },
+    {
+      "idx": 361,
+      "id": "ye4ghkiw3bfxfm6yf19qqpjctr",
+      "created": "2025-05-29T11:26:56Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/388 - @razuvaevserghey , reverted to Defect, NO FIX "
+    },
+    {
+      "idx": 362,
+      "id": "i6m41tgqifg6zfpb9k7n1o4kcc",
+      "created": "2025-05-29T12:02:23Z",
+      "username": "razuvaevserghey",
+      "message": "Front STG is updated"
+    },
+    {
+      "idx": 363,
+      "id": "bbn6ieaoxjbrmquqk7o4ad1bbw",
+      "created": "2025-05-29T12:33:39Z",
+      "username": "vadimjar",
+      "message": "@sergeyl @yevgeniysokolov  вот что на данный момент в сухом остатке после ретеста всех дефектов которые пофикшены",
+      "files": [
+        "Screenshot 2025-05-29 at 15.31.22.png"
+      ]
+    },
+    {
+      "idx": 364,
+      "id": "n9ff5hxpg78n3m44ruba6notze",
+      "created": "2025-05-29T12:35:28Z",
+      "username": "vadimjar",
+      "message": "Вот эти два дефекта блочат деплой в прод:\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/430\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/392"
+    },
+    {
+      "idx": 365,
+      "id": "9fr8owgtqff8t8koz1185mkx5c",
+      "created": "2025-05-29T12:35:50Z",
+      "username": "vadimjar",
+      "message": "Запускаю регресию посмотрим чо она выдаст"
+    },
+    {
+      "idx": 366,
+      "id": "aax7quwnp7gqinfxana1srddae",
+      "created": "2025-05-29T12:54:26Z",
+      "username": "sergeyl",
+      "message": "С датами точно нужно разобраться "
+    },
+    {
+      "idx": 367,
+      "id": "bwpa8poxs3ditmu3yomqjddjka",
+      "created": "2025-05-29T13:00:47Z",
+      "username": "sergeyl",
+      "message": "я пытаюсь понять, какой прям прожиточный минимум функционала необходим.\nчтобы заказчик смог работать с системой в скорейший срок!!!\nкачество полей ввода например можно повысить следующим шагом"
+    },
+    {
+      "idx": 368,
+      "id": "h4obaejubpyfxe6ipoerodihoe",
+      "created": "2025-05-29T13:01:19Z",
+      "username": "sergeyl",
+      "message": "т.е. \"числовое поле если принимает любые символы\" - это не блочит основной флоу.\nпросто если человеку надо работать он туда не будет писать \"привет как дела\")) а напишет цифру\nтоесть оно не помешает в работе, можно докатить во вторник+"
+    },
+    {
+      "idx": 369,
+      "id": "zmm6n6a9ajnyukeig7gknt9yxe",
+      "created": "2025-05-29T13:02:13Z",
+      "username": "vadimjar",
+      "message": "392-ой почти всегда не даст заказчку загрузить валидные данные"
+    },
+    {
+      "idx": 370,
+      "id": "1jtt7c5t8783jm9uhpt4p53bke",
+      "created": "2025-05-29T13:02:25Z",
+      "username": "vadimjar",
+      "message": "а значит и отчет он получить не сможет"
+    },
+    {
+      "idx": 371,
+      "id": "fnj1zorau3bojxjn3i9sdrnzuw",
+      "created": "2025-05-29T13:03:29Z",
+      "username": "sergeyl",
+      "message": "речь про то, что вот такие критичные вещи нужно в первую очередь пофиксить, выдать чёткий срок, а медиум-лоу во второй батч доработок и докатить"
+    },
+    {
+      "idx": 372,
+      "id": "jq9iztandpnudkh6fprd17a55y",
+      "created": "2025-05-29T13:04:01Z",
+      "username": "vadimjar",
+      "message": "но он уже вроде в код ревью.... @razuvaevserghey @vladlen может он пофикшен уже? "
+    },
+    {
+      "idx": 373,
+      "id": "b7egzq4nrby6tqkkkyafnyb6sh",
+      "created": "2025-05-29T13:04:55Z",
+      "username": "vadimjar",
+      "message": "ну вот я написал эти два дефекта"
+    },
+    {
+      "idx": 374,
+      "id": "apps5kz9dfr1mm8djqqih5rs7a",
+      "created": "2025-05-29T13:05:05Z",
+      "username": "vadimjar",
+      "message": "если фиксим можем лить в прод"
+    },
+    {
+      "idx": 375,
+      "id": "33tsy15cabgxie8jht86y4neko",
+      "created": "2025-05-29T14:22:22Z",
+      "username": "vadimjar",
+      "message": "@vladlen @razuvaevserghey вы успеваете залиться в 6 часов с фиксом 430? "
+    },
+    {
+      "idx": 376,
+      "id": "68dj47m1qbfydbggzordizbbbc",
+      "created": "2025-05-29T14:22:38Z",
+      "username": "razuvaevserghey",
+      "message": "да"
+    },
+    {
+      "idx": 377,
+      "id": "3i98yyb1n3yofnkn4no5z6pr6o",
+      "created": "2025-05-29T14:23:12Z",
+      "username": "razuvaevserghey",
+      "message": "429 на подходе, проверяю ее и тоже к 6и хочу залить"
+    },
+    {
+      "idx": 378,
+      "id": "ixpr3xgeq3b3dfztn896sxqety",
+      "created": "2025-05-29T14:51:29Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/436"
+    },
+    {
+      "idx": 379,
+      "id": "zk94dckectdpxgtcayyhmzam9c",
+      "created": "2025-05-29T14:59:27Z",
+      "username": "vladlen",
+      "message": "вова сделал https://git.muzpan.com/cashflow/cashflow-be/-/issues/243 ac3 но я не успеваю проверить еще потому что занят\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/426\nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/434\nс округлениями "
+    },
+    {
+      "idx": 380,
+      "id": "sz7isy4uzp8cirykkwfx4ugw5h",
+      "created": "2025-05-29T15:00:15Z",
+      "username": "razuvaevserghey",
+      "message": "Нужно 10-15 минут, конфликты решаем и перезалив"
+    },
+    {
+      "idx": 381,
+      "id": "r6wtdtwa83rqmqto7pmxwcr5no",
+      "created": "2025-05-29T15:12:04Z",
+      "username": "vladlen",
+      "message": "обновил с округдением 426,434"
+    },
+    {
+      "idx": 382,
+      "id": "mhx34xbepp8t98twj493hktupo",
+      "created": "2025-05-29T15:12:11Z",
+      "username": "vladlen",
+      "message": "смотрю Вовы 243"
+    },
+    {
+      "idx": 383,
+      "id": "3imbdgt68pgpdec1dghf1g4poc",
+      "created": "2025-05-29T15:28:23Z",
+      "username": "yevgeniysokolov",
+      "message": "Наберемся?"
+    },
+    {
+      "idx": 384,
+      "id": "bea1p99on7dxfdisnuhcbq9ywh",
+      "created": "2025-05-29T15:28:27Z",
+      "username": "yevgeniysokolov",
+      "message": "Я на месте"
+    },
+    {
+      "idx": 385,
+      "id": "3zn8n1hme3r5m8eu7re4dpntca",
+      "created": "2025-05-29T15:28:57Z",
+      "username": "yevgeniysokolov",
+      "message": "Сейчас Сергей Л. даст доступ"
+    },
+    {
+      "idx": 386,
+      "id": "oq3zio5eppygjrnhx38mrqmsiw",
+      "created": "2025-05-30T04:44:25Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/437"
+    },
+    {
+      "idx": 387,
+      "id": "15oswkisrjbkxytobciyr4rjzr",
+      "created": "2025-05-30T09:30:51Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/440"
+    },
+    {
+      "idx": 388,
+      "id": "ja97pyycjide7ebuxrrpm65g9w",
+      "created": "2025-05-30T10:53:15Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/442"
+    },
+    {
+      "idx": 389,
+      "id": "yo6qu89psiym9yttxdnjuadwwe",
+      "created": "2025-05-30T12:47:25Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/444"
+    },
+    {
+      "idx": 390,
+      "id": "pxjk1tar5pg6trkopu8ipkpibw",
+      "created": "2025-05-30T12:50:34Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/445"
+    },
+    {
+      "idx": 391,
+      "id": "5tg1h6xggpbf3p7ngxuj861knh",
+      "created": "2025-05-30T12:51:29Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/446"
+    },
+    {
+      "idx": 392,
+      "id": "be6tembnobn7ukbwrdhtm347sc",
+      "created": "2025-05-30T15:22:59Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/447"
+    },
+    {
+      "idx": 393,
+      "id": "yxf34aaehpys3jgp5qt6qb86dh",
+      "created": "2025-05-30T16:45:24Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/449"
+    },
+    {
+      "idx": 394,
+      "id": "8ici5c6xbbbc3gmcgy7nzfpujo",
+      "created": "2025-05-30T17:13:36Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/450"
+    },
+    {
+      "idx": 395,
+      "id": "9krc1mk3gbys8psgj4o167xufc",
+      "created": "2025-06-03T07:09:52Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/463"
+    },
+    {
+      "idx": 396,
+      "id": "mgkiysbattn9dy3o4tiyhjy6go",
+      "created": "2025-06-03T07:13:48Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/462"
+    },
+    {
+      "idx": 397,
+      "id": "a7dx5mkrpb86frpow9gfe3nj4e",
+      "created": "2025-06-03T11:13:09Z",
+      "username": "vadimjar",
+      "message": "tsukhadunova added to the channel by vadimjar."
+    },
+    {
+      "idx": 398,
+      "id": "x11ozp6zaiy5ixkdztigfkhiae",
+      "created": "2025-06-03T12:57:25Z",
+      "username": "vitaliyvtorenco",
+      "message": "[https://git.muzpan.com/cashflow/cashflow-be/-/issues/465](https://git.muzpan.com/cashflow/cashflow-be/-/issues/465)"
+    },
+    {
+      "idx": 399,
+      "id": "q7x174uaufn8bn411mh79kukze",
+      "created": "2025-06-04T07:40:40Z",
+      "username": "vadimjar",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/467"
+    },
+    {
+      "idx": 400,
+      "id": "scdyo91q83radj4eh5whmecijr",
+      "created": "2025-06-04T07:58:15Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/466"
+    },
+    {
+      "idx": 401,
+      "id": "48t17c6a1brhipr5yk34wnn7yo",
+      "created": "2025-06-04T08:51:56Z",
+      "username": "vadimjar",
+      "message": "@vladlen @razuvaevserghey  Good news for you ) "
+    },
+    {
+      "idx": 402,
+      "id": "b1djepbebbgymgqpaucgwtp6co",
+      "created": "2025-06-04T08:52:05Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-06-04 at 11.51.10.png"
+      ]
+    },
+    {
+      "idx": 403,
+      "id": "y57eqn7i3ifym84k1masoabe8h",
+      "created": "2025-06-04T08:52:15Z",
+      "username": "vadimjar",
+      "message": "regression passed with 99+% "
+    },
+    {
+      "idx": 404,
+      "id": "9y5qjgbkcpgdbmwqgdeyxxjkjh",
+      "created": "2025-06-04T08:52:17Z",
+      "username": "vadimjar",
+      "message": ")))"
+    },
+    {
+      "idx": 405,
+      "id": "cs5igjxwc7b8pb7e4skoaj9t6e",
+      "created": "2025-06-04T11:36:31Z",
+      "username": "vadimjar",
+      "message": "One More Good News"
+    },
+    {
+      "idx": 406,
+      "id": "4wa1oxwg13nrxfnk8g5xf5u3sc",
+      "created": "2025-06-04T11:36:50Z",
+      "username": "vadimjar",
+      "message": "Cash Flow Can Be Deployed in Prod For Client"
+    },
+    {
+      "idx": 407,
+      "id": "4fr7efahhidqmxxmnhozjd8rmc",
+      "created": "2025-06-04T11:36:59Z",
+      "username": "vadimjar",
+      "message": "@sergeyl please give approve for that"
+    },
+    {
+      "idx": 408,
+      "id": "r6d8d5ogetbgzmhnpfuw4eb95c",
+      "created": "2025-06-04T11:38:16Z",
+      "username": "sergeyl",
+      "message": "great job! go ahead."
+    },
+    {
+      "idx": 409,
+      "id": "9xi1ecdkw7y67ezpui73nzmtsr",
+      "created": "2025-06-04T11:38:35Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey @vladlen wrum wrum wrum"
+    },
+    {
+      "idx": 410,
+      "id": "8g1tepezniya5ynditz8fu3y8w",
+      "created": "2025-06-04T11:41:10Z",
+      "username": "vladlen",
+      "message": "drop db?"
+    },
+    {
+      "idx": 411,
+      "id": "qd5bmwg1ffnx5nno574yabb87c",
+      "created": "2025-06-04T11:50:00Z",
+      "username": "razuvaevserghey",
+      "message": "@vadimjar Finished: SUCCESS"
+    },
+    {
+      "idx": 412,
+      "id": "rdzn3znxjfrepbfqr7gc5yq8zr",
+      "created": "2025-06-04T11:50:26Z",
+      "username": "vadimjar",
+      "message": "Yes"
+    },
+    {
+      "idx": 413,
+      "id": "4un15qu9t7g78mnri1ftut6ouw",
+      "created": "2025-06-04T12:33:59Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-06-04 at 15.32.34.png"
+      ]
+    },
+    {
+      "idx": 414,
+      "id": "sqdyn4m1dp8t9d8fsq5amjtc6y",
+      "created": "2025-06-04T12:34:23Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Cashflow_4_06_2025_Release_Regression_Report.zip"
+      ]
+    },
+    {
+      "idx": 415,
+      "id": "38m9yqieijbapk1xx4sxabas9h",
+      "created": "2025-06-04T12:46:29Z",
+      "username": "vladlen",
+      "message": "merged into main and deployed all services"
+    },
+    {
+      "idx": 416,
+      "id": "78n5wcha6tff8yu4pyigcwwsyc",
+      "created": "2025-06-04T13:19:28Z",
+      "username": "vladlen",
+      "message": "wiped db"
+    },
+    {
+      "idx": 417,
+      "id": "gw4uxwdmxfgy78g4p9yub6fyar",
+      "created": "2025-06-04T14:03:53Z",
+      "username": "vic",
+      "message": "В добрый путь. "
+    },
+    {
+      "idx": 418,
+      "id": "gcqq41jzdpgd7d7hp4pp1fr9dr",
+      "created": "2025-06-04T14:03:59Z",
+      "username": "vic",
+      "message": "Вадим - спасибо!! "
+    },
+    {
+      "idx": 419,
+      "id": "1z5eu81ui38dix5zg7jmnsm8we",
+      "created": "2025-06-04T14:04:16Z",
+      "username": "vic",
+      "message": "Влад и команда тоже спасибо "
+    },
+    {
+      "idx": 420,
+      "id": "5818wsrmkjrsxm39h9j8ia6hyw",
+      "created": "2025-06-04T16:12:59Z",
+      "username": "vadimjar",
+      "message": "передам это всей коменде тестеров если ты не против ) "
+    },
+    {
+      "idx": 421,
+      "id": "5uds4ctukb87zp6zcsng4y3zby",
+      "created": "2025-06-04T18:27:16Z",
+      "username": "vic",
+      "message": "Однозначно. Всем им спасибо ) в твоем лице) "
+    },
+    {
+      "idx": 422,
+      "id": "rpzmsos6xtyujmt3ngjynqo9ea",
+      "created": "2025-06-05T07:19:19Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/474"
+    },
+    {
+      "idx": 423,
+      "id": "o9b9cijy9jnebrhpaj6ruc5fxy",
+      "created": "2025-06-05T08:31:18Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/475"
+    },
+    {
+      "idx": 424,
+      "id": "yjrfik69ttyoifpa35u4s1bj1o",
+      "created": "2025-06-05T08:32:12Z",
+      "username": "vitaliyvtorenco",
+      "message": "@vladlen , @razuvaevserghey , 475 это нужно с обеих сторон проверить и подправить "
+    },
+    {
+      "idx": 425,
+      "id": "aaoc3znkmbnr7k6nyhawbk9amh",
+      "created": "2025-06-05T14:51:19Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey @vladlen https://git.muzpan.com/cashflow/cashflow-be/-/issues/477 High Priority"
+    },
+    {
+      "idx": 426,
+      "id": "k5jyoeq5oibkpgq5tjor75158h",
+      "created": "2025-06-05T15:32:31Z",
+      "username": "vadimjar",
+      "message": "@all congrats @tsukhodunova with her first PR in cashflow ATF  :boom: :boom: :boom: :boom: :boom: "
+    },
+    {
+      "idx": 427,
+      "id": "qgo16feu9br9trj4iq4chmm9hr",
+      "created": "2025-06-05T15:33:48Z",
+      "username": "vitaliyvtorenco",
+      "message": "![Baby Success GIF](https://media0.giphy.com/media/4xpB3eE00FfBm/200.gif?cid=2475d0be1helmbpfbu5iwihhk9jvgda00gqfxkofabvu6amv&ep=v1_gifs_search&rid=200.gif&ct=g)"
+    },
+    {
+      "idx": 428,
+      "id": "q69g3hm1gif5f81jtfds68ja9w",
+      "created": "2025-06-07T11:08:49Z",
+      "username": "vadimjar",
+      "message": "@vladlen @razuvaevserghey Weekend present to you my friends :) \nhttps://git.muzpan.com/cashflow/cashflow-be/-/issues/479 Critical "
+    },
+    {
+      "idx": 429,
+      "id": "irkg8gt1wirx3ccmrd1odqzq7h",
+      "created": "2025-06-07T16:25:52Z",
+      "username": "razuvaevserghey",
+      "message": "Fixed locally"
+    },
+    {
+      "idx": 430,
+      "id": "qycf5tyuuf8y9dyuhmf56y9awh",
+      "created": "2025-06-09T08:21:05Z",
+      "username": "vitaliyvtorenco",
+      "message": "[https://git.muzpan.com/cashflow/cashflow-be/-/issues/480](https://git.muzpan.com/cashflow/cashflow-be/-/issues/480)"
+    },
+    {
+      "idx": 431,
+      "id": "deopjc5hfbds8diiaa1wf9cgxc",
+      "created": "2025-06-10T13:22:19Z",
+      "username": "vitaliyvtorenco",
+      "message": "[https://git.muzpan.com/cashflow/cashflow-be/-/issues/482](https://git.muzpan.com/cashflow/cashflow-be/-/issues/482)"
+    },
+    {
+      "idx": 432,
+      "id": "r4sdn8ouhfbo5f6g1j1bjxtsao",
+      "created": "2025-06-16T10:14:40Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/489"
+    },
+    {
+      "idx": 433,
+      "id": "cmwuw7g5rf8i8bwnrunj7qegsr",
+      "created": "2025-06-17T12:20:55Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/490"
+    },
+    {
+      "idx": 434,
+      "id": "4tom6nkzyjrd3c8yj4zwpidtxc",
+      "created": "2025-06-17T12:56:51Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/491"
+    },
+    {
+      "idx": 435,
+      "id": "5noqsqmkwidk3c787t4155zfuo",
+      "created": "2025-06-17T13:11:37Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey "
+    },
+    {
+      "idx": 436,
+      "id": "baqotjpujpdmmnr654cj4s5yir",
+      "created": "2025-06-18T15:33:38Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "Screenshot 2025-06-18 at 18.31.26.png"
+      ]
+    },
+    {
+      "idx": 437,
+      "id": "d1suejri3pb85dfgh4cz8uc5zy",
+      "created": "2025-06-19T06:06:38Z",
+      "username": "vadimjar",
+      "message": "vadimjar updated the channel display name from: PayFlow Analytics to: CashFlow"
+    },
+    {
+      "idx": 438,
+      "id": "brga1j8fotdhxfxoktfcqp6m8w",
+      "created": "2025-06-19T10:01:54Z",
+      "username": "sergeyl",
+      "message": "👍 "
+    },
+    {
+      "idx": 439,
+      "id": "wqurcwmd338hp81tnne4kyirsr",
+      "created": "2025-06-20T08:26:17Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/492 - Regression defect "
+    },
+    {
+      "idx": 440,
+      "id": "ahnseu3xkprhmbxeeyr4j1nf9y",
+      "created": "2025-06-20T08:42:51Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/493 - Regression defect "
+    },
+    {
+      "idx": 441,
+      "id": "9hxr8cisbt8e5mqd3m57krwpyw",
+      "created": "2025-06-25T11:11:16Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey https://git.muzpan.com/cashflow/cashflow-be/-/issues/508"
+    },
+    {
+      "idx": 442,
+      "id": "dob7rhfx5idy7kcyrek4dg67ar",
+      "created": "2025-06-25T11:11:30Z",
+      "username": "vadimjar",
+      "message": "тот самый дефект со всем списком где ошибкы"
+    },
+    {
+      "idx": 443,
+      "id": "b6tat4eu73ntjpfcf7d1i3983w",
+      "created": "2025-06-25T12:25:14Z",
+      "username": "vitaliyvtorenco",
+      "message": "[https://git.muzpan.com/cashflow/cashflow-be/-/issues/509](https://git.muzpan.com/cashflow/cashflow-be/-/issues/509)"
+    },
+    {
+      "idx": 444,
+      "id": "scor9jjkk3bo3y1wi6bhp6ipce",
+      "created": "2025-06-27T07:26:02Z",
+      "username": "vadimjar",
+      "message": "@vladlen story from client after their testing: https://git.muzpan.com/cashflow/cashflow-be/-/issues/512"
+    },
+    {
+      "idx": 445,
+      "id": "39xqgr1s6ffs8bsurpt57ort5c",
+      "created": "2025-06-27T07:33:04Z",
+      "username": "vadimjar",
+      "message": "@vladlen https://git.muzpan.com/cashflow/cashflow-be/-/issues/513 Critical for nightly regression"
+    },
+    {
+      "idx": 446,
+      "id": "5g7eqm93eig3bgtusznya71o8r",
+      "created": "2025-06-27T09:23:55Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/514"
+    },
+    {
+      "idx": 447,
+      "id": "k1rxrc5p57fwibb9ttt7furrre",
+      "created": "2025-06-27T10:24:41Z",
+      "username": "vadimjar",
+      "message": "@vladlen https://git.muzpan.com/cashflow/cashflow-be/-/issues/515 Critical Very Critical )"
+    },
+    {
+      "idx": 448,
+      "id": "p7i47tjjtbbmmgpgtf6ixwpnpe",
+      "created": "2025-06-27T14:49:36Z",
+      "username": "vladlen",
+      "message": "egalieva added to the channel by vladlen."
+    },
+    {
+      "idx": 449,
+      "id": "c8tekyep5b8yxbpxy4hip7ukpy",
+      "created": "2025-06-27T15:11:18Z",
+      "username": "vladlen",
+      "message": "auteev added to the channel by vladlen."
+    },
+    {
+      "idx": 450,
+      "id": "3obrp7xhefbfzqoaiyythn9hbr",
+      "created": "2025-07-01T13:47:57Z",
+      "username": "vadimjar",
+      "message": "sgrishin added to the channel by vadimjar."
+    },
+    {
+      "idx": 451,
+      "id": "f8xkr8n1kp85jyksxo81dcg8xe",
+      "created": "2025-07-01T13:48:05Z",
+      "username": "vadimjar",
+      "message": "сюда кинь"
+    },
+    {
+      "idx": 452,
+      "id": "hsqryynh73f1ig9y1t53wymzur",
+      "created": "2025-07-01T13:48:12Z",
+      "username": "vadimjar",
+      "message": "и отметь @vladlen "
+    },
+    {
+      "idx": 453,
+      "id": "xwemo5uzibr33fcgdr9m6n5nya",
+      "created": "2025-07-01T13:48:58Z",
+      "username": "vadimjar",
+      "message": "а по второму дефекту"
+    },
+    {
+      "idx": 454,
+      "id": "pif8pk5wq7y9pg5bpbfkpankkr",
+      "created": "2025-07-01T13:49:01Z",
+      "username": "sgrishin",
+      "message": "@vladlen https://git.muzpan.com/cashflow/cashflow-be/-/issues/524"
+    },
+    {
+      "idx": 455,
+      "id": "56q5fs84xfyz8cspwzm3t5qj5c",
+      "created": "2025-07-01T13:49:11Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey "
+    },
+    {
+      "idx": 456,
+      "id": "bn5n1rasfjbnbq81hucah3a9ar",
+      "created": "2025-07-01T14:02:43Z",
+      "username": "sgrishin",
+      "message": "@razuvaevserghey https://git.muzpan.com/cashflow/cashflow-be/-/issues/525"
+    },
+    {
+      "idx": 457,
+      "id": "i1zqzo1gkigt5j5mjrmi97fctr",
+      "created": "2025-07-02T12:57:22Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey @vladlen чо там с деплоем на стейдж? "
+    },
+    {
+      "idx": 458,
+      "id": "b5s7hyj8opybij4w3cuqbfpyrw",
+      "created": "2025-07-02T12:58:29Z",
+      "username": "razuvaevserghey",
+      "message": "Прямо сейчас вот занимаюсь"
+    },
+    {
+      "idx": 459,
+      "id": "464sh9j1p7fdtkwz6d5f5tbxuo",
+      "created": "2025-07-02T15:19:34Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/527"
+    },
+    {
+      "idx": 460,
+      "id": "nksckwuidbbc7xoayfbrpmyfqh",
+      "created": "2025-07-02T16:22:14Z",
+      "username": "razuvaevserghey",
+      "message": "Cahflow FE перезалит в DEV и STG"
+    },
+    {
+      "idx": 461,
+      "id": "9y6yh5thg3g1fnk53nocc1kura",
+      "created": "2025-07-03T09:40:27Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/528"
+    },
+    {
+      "idx": 462,
+      "id": "1a93g1z677nozpmng5cpnuyacr",
+      "created": "2025-07-03T12:10:17Z",
+      "username": "vadimjar",
+      "message": "@razuvaevserghey https://git.muzpan.com/cashflow/cashflow-be/-/issues/493 для егора"
+    },
+    {
+      "idx": 463,
+      "id": "ocamge5fufnx7y96zngaepsyba",
+      "created": "2025-07-03T12:59:58Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/530"
+    },
+    {
+      "idx": 464,
+      "id": "rr3bftcgf38wbkcdgkso5rm5wh",
+      "created": "2025-07-03T13:40:03Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/531"
+    },
+    {
+      "idx": 465,
+      "id": "n1dj4or36td3ibsj1p5b55dsmo",
+      "created": "2025-07-04T08:37:51Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/532"
+    },
+    {
+      "idx": 466,
+      "id": "ixrkbhx9wpf8jfwojk35o1eoje",
+      "created": "2025-07-04T09:40:39Z",
+      "username": "sgrishin",
+      "message": "@razuvaevserghey https://git.muzpan.com/cashflow/cashflow-be/-/issues/535"
+    },
+    {
+      "idx": 467,
+      "id": "ctug5ka1kpdbfxcxd17a8g4bqa",
+      "created": "2025-07-04T11:13:57Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/536"
+    },
+    {
+      "idx": 468,
+      "id": "jxpko9bgojbjjcqoj4uirnfe4r",
+      "created": "2025-07-04T12:50:05Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/incident/537"
+    },
+    {
+      "idx": 469,
+      "id": "oabexf7fdi83mcyfr54iifyu3a",
+      "created": "2025-07-07T08:16:42Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/538"
+    },
+    {
+      "idx": 470,
+      "id": "bo8jtt534ifodfdh5zibriyexa",
+      "created": "2025-07-08T08:46:38Z",
+      "username": "vadimjar",
+      "message": "@vladlen жду от тебя влива в стэйдж и деплоя новвоведений"
+    },
+    {
+      "idx": 471,
+      "id": "6kst4ps7zidnpymfw7f1pz3eao",
+      "created": "2025-07-08T08:46:44Z",
+      "username": "vadimjar",
+      "message": "как и стори в реди фор тестинг"
+    },
+    {
+      "idx": 472,
+      "id": "yd7thotz7fgnuyhqi8pqudw88h",
+      "created": "2025-07-08T08:48:48Z",
+      "username": "vladlen",
+      "message": "+2 бага чиню и лью"
+    },
+    {
+      "idx": 473,
+      "id": "iumsn3uzxpym3g49gucz9d9zjc",
+      "created": "2025-07-08T09:59:57Z",
+      "username": "vitaliyvtorenco",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/544"
+    },
+    {
+      "idx": 474,
+      "id": "kugmtfx81irnujbse63p7o5k8y",
+      "created": "2025-07-08T15:11:20Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/550"
+    },
+    {
+      "idx": 475,
+      "id": "ek89jji1hfbabbm863ig6eq4qa",
+      "created": "2025-07-09T12:49:16Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/554 "
+    },
+    {
+      "idx": 476,
+      "id": "kz4y4www9tgzip71gutpsb7i3y",
+      "created": "2025-07-09T12:50:02Z",
+      "username": "vitaliyvtorenco",
+      "message": "@vladlen "
+    },
+    {
+      "idx": 477,
+      "id": "dg4iwe5s7f84pg989wcej7dc1w",
+      "created": "2025-07-10T06:43:08Z",
+      "username": "tsukhodunova",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/558"
+    },
+    {
+      "idx": 478,
+      "id": "b9k16npm4brf3qk8echgrxtmoo",
+      "created": "2025-07-10T12:39:21Z",
+      "username": "sgrishin",
+      "message": "https://git.muzpan.com/cashflow/cashflow-be/-/issues/562"
+    },
+    {
+      "idx": 479,
+      "id": "zg144yopotgdx8g1esxb6htwno",
+      "created": "2025-07-11T11:45:32Z",
+      "username": "vadimjar",
+      "message": "@all wiki страничка с результатами регресии по кэшфлоу\nВсе заинтересованные прошу подпишитесь (нажмите кнопку watch)"
+    },
+    {
+      "idx": 480,
+      "id": "pdhjnrp94bbgxcnisnn5e49o4a",
+      "created": "2025-07-11T11:45:34Z",
+      "username": "vadimjar",
+      "message": "http://anykey.gr.muzpan.com/projects/anykey/wiki/cashflow"
+    },
+    {
+      "idx": 481,
+      "id": "e4r9tjifi3yn7bniehbgjga8oe",
+      "created": "2025-07-14T12:44:11Z",
+      "username": "vladlen",
+      "message": "doisinov added to the channel by vladlen."
+    },
+    {
+      "idx": 482,
+      "id": "e44b75a5zid68fty5s9tcd3uxa",
+      "created": "2025-07-14T13:36:27Z",
+      "username": "vadimjar",
+      "message": "@all Перенос сторей закончен.... перехожу к переносу дефектов\nВсе на борде AnyKey \n@razuvaevserghey @vladlen когда будете переносить актуальные таски или создавать новые не забывайте их линковать к соответсвующей стори\n"
+    },
+    {
+      "idx": 483,
+      "id": "4yx1zqzd7jb8mn64fkfw9uiiwe",
+      "created": "2025-07-14T13:36:54Z",
+      "username": "vadimjar",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 484,
+      "id": "k4cemkurgf8i3b8ybzqbxbrpxy",
+      "created": "2025-07-16T10:31:01Z",
+      "username": "vadimjar",
+      "message": "@kislyakovadarya removed from the channel."
+    },
+    {
+      "idx": 485,
+      "id": "t8pi4nsjwjgtbejyobfh87mssr",
+      "created": "2025-07-16T12:22:21Z",
+      "username": "vitaliyvtorenco",
+      "message": "http://anykey.gr.muzpan.com/projects/anykey/work_packages/899/activity"
+    },
+    {
+      "idx": 486,
+      "id": "fmr8uq6x4jdjtgwd9durwgcbya",
+      "created": "2025-07-16T13:23:26Z",
+      "username": "vitaliyvtorenco",
+      "message": "[http://anykey.gr.muzpan.com/projects/anykey/work\\_packages/1022/activity](http://anykey.gr.muzpan.com/projects/anykey/work_packages/1022/activity)"
+    },
+    {
+      "idx": 487,
+      "id": "shsep6fkdpn1tm6mmjehogt33e",
+      "created": "2025-07-18T09:52:17Z",
+      "username": "vadimjar",
+      "message": "@vladlen http://anykey.gr.muzpan.com/projects/anykey/work_packages/1239/activity?query_id=178 очень срочный баг"
+    },
+    {
+      "idx": 488,
+      "id": "dt8fqesmj3ffd8hmnbzk7god6h",
+      "created": "2025-07-18T10:46:25Z",
+      "username": "sergeyl",
+      "message": "Приоритезацию задач и срочности необходимо полностью передать отделу ПМ."
+    },
+    {
+      "idx": 489,
+      "id": "47gw8orez7g59rsiwb57579cay",
+      "created": "2025-07-18T10:49:42Z",
+      "username": "vadimjar",
+      "message": "это дефект"
+    },
+    {
+      "idx": 490,
+      "id": "ysq36w91s784xci3q5r4r4dxrc",
+      "created": "2025-07-18T10:49:46Z",
+      "username": "sergeyl",
+      "message": "Ставьте если работа блокируется - выставляйте блокер на сторю, в рамках которой проводится qa. "
+    },
+    {
+      "idx": 491,
+      "id": "5hgtcpuoujdwmku86sq8hkb6xh",
+      "created": "2025-07-18T10:50:10Z",
+      "username": "sergeyl",
+      "message": "Если нужна помощь выставляйте help"
+    },
+    {
+      "idx": 492,
+      "id": "kyw3wq45xt8atm4qh9b8mmw5sr",
+      "created": "2025-07-18T10:50:20Z",
+      "username": "vadimjar",
+      "message": "ок"
+    },
+    {
+      "idx": 493,
+      "id": "k5uk3nyrm7ycznuqaiejec8yyo",
+      "created": "2025-07-18T10:55:58Z",
+      "username": "sergeyl",
+      "message": "Просто мы хотим сделать автосигналлинг в чаты. Выставил блокер через минуту чтоб бот писал в мм. Хотелось бы всех к автоматизации потихоньку обучать"
+    },
+    {
+      "idx": 494,
+      "id": "yh15xxs4bbn3xysrrjy7tk6jdw",
+      "created": "2025-07-18T10:57:01Z",
+      "username": "vadimjar",
+      "message": "серег я не уверен что ПМ способен определить северити (которую ты не хочешь добавлять) для бага"
+    },
+    {
+      "idx": 495,
+      "id": "3uwp1ijs1ir8tn8tyswipibbhh",
+      "created": "2025-07-18T10:57:25Z",
+      "username": "vadimjar",
+      "message": "если ПМ должен выставлять приоритет тогда надо северити вернуть"
+    },
+    {
+      "idx": 496,
+      "id": "wahfbxs6jty5imkf55rfe7jyzc",
+      "created": "2025-07-18T10:57:37Z",
+      "username": "vadimjar",
+      "message": "потому что только тестер может выставить его ) "
+    },
+    {
+      "idx": 497,
+      "id": "5ixm9rc34tyf8jp89ensxc84ja",
+      "created": "2025-07-18T10:57:59Z",
+      "username": "vadimjar",
+      "message": "чтобы пм базируясь на мнении тестера мог это сделать"
+    },
+    {
+      "idx": 498,
+      "id": "fzcodxciq7n15g4nx7jkjimmyh",
+      "created": "2025-07-18T10:58:12Z",
+      "username": "sergeyl",
+      "message": "Приорити задает порядок разработки. В большом количестве параметров запутается - так ещё можно ввести confidence, relevance, urgency.. ну ты понял ;-)"
+    },
+    {
+      "idx": 499,
+      "id": "5denz7fzf3gi8kao7h97c65u6e",
+      "created": "2025-07-18T10:58:54Z",
+      "username": "vadimjar",
+      "message": "да но у бага есть еще его \"влияние на систему\" которое ПМ просто тупо не может знать из за того что он не тестер ) "
+    },
+    {
+      "idx": 500,
+      "id": "c43qg1eq1fnhbrzo15assx9xuo",
+      "created": "2025-07-18T10:59:10Z",
+      "username": "vadimjar",
+      "message": "и не знает систему даже на уровне БА"
+    },
+    {
+      "idx": 501,
+      "id": "ck8ot7oawidc9ckmo81qst8nzh",
+      "created": "2025-07-18T11:00:11Z",
+      "username": "vadimjar",
+      "message": "тоесть что я имею в виду тестер открыл баг и поставил северити критичный или нет, поставил блочит он что-то или нет"
+    },
+    {
+      "idx": 502,
+      "id": "ei6o76etf7rcmjmy6gckc5oy4o",
+      "created": "2025-07-18T11:00:22Z",
+      "username": "vadimjar",
+      "message": "и уже ПМ определяет его приоритет по твоему сценарию"
+    },
+    {
+      "idx": 503,
+      "id": "7jiq4cuqiibn5cnx9i5izrc6qh",
+      "created": "2025-07-22T08:45:24Z",
+      "username": "vadimjar",
+      "message": "@vladlen  @razuvaevserghey Нельзя загрузить ни один файл падает с 502 (176 тестов)"
+    },
+    {
+      "idx": 504,
+      "id": "bpephwxc7prqb8hzbhy5uidnsy",
+      "created": "2025-07-22T08:45:26Z",
+      "username": "vadimjar",
+      "message": "http://anykey.gr.muzpan.com/projects/anykey/work_packages/1646/relations?query_id=178&query_props=%7B%22c%22%3A%5B%22id%22%2C%22type%22%2C%22subject%22%2C%22customField1%22%2C%22customField2%22%2C%22status%22%2C%22assignee%22%2C%22priority%22%2C%22customField18%22%5D%2C%22hi%22%3Atrue%2C%22g%22%3A%22%22%2C%22is%22%3Atrue%2C%22tv%22%3Afalse%2C%22hl%22%3A%22none%22%2C%22t%22%3A%22id%3Aasc%22%2C%22f%22%3A%5B%7B%22n%22%3A%22status%22%2C%22o%22%3A%22%3D%22%2C%22v%22%3A%5B%221%22%2C%222%22%2C%224%22%2C%227%22%2C%228%22%2C%229%22%2C%2210%22%2C%2216%22%2C%2217%22%2C%2212%22%2C%2214%22%5D%7D%2C%7B%22n%22%3A%22customField1%22%2C%22o%22%3A%22%3D%22%2C%22v%22%3A%5B%222%22%5D%7D%5D%2C%22ts%22%3A%22PT0S%22%2C%22pp%22%3A100%2C%22pa%22%3A7%7D"
+    },
+    {
+      "idx": 505,
+      "id": "fiyrjqu8dtgu7ce69y5nnnpp3a",
+      "created": "2025-07-22T08:57:28Z",
+      "username": "vladlen",
+      "message": "буду изучать"
+    },
+    {
+      "idx": 506,
+      "id": "55bpscf4zif1xn8q35e7zfesfw",
+      "created": "2025-07-22T10:07:56Z",
+      "username": "vadimjar",
+      "message": "@vladlen @razuvaevserghey Актуализируйте Статусы Дефектов и сторей плз!!!!"
+    }
+  ]
+}

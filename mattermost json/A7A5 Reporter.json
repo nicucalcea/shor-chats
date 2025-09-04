@@ -1,0 +1,1131 @@
+{
+  "channel": {
+    "name": "a7a5-reporter-the-customer",
+    "display_name": "↗️ A7A5 Reporter",
+    "header": "",
+    "id": "dt67hikkcjb1ugfm1yi9depj1h",
+    "team": "global",
+    "team_id": "14giinqkdtyudfjafc3f64i6gr"
+  },
+  "posts": [
+    {
+      "idx": 0,
+      "id": "ccj7aeuim3f5j831s3tnnje1dh",
+      "created": "2025-04-04T12:41:20Z",
+      "username": "admin",
+      "message": "admin joined the channel."
+    },
+    {
+      "idx": 1,
+      "id": "waxkb7bg87ny5nfrbotprp3t5h",
+      "created": "2025-04-04T12:41:35Z",
+      "username": "admin",
+      "message": "arnold added to the channel by admin."
+    },
+    {
+      "idx": 2,
+      "id": "m4m1ndspjjbz7yddu74husscre",
+      "created": "2025-04-04T12:41:35Z",
+      "username": "admin",
+      "message": "vic added to the channel by admin."
+    },
+    {
+      "idx": 3,
+      "id": "kq9ixdtf7bbypyi3a4k4hwgsac",
+      "created": "2025-04-04T12:43:37Z",
+      "username": "admin",
+      "message": "",
+      "files": [
+        "Screenshot_20250404_154323_Samsung capture.jpg"
+      ]
+    },
+    {
+      "idx": 4,
+      "id": "hqwng73nh3goij37mjjoowtufc",
+      "created": "2025-04-04T12:44:30Z",
+      "username": "vic",
+      "message": "Добрый день.  "
+    },
+    {
+      "idx": 5,
+      "id": "3oh14n9yebbapnekrget49enda",
+      "created": "2025-04-04T12:44:53Z",
+      "username": "admin",
+      "message": "@arnold ????"
+    },
+    {
+      "idx": 6,
+      "id": "5wrj694y8jyk5ceb5pdnmd34hc",
+      "created": "2025-04-04T12:45:03Z",
+      "username": "vic",
+      "message": "Арнольд. Можете по пунктам подсказать? "
+    },
+    {
+      "idx": 7,
+      "id": "fotqd4ot6f8pfnno5cwegj3y1h",
+      "created": "2025-04-04T12:45:06Z",
+      "username": "admin",
+      "message": "I sent you this yesterday and got no answer"
+    },
+    {
+      "idx": 8,
+      "id": "azkphkbjztn53ksff5gtm63e7h",
+      "created": "2025-04-04T12:54:31Z",
+      "username": "arnold",
+      "message": "Hi everyone, in English, right?\n\n1. We have grinex, meer and otc deals.\nGrinex and Meer - custodial wallets, we do not have onchain data. We will have to ask their **api,** I have one from Grinex, can share\nOTC deals - we will have a standard type of exchel files in which will get reports from them\n\n2. So, 2 cexs and 1 partner with OTC deals (cash <> crypto) for now.\nYes, we will have much more, and there is high probability that from some of them will have to collect data like from these 3 sources\n\n3. Google docs - the idea is that it is (1) fast and simple to implement; (2) if team needs to extract and calculate some numbers that are not represented on the website, they can just copy google doc and make new calculations, visual diagrams, etc"
+    },
+    {
+      "idx": 9,
+      "id": "78j4899tg7gb38h7seo5kzxafy",
+      "created": "2025-04-04T12:58:38Z",
+      "username": "admin",
+      "message": "My suggestion is to built the data collection layer and then create reports or even export to excel if require for some types of data.\nWhen you put data on Google docs it is exposed and will leak out\n\nDoes this make sense tou you?\n\nRegarding the formats please send us some data formats from these exchanges so we can start planning"
+    },
+    {
+      "idx": 10,
+      "id": "gby68k95opfcjyg3ma9bno5rnh",
+      "created": "2025-04-04T13:06:09Z",
+      "username": "arnold",
+      "message": "\"My suggestion is to built the data collection layer and then create reports or even export to excel if require for some types of data\"\n1) wont it take much time?\n\n2) maybe it will be ok for the first version in google docs, the second - webpage? we will share access with only reliable collegues\n\n3) @vic lets have a short call, I will share my screen and show you how we get data now\nand send data for grinex's api"
+    },
+    {
+      "idx": 11,
+      "id": "sxuekwmbw3bnb8i8akkbc17a3c",
+      "created": "2025-04-04T13:07:15Z",
+      "username": "vic",
+      "message": "Давайте через 20 мин. Я за рулем ( "
+    },
+    {
+      "idx": 12,
+      "id": "x4wg977yx3f1b8kmaxsi4sitba",
+      "created": "2025-04-04T13:08:17Z",
+      "username": "arnold",
+      "message": "16:30, ок"
+    },
+    {
+      "idx": 13,
+      "id": "7zxu41csa3g538xghj8qarad3h",
+      "created": "2025-04-07T14:07:13Z",
+      "username": "arnold",
+      "message": "yevgeniysokolov added to the channel by arnold."
+    },
+    {
+      "idx": 14,
+      "id": "uyp96obyeif88jw16r1xq1opky",
+      "created": "2025-04-07T14:26:22Z",
+      "username": "yevgeniysokolov",
+      "message": "sergeyl added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 15,
+      "id": "w9ugjt4jdign3jocengfxhf5pa",
+      "created": "2025-04-07T14:26:22Z",
+      "username": "yevgeniysokolov",
+      "message": "igorsmi added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 16,
+      "id": "ckr5az3ym3fq38y9fjwhd6t65o",
+      "created": "2025-04-07T14:39:18Z",
+      "username": "yevgeniysokolov",
+      "message": "yevgeniysokolov updated the channel display name from: a7a5 exchange track to: A7A5 Reporter (the customer)"
+    },
+    {
+      "idx": 17,
+      "id": "kd8seyotrj88iq4x68ereytc1c",
+      "created": "2025-04-11T09:24:44Z",
+      "username": "yevgeniysokolov",
+      "message": "lshumakov119 added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 18,
+      "id": "sj3of867j3nybbo6mn3mcij5go",
+      "created": "2025-04-11T09:49:08Z",
+      "username": "arnold",
+      "message": "",
+      "files": [
+        "systemtrades_a7a5rub_ 26.02-27.02 (2) (1).xlsx",
+        "systemtrades_a7a5rub_MM-ASK_ 26.02.-27.02 (1) (2).xlsx",
+        "systemtrades_a7a5rub_MM-BID_ 26.02.-27.02 (1) (2).xlsx",
+        "systemtrades_usdta7a5_ 26.02.-27.02 (1) (2).xlsx",
+        "systemtrades_usdta7a5_MM-ASK_ 26.02.-27.02 (1) (2).xlsx",
+        "systemtrades_usdta7a5_MM-BID_ 26.02.-27.02 (1) (2).xlsx",
+        "Таблица млн 05.03 (2).xlsx"
+      ]
+    },
+    {
+      "idx": 19,
+      "id": "cj8cc6ukrpd4mpw3bcsdcsexka",
+      "created": "2025-04-11T09:50:54Z",
+      "username": "arnold",
+      "message": "aburlov added to the channel by arnold."
+    },
+    {
+      "idx": 20,
+      "id": "fj5e1a3q9i8jdftokc4h1iyxpy",
+      "created": "2025-04-13T20:16:44Z",
+      "username": "lshumakov119",
+      "message": "maximt added to the channel by lshumakov119."
+    },
+    {
+      "idx": 21,
+      "id": "b3mh1f4pxtre7yxkz1o9tyighc",
+      "created": "2025-04-14T15:13:30Z",
+      "username": "yevgeniysokolov",
+      "message": "martin added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 22,
+      "id": "ghxu5j798jbtdc5f1qhfppf41r",
+      "created": "2025-04-17T17:19:08Z",
+      "username": "yevgeniysokolov",
+      "message": "alispavich added to the channel by yevgeniysokolov."
+    },
+    {
+      "idx": 23,
+      "id": "ucmzonsha3dgpxbdwwfd3pcxeh",
+      "created": "2025-04-21T15:43:08Z",
+      "username": "igorsmi",
+      "message": "Всем привет!\n@arnold, @aburlov, у нас была намечена встреча на вторник. Для более продуктивной встречи, будет ли возможность перенести нашу с вами беседу с вторника на среду 16:00?\nЭто необходимо для более подробного обсуждения возможностей. Удобно ли вам будет?\nЕсли данное время не удобно, готовы оперативно предложить другое время.\n\nЗаранее благодарю за гибкость!"
+    },
+    {
+      "idx": 24,
+      "id": "n7ufew1xabdk5jsp48cuzfo1nw",
+      "created": "2025-04-21T16:29:03Z",
+      "username": "arnold",
+      "message": "добрый день, да, конечно"
+    },
+    {
+      "idx": 25,
+      "id": "k19inje773d3pgduuy6gigqo9c",
+      "created": "2025-04-23T07:52:56Z",
+      "username": "arnold",
+      "message": "добрый день\nсегодня в 16 актуально?"
+    },
+    {
+      "idx": 26,
+      "id": "5xhbsxig4idffjgug3fe8jua1c",
+      "created": "2025-04-23T09:46:45Z",
+      "username": "arnold",
+      "message": "@igorsmi надо звонки распланировать, нужен ответ"
+    },
+    {
+      "idx": 27,
+      "id": "o9e1k6s113dkprj3typ13hbnxo",
+      "created": "2025-04-23T09:48:51Z",
+      "username": "igorsmi",
+      "message": "Добрый день, да, актуально"
+    },
+    {
+      "idx": 28,
+      "id": "53jribpq87yq38d8c63xjtrcma",
+      "created": "2025-04-23T09:49:33Z",
+      "username": "yevgeniysokolov",
+      "message": "Да"
+    },
+    {
+      "idx": 29,
+      "id": "ypeb56kzypbwjef57muz3zueqa",
+      "created": "2025-04-23T09:49:38Z",
+      "username": "yevgeniysokolov",
+      "message": "Всем привет)"
+    },
+    {
+      "idx": 30,
+      "id": "uenpnwrebpg8ikc5sybammxq7a",
+      "created": "2025-04-23T12:41:19Z",
+      "username": "alispavich",
+      "message": "Привет, только ссылка нужна будет)"
+    },
+    {
+      "idx": 31,
+      "id": "esibpn16k7bcmptjxxr1hurt3c",
+      "created": "2025-04-23T12:47:01Z",
+      "username": "igorsmi",
+      "message": "Высылаю ссылку на встречу в 16:00\n\nhttps://jt.muzpan.com/A7A5-reporter-mqkuonwhyjwztkoxcpmf\n"
+    },
+    {
+      "idx": 32,
+      "id": "jo36zuqgei84tbmxiaceah1wic",
+      "created": "2025-04-23T14:14:34Z",
+      "username": "alispavich",
+      "message": "### Итог встречи: ### \n\nЗавтра до конца дня с нашей стороны будут сроки по \n- восстановлению авторизации API Grinex\n- добавлению параметра **side**: [ask, bid] в Grinex\n- то же самое в Meer\n\nДокументация пока разрозненная, но я помогу вам найти необходимую информацию.\n\n**Человеческое описание API (взято из другого проекта):**\n- [spot/market_trades](https://api-docs.tokenspot.com/#39da9dd195) - все сделки по рынку\n- [spot/my_trades](https://api-docs.tokenspot.com/#cf7d96977e) - ваши сделки по аккаунту бота\n\n[Swagger для Meer](https://api.meer.kg/swagger#/) - чтобы попробовать интеграцию\n\nДокументация релевантна для Grinex и Meer\n\n**Структура запроса market_trades:**\n`   \"id\": идентификатор сделки, по которому вы можете сопоставлять my_trades и market_trades \n    \"price\": цена, по которой прошел ордер \n    \"amount\": сумма в первой валюте \n    \"total\": итого во второй валюте\n    \"symbol\": у вас это Market, например usdta7a5\n    \"created_at\": дата, по которой можно задавать период\nмы добавим: \"side\": либо ask, либо bid\nВАЖНО: не является точным контрактом, по факту название или значения могут по другому называться, завтра уточним `\n\n**Структура запроса my_trades (из неописанного выше):**\n`    \"order_id\": для сопоставления с market_trades\n    \"is_maker\": кем выступал бот в ордере\n    \"fee\": комиссия в %\n    \"fee_size\": комиссия в валюте`\n\nОбращаю внимание, что запрос market_trades ограничен 1000 записей\n\nЕсли что-то забыл - прошу дополнить / спросить в треде"
+    },
+    {
+      "idx": 33,
+      "id": "memerzbaybgxjf5o3md3busdwo",
+      "created": "2025-04-23T14:49:15Z",
+      "username": "alispavich",
+      "message": "Обновление:\nНазвание запросов для Grinex отличается от Meer. \n\nВ сообщении выше указаны названия для meer.\n\nДля Grinex:\n`/v2/trades\n/v2/trades/my`"
+    },
+    {
+      "idx": 34,
+      "id": "eg794f7k3jdkffcyq33xwfjabo",
+      "created": "2025-04-23T15:03:40Z",
+      "username": "igorsmi",
+      "message": "А вопрос по ключам:\nКлючи для Grinex не совпадают же с ключами для Meer? \nМы можем их получить ?"
+    },
+    {
+      "idx": 35,
+      "id": "xsmwuy7om3nrumz99qdj83qbxc",
+      "created": "2025-04-23T15:04:07Z",
+      "username": "igorsmi",
+      "message": "@alispavich "
+    },
+    {
+      "idx": 36,
+      "id": "4573mmrtnbnwjrubzd65ih1fno",
+      "created": "2025-04-23T15:13:20Z",
+      "username": "alispavich",
+      "message": "Не совпадают, аккаунты и проекты разные\n\nУ вас есть доступ к аккаунту на Meer?\nКак вы получали ключи для Grinex?"
+    },
+    {
+      "idx": 37,
+      "id": "6sf5fq5z93dm7nqem9d63eqsda",
+      "created": "2025-04-23T15:16:29Z",
+      "username": "igorsmi",
+      "message": "Мы получали ключи от Арнольда, а Арнольду, я так понял, что давал Bonqai (ник в тг, вроде Рома зовут). \n\n"
+    },
+    {
+      "idx": 38,
+      "id": "s7pgewut8bdqij9jnppp39kzyc",
+      "created": "2025-04-23T15:17:44Z",
+      "username": "igorsmi",
+      "message": "@arnold есть ли у вас ключи от Meer?"
+    },
+    {
+      "idx": 39,
+      "id": "thj864ssbpfobnea9dcau8amzr",
+      "created": "2025-04-23T15:36:29Z",
+      "username": "alispavich",
+      "message": "Если у Бонкая есть почта вашего акка на Meer - то он видимо сделает, верно"
+    },
+    {
+      "idx": 40,
+      "id": "kykat6j6qib9bryephwwgkhf6o",
+      "created": "2025-04-24T08:57:22Z",
+      "username": "arnold",
+      "message": "@igorsmi у меня нет, стоит Роману написать"
+    },
+    {
+      "idx": 41,
+      "id": "yeqttgxb53rtuygtaotrw16zso",
+      "created": "2025-04-24T09:17:15Z",
+      "username": "igorsmi",
+      "message": "Принял "
+    },
+    {
+      "idx": 42,
+      "id": "3ascwgfqdfyetjtqnh41p53g5e",
+      "created": "2025-04-24T16:38:29Z",
+      "username": "alispavich",
+      "message": "**Сроки по API Grinex:**\nВ среду (30 апреля) \nБудет протестировано и передано вам на проверку\nВключая параметр **side**\n\nСроки по Meer пока не могу уточнить"
+    },
+    {
+      "idx": 43,
+      "id": "pzdtpchp8bf5mkkiedsetph4ue",
+      "created": "2025-04-24T17:31:10Z",
+      "username": "igorsmi",
+      "message": "А API в каком формате будет предоставлено?"
+    },
+    {
+      "idx": 44,
+      "id": "jz8rfpxid3dpbd8tjheojqgynh",
+      "created": "2025-04-24T18:47:26Z",
+      "username": "alispavich",
+      "message": "Не понял вопрос. А какие варианты?)"
+    },
+    {
+      "idx": 45,
+      "id": "roysnhpiibgexkt6u6mprrroqr",
+      "created": "2025-04-24T18:48:20Z",
+      "username": "alispavich",
+      "message": "В сообщении выше подробное описание + будет сваггер"
+    },
+    {
+      "idx": 46,
+      "id": "s6shwa96rjb47e64cy7q3jdwme",
+      "created": "2025-04-25T14:47:32Z",
+      "username": "arnold",
+      "message": "добрый день всем\n\n@alispavich можете дать, пожалуйста, контакт кого-то из коллег, кому по фронту гринекс смогу в пн задать вопрос?\nвозможно, там есть небольшой баг, хочу вместе с ним посмотреть\n\nвчера помогали клиенту вывести а7а5 с гринекс. клиент при нас совершил покупку токенов, но затем у него была неактивна кнопка вывода токенов **только** у а7а5, у всех остальных токенов активна была кнопка. обновляли страницу, токены не были заморожены в ордере, экспериментировали - только когда включили инструменты разработчика, кнопка стала активна\n\nвозможно, что дело не во фронте, а в том, что у вас после совершения покупки от какой-то суммы, токены не сразу доступны к выводу - тогда нужна информация об этом, чтобы мы клиентам сообщали"
+    },
+    {
+      "idx": 47,
+      "id": "fahs5cik5irfixhipdptad81oc",
+      "created": "2025-04-25T14:49:24Z",
+      "username": "alispavich",
+      "message": "Об этом стоит писать в поддержку, так вопрос сразу попадет в технический отдел, если он действительно технический"
+    },
+    {
+      "idx": 48,
+      "id": "atiw5r5rmigrjdcc9incsw4foh",
+      "created": "2025-04-25T14:51:30Z",
+      "username": "alispavich",
+      "message": "Тем более если у вас подозрение на баг, прошу решать это штатными инструментами\nВ крайнем случае я помогу, если ответ поддержки вас не удовлетворит или будет решаться слишком долго"
+    },
+    {
+      "idx": 49,
+      "id": "a96gthxytfggbehbawn4omk9sr",
+      "created": "2025-04-25T15:59:51Z",
+      "username": "alispavich",
+      "message": "На всякий случай перенаправил ваш запрос тестерам, но сегодня возможности проверить так и не появилось"
+    },
+    {
+      "idx": 50,
+      "id": "dut8x8kohbrgxqd6cd8ds1fome",
+      "created": "2025-04-25T16:01:50Z",
+      "username": "alispavich",
+      "message": "Если у вас нет доступа к ЛК Гринекса чтобы написать в поддержку, то мне потребуется почта клиента для проверки его в админке"
+    },
+    {
+      "idx": 51,
+      "id": "mpxkiawxu7fhzm19rs7w8ozb9w",
+      "created": "2025-04-29T07:09:38Z",
+      "username": "alispavich",
+      "message": "Привет!\nAPI Grinex восстановлен и доработан, успели чуть раньше\n[Документация](https://prostor-tokens.github.io/grinex-api.github.io/#market-data) тут\n\nНужно убедиться что ваши API ключи все еще подходят\nНазвания методов и параметров могут слегка отличаться от того, что я писал выше"
+    },
+    {
+      "idx": 52,
+      "id": "dcz54a6j83f3fk1rktdpiue54y",
+      "created": "2025-04-29T07:55:28Z",
+      "username": "igorsmi",
+      "message": "Всем привет).\nОтлично, Спасибо!\nСегодня проверим, протестируем и дадим обратную связь вам\n\n"
+    },
+    {
+      "idx": 53,
+      "id": "fiqtf6fci3bw7jedzd5aqp9qay",
+      "created": "2025-04-29T07:59:21Z",
+      "username": "igorsmi",
+      "message": "По meer:\n- Авторизация успешна\n- Запрос по сделкам работает, данные получаем\n"
+    },
+    {
+      "idx": 54,
+      "id": "1an7kzcwibnr5j8x3s9k6j46sa",
+      "created": "2025-04-29T08:59:50Z",
+      "username": "alispavich",
+      "message": "По Meer: напоминаю, что там пока нет параметра side в одном из запросов, сроков доработки пока не получал. \nНасколько я помню, по Meer пока не горит так, как по Grinex. Сообщу как будут обновления"
+    },
+    {
+      "idx": 55,
+      "id": "k5cjwdmgwbg8fpmowz9berf1qh",
+      "created": "2025-04-29T15:28:16Z",
+      "username": "igorsmi",
+      "message": "@alispavich \nПроверили работу с Grinex.\n- Список своих сделок получаем\n- Список всех сделок получаем\n\nЕсть вопрос:\n- Как нам отправлять запрос по периоду? В документации не нашли. Какой формат даты created_at?"
+    },
+    {
+      "idx": 56,
+      "id": "ohacueoz3frj8gd8uh3dxia17h",
+      "created": "2025-04-30T07:16:25Z",
+      "username": "alispavich",
+      "message": "Дам ответ в течение часа"
+    },
+    {
+      "idx": 57,
+      "id": "7hpxsg7aab8n7ksj6d9g7aienw",
+      "created": "2025-04-30T07:44:37Z",
+      "username": "alispavich",
+      "message": "Для 2-х запросов, которые вас интересуют:\n\n**timestamp** - от какой даты выводить результат\n\nВ timestamp нужно указать начало периода, который вам нужен. \nДалее итерироваться запросами до даты, которая будет окончанием требуемого периода (исходя из ограничения в 1000 строк)\n\nПо  \"created_at\" не понял вопроса, в документации есть пример ответа: \"2020-03-07T11:46:47+03:00\""
+    },
+    {
+      "idx": 58,
+      "id": "pz4q5dtqqpdn9kgku7t7my8s9r",
+      "created": "2025-04-30T09:20:46Z",
+      "username": "igorsmi",
+      "message": "Хорошо, спасибо!"
+    },
+    {
+      "idx": 59,
+      "id": "5hk8foeyhbgeufowo7w7bzb8sy",
+      "created": "2025-04-30T10:13:34Z",
+      "username": "yevgeniysokolov",
+      "message": ""
+    },
+    {
+      "idx": 60,
+      "id": "iz69kduzafdgifd33dofhh39aa",
+      "created": "2025-04-30T10:14:14Z",
+      "username": "yevgeniysokolov",
+      "message": "Это мне)"
+    },
+    {
+      "idx": 61,
+      "id": "jbn8dd8kai87pgpxz3emn3eahc",
+      "created": "2025-05-06T08:49:25Z",
+      "username": "igorsmi",
+      "message": "Всем привет)\n\n@alispavich Есть какие новости по Meer? "
+    },
+    {
+      "idx": 62,
+      "id": "7yscx66mxbdh3bdx9ckgcdzc3y",
+      "created": "2025-05-06T08:52:27Z",
+      "username": "alispavich",
+      "message": "Привет, пока нет, во время праздников у нас фриз на разработку во имя безопасности. \nКак разморозим (в понедельник) - будет понятно когда ближайший релиз, в котором заедет изменение"
+    },
+    {
+      "idx": 63,
+      "id": "676bk69shbfom8coukq8ugdneo",
+      "created": "2025-05-06T13:54:14Z",
+      "username": "maximt",
+      "message": "@alispavich, коллеги, добрый день! \n\nЕсть несколько текущих вопросов:\n\n1. Изначально был разговор про обновление АПИ Гринекса в июне. Оно будет? Если так, то какие новые функции туда войдут?\n2. Открытый вопрос про ограничение в 1000 строк - когда вы сможете доработать под это АПИ? Для нашего объема это ограничение критично!\n3. Выбор определенного периода - нам точна нужна возможность выбора периода \"от\" и \"до\" - когда сможете добавить эту возможность?\n\nЗаранее спасибо!"
+    },
+    {
+      "idx": 64,
+      "id": "xiehtojjx3gtxytpwjhfc4bzch",
+      "created": "2025-05-06T14:07:06Z",
+      "username": "alispavich",
+      "message": "1. Про июнь была речь по нашей BI системе, в рамках которой мы бы сделали вам специальный безопасный вью. Про обновления API речи не было. Поскольку тот срок не устроил - это уже неактуальная информация\n2. Ограничение в 1000 не пересматривается, поскольку это публичный API, больше 1000 строк наша инфраструктура не переварит. Мы обсуждали, что эта проблема решается на вашей стороне через итеративность запросов. \n3. То же самое - итеративность по полю created_at\n\nОбщий итог: \nРешение делать все через наш публичный API было выбрано из-за критичной срочности вашей потребности, но **это не целевое решение**. Целевое - это п.1, данная система сейчас в разработке, более конкретные сроки смогу предоставить в конце следующей недели"
+    },
+    {
+      "idx": 65,
+      "id": "i84wq5b5xidr7xpo4gc384ra7c",
+      "created": "2025-05-06T14:14:16Z",
+      "username": "arnold",
+      "message": "добрый день всем\n\n@alispavich про ограничение в 1000 строк понял, спасибо. если по другому - возможна доработка АПИ, чтобы мы получали информацию о том, сколько всего строк, чтобы знать, сколько запросов отправлять?"
+    },
+    {
+      "idx": 66,
+      "id": "9cjkrhr3c3n33gq36x9wy6dodc",
+      "created": "2025-05-06T14:20:09Z",
+      "username": "maximt",
+      "message": "по п.2 не верно задал вопрос: можете ли вы доработать АПИ, чтобы мы получали информацию о том, сколько всего строк, чтобы знать, сколько запросов отправлять?"
+    },
+    {
+      "idx": 67,
+      "id": "36ormaq8fjyuxky4qp9b9edoxa",
+      "created": "2025-05-06T16:02:38Z",
+      "username": "alispavich",
+      "message": "Информация про кол-во строк звучит как отдельный запрос специально для получения кол-ва ордеров за период. Тут та же проблема - вы одним запросом сможете положить нам базу, если возьмете слишком большой период, мы не можем такого в паблик открывать\n\nВсе доработки API будут возможны только с июня, мы сильно просели из-за внепланового восстановления этого функционала. \nТолько Meer мы сможем выкатить чуть раньше - примерно 21-26 мая, только что уточнял. Поэтому так или иначе приходим к варианту из п.1 - решение, которое можно будет дорабатывать под вас"
+    },
+    {
+      "idx": 68,
+      "id": "75fw4i1okpge8bi7h3p5bu3a1o",
+      "created": "2025-05-06T16:56:16Z",
+      "username": "igorsmi",
+      "message": "@alispavich правильно я понимаю, что получение, условно, такой строчки:\n \n- Count: n\n\nМожет создать нагрузку на базу данных?\n\nДанная строчка нам необходима для понимания, сколько еще раз нам требуется сделать запрос на получение данных по заданному периоду.\n\nЕсли это делать условным селектом в БД, то да, нагрузка может быть.\n\nНаверняка же есть решение данной проблемы?\n\nЕсли я правильно понимаю суть проблемы, то, к примеру, возможно же использовать условие по индексам или кэшировать данный запрос?\n\nЗаранее спасибо за ответ)"
+    },
+    {
+      "idx": 69,
+      "id": "rcm55mb1u7nbuqk7hmpeyjqj7r",
+      "created": "2025-05-06T17:29:43Z",
+      "username": "alispavich",
+      "message": "Запрошу ответ разработчика. Предвосхищая вопросы от кибербеза: \nкак вам поможет понимание сколько раз еще потребуется запрашивать данные по периоду? \nпочему не подходит итеративный подход с завершением при получении менее 1000 строк?"
+    },
+    {
+      "idx": 70,
+      "id": "ri5ssf5aojddieyj6me95a4mfo",
+      "created": "2025-05-06T18:02:23Z",
+      "username": "alispavich",
+      "message": "**Вот алгоритм**\nЕсли вам нужно получить выгрузку за период 01.05.25 00:00 по 02.05.25 00:00: \n\nпервый запрос должен быть такой \n`api/v2/trades/my?market={market_id}&timestamp={02.05.25 00:00 as timestamp}`\nВозращается список сделок, вы его сохраняете\n \nделаете следующий запрос \n`api/v2/trades/my?market={market_id}&to={ID последней сделки}`\n\nвторой пункт повторяете пока вам не прилетит сделка ранее чем 01.05.25 00:00\n\n(это реализация по убыванию даты, можно сделать и по возрастанию)"
+    },
+    {
+      "idx": 71,
+      "id": "y3h8swgegby99jihscpawog9ge",
+      "created": "2025-05-06T18:04:10Z",
+      "username": "alispavich",
+      "message": "И еще раз подчеркиваю: в моем сообщении важнее не сложность доработки, а вот эта строчка:\n\n>  **Все доработки API будут возможны только с июня**\n\nВсе дальнейшие доработки обсуждаем уже в рамках аналитической системы, а не публичного API"
+    },
+    {
+      "idx": 72,
+      "id": "toauc7jsibgipdx77o13r3hmhy",
+      "created": "2025-05-06T18:33:58Z",
+      "username": "alispavich",
+      "message": "",
+      "files": [
+        "image.png"
+      ]
+    },
+    {
+      "idx": 73,
+      "id": "xj5zyostbbr5urotdu3n9twhmo",
+      "created": "2025-05-06T19:05:21Z",
+      "username": "igorsmi",
+      "message": "Спасибо за пояснение!\n\nДаже если так, основная проблема состоит в том, что данный подход будет работать достаточно медленно из-за большого объема данных. У коллег за день может быть минимум около 10000 сделок и проводить итерации ежесекундно невозможно, так как необходимо ставить дилей, чтобы запросы не блокировались. Данный механизм понятен зачем и почему.\n\nДанная строчка с количеством строк дала бы нам понимание сколько еще по времени нам ожидать формирование файла с данными.\n\nИдеальный вариант, конечно, с запросом, где промежуток можно было бы задать «от» и «до» и в данном промежутке происходила бы выдача данных по 1000 строк"
+    },
+    {
+      "idx": 74,
+      "id": "yjsdj7ooetgibbmodns8pp18tc",
+      "created": "2025-05-07T10:21:05Z",
+      "username": "igorsmi",
+      "message": "Всем привет)\n@alispavich есть идея по поводу решения данной проблемы - создание вебхука.\n\n1. Настроим вебхук для фоновой синхронизации ваших данных в нашу БД.  \n2. Экспорт будет работать из нашей базы — без rate limits и дилеев.  \n\n\nПочему это хорошее решение:  \n- Ваша система не грузится нашими запросами  \n- Наши пользователи получают данные быстрее.  \n"
+    },
+    {
+      "idx": 75,
+      "id": "kuya1xa767f37ps9cips63s8xa",
+      "created": "2025-05-13T11:11:16Z",
+      "username": "igorsmi",
+      "message": "Всем привет)\n@alispavich, не подскажите, когда сможете дать ответ?"
+    },
+    {
+      "idx": 76,
+      "id": "srtzbshx5jbexpw5psngzb8nay",
+      "created": "2025-05-13T13:51:34Z",
+      "username": "alispavich",
+      "message": "Привет! \nМне было нечего ответить)\nПо вопросам доработок вы проигнорировали пункт по нашим возможностям, подсвечиваю еще раз - **мы не можем дорабатывать api в ближайшее время.** \n\nВаше предложение - это не целевое решение. Пока мы будем это допиливать, уже будет готов нормальный вариант с вьюхой, поэтому предложение неакутально.\n\nОценка финального варианта сейчас идет, буду держать в курсе как только будут обновления\n\n**Пример, что у вас будет в целевом решении:**\nrest api нашего суперсета\nhttps://superset.apache.org/docs/api/\n\nИ все данные вы сразу будете получать в yaml, при этом доработать функционал мы сможем специально под вас, не подвергая опасности наш основной публичный функционал и делая это быстро, без 5-10 дней на тестирование."
+    },
+    {
+      "idx": 77,
+      "id": "qjsnbjt9ebgxtgsg1mfuew61wr",
+      "created": "2025-05-22T13:19:20Z",
+      "username": "igorsmi",
+      "message": "nikshorin added to the channel by igorsmi."
+    },
+    {
+      "idx": 78,
+      "id": "x4xjqnzt17bh5csc6jdg51ozuh",
+      "created": "2025-05-26T08:46:47Z",
+      "username": "igorsmi",
+      "message": "Всем привет)\nСобираю в едино всю информацию за прошедшее время:\n@alispavich, @nikshorin, поправьте, если возникнут вопросы.\n\nСуществует проблема с логикой ID в следующих сделках:\n- All Trades\n- My Trades\n\nПодробное описание:\nОтчет формируется в нашем веб-сервисе по запросу к API Grinex\n\nID в \"All Deals\" никак не коррелируют с ID в \"ASK\" и \"BID\"\n\nВ запрсое \"my_trades\" есть следующие поля:\n- ID\n- order_id\n\nА в запросе \"all_trades\" есть только: \n- ID\n\nID никак не совпадают друг с другом => нет возможности найти совпадающие сделки.\n\nДелаем запросы по данным ссылкам:\n\n*   https://grinex.io/api/v2/trades\n*   https://grinex.io/api/v2/trades/my\n\nС стороны Grinex уже есть разработанное решение данной проблемы.\nСроки релиза ~ 9 июня\nЕсли выйдет, то получится раньше.\n\nТакже, если я правильно помню, был разговор за доработку API биржи Meer с релизом в конце мая.\n"
+    },
+    {
+      "idx": 79,
+      "id": "gxb1bwazk38m9kcnns5m7aph7r",
+      "created": "2025-05-26T08:58:21Z",
+      "username": "alispavich",
+      "message": "Привет!\n\n**Как именно исправили проблему, описанную выше:**\nНаша логика работы с ID не рассчитана на сопоставление my trades и all trades, это обнаружили только на практике с вами.\nПоэтому пришлось добавить  поле `hid` позволяющее сопоставить сделки из двух эндпоинтов\n\nПо Meer - доработки Grinex подвинули релиз Meer (скорее всего он будет следующим после 9 июня)\n\nЗаодно на него сразу накатим те же доработки, которые были сделаны на Grinex"
+    },
+    {
+      "idx": 80,
+      "id": "a7wm1d3w67bm8m3ogp8k9cy5qy",
+      "created": "2025-05-26T08:59:46Z",
+      "username": "igorsmi",
+      "message": "Поле `hid` уже добавлено в текущий API или ожидать релиза?"
+    },
+    {
+      "idx": 81,
+      "id": "b9wo7zp89trw5pzz4wesicb3ee",
+      "created": "2025-05-26T09:04:57Z",
+      "username": "alispavich",
+      "message": "Нужен релиз, я просто заранее описал что именно будет добавлено"
+    },
+    {
+      "idx": 82,
+      "id": "xpxeddmxz3bkxct37bx9848jmh",
+      "created": "2025-05-30T09:20:55Z",
+      "username": "igorsmi",
+      "message": "Всем привет) \n@alispavich, подскажешь на каком этапе вы сейчас находитесь?\nРелиз не сдвигается?"
+    },
+    {
+      "idx": 83,
+      "id": "r78niobinbdxpk7jaof7drcd7w",
+      "created": "2025-06-02T12:43:22Z",
+      "username": "igorsmi",
+      "message": "Всем привет)\n@alispavich, прошу дать ответ по вопросам выше"
+    },
+    {
+      "idx": 84,
+      "id": "ux9gxopr57fcbffw43zbnajh3o",
+      "created": "2025-06-02T12:51:20Z",
+      "username": "nikshorin",
+      "message": "Коллеги, всем добрый день\nВаш фикс должен выйти с релизом 9ого июня и попасть в прод до 16ого (пройдя тестирование)\nЯ сегодня завтра пройду отделы с актуализацией состояния, а также всеми возможностями (или невозможностями) ускориться. Обязательно дам апдейт завтра до 14 часов \n\nспасибо "
+    },
+    {
+      "idx": 85,
+      "id": "g6fjgnuz4tfd3g4d48y763j6mw",
+      "created": "2025-06-02T15:40:10Z",
+      "username": "igorsmi",
+      "message": "@nikshorin, правильно я понимаю, что 9 июня мы тоже сможем взять в работу?\nИли нам необходимо будет ждать пока не пройдет тестирование? Релиз ведь подразумевает выход в прод."
+    },
+    {
+      "idx": 86,
+      "id": "37pknxd9ypg1ff86dkm94fopwh",
+      "created": "2025-06-03T10:47:20Z",
+      "username": "nikshorin",
+      "message": "Добрый день, коллеги\nРелиз - пачка изменений, собранная воедино\nПосле уточнений с коллегами получил сроки с 9ого по 16ое на grinex и далее на meer"
+    },
+    {
+      "idx": 87,
+      "id": "wdfhz9oz87n3behwuo8i5yatrh",
+      "created": "2025-06-03T10:47:49Z",
+      "username": "nikshorin",
+      "message": "Будем стараться быстрее, но сейчас учитывая все релизы выглядит вот так"
+    },
+    {
+      "idx": 88,
+      "id": "pzbht9k81prhxnic1pror38g6c",
+      "created": "2025-06-05T11:19:55Z",
+      "username": "igorsmi",
+      "message": "Всем привет)\nПоступила информация, что API Grinex потерпит сильные изменения.\n@nikshorin, @alispavich, не могли бы вы прислать описание всех будущих изменений в следующих API:\n\n- Grinex\n- Meer \n\nНам это необходимо для понимания к чему готовиться\n\nДанная информация поступила от Павла Проскурина. Давайте может добавим его сюда, если он тоже учавствует в наших с вами процессах?\n"
+    },
+    {
+      "idx": 89,
+      "id": "ehjrwuc3obyidnskxy4dr7fw7e",
+      "created": "2025-06-05T11:37:23Z",
+      "username": "igorsmi",
+      "message": "Также прошу помочь с подключением к API Meer.\n\n@alispavich, ты нам давал следующие данные для подключения:\n- Приватный ключ\n- uuid\n\nДанные были для следующих пар:\n- A7A5/RUB\n- A7A5/USDT\n- A7A5/CNY\n- A7A5/USD\n\nВ конечном итоге пробовали разные варинаты и получали ответ как показан на скрине.",
+      "files": [
+        "Снимок экрана 2025-06-05 в 14.32.46.png"
+      ]
+    },
+    {
+      "idx": 90,
+      "id": "ur9ozbzydbn3jnr5x1b3un5muy",
+      "created": "2025-06-09T08:51:23Z",
+      "username": "nikshorin",
+      "message": "Добрый день \nАПИ меер и гринекс станут одинаковыми. \nПроблему с ID уже решили, готовим описания "
+    },
+    {
+      "idx": 91,
+      "id": "swdjpda1pif9jfjdjoay4h1irh",
+      "created": "2025-06-09T10:39:45Z",
+      "username": "nikshorin",
+      "message": "Коллеги, мы добавили новый эндпоинт для вас\n\n**Было**: между всеми сделками по рынку и собственными сделками ботов А7А5 нет единого ID, чтобы связать рыночные сделки и собственные\n**Стало**: Новый метод со всеми сделками по рынку, у которых есть подходящий ID из \"моих сделок\"\n\nРезультат: теперь возможно сопоставить рыночные сделки и собственные сделки, как и планировалось изначально\n\nБолее внятная документация по эндпоинту пока в процессе \n\nПо описанию использования, пока максимум, что у нас есть:\n\nКак выглядит запрос:\n\n```\n\"/v1/spot/all_market_trades\": {\n            \"get\": {\n                \"description\": \"Get latest market trades with both sides of trade\",\n                \"produces\": [\n                    \"application/json\"\n                ],\n                \"parameters\": [\n                    {\n                        \"in\": \"query\",\n                        \"name\": \"symbol\",\n                        \"description\": \"\",\n                        \"type\": \"string\",\n                        \"enum\": [\n                            \"a7a5rub\",\n                            \"usda7a5\",\n                            \"usdta7a5\",\n                            \"usdtrub\"\n                        ],\n                        \"required\": true\n                    },\n                    {\n                        \"in\": \"query\",\n                        \"name\": \"start_time\",\n                        \"description\": \"Created start time in ms. Default: no limits\",\n                        \"type\": \"integer\",\n                        \"format\": \"int32\",\n                        \"default\": 0,\n                        \"required\": false\n                    },\n                    {\n                        \"in\": \"query\",\n                        \"name\": \"end_time\",\n                        \"description\": \"Created end time in ms. Default: present timestamp\",\n                        \"type\": \"integer\",\n                        \"format\": \"int32\",\n                        \"default\": 0,\n                        \"required\": false\n                    },\n                    {\n                        \"in\": \"query\",\n                        \"name\": \"order_by\",\n                        \"description\": \"Ordering\",\n                        \"type\": \"string\",\n                        \"default\": \"DESC\",\n                        \"required\": false\n                    },\n                    {\n                        \"in\": \"query\",\n                        \"name\": \"limit\",\n                        \"description\": \"Records limit. Default: 100. Maximum: 1000\",\n                        \"type\": \"integer\",\n                        \"format\": \"int32\",\n                        \"required\": false\n                    },\n                    {\n                        \"in\": \"query\",\n                        \"name\": \"start_id\",\n                        \"description\": \"Records after target ID\",\n                        \"type\": \"string\",\n                        \"required\": false\n                    },\n                    {\n                        \"in\": \"query\",\n                        \"name\": \"end_id\",\n                        \"description\": \"Records before target ID\",\n                        \"type\": \"string\",\n                        \"required\": false\n                    }\n                ],\n                \"responses\": {\n                    \"200\": {\n                        \"description\": \"Get latest market trades with both sides of trade\",\n                        \"schema\": {\n                            \"type\": \"array\",\n                            \"items\": {\n                                \"$ref\": \"#/definitions/APIv1_Entities_Trade\"\n                            }\n                        }\n                    }\n                },\n                \"tags\": [\n                    \"spot\"\n                ],\n                \"operationId\": \"getV1SpotAllMarketTrades\"\n            }\n```\n"
+    },
+    {
+      "idx": 92,
+      "id": "58xt95734jyu38k8rz9y96ng7h",
+      "created": "2025-06-09T12:33:01Z",
+      "username": "nikshorin",
+      "message": "@igorsmi Как будет возможность, дайте, пожалуйста, обратную связь"
+    },
+    {
+      "idx": 93,
+      "id": "8z7janxezbf5pdoecsngbhq1ne",
+      "created": "2025-06-09T12:39:04Z",
+      "username": "igorsmi",
+      "message": "@nikshorin, эндпоинт не работает.\nПробовали по следующим запросам:\n- https://grinex.io/api/v1/spot/all_market_trade\n- https://grinex.io/api/v1/spot/all_market_trade?symbol=usdta7a5\n\nВыдает ошибку 404"
+    },
+    {
+      "idx": 94,
+      "id": "qga5h867nbr4pkk6tbkpwua6zc",
+      "created": "2025-06-09T13:43:45Z",
+      "username": "igorsmi",
+      "message": "@nikshorin, когда сможете дать обратную связь для понимания с чьей стороны проблема?"
+    },
+    {
+      "idx": 95,
+      "id": "dj448dco6bdcixe5a4epzibh6o",
+      "created": "2025-06-09T13:49:08Z",
+      "username": "nikshorin",
+      "message": "Да вот, хотел собрать, что там конкретно сломалось и сколько ждать "
+    },
+    {
+      "idx": 96,
+      "id": "omh9az3tit8kdy7zcan8rswika",
+      "created": "2025-06-09T13:49:24Z",
+      "username": "nikshorin",
+      "message": "Но пока так:\nНашли несколько проблем, ендпоинт пока отключили\nПоправим к завтра 14 часам, отпишусь отдельно "
+    },
+    {
+      "idx": 97,
+      "id": "wxomqwjsnbngifi68ts8mpyaic",
+      "created": "2025-06-10T11:19:36Z",
+      "username": "nikshorin",
+      "message": "Коллеги, добрый день\nНе теряйте, мы ещё в процессе, финалимся "
+    },
+    {
+      "idx": 98,
+      "id": "rzms5gw11by67nte3jmfrq7z5o",
+      "created": "2025-06-10T12:29:08Z",
+      "username": "igorsmi",
+      "message": "Добрый день!\nЖдем"
+    },
+    {
+      "idx": 99,
+      "id": "yoihxrm6uiyiue87ewfzoz1xfc",
+      "created": "2025-06-10T14:28:41Z",
+      "username": "nikshorin",
+      "message": "Коллеги, новое апи на Гринекс готово к использованию\nМы поправили айди, но также и ввели новый метод (о котором говорил выше)\n\nпоправлю ваши запрос:\n*   [https://grinex.io/api/v1/spot/all\\_market\\_trades](https://grinex.io/api/v1/spot/all_market_trades)\n*   [https://grinex.io/api/v1/spot/all\\_market\\_trades?symbol=usdta7a5](https://grinex.io/api/v1/spot/all_market_trades?symbol=usdta7a5)"
+    },
+    {
+      "idx": 100,
+      "id": "37ku44jd8j8dunnp4waati346c",
+      "created": "2025-06-10T14:32:00Z",
+      "username": "nikshorin",
+      "message": "@igorsmi "
+    },
+    {
+      "idx": 101,
+      "id": "1weiugb5bi8x5kw8861u4ig9fr",
+      "created": "2025-06-10T14:38:48Z",
+      "username": "igorsmi",
+      "message": "Приняли, берем в тестирование"
+    },
+    {
+      "idx": 102,
+      "id": "z8bh6f88etrmfjr737u6gjtcor",
+      "created": "2025-06-16T05:29:41Z",
+      "username": "igorsmi",
+      "message": "Колллеги, доброе утро!\nAPI Grinex работает, спасибо. Вносим правки в нашу систему.\n\n@nikshorin, выше поступал вопрос с подключением к API Meer. Прошу сориентировать по следующим направлениям:\n- Когда будет готов API Meer?\n- Почему проваливается авторизация к API Meer? По необходимости, могу прислать ключи, которые мы использовали\n"
+    },
+    {
+      "idx": 103,
+      "id": "orkqjepc6i859fnfty9dtmpmdc",
+      "created": "2025-06-16T12:44:24Z",
+      "username": "nikshorin",
+      "message": "Добрый день\nВ течении месяца тоже будет релиз\nЯ уточню точные даты и возможность это ускорить и вернусь"
+    },
+    {
+      "idx": 104,
+      "id": "qycx5an3tbfc5p4z9556h1c4wo",
+      "created": "2025-06-16T13:43:11Z",
+      "username": "igorsmi",
+      "message": "Когда ожидать ответа?"
+    },
+    {
+      "idx": 105,
+      "id": "pt3fbydnrj81jc5jehtyztbynh",
+      "created": "2025-06-17T13:32:44Z",
+      "username": "nikshorin",
+      "message": "Добрый день\n\nЯ хотел найти конкретные ответы, но пока не получил ничего другого, кроме - до конца месяца. Я думаю, что это вполне возможно в следующие 2-3 недели"
+    },
+    {
+      "idx": 106,
+      "id": "xxkfk7hpz3d9jbmxentkxuboah",
+      "created": "2025-06-17T13:51:57Z",
+      "username": "igorsmi",
+      "message": "Добрый день!\n@nikshorin, предлагаю тогда заранее решить вопрос с авторизацией в API Meer. С Grinex были использованы те же самые ключи (ключи только для Grinex) для авторизации. Они сработали и при апдейте API Grinex.\n\nЕсли необходимо, я пришлю ключи, которые мы использовали для авторизации в API Meer"
+    },
+    {
+      "idx": 107,
+      "id": "6nxeeardgfbwfn5dt8z6ok3e8o",
+      "created": "2025-06-24T07:42:10Z",
+      "username": "igorsmi",
+      "message": "Доброе утро всем!\n@nikshorin, нашли проблему в мэтче заявок по API Grinex:\n\n_Описание от @aburlov:_\nПоле HID можно смэтчить только со страницами (all trades и my trades bid), но нельзя страницы my trades ask и my trades bid.\nВ силу этого мы не можем понимать корректно направления торгов (т.е. купил, продал, сторговал сам с собой для маркетмейкинга).\nНиже привожу пример одной сделки где маркетмейкер сторговал сам с собой (т.е. сделки со страниц my trades ask и my trades bid), но поле HID при этом не сходится, исходя из этого мы не можем смэтчить между собой сделки.\n\n- All trades & ASK - мэтч\n- All trades & BID - мэтч\n- ASK & BID - невозможно смэтчить по **ID** или **HID**\n\nИзучил указанную проблему и обнаружил следующую закономерность:\n\n    ID сделки по направлению ASK всегда на 1 больше, чем ID соответствующей сделки по направлению BID.\n    (В предоставленном примере наблюдается такая же взаимосвязь.)\n\nПравильно я понимаю, что у вас сделки  ASK и BID хранятся в одной таблице? Потому и выходит данная закономерность\n\nВ отчетах Grinex, которые вы отправляете в ручную, с ID нет проблем.\n\n@nikshorin, также ожидаю от тебя ответа по Meer (авторизация)",
+      "files": [
+        "image-2.png"
+      ]
+    },
+    {
+      "idx": 108,
+      "id": "nnc9kb8hwiy4uyogkmfain56th",
+      "created": "2025-06-25T10:50:01Z",
+      "username": "nikshorin",
+      "message": "Добрый день\nЯ прочитал вопрос, ищу ответ"
+    },
+    {
+      "idx": 109,
+      "id": "1kt47giuwprbjp1roj7h9wanga",
+      "created": "2025-06-25T11:05:10Z",
+      "username": "igorsmi",
+      "message": "Спасибо, жду"
+    },
+    {
+      "idx": 110,
+      "id": "kz9a88gnkbb7igzbunftpahpja",
+      "created": "2025-06-25T12:30:22Z",
+      "username": "igorsmi",
+      "message": "@nikshorin, когда мне ожидать ответ?"
+    },
+    {
+      "idx": 111,
+      "id": "1x5na8sbwbd5mco1tsqqx6e6me",
+      "created": "2025-06-25T12:36:16Z",
+      "username": "nikshorin",
+      "message": "Пока не понимаю. У нас релиз, все заняты. Я лично думаю, что да - это одна таблица, поэтому одна сделка \"бьётся\" на две, идущие друг за другом"
+    },
+    {
+      "idx": 112,
+      "id": "gk4e7rjqs7f6umcieq6zmsd6oc",
+      "created": "2025-06-25T12:48:46Z",
+      "username": "nikshorin",
+      "message": "Коллеги, обсудил с @alispavich \nМы как раз выпустили документацию по новому АПИ. \nhttps://api-documentation.grinex.io/#3394112aa9\n\nВ нём есть all market trades. \nОн отлично матчится с my trades и решает вашу задачу.\n\nвы до сих пор используете в2?"
+    },
+    {
+      "idx": 113,
+      "id": "g9471r3bupbtmesj4b6mzqrd7o",
+      "created": "2025-06-25T12:50:01Z",
+      "username": "nikshorin",
+      "message": "Или у АСК и БИД сделок должны быть одинаковые ID? "
+    },
+    {
+      "idx": 114,
+      "id": "nztf1stqzjr1i8ajfrmx7w7kka",
+      "created": "2025-06-25T13:07:30Z",
+      "username": "igorsmi",
+      "message": "@nikshorin \n\nЕсть случаи, когда, например, all_trades + ask или all_trades + bid должны быть динаковыми\nНам необходим мэтч сделок для определение направления торговли:\n- **Бот с ботом** - all_trades, ask, bid совпадают по ID\n- **Бот купил у человека** - all + ask совпадают по ID\n-  **Человек купил у бота** - all_trades + bid совпадают по ID\n- **Человек с человеком** - all_trades (в ask и bid нет данной сделки)"
+    },
+    {
+      "idx": 115,
+      "id": "y7q4u7mbupdh9cc7jzzncth5de",
+      "created": "2025-06-26T07:57:53Z",
+      "username": "nikshorin",
+      "message": "Добрый день, @igorsmi \nСможете ответить на вопрос выше, пожалуйста?\nВы используете в1 или в2 АПИ?"
+    },
+    {
+      "idx": 116,
+      "id": "c78qn9st3ffn9gnz499s96jk5h",
+      "created": "2025-06-26T08:01:16Z",
+      "username": "igorsmi",
+      "message": "Добрый день!\n@nikshorin, мы используем v2"
+    },
+    {
+      "idx": 117,
+      "id": "tsxfbcrra3g6xggz1abyuzo9xh",
+      "created": "2025-06-26T09:43:27Z",
+      "username": "nikshorin",
+      "message": "Коллеги, а не могли бы вы предоставить пример сделки и пример проблемы?\nМЫ так и не можем понять, что не работает"
+    },
+    {
+      "idx": 118,
+      "id": "hs11fytiqp8zfg17dksj83jcbo",
+      "created": "2025-06-26T09:44:43Z",
+      "username": "igorsmi",
+      "message": "Да, смогу"
+    },
+    {
+      "idx": 119,
+      "id": "43i1qz5dc3y5iehpsx7ws7m5gr",
+      "created": "2025-06-26T17:15:32Z",
+      "username": "igorsmi",
+      "message": "@nikshorin, показываю и описываю проблему:\n\nУ коллег есть следующие сценарии сделок:\n\n- **Бот с ботом** \n- **Бот купил у человека** \n-  **Человек купил у бота** \n- **Человек с человеком**\n\nУ каждого сценария есть свой флоу для ID:\n- **Бот с ботом** \n> В данном случае ID (сделка в том числе) all_trades, BID, ASK должны быть одинаковыми\n\n- **Бот продал человеку**\n> В данном случае ID (сделка в том числе) all_trades и BID должны быть одинаковыми \n\n- **Человек продал боту**\n> В данном случае ID (сделка в том числе) all_trades и ASK должны быть одинаковыми\n\n- **Человек продал человеку**\n> В данном случае ID (сделка в том числе) должен быть только в all_trades\n\nВысылаю примеры ниже\n\nв файле **grinnex_report**(отчет с нашей системы) и в  файлах **systemtrades** я пометил сделки следующими цветами:\n\n- **Зеленый**\n- **Оранжевый**\n- **Желтый**\n\n```\nЗеленый - сделка человека с человеком\nОранжевый - сделка человека с ботом\nЖелтый - сделка бота с ботом\n```\n\n\n",
+      "files": [
+        "grinex_report_a7a5rub_20.06.2025-22.06.2025.xlsx",
+        "systemtrades_a7a5rub_MM-ASK_20.06-22.06.xlsx",
+        "systemtrades_a7a5rub_ 20.06-22.06.xlsx",
+        "systemtrades_a7a5rub_MM-BID_ 20.06-22.06.xlsx"
+      ]
+    },
+    {
+      "idx": 120,
+      "id": "5y5o641og3g4bfqr8rf1zyi4xw",
+      "created": "2025-06-27T11:35:46Z",
+      "username": "nikshorin",
+      "message": "Взяли в обсуждение с коллегами "
+    },
+    {
+      "idx": 121,
+      "id": "q1zpb1ew73fqfp54tr87moncze",
+      "created": "2025-06-27T13:01:56Z",
+      "username": "igorsmi",
+      "message": "Спасибо, @nikshorin, когда смогу ожидать ответа?"
+    },
+    {
+      "idx": 122,
+      "id": "o57atep6dffxt8cddgbg4u56th",
+      "created": "2025-06-27T14:04:07Z",
+      "username": "nikshorin",
+      "message": "Пока в процессе\nя бы взял время до конца понедельника, но скорее всего сегодня дожму ребят "
+    },
+    {
+      "idx": 123,
+      "id": "hieqiucr4brb5d8izht4gfjumr",
+      "created": "2025-06-30T15:31:39Z",
+      "username": "igorsmi",
+      "message": "Всем доброго вечера!\n@nikshorin, есть информация?"
+    },
+    {
+      "idx": 124,
+      "id": "kzs41bzocignimwicyduu36xir",
+      "created": "2025-07-01T11:32:04Z",
+      "username": "nikshorin",
+      "message": "Добрый день, коллеги. Пока нет информации. В 17 по мск созвон по вашему вопросу."
+    },
+    {
+      "idx": 125,
+      "id": "x99ryidpabde7bgmeox3itfo3r",
+      "created": "2025-07-01T11:32:49Z",
+      "username": "igorsmi",
+      "message": "Добрый день!\nПосле 17 информация будет?"
+    },
+    {
+      "idx": 126,
+      "id": "3wkjmy963bfzpct4g9a1ci46wc",
+      "created": "2025-07-01T11:34:03Z",
+      "username": "nikshorin",
+      "message": "После 18 дам апдейт"
+    },
+    {
+      "idx": 127,
+      "id": "9s1azkaboif87ywwqfc96xighw",
+      "created": "2025-07-02T06:37:58Z",
+      "username": "igorsmi",
+      "message": "Всем доброе утро!\n@nikshorin, очень жду от вас апдейт"
+    },
+    {
+      "idx": 128,
+      "id": "d8eyhkwqhpdajkrqpzxwbd1fra",
+      "created": "2025-07-02T07:31:34Z",
+      "username": "nikshorin",
+      "message": "Доброе утро\nВчера поздно закончили в итоге. Сегодня вечером планируем выложить фикс, поправим hid"
+    },
+    {
+      "idx": 129,
+      "id": "x5hscfjt1p8m8cyhrxofzmwb7h",
+      "created": "2025-07-02T08:09:33Z",
+      "username": "igorsmi",
+      "message": "Спасибо "
+    },
+    {
+      "idx": 130,
+      "id": "9mbja7arnfgyddftr6iy9r4eia",
+      "created": "2025-07-02T08:11:20Z",
+      "username": "igorsmi",
+      "message": "@nikshorin, прошу дать также информацию по бирже Meer"
+    },
+    {
+      "idx": 131,
+      "id": "nk3beh98rbgcdd3gtq1im5u31r",
+      "created": "2025-07-02T08:11:39Z",
+      "username": "nikshorin",
+      "message": "Ориентировочно в течении 2 недель доедет новое АПИ и до меер "
+    },
+    {
+      "idx": 132,
+      "id": "zmz4dj3bdbgc9r3j8i7coq7uyy",
+      "created": "2025-07-02T08:13:32Z",
+      "username": "aburlov",
+      "message": "т.е. мы к 18.07 можем ожидать релиз на меере?"
+    },
+    {
+      "idx": 133,
+      "id": "sefrsiahqtnp7kzup81bc3xyje",
+      "created": "2025-07-02T08:14:43Z",
+      "username": "igorsmi",
+      "message": "Мы можем получить информацию, что именно обновится в API Meer?\nТакже когда сможем решить вопрос с авторизацией?"
+    },
+    {
+      "idx": 134,
+      "id": "nixk4jwgf78bmeeuow495piu3e",
+      "created": "2025-07-02T08:45:36Z",
+      "username": "nikshorin",
+      "message": "Выйдем на аналогичное Гринекс АПИ\nДа, пока ориентируемся на 18.07"
+    },
+    {
+      "idx": 135,
+      "id": "qebubx84ciybjdb5ypobqryq8c",
+      "created": "2025-07-03T06:18:57Z",
+      "username": "igorsmi",
+      "message": "Всем доброе утро!\n@nikshorin, фикс выложили?"
+    },
+    {
+      "idx": 136,
+      "id": "uh55ba3mmj8qmqx6tyuqdsxtch",
+      "created": "2025-07-03T06:48:58Z",
+      "username": "nikshorin",
+      "message": "Доброе утро, коллеги. К сожалению нет, мониторил до поздней ночи - перенесли на сегодня "
+    },
+    {
+      "idx": 137,
+      "id": "embonmma73brb88ocndezkhi4e",
+      "created": "2025-07-03T14:18:03Z",
+      "username": "admin",
+      "message": "admin updated the channel display name from: A7A5 Reporter (the customer) to: ↗️ A7A5 Reporter (the customer)"
+    },
+    {
+      "idx": 138,
+      "id": "x6senxbmutrpm8tkdt58ys4cmh",
+      "created": "2025-07-03T14:33:39Z",
+      "username": "yevgeniysokolov",
+      "message": "yevgeniysokolov updated the channel display name from: ↗️ A7A5 Reporter (the customer) to: ↗️ A7A5 Reporter"
+    },
+    {
+      "idx": 139,
+      "id": "7bis43k7sbbui8pdwsmpbpf57r",
+      "created": "2025-07-03T14:34:46Z",
+      "username": "aburlov",
+      "message": "Добрый вечер! Актуализируйте информацию пожалуйста "
+    },
+    {
+      "idx": 140,
+      "id": "ji64omnoctdyznrx949e8gemew",
+      "created": "2025-07-03T17:21:55Z",
+      "username": "nikshorin",
+      "message": "Вот выложили апдейт. В нем и ваш фикс:\n\nТеперь сделки матчатся по HID, проверили в проде со своей стороны. Запрашиваемые отчеты строить получилось "
+    },
+    {
+      "idx": 141,
+      "id": "uj9po4h313rsmd19psaeu7pthc",
+      "created": "2025-07-03T19:00:19Z",
+      "username": "igorsmi",
+      "message": "Спасибо, сейчас проверю"
+    },
+    {
+      "idx": 142,
+      "id": "tmnqq9u6fbn17n3os7uh8a45uo",
+      "created": "2025-07-03T19:24:48Z",
+      "username": "igorsmi",
+      "message": "Берем в тестирование вместе с заказчиком\nПосле проведения данного мероприятия приду с обратной связью по фиксу поля `HID` для мэтча сделок\nОбратная связь ориентировочно поступит **завтра** ближе к вечеру - **в понедельник**\nВсем хорошего вечера!"
+    },
+    {
+      "idx": 143,
+      "id": "ndj9khpyj7y58cidz7nii3wegr",
+      "created": "2025-07-07T11:30:05Z",
+      "username": "nikshorin",
+      "message": "Добрый день, коллеги\nВыложили АПИ для меер\n\n[https://api-documentation.meer.kg/#3394112aa9](https://api-documentation.meer.kg/#3394112aa9 \"https://api-documentation.meer.kg/#3394112aa9\")"
+    },
+    {
+      "idx": 144,
+      "id": "ky1d5qy7njyu3k8xwyy14of8ke",
+      "created": "2025-07-07T12:05:36Z",
+      "username": "nikshorin",
+      "message": "@igorsmi Есть ли обратная связь по правкам в HID? "
+    },
+    {
+      "idx": 145,
+      "id": "bz893xh5yibbdcp87ucm5ehzja",
+      "created": "2025-07-07T12:36:20Z",
+      "username": "igorsmi",
+      "message": "Добрый день!\nДа, получил обратную связь от заказчика:\n- Поле **HID** работает корректно, спасибо\n\n**По поводу API Meer:**\n- Берем в работу. Прошу быть на связи\nНа данный момент попробуем снова авторизоваться с старыми токенами, которые мы получали от Алексея\n\nЯ описывал несколько раз выше, что у нас проблема с подключением\nЕсли она возникнет снова, прошу оперативно помочь с данным моментом"
+    },
+    {
+      "idx": 146,
+      "id": "ugzzkzej7i8p5na8ouy3prp97w",
+      "created": "2025-07-07T14:07:59Z",
+      "username": "nikshorin",
+      "message": ":+1: "
+    },
+    {
+      "idx": 147,
+      "id": "amy8cnucpig7me5rsw3a5e5m8e",
+      "created": "2025-07-07T17:16:34Z",
+      "username": "igorsmi",
+      "message": "@nikshorin, на данный момент авторизация проходит успешно, спасибо"
+    },
+    {
+      "idx": 148,
+      "id": "mpwdxedy9pgx7r3cg35y3nxcyy",
+      "created": "2025-07-09T15:58:03Z",
+      "username": "igorsmi",
+      "message": "Всем добрый вечер!\n@nikshorin, при выгрузке с Meer нет поля HID для мэтча\nПоказываю пример выгрузки ниже\nПодскажите, есть какой-то другой способ мэтча или это дефект?\n\n```\nMEER Public trades USDT :\n[\n  {\n    \"id\": \"20706\",\n    \"hid\": \"\",\n    \"price\": \"78.76\",\n    \"amount\": \"9737.2578\",\n    \"total\": \"766906.42\",\n    \"symbol\": \"usdta7a5\",\n    \"created_at\": \"2025-06-26T10:21:46Z\"\n  },\n  {\n    \"id\": \"20705\",\n    \"hid\": \"\",\n    \"price\": \"78.77\",\n    \"amount\": \"104333.0\",\n    \"total\": \"8218310.41\",\n    \"symbol\": \"usdta7a5\",\n    \"created_at\": \"2025-06-26T10:21:46Z\"\n  },\n  {\n    \"id\": \"20704\",\n    \"hid\": \"\",\n    \"price\": \"78.78\",\n    \"amount\": \"83274.7422\",\n    \"total\": \"6560384.19\",\n    \"symbol\": \"usdta7a5\",\n    \"created_at\": \"2025-06-26T10:21:46Z\"\n  }\n]\nMEER Public trades RUB:\n[\n  {\n    \"id\": \"20740\",\n    \"hid\": \"\",\n    \"price\": \"0.9999\",\n    \"amount\": \"18753.0\",\n    \"total\": \"18751.12\",\n    \"symbol\": \"a7a5rub\",\n    \"created_at\": \"2025-06-26T20:24:25Z\"\n  },\n  {\n    \"id\": \"20739\",\n    \"hid\": \"\",\n    \"price\": \"1.0001\",\n    \"amount\": \"10852.0\",\n    \"total\": \"10853.09\",\n    \"symbol\": \"a7a5rub\",\n    \"created_at\": \"2025-06-26T19:56:50Z\"\n  },\n  {\n    \"id\": \"20738\",\n    \"hid\": \"\",\n    \"price\": \"0.9999\",\n    \"amount\": \"19258.0\",\n    \"total\": \"19256.07\",\n    \"symbol\": \"a7a5rub\",\n    \"created_at\": \"2025-06-26T19:24:28Z\"\n  }\n]\nMEER My trades A7A5-RUB :\n[\n  {\n    \"id\": \"D67F755E100941\",\n    \"order_id\": \"3CF1E69FBB409B\",\n    \"symbol\": \"a7a5rub\",\n    \"is_maker\": true,\n    \"price\": \"0.9999\",\n    \"amount\": \"18753.0\",\n    \"total\": \"18751.12\",\n    \"fee\": \"0.0007\",\n    \"fee_size\": \"13.13\",\n    \"created_at\": \"2025-06-26T20:24:24Z\",\n    \"side\": \"buy\"\n  },\n  {\n    \"id\": \"A6A940766AF436\",\n    \"order_id\": \"1D03B1F8992899\",\n    \"symbol\": \"a7a5rub\",\n    \"is_maker\": false,\n    \"price\": \"0.9999\",\n    \"amount\": \"18753.0\",\n    \"total\": \"18751.12\",\n    \"fee\": \"0.0007\",\n    \"fee_size\": \"13.13\",\n    \"created_at\": \"2025-06-26T20:24:24Z\",\n    \"side\": \"sell\"\n  },\n  {\n    \"id\": \"33666D287A2058\",\n    \"order_id\": \"3C1DBC612DFE35\",\n    \"symbol\": \"a7a5rub\",\n    \"is_maker\": false,\n    \"price\": \"1.0001\",\n    \"amount\": \"10852.0\",\n    \"total\": \"10853.09\",\n    \"fee\": \"0.0007\",\n    \"fee_size\": \"7.6\",\n    \"created_at\": \"2025-06-26T19:56:49Z\",\n    \"side\": \"buy\"\n  }\n]\nMEER My trades USDT-A7A5 :\n[\n  {\n    \"id\": \"3FC0397AC47377\",\n    \"order_id\": \"36025EA37F8DE1\",\n    \"symbol\": \"usdta7a5\",\n    \"is_maker\": true,\n    \"price\": \"78.76\",\n    \"amount\": \"9737.2578\",\n    \"total\": \"766906.42\",\n    \"fee\": \"0.0007\",\n    \"fee_size\": \"6.8161\",\n    \"created_at\": \"2025-06-26T10:21:46Z\",\n    \"side\": \"buy\"\n  },\n  {\n    \"id\": \"49A2814EDC08CA\",\n    \"order_id\": \"F6733400B34DBD\",\n    \"symbol\": \"usdta7a5\",\n    \"is_maker\": true,\n    \"price\": \"78.77\",\n    \"amount\": \"104333.0\",\n    \"total\": \"8218310.41\",\n    \"fee\": \"0.0007\",\n    \"fee_size\": \"73.0331\",\n    \"created_at\": \"2025-06-26T10:21:46Z\",\n    \"side\": \"buy\"\n  },\n  {\n    \"id\": \"EEF224A732C04A\",\n    \"order_id\": \"A0E598D58C8D17\",\n    \"symbol\": \"usdta7a5\",\n    \"is_maker\": true,\n    \"price\": \"78.78\",\n    \"amount\": \"83274.7422\",\n    \"total\": \"6560384.19\",\n    \"fee\": \"0.0007\",\n    \"fee_size\": \"58.2923\",\n    \"created_at\": \"2025-06-26T10:21:45Z\",\n    \"side\": \"buy\"\n  }\n]\n```"
+    },
+    {
+      "idx": 149,
+      "id": "ie654p6fjtdmub546k3hhar53c",
+      "created": "2025-07-10T10:55:57Z",
+      "username": "nikshorin",
+      "message": "Добрый день коллеги\n\nувидел обращение. постараемся разобрать в ближайшее время (сегодня-завтра) "
+    },
+    {
+      "idx": 150,
+      "id": "tjyz3oec1j87mrh3hidcbsnsty",
+      "created": "2025-07-10T11:08:38Z",
+      "username": "igorsmi",
+      "message": "Спасибо, жду тогда завтра обратной связи"
+    },
+    {
+      "idx": 151,
+      "id": "z7t5eyhrhjbefxfc1ywzx5ek3y",
+      "created": "2025-07-10T11:21:04Z",
+      "username": "nikshorin",
+      "message": "Коллеги, да, это баг, аналогичный тому, что был на Гринексе\nФикс доедет в течении двух недель только:(\n\nПопробую \"пропихнуть\" пораньше\n\nотппишусь, если будут новости"
+    },
+    {
+      "idx": 152,
+      "id": "su3hf6i9ejbaiqn4yzqt7fye4r",
+      "created": "2025-07-10T14:15:26Z",
+      "username": "igorsmi",
+      "message": "Хорошо, спасибо"
+    },
+    {
+      "idx": 153,
+      "id": "jnxswcesfifcbbgxnu3169aumy",
+      "created": "2025-07-14T13:24:10Z",
+      "username": "igorsmi",
+      "message": "Всем привет!\n@nikshorin, есть новости?"
+    },
+    {
+      "idx": 154,
+      "id": "ebpgmxt83pfiufui9hj1u1xu5a",
+      "created": "2025-07-15T08:12:30Z",
+      "username": "nikshorin",
+      "message": "Привет\nПока нет новостей"
+    },
+    {
+      "idx": 155,
+      "id": "q9m31p8qrfy5tpr6ehshe75whe",
+      "created": "2025-07-21T12:48:00Z",
+      "username": "aburlov",
+      "message": "Добрый день!\n@nikshorin  появились ли какие-то новости? "
+    }
+  ]
+}
